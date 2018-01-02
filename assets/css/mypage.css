@@ -1,0 +1,356 @@
+@import url("/assets/css/common.css");
+
+/* 내가 쓴글 */
+.my-history .sub-content > article h3 {
+    display: block;
+    margin-bottom: 22px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.my-history .sub-content > article .paging {
+    margin-top: 40px;
+}
+.my-history .sub-content > article ~ article {
+    margin-top: 80px;
+}
+.my-history .my-board .table thead tr th:nth-of-type(1) {width: 94px;}
+.my-history .my-board .table thead tr th:nth-of-type(3) {width: 120px;}
+.my-history .my-board .table thead tr th:nth-of-type(4) {width: 140px;}
+.my-history .my-board .table tbody tr .title {
+    padding-left: 60px;
+}
+.my-history .my-comment .table thead tr th:first-child {width: 700px;}
+
+/* 쪽지 */
+.message-list .table thead tr th:nth-of-type(1) {width: 70px;}
+.message-list .table thead tr th:nth-of-type(3) {width: 100px;}
+.message-list .table thead tr th:nth-of-type(4) {width: 170px;}
+.message-list .table thead tr th:nth-of-type(5) {width: 70px;}
+.message-list .table tbody tr .title {
+    padding-left: 60px;
+}
+.message-list .table tbody tr td > i {
+    color: #999;
+    font-size: 15px;
+}
+.message-list .paging {
+    margin-top: 33px;
+}
+
+/* 쪽지 확인*/
+.message-view .comment-view .article-header {
+    padding: 15px 0;
+    background-color: #acacac;
+}
+.message-view .comment-view .article-header dl {
+    position: relative;
+    padding-left: 80px;
+}
+.message-view .comment-view .article-header dl dt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+.message-view .comment-view .article-header dl dd {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+.message-view .comment-view .article-header .date dt {
+    font-size: 13px;
+}
+.message-view .comment-view .article-header .date dd {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.message-view .comment-view .article-content {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 25px 0 130px 42px;
+    border-bottom: 1px solid #cfcfcf;
+}
+.message-view .comment-view .article-header {
+    display: table;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #acacac;
+}
+.message-view .comment-view .article-header > div {
+    display: table-cell;
+    width: 50%;
+}
+.message-view .comment-view .article-header > div dl {
+    font-size: 0;
+}
+.message-view .comment-view .article-header > div dl dt {display: inline-block;}
+.message-view .comment-view .article-header > div dl dt {display: inline-block;}
+.message-view .comment-view .article-header > .title {
+
+}
+.message-view .comment-view .article-header > .title dl dt {
+    width: 94px;
+    font-size: 14px;
+}
+.message-view .comment-view .article-header > .title dl dd {
+    font-size: 14px;
+}
+.message-view .comment-view .article-header > .date dl dt {
+    font-size: 13px;
+}
+.message-view .comment-view .article-header > .date dl dd {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.message-view .comment-view .article-content {
+    
+}
+.message-view .comment-form {
+    margin-top: 44px;
+}
+.message-view .comment-form .table-wrap .table.type-1 tbody tr th.v-top {
+    vertical-align: top;
+    padding-top: 20px;
+}
+.message-view .comment-form .table-wrap .table.type-1 tbody tr td {
+    font-size: 5px;
+}
+.message-view .comment-form .table-wrap .table.type-1 tbody tr td .form-group .form-control {
+    font-size: 12px;
+}
+.message-view .comment-form .table-wrap .table.type-1 tbody tr:nth-of-type(3) td .form-group .form-control {
+    height: 128px;
+}
+.message-view .comment-form .btn-area {
+    text-align: right;
+    margin-top: 30px;
+}
+.message-view .comment-form .btn-area p .btn {
+    width: 120px;
+    height: 45px;
+    line-height: 43px;
+    border-radius: 30px;
+}
+.message-view .comment-form .btn-area p .btn-white {
+    margin-left: 10px;
+    color: #666;
+}
+.message-view .comment-form .btn-area p .btn-pink {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875;
+}
+
+/* 회원 탈퇴 */
+.member-leave .sub-content {
+    padding-bottom: 250px !important;
+}
+.member-leave .info {
+    padding : 48px 0 50px 213px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    background-image: url(/assets/images/mypage/bg_member_leave.gif);
+    background-repeat: no-repeat;
+    background-position: 43px 80px;
+}
+.member-leave .info p {
+    font-size: 13px;
+    line-height: 26px;
+    color: #666;
+}
+.member-leave .check-box {
+    width: 100%;
+    text-align: right;
+    margin-top: 15px;
+    font-weight: 100;
+    color: #999;
+}
+.member-leave .check-box input {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    font-size: 12px;
+    line-height: 68px;
+}
+.member-leave .btn-area {
+    text-align: right;
+}
+.member-leave .btn-area > p > .btn-pink{
+    margin-top: 48px;
+    width: 160px;
+    height: 45px;
+    line-height: 43px;
+    border-color: #ff7875;
+    border-radius: 30px;
+}
+
+/* 회원탈퇴 완료*/
+.success .complete-txt {
+    margin-top: 60px;
+}
+.success .complete-txt > h4 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color:#333;
+}
+.success .complete-txt figure figcaption {
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 36px;
+}
+.success .complete-txt figure {
+    text-align: center;
+}
+.success .btn-area {
+    width: 160px;
+    margin: 40px auto 0;
+    padding-bottom: 80px;
+}
+.success .btn {
+    width: 160px;
+    height: 45px;
+    line-height: 43px;
+    border-color: #ff7875;
+    border-radius: 30px;
+}
+
+/* 마일리지 적립현황 */
+.mileage .mileage-view {
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding-right: 39px;
+}
+.mileage .mileage-view > dl > dt {
+    font-size: 15px;
+    line-height: 70px;
+    color: #333;
+    margin-left: 24px;
+    display: inline;
+    font-weight: 400;
+}
+.mileage .mileage-view > dl > dd {
+    display: inline-block;
+    float: right;
+    line-height: 70px;
+    font-size: 18px;
+    color: #e25371;
+    letter-spacing: -1px;
+    font-family: 'Roboto', sans-serif;
+}
+.mileage .mileage-view > dl > dd img {
+    margin-right: 10px;
+}
+.mileage .list .article-head {
+    height: 66px;
+    margin-top: 37px;
+    margin-bottom: 19px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(1) {
+    width: 70px !important;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(2) {
+    width: 130px !important;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(3) {
+    width: 370px !important;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(4) {
+    width: 130px !important;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(5) {
+    width: 140px !important;
+}
+.mileage .list .article-content .table tbody tr .divide a {
+    color: #666;
+}
+.mileage .list .paging {
+    margin-top: 45px;
+}
+
+/* 회원정보수정 */
+.modify .join-form {
+    padding-top: 0;
+}
+
+
+/* 비밀번호 확인 */
+.pw-confirm .sub-content {
+    padding-top: 100px !important;
+    padding-bottom: 200px !important;
+    text-align: center; 
+}
+.pw-confirm .sub-content .confirm-form figure img {
+    display: block;
+    margin: 0 auto; 
+}
+.pw-confirm .sub-content .confirm-form .details {
+    margin-top: 30px; 
+}
+.pw-confirm .sub-content .confirm-form .details h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 25px; 
+}
+.pw-confirm .sub-content .confirm-form .details .summary {
+    font-size: 15px;
+    color: #666;
+    line-height: 25px;
+    font-weight: 300; 
+}
+.pw-confirm .sub-content .confirm-form .form-group {
+    margin: 30px 0 50px; 
+}
+.pw-confirm .sub-content .confirm-form .form-group .form-control {
+    width: 360px;
+    height: 36px;
+    display: inline-block;
+    border: 1px solid #ccc; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area {
+    text-align: center; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn {
+    width: 120px;
+    border: 1px solid #ccc;
+    color: #666;
+    font-size: 14px;
+    line-height: 43px;
+    border-radius: 30px;
+    margin-right: 10px; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn:last-child {
+    margin-right: 0; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn.btn-pink {
+    background-color: #ff7875;
+    border-color: #ff7875;
+    color: #fff; 
+}
+
+
+
+
+
+
+

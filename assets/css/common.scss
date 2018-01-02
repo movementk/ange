@@ -1,0 +1,56 @@
+@import url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css');
+
+$xs: "320px";
+$sm: "768px";
+$md: "992px";
+$lg: "1200px";
+
+$kcolor: #e25371;
+
+@mixin transition($property: all, $duration: .15s, $timing: linear, $delay: 0s) {
+	-webkit-transition-property: $property;
+    transition-property: $property;
+	-webkit-transition-duration: $duration;
+    transition-duration: $duration;
+	-webkit-transition-timing-function: $timing;
+    transition-timing-function: $timing;
+	-webkit-transition-delay: $delay;
+    transition-delay: $delay;
+}
+
+@mixin noto() {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@mixin roboto() {
+    font-family: 'Roboto', sans-serif;
+}
+@mixin jua() {
+    font-family: 'BM JUA','배달의민족 주아';
+}
+
+h1, h2, h3,h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+dl {
+    margin-bottom: 0;
+}
+
+address {
+    margin-bottom: 0;
+}
+
+.container {
+    width: 1200px !important;
+}
