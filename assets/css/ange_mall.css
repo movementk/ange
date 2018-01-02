@@ -1,0 +1,405 @@
+@import url("/assets/css/common.css");
+
+/* 마일리지몰 */
+.mileage-list .item-list .article-header {
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 12px;
+}
+.mileage-list .item-list .article-content {
+    margin-top: 48px;
+}
+.mileage-list .item-list .article-content .paging {
+    margin-top: 60px;
+}
+.mileage-list .item-list .article-content .paging > ul > li > a {
+    margin-top: 0 !important;
+}
+/* 마일리지 공동 */
+.product-info .view-detail > .article-header {
+  font-size: 0; 
+}
+.product-info .view-detail > .article-header > div {
+    vertical-align: top;
+    display: inline-block; 
+}
+.product-info .view-detail > .article-header .item {
+    position: relative;
+    width: 370px; 
+}
+.product-info .view-detail > .article-header .item img {
+    border: 1px solid #eeeff4;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%; 
+}
+.product-info .view-detail > .article-header .item > p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 54px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: middle;
+    padding: 9px 0;
+    border-radius: 10px;
+    border-top-left-radius: 0; 
+}
+.product-info .view-detail > .article-header .information {
+    width: 440px;
+    margin-left: 30px; 
+}
+.product-info .view-detail .article-header .information .info-head {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadada; 
+}
+.product-info .view-detail .article-header .information .info-head .subject {
+    font-size: 23px;
+    color: #333;
+    font-weight: 500;
+    line-height: 30px; 
+}
+.product-info .view-detail .article-header .information .info-head p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px; 
+}
+.product-info .view-detail .article-header .information .info-body {
+    padding: 15px 10px;
+    border-bottom: 1px solid #dadada; 
+}
+.product-info .view-detail .article-header .information .info-body dl {
+    overflow: hidden; 
+}
+.product-info .view-detail .article-header .information .info-body dl dt {
+    float: left;
+    clear: both;
+    width: 90px;
+    font-size: 12px;
+    color: #666;
+    line-height: 25px;
+    font-weight: 400; 
+}
+.product-info .view-detail .article-header .information .info-body dl dd {
+    font-size: 12px;
+    color: #999;
+    line-height: 25px;
+    font-weight: 400; 
+}
+.product-info .view-detail .article-header .information .info-body dl .payment{
+    color: #ff7875;
+}
+.product-info .view-detail .article-header .information .info-body .info-second dl .delivery{
+    color: #ff7875;
+}
+.product-info .view-detail .article-header .information .info-body .info-second {
+    border-top: 1px solid #dadada;
+    padding-top: 13px;
+    margin-top: 15px;
+}
+.product-info .view-detail .article-header .information > .btn-area {
+    margin-top: 30px; 
+}
+.product-info .view-detail .article-content {
+    margin-top: 58px;
+}
+.product-info .view-detail .article-content .tab-content {
+    padding-top: 40px;
+}
+
+/* 마일리지 몰 뷰 리스트 */
+..product-info .article-content .banner {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.report-list .article-content .table-wrap {
+    margin-top: 40px;
+}
+.report-list .article-content .table-wrap thead tr th:nth-of-type(3), 
+.report-list .article-content .table-wrap thead tr th:nth-of-type(4) {
+    width: 140px;
+}
+.report-list .article-content .paging {
+    margin-top: 30px;
+}
+.report-list .article-content .btn-area {
+    text-align: right;
+    margin-top: 10px;
+}
+.report-list .article-content .btn-area p .btn-sm {
+    width: 105px;
+}
+
+/* 마일리지 몰 뷰 */
+.report-view .view-detail .article-content .tab-content .article-header {
+    margin-top: 40px;
+}
+.report-view .view-detail .article-content .board-view.type-1 .article-content .attach dl dd a {
+    font-size: 13px;
+}
+.report-view .view-detail .article-content .btn-area {
+    margin-top: 30px;
+}
+.report-view .view-detail .article-content .btn-area p .btn {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    line-height: 43px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.report-view .view-detail .article-content .btn-area p a {
+    width: 120px;
+}
+.report-view .view-detail .article-content .btn-area p .btn-pink {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875;
+}
+.report-view .view-detail .article-content .btn-area p a:last-child {
+    float: right;
+    margin: 0;
+}
+.report-view .view-detail .article-content .page-link {
+    margin-top: 50px;
+}
+.report-view .view-detail .article-content .page-link > ul > li dl dd {
+    color: #666;
+}
+
+/* 마일리지 몰 뷰 */
+.report-write .table-wrap form .table.type-1 tbody tr th {
+    font-size: 14px;
+}
+.report-write .table-wrap form .table.type-1 tbody tr th.v-top {
+    vertical-align: top;
+    padding-top: 20px;
+}
+.report-write .table-wrap form .table tbody tr:first-child td {
+    padding: 15px 30px;
+}
+.report-write .table-wrap form .table tbody tr td figure figcaption {
+    display: inline-block;
+    padding-left: 18px;
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+}
+.report-write .table-wrap form .table tbody tr td .form-group .form-control {
+    width: 600px;
+    font-size: 12px;
+    color: #999;
+}
+.report-write .table-wrap form .table tbody tr .file .form-group .form-control {
+    width: 200px;
+}
+.report-write .table-wrap form .table tbody tr td .form-group select {
+    display: inline-block;
+    width: 108px !important;
+    height: 35px;
+    margin-right: 7px;
+}
+.report-write .table-wrap form .table tbody tr td .form-group #u-name {
+    display: inline-block;
+    width: 485px;
+}
+.report-write .table-wrap form .table.type-1 tbody tr:nth-of-type(4) td .form-group .form-control {
+    height: 340px;
+}
+.report-write .table-wrap form .btn-area {
+    margin-top: 30px;
+    text-align: right;
+}
+.report-write .table-wrap .btn-area p .btn {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    line-height: 43px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.report-write .table-wrap form .btn-area p .btn.btn-pink {
+    width: 120px;
+    color: #fff;
+    border: 1px solid #ff7875;
+}
+.report-write .table-wrap form .btn-area p .btn.btn-white {
+    width: 120px;
+    margin-right: 0;
+}
+
+/* 비밀번호 확인 */
+.pw-confirm .sub-content {
+    padding-top: 100px !important;
+    padding-bottom: 200px !important;
+    text-align: center; 
+}
+.pw-confirm .sub-content .confirm-form figure img {
+    display: block;
+    margin: 0 auto; 
+}
+.pw-confirm .sub-content .confirm-form .details {
+    margin-top: 30px; 
+}
+.pw-confirm .sub-content .confirm-form .details h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 25px; 
+}
+.pw-confirm .sub-content .confirm-form .details .summary {
+    font-size: 15px;
+    color: #666;
+    line-height: 25px;
+    font-weight: 300; 
+}
+.pw-confirm .sub-content .confirm-form .form-group {
+    margin: 30px 0 50px; 
+}
+.pw-confirm .sub-content .confirm-form .form-group .form-control {
+    width: 360px;
+    height: 36px;
+    display: inline-block;
+    border: 1px solid #ccc; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area {
+    text-align: center; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn {
+    width: 120px;
+    border: 1px solid #ccc;
+    color: #666;
+    font-size: 14px;
+    line-height: 43px;
+    border-radius: 30px;
+    margin-right: 10px; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn:last-child {
+    margin-right: 0; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn.btn-pink {
+    background-color: #ff7875;
+    border-color: #ff7875;
+    color: #fff; 
+}
+/* 관련상품 */
+.related-product .item-list .article-content ul li ~ li a{
+    margin-top: 0 !important;
+}
+
+/* 장바구니 목록 */
+.shopping-list .step-list > ol{
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+}
+.shopping-list .step-list > ol li {
+    width: 33.3333%;
+    float: left;
+    color: #999;
+    text-align: center;
+    line-height: 56px;
+    border-right: 1px solid #eaeaea;
+}
+.shopping-list .step-list > ol li:last-child {margin-right: 0; position: relative;}
+.shopping-list .step-list > ol li.active:last-child:after {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    background-color: #ff7875;
+    width: 2px;
+    height: 100%;
+    display: block;
+    content: "";
+}
+.shopping-list .step-list > ol li.active {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875;
+}
+.shopping-list .step-list > ol li b {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+.shopping-list .step-list > ol li .icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+.shopping-list .step-list > ol li .icon img {
+    position: relative;
+    top: -1px;
+}
+.shopping-list .step-list > ol li h3 {
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+}
+.shopping-list .list {
+    margin-top: 43px;
+}
+.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(1) {
+    width: 50px;
+}
+.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(3) {
+    width: 100px;
+}
+.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(4) {
+    width: 90px;
+}
+.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(5) {
+    width: 150px;
+}
+.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(6) {
+    width: 116px;
+}
+.shopping-list .list .article-content .table-wrap .table tbody tr .info {
+    background-color: #fff;
+}
+.shopping-list .list .article-content .table-wrap .table tbody tr td {
+    vertical-align: middle;
+    padding: 30px 0;
+}
+.shopping-list .list .article-content .table-wrap .table tbody tr .info a figure figcaption {
+    display: inline-block;
+    text-align: left;
+    font-size: 13px;
+    color: #333;
+    line-height: 18px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+.shopping-list .list .article-content .table-wrap .table tbody tr .amount .form-group {
+    width: 63px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
