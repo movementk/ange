@@ -9,7 +9,7 @@
         <div class="container">
             <div class="sub-wrapper">
                 <!-- 서브 lnb -->
-                <?php require_once($_SERVER["DOCUMENT_ROOT"]."/event/_lnb.php"); ?>
+                <?php require_once($_SERVER["DOCUMENT_ROOT"]."/ange_mall/_lnb.php"); ?>
                 <!-- Content Start -->
                 <div class="sub-content">
                     <div class="confirm-form">
