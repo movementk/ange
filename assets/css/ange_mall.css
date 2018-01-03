@@ -290,12 +290,12 @@
 }
 
 /* 장바구니 목록 */
-.shopping-list .step-list > ol{
+.basket-list .step-list > ol{
     overflow: hidden;
     border: 1px solid #eaeaea;
     border-radius: 30px;
 }
-.shopping-list .step-list > ol li {
+.basket-list .step-list > ol li {
     width: 33.3333%;
     float: left;
     color: #999;
@@ -303,8 +303,8 @@
     line-height: 56px;
     border-right: 1px solid #eaeaea;
 }
-.shopping-list .step-list > ol li:last-child {margin-right: 0; position: relative;}
-.shopping-list .step-list > ol li.active:last-child:after {
+.basket-list .step-list > ol li:last-child {margin-right: 0; position: relative;}
+.basket-list .step-list > ol li.active:last-child:after {
     position: absolute;
     top: 0;
     right: -2px;
@@ -314,90 +314,223 @@
     display: block;
     content: "";
 }
-.shopping-list .step-list > ol li.active {
+.basket-list .step-list > ol li.active {
     color: #fff;
     border-color: #ff7875;
     background-color: #ff7875;
 }
-.shopping-list .step-list > ol li b {
+.basket-list .step-list > ol li b {
     display: inline-block;
     font-size: 13px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     margin-right: 30px;
 }
-.shopping-list .step-list > ol li .icon {
+.basket-list .step-list > ol li .icon {
     display: inline-block;
     margin-right: 10px;
 }
-.shopping-list .step-list > ol li .icon img {
+.basket-list .step-list > ol li .icon img {
     position: relative;
     top: -1px;
 }
-.shopping-list .step-list > ol li h3 {
+.basket-list .step-list > ol li h3 {
     font-size: 15px;
     font-weight: 400;
     display: inline-block;
 }
-.shopping-list .list {
+.basket-list .list {
     margin-top: 43px;
 }
-.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(1) {
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(1) {
     width: 50px;
 }
-.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(3) {
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(3) {
     width: 100px;
 }
-.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(4) {
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(4) {
     width: 90px;
 }
-.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(5) {
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(5) {
     width: 150px;
 }
-.shopping-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(6) {
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(6) {
     width: 116px;
 }
-.shopping-list .list .article-content .table-wrap .table tbody tr .info {
+.basket-list .list .article-content .table-wrap .table tbody tr td {
+    vertical-align: middle;
+    padding: 32px 0;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .info {
+    text-align: left;
     background-color: #fff;
 }
-.shopping-list .list .article-content .table-wrap .table tbody tr td {
-    vertical-align: middle;
-    padding: 30px 0;
+.basket-list .list .article-content .table-wrap .table tbody tr .info img {
+    padding-left:0;
 }
-.shopping-list .list .article-content .table-wrap .table tbody tr .info a figure figcaption {
+.basket-list .list .article-content .table-wrap .table tbody tr .info a figure figcaption {
     display: inline-block;
     text-align: left;
     font-size: 13px;
     color: #333;
     line-height: 18px;
     font-weight: 500;
+    padding-left:18px;
     vertical-align: middle;
 }
-.shopping-list .list .article-content .table-wrap .table tbody tr .amount .form-group {
+.basket-list .list .article-content .table-wrap .table tbody tr .amount .form-group {
     width: 63px;
     margin: 0 auto;
 }
+.basket-list .list .article-content .table-wrap .table tbody tr .amount .form-group .form-control {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .payment {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .total {
+    color: #ff7875;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr td .btn-area p .btn-sm {
+    width: 84px;
+    height: 34px;
+    line-height: 32px;
+    color: #999;
+    font-size: 12px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 장바구니 주문결제 */
+.order-write .step-list > ol{
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+}
+.order-write .step-list > ol li {
+    width: 33.3333%;
+    float: left;
+    color: #999;
+    text-align: center;
+    line-height: 56px;
+    border-right: 1px solid #eaeaea;
+}
+.order-write .step-list > ol li:last-child { 
+    margin-right: 0; position: relative;
+}
+.order-write .step-list > ol li.active:last-child:after {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    background-color: #ff7875;
+    width: 2px;
+    height: 100%;
+    display: block;
+    content: "";
+}
+.order-write .step-list > ol li.active {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875;
+}
+.order-write .step-list > ol li b {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+.order-write .step-list > ol li .icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+.order-write .step-list > ol li .icon img {
+    position: relative;
+    top: -1px;
+}
+.order-write .step-list > ol li h3 {
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+}
+.order-write .product-info {
+    margin-top: 44px;
+}
+.order-write .product-info .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(1) {
+    width: 510px;
+}
+.order-write .product-info .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(2) {
+    width: 100px;
+}
+.order-write .product-info .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(3) {
+    width: 90px;
+}
+.order-write .product-info .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(4) {
+    width: 150px;
+}
+.order-write .product-info .article-content .table-wrap .table tbody tr td {
+    vertical-align: middle;
+    padding: 32px 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.order-write .product-info .article-content .table-wrap .table tbody tr .info {
+    text-align: left;
+    background-color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.order-write .product-info .article-content .table-wrap .table tbody tr .info img {
+    padding-left:0;
+}
+.order-write .product-info .article-content .table-wrap .table tbody tr .info a figure figcaption {
+    display: inline-block;
+    text-align: left;
+    font-size: 13px;
+    color: #333;
+    line-height: 18px;
+    font-weight: 400;
+    padding-left:18px;
+    vertical-align: middle;
+}
+.order-write .product-info .article-content .table-wrap .table tbody tr .total {
+    color: #ff7875;
+}
+.order-write .product-info .article-footer {
+    padding: 22px 12px 21px 405px;
+    background-color: #f9f9f9;
+}
+.order-write .product-info .article-footer .info-payment {
+    color: #333;
+}
+.order-write .product-info .article-footer .info-payment dl dt {
+    display: inline-block;
+    font-weight: 400;
+}
+.order-write .product-info .article-footer .info-payment dl dd {
+    display: inline-block;
+}
+.order-write .product-info .article-footer .info-payment dl dd:nth-of-type(1):after {
+    margin: 0 15px;
+    font-size: 13px;
+    font-family: "fontello"; 
+    content: "\E822";
+}
+.order-write .product-info .article-footer .info-payment dl dd:nth-of-type(2) {
+    margin-right: 35px;
+}
+.order-write .product-info .article-footer .info-payment dl .total {
+    font-size: 14px;
+    margin-right: 14px;
+}
+.order-write .product-info .article-footer .info-payment dl dd .price {
+    font-size: 18px;
+    color: #ff7875;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
