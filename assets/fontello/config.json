@@ -275,6 +275,12 @@
       "css": "vcard",
       "code": 59425,
       "src": "entypo"
+    },
+    {
+      "uid": "a66cdc7278e6b33b8bd44a141f5e1a8d",
+      "css": "plus-circled",
+      "code": 59426,
+      "src": "entypo"
     }
   ]
 }
