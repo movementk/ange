@@ -1816,6 +1816,46 @@ label {
       .vote-progress .result .more-btn .btn-pink:hover, .vote-progress .result .more-btn .btn-pink:focus {
         opacity: .7; }
 
+.movie-banner {
+  position: relative;
+  width: 840px;
+  height: 200px;
+  background-image: url(/assets/images/sub/bg_movie_banner.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05); }
+  .movie-banner .btn-view {
+    position: absolute;
+    bottom: 44px;
+    left: 182px; }
+    .movie-banner .btn-view .btn-pink {
+      position: relative;
+      width: 170px;
+      font-size: 13px;
+      color: #fff;
+      line-height: 40px;
+      text-align: left;
+      padding: 0 20px;
+      border-radius: 30px;
+      background-color: #ff7875;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .movie-banner .btn-view .btn-pink:after {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        content: "\E810";
+        font-family: "fontello"; }
+      .movie-banner .btn-view .btn-pink:hover, .movie-banner .btn-view .btn-pink:focus {
+        opacity: .9; }
+
 .community .board-write .section-content .table-wrap ~ .table-wrap {
   margin-top: 40px; }
   .community .board-write .section-content .table-wrap ~ .table-wrap h3 {
@@ -1854,5 +1894,254 @@ label {
     margin-bottom: 30px; }
     .community .board-list .section-content .search-form .btn-search .btn-default {
       color: #e25371; }
+  .community .board-list .section-content .table-wrap .table thead tr th {
+    font-size: 14px;
+    padding: 15px 0; }
+  .community .board-list .section-content .table-wrap .table tbody tr td {
+    font-size: 13px;
+    color: #666; }
+    .community .board-list .section-content .table-wrap .table tbody tr td.title {
+      text-align: left; }
+    .community .board-list .section-content .table-wrap .table tbody tr td.date, .community .board-list .section-content .table-wrap .table tbody tr td.hit {
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif; }
+  .community .board-list .section-content .paging {
+    margin-top: 30px; }
+  .community .board-list .section-content .btn-area {
+    text-align: right;
+    margin-top: 10px; }
+    .community .board-list .section-content .btn-area p .btn {
+      width: 106px; }
+.community .poll-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
+  width: 200px; }
+.community .poll-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+  width: 110px; }
+.community .poll-list .board-list .section-content .table-wrap .table tbody tr td {
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .community .poll-list .board-list .section-content .table-wrap .table tbody tr td .btn-result .btn-white {
+    width: 75px;
+    font-size: 12px;
+    color: #999;
+    line-height: 28px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .community .poll-list .board-list .section-content .table-wrap .table tbody tr td .btn-result .btn-white:hover, .community .poll-list .board-list .section-content .table-wrap .table tbody tr td .btn-result .btn-white:focus {
+      opacity: .7; }
+  .community .poll-list .board-list .section-content .table-wrap .table tbody tr td.date, .community .poll-list .board-list .section-content .table-wrap .table tbody tr td.hit {
+    color: #999; }
+  .community .poll-list .board-list .section-content .table-wrap .table tbody tr td.title {
+    padding-left: 10px; }
+    .community .poll-list .board-list .section-content .table-wrap .table tbody tr td.title a span {
+      display: inline-block;
+      width: 60px;
+      font-size: 12px;
+      line-height: 25px;
+      text-align: center;
+      margin-right: 15px;
+      border-radius: 30px; }
+      .community .poll-list .board-list .section-content .table-wrap .table tbody tr td.title a span.ongoing {
+        color: #fff;
+        background-color: #ff7a77; }
+      .community .poll-list .board-list .section-content .table-wrap .table tbody tr td.title a span.finish {
+        color: #666;
+        background-color: #d5d5d5; }
+    .community .poll-list .board-list .section-content .table-wrap .table tbody tr td.title a .icon-new {
+      position: relative;
+      top: -2px;
+      display: inline-block;
+      font-style: normal;
+      margin-left: 10px; }
+.community .debate-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
+  width: 100px; }
+.community .debate-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+  width: 120px; }
+.community .debate-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(5) {
+  width: 90px; }
+.community .debate-list .board-list .section-content .table-wrap .table tbody tr td {
+  vertical-align: middle; }
+  .community .debate-list .board-list .section-content .table-wrap .table tbody tr td.title a .icon {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    font-style: normal;
+    margin-left: 10px; }
+.community .chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
+  width: 120px; }
+.community .chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+  width: 90px; }
+.community .chatter-list .board-list .section-content .table-wrap .table tbody tr td {
+  vertical-align: middle; }
+  .community .chatter-list .board-list .section-content .table-wrap .table tbody tr td.title a .icon {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    font-style: normal;
+    margin-left: 10px; }
+.community .qna-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
+  width: 100px; }
+.community .qna-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+  width: 120px; }
+.community .qna-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(5) {
+  width: 90px; }
+.community .qna-list .board-list .section-content .table-wrap .table tbody tr td {
+  vertical-align: middle; }
+  .community .qna-list .board-list .section-content .table-wrap .table tbody tr td.title a .icon {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    font-style: normal;
+    margin-left: 10px; }
+.community .faq-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
+  width: 120px; }
+.community .faq-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+  width: 90px; }
+.community .faq-list .board-list .section-content .table-wrap .table tbody tr td {
+  vertical-align: middle; }
+  .community .faq-list .board-list .section-content .table-wrap .table tbody tr td.title a .icon {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    font-style: normal;
+    margin-left: 10px; }
+
+.community .poll-details .section-content {
+  margin-top: 30px; }
+  .community .poll-details .section-content > .view .view-header {
+    padding: 25px 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa; }
+    .community .poll-details .section-content > .view .view-header h3 {
+      font-size: 15px;
+      color: #333;
+      font-weight: 400;
+      margin-bottom: 20px; }
+    .community .poll-details .section-content > .view .view-header ul {
+      text-align: left; }
+      .community .poll-details .section-content > .view .view-header ul > li {
+        display: inline-block; }
+        .community .poll-details .section-content > .view .view-header ul > li dl {
+          font-size: 0; }
+          .community .poll-details .section-content > .view .view-header ul > li dl dt {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 400;
+            color: #999; }
+            .community .poll-details .section-content > .view .view-header ul > li dl dt:before {
+              font-family: "fontello";
+              margin-right: 5px; }
+            .community .poll-details .section-content > .view .view-header ul > li dl dt:after {
+              content: ":";
+              margin: 0 3px; }
+          .community .poll-details .section-content > .view .view-header ul > li dl dd {
+            display: inline-block;
+            font-size: 12px;
+            color: #999;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif; }
+        .community .poll-details .section-content > .view .view-header ul > li.date {
+          margin-right: 30px; }
+          .community .poll-details .section-content > .view .view-header ul > li.date dl dt:before {
+            content: "\E819"; }
+        .community .poll-details .section-content > .view .view-header ul > li.participant dl dt:before {
+          content: "\E817"; }
+    .community .poll-details .section-content > .view .view-header .btn-result {
+      text-align: right; }
+      .community .poll-details .section-content > .view .view-header .btn-result .btn-xs {
+        width: 64px;
+        font-size: 11px;
+        line-height: 18px;
+        color: #fff;
+        text-align: center;
+        border-radius: 30px;
+        background-color: #ff7a77;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        .community .poll-details .section-content > .view .view-header .btn-result .btn-xs:hover, .community .poll-details .section-content > .view .view-header .btn-result .btn-xs:focus {
+          opacity: .7; }
+  .community .poll-details .section-content > .view .view-content {
+    text-align: center;
+    padding: 65px 40px;
+    border-bottom: 1px solid #e5e5e5; }
+    .community .poll-details .section-content > .view .view-content h4 {
+      font-size: 18px;
+      color: #e25371;
+      font-weight: 400; }
+    .community .poll-details .section-content > .view .view-content > p {
+      font-size: 14px;
+      color: #666;
+      margin-top: 25px; }
+    .community .poll-details .section-content > .view .view-content .poll-content {
+      text-align: left;
+      margin-top: 50px;
+      padding: 50px 30px;
+      border: 1px solid #dfdfdf;
+      border-radius: 10px; }
+      .community .poll-details .section-content > .view .view-content .poll-content > ul > li ~ li {
+        margin-top: 40px; }
+      .community .poll-details .section-content > .view .view-content .poll-content > ul > li .question {
+        position: relative;
+        font-size: 13px;
+        color: #666;
+        padding-left: 30px;
+        display: block; }
+        .community .poll-details .section-content > .view .view-content .poll-content > ul > li .question:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          font-size: 12px;
+          color: #fff;
+          line-height: 20px;
+          display: block;
+          content: "Q";
+          font-weight: bold;
+          border-radius: 50%;
+          background-color: #b2d69b;
+          font-family: 'Roboto', sans-serif; }
+      .community .poll-details .section-content > .view .view-content .poll-content > ul > li .form-group {
+        margin-top: 15px;
+        padding-left: 30px; }
+        .community .poll-details .section-content > .view .view-content .poll-content > ul > li .form-group label {
+          display: block;
+          font-size: 13px;
+          color: #999;
+          font-weight: 300;
+          line-height: 25px; }
+          .community .poll-details .section-content > .view .view-content .poll-content > ul > li .form-group label input[type="radio"] {
+            position: relative;
+            top: 2px;
+            margin-right: 5px; }
+        .community .poll-details .section-content > .view .view-content .poll-content > ul > li .form-group > div label {
+          display: inline-block; }
+        .community .poll-details .section-content > .view .view-content .poll-content > ul > li .form-group > div .form-control {
+          width: 550px;
+          display: inline-block;
+          height: 25px;
+          margin-left: 10px; }
+  .community .poll-details .section-content > .view .btn-area {
+    margin-top: 30px;
+    text-align: right; }
+    .community .poll-details .section-content > .view .btn-area p .btn {
+      width: 120px; }
 
 /*# sourceMappingURL=sub.css.map */

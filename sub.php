@@ -614,6 +614,15 @@
                                     </div>
                                 </div>
                             </div>
+                            
+                            <br><br><br><br>
+                            
+                            <!-- 무비 배너 -->
+                            <div class="movie-banner">
+                                <div class="btn-view">
+                                    <a href="#" class="btn btn-pink" role="button">동영상 보기</a>
+                                </div>
+                            </div>
                         </div>
                     </article>
                     
