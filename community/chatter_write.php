@@ -5,7 +5,7 @@
 <body class="sub community"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <!-- Main Content -->
-    <main id="content" class="debate-write"><!-- 페이지명 클래스 -->
+    <main id="content" class="chatter-write"><!-- 페이지명 클래스 -->
         <div class="container">
             <div class="sub-wrapper">
                 <!-- 서브 lnb -->
@@ -14,7 +14,7 @@
                 <div class="sub-content">
                     <section class="board-write">
                         <div class="section-header">
-                            <h2 class="sub-title">토론</h2>
+                            <h2 class="sub-title">수다수다방!</h2>
                         </div>
                         <div class="section-content">
                             <form action="#">
@@ -54,6 +54,61 @@
                                                     <div class="form-group">
                                                         <input type="file" id="u-file" class="form-control">
                                                         <label for="u-file" class="file-btn">파일선택</label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-wrap">
+                                    <h3>설문항목 만들기</h3>    
+                                    <table class="table table-bordered type-1">
+                                        <tbody>
+                                            <tr>
+                                                <th><label for="survey-1">설문내용</label></th>
+                                                <td class="survey">
+                                                    <div class="form-group">
+                                                        <input type="text" id="survey-1" class="form-control" placeholder="설문내용 입력을 입력해주세요">
+                                                    </div>
+                                                    <div class="add-btn">
+                                                        <a href="#" class="btn btn-white" role="button">추가</a>
+                                                        <a href="#" class="btn btn-white" role="button">삭제</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th><label for="survey-2">설문내용</label></th>
+                                                <td class="survey">
+                                                    <div class="form-group">
+                                                        <input type="text" id="survey-2" class="form-control" placeholder="설문내용 입력을 입력해주세요">
+                                                    </div>
+                                                    <div class="add-btn">
+                                                        <a href="#" class="btn btn-white" role="button">추가</a>
+                                                        <a href="#" class="btn btn-white" role="button">삭제</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th><label for="survey-3">설문내용</label></th>
+                                                <td class="survey">
+                                                    <div class="form-group">
+                                                        <input type="text" id="survey-3" class="form-control" placeholder="설문내용 입력을 입력해주세요">
+                                                    </div>
+                                                    <div class="add-btn">
+                                                        <a href="#" class="btn btn-white" role="button">추가</a>
+                                                        <a href="#" class="btn btn-white" role="button">삭제</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th><label for="survey-4">설문내용</label></th>
+                                                <td class="survey">
+                                                    <div class="form-group">
+                                                        <input type="text" id="survey-4" class="form-control" placeholder="설문내용 입력을 입력해주세요">
+                                                    </div>
+                                                    <div class="add-btn">
+                                                        <a href="#" class="btn btn-white" role="button">추가</a>
+                                                        <a href="#" class="btn btn-white" role="button">삭제</a>
                                                     </div>
                                                 </td>
                                             </tr>

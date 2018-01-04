@@ -280,11 +280,11 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th><label for="file">파일첨부</label></th>
+                                    <th>파일첨부</th>
                                     <td class="file">
                                         <div class="form-group">
-                                            <input type="file" id="u-avatar" class="form-control">
-                                            <label for="u-avatar" class="file-btn">파일선택</label>
+                                            <input type="file" id="u-file" class="form-control">
+                                            <label for="u-file" class="file-btn">파일선택</label>
                                         </div>
                                     </td>
                                 </tr>

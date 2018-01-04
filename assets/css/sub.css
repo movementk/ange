@@ -1681,7 +1681,7 @@ label {
     float: left;
     margin-right: 15px; }
     .model-list > li ~ li {
-      margin-top: 40px; }
+      margin-top: 60px; }
     .model-list > li:nth-of-type(3n + 1) {
       clear: both; }
     .model-list > li:nth-of-type(3n + 3) {
@@ -1815,5 +1815,38 @@ label {
       transition-delay: 0s; }
       .vote-progress .result .more-btn .btn-pink:hover, .vote-progress .result .more-btn .btn-pink:focus {
         opacity: .7; }
+
+.community .board-write .section-content .table-wrap ~ .table-wrap {
+  margin-top: 40px; }
+  .community .board-write .section-content .table-wrap ~ .table-wrap h3 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 20px; }
+.community .board-write .section-content .table-wrap .table tbody tr th.v-top {
+  vertical-align: top;
+  padding-top: 20px; }
+.community .board-write .section-content .table-wrap .table tbody tr td .form-group .form-control {
+  font-size: 12px;
+  color: #999;
+  font-weight: 300; }
+.community .board-write .section-content .table-wrap .table tbody tr td .form-group textarea {
+  width: 611px !important;
+  height: 340px !important; }
+.community .board-write .section-content .table-wrap .table tbody tr td.file .form-group .form-control {
+  width: 206px; }
+.community .board-write .section-content .table-wrap .table tbody tr td.subject .form-group select {
+  width: 108px !important; }
+.community .board-write .section-content .table-wrap .table tbody tr td.subject .form-group .form-control {
+  width: 495px;
+  display: inline-block;
+  margin-right: 5px; }
+  .community .board-write .section-content .table-wrap .table tbody tr td.subject .form-group .form-control:last-child {
+    margin-right: 0; }
+.community .board-write .section-content .btn-area {
+  margin-top: 30px;
+  text-align: right; }
+  .community .board-write .section-content .btn-area p .btn {
+    width: 120px; }
 
 /*# sourceMappingURL=sub.css.map */

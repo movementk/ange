@@ -274,9 +274,19 @@
 .report-list .article-content .table-wrap {
     margin-top: 40px;
 }
+.report-list.product-info .article-content .table-wrap thead tr th:nth-of-type(1) {
+    width: 68px !important;
+}
 .report-list .article-content .table-wrap thead tr th:nth-of-type(3), 
 .report-list .article-content .table-wrap thead tr th:nth-of-type(4) {
     width: 140px;
+}
+.report-list .article-content .table-wrap tbody tr td {
+    padding: 16px 0 !important;
+}
+.report-list .article-content .table-wrap tbody tr td:nth-of-type(2) {
+    text-align: left;
+    padding-left: 30px !important;
 }
 .report-list .article-content .paging {
     margin-top: 30px;

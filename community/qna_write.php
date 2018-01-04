@@ -5,7 +5,7 @@
 <body class="sub community"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <!-- Main Content -->
-    <main id="content" class="debate-write"><!-- 페이지명 클래스 -->
+    <main id="content" class="qna-write"><!-- 페이지명 클래스 -->
         <div class="container">
             <div class="sub-wrapper">
                 <!-- 서브 lnb -->
@@ -14,7 +14,7 @@
                 <div class="sub-content">
                     <section class="board-write">
                         <div class="section-header">
-                            <h2 class="sub-title">토론</h2>
+                            <h2 class="sub-title">모유수유 QnA</h2>
                         </div>
                         <div class="section-content">
                             <form action="#">
