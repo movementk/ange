@@ -8,6 +8,8 @@
     <main id="content" class="debate-write"><!-- 페이지명 클래스 -->
         <div class="container">
             <div class="sub-wrapper">
+                <!-- 서브 lnb -->
+                <?php require_once($_SERVER["DOCUMENT_ROOT"]."/community/_lnb.php"); ?>
                 <!-- Content Start -->
                 <div class="sub-content">
                     <section class="board-write">
