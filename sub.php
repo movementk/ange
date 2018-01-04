@@ -78,7 +78,7 @@
                         <p class="summary">아이디가 기억나지 않으세요?  본인확인 후 아이디를 확인하실 수 있습니다.</p>
                     </div>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <div class="search-form">
                         <form action="#">
                             <div class="form-group">
@@ -99,7 +99,7 @@
                         </form>
                     </div>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <!-- 포인트 탭 리스트 -->
                     <ol class="point-tabs">
                         <li class="total active"><a href="#">전체</a></li>
@@ -110,7 +110,7 @@
                         <li><a href="#">100,000 P~</a></li>
                     </ol>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <!-- board-view 공통 -->
                     <article class="board-view type-1">
                         <div class="article-header">
@@ -170,7 +170,7 @@
                         </div>
                     </article>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <!-- commnet -->
                     <article class="comment-area">
                         <form action="#">
@@ -256,7 +256,7 @@
                         </form>
                     </article>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <div class="table-wrap">
                         <table class="table table-bordered type-1">
                             <!-- 
@@ -288,10 +288,22 @@
                                         </div>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <th><label for="survey-1">설문내용</label></th>
+                                    <td class="survey">
+                                        <div class="form-group">
+                                            <input type="text" id="survey-1" class="form-control" placeholder="설문내용 입력을 입력해주세요">
+                                        </div>
+                                        <div class="add-btn">
+                                            <a href="#" class="btn btn-white" role="button">추가</a>
+                                            <a href="#" class="btn btn-white" role="button">삭제</a>
+                                        </div>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                         
-                        <div style="margin: 30px 0;"></div>
+                        <div style="margin: 50px 0;"></div>
                         
                         <table class="table tbale-bordered type-2">
                             <thead>
@@ -311,7 +323,7 @@
                         </table>
                     </div>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <div class="attention-box">
                         <h5>주의사항</h5>
                         <ul>
@@ -321,7 +333,7 @@
                         </ul>
                     </div>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <div class="page-link">
                         <ul>
                             <li class="prev">
@@ -343,7 +355,7 @@
                         </ul>
                     </div>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <!-- 휴대폰 인증 -->
                     <div class="identification">
                         <h5>회원정보에 등록된 휴대전화 번호와 일치해야, 인증번호를 받을 수 있습니다.</h5>
@@ -356,7 +368,7 @@
                         </div>
                     </div>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <!-- 제품 리스트 -->
                     <article class="item-list">
                         <div class="article-content">
@@ -447,7 +459,7 @@
                         </div>
                     </article>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <div class="tab-list">
                         <ul>
                             <li class="active"><a href="#">상품안내</a></li>
@@ -457,7 +469,7 @@
                         </ul>
                     </div>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
                     <div class="btn-area">
                         <p>
                             <a href="#" class="btn btn-sm btn-pink">장바구니</a>
@@ -466,7 +478,148 @@
                         </p>
                     </div>
                     
-                    <div style="margin: 30px 0;"></div>
+                    <div style="margin: 50px 0;"></div>
+                    <article>
+                        <div class="article-content">
+                            <!-- 후원사 리스트 -->
+                            <ul class="sponsor-list">
+                                <li>
+                                    <div class="sponsor-info">
+                                        <div class="figure">
+                                            <img src="/assets/images/sub/img_sponsor.jpg" alt="">
+                                        </div>
+                                        <div class="details">
+                                            <h4>메리포핀스 스튜디오</h4>
+                                            <ul>
+                                                <li>
+                                                    <i class="icon-phone"></i>1234-1234
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.ange.co.kr/main" target="_blank"><i class="icon-home"></i> http://www.ange.co.kr/main</a>
+                                                </li>
+                                            </ul>
+                                            <p>
+                                                유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                            <br><br><br><br>
+                            
+                            <!-- 도전 모델 -->
+                            <ul class="model-list">
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>출산준비</small>
+                                            <h3>산후우울증 자가진단법</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>임산부</small>
+                                            <h3>출산 전 몸매로 컴백! 산후 다이어트</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>임산부</small>
+                                            <h3>제왕절개수술 정말 정말 흉터 자국이<br>고민이에요</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <br><br><br><br>
+                            
+                            <!-- 투표 결과 -->
+                            <div class="vote-progress">
+                                <h5 class="vote-title">미혼으로 돌아가고 싶은 적 있나요?</h5>
+                                <div class="result">
+                                    <ul>
+                                        <li>
+                                            <label><input type="radio"> 그 때가 그립네.. 있다!</label>
+                                            <div class="progress-area">
+                                                <div class="bar" style="width: 60%;"></div>
+                                                <p class="result-txt">1419표, 60.16%</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label><input type="radio"> 지금이 더 행복해.. 없다!</label>
+                                            <div class="progress-area">
+                                                <div class="bar" style="width: 40%;"></div>
+                                                <p class="result-txt">228표, 40.84%</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="more-btn">
+                                        <a href="#" class="btn btn-pink" role="button">참여자 보기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    
+                    
+                    <div style="margin: 50px 0;"></div>
                     <!-- paging -->
                     <nav class="paging" aria-label="Page navigation">
                         <ul class="pagination">
