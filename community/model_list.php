@@ -21,9 +21,7 @@
                                  </figure>
                              </a>
                              <div class="best-model">
-                                 <figure>
-                                     <img src="/assets/images/community/img_magazine_model_ribbon.png" alt="">
-                                 </figure>
+                                 <h4>도전! 잡지모델 BEST 3</h4>
                                  <ul class="model-item">
                                     <li>
                                         <a href="#">
@@ -123,236 +121,233 @@
                                     </p>
                                 </form>
                             </div>
-                            
-                            <div class="list-wrap">
-                                <ul class="model-item">
-                                    <li>
-                                        <a href="#">
-                                            <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
-                                                <figcaption>
-                                                    <ul class="like-comment">
-                                                        <li class="like">123</li>
-                                                        <li class="comment">123</li>
-                                                    </ul>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="details">
-                                                <small>출산준비</small>
-                                                <h3>산후우울증 자가진단법</h3>
-                                                <ul class="user-info">
-                                                    <li>
-                                                        <i class="icon-user"></i> 홍길동
-                                                    </li>
-                                                    <li class="date">
-                                                        <i class="icon-calendar-1"></i> 2017-10-10
-                                                    </li>
+                            <ul class="model-item">
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
                                                 </ul>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
-                                                <figcaption>
-                                                    <ul class="like-comment">
-                                                        <li class="like">123</li>
-                                                        <li class="comment">123</li>
-                                                    </ul>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="details">
-                                                <small>임산부</small>
-                                                <h3>출산 전 몸매로 컴백! 산후 다이어트</h3>
-                                                <ul class="user-info">
-                                                    <li>
-                                                        <i class="icon-user"></i> 홍길동
-                                                    </li>
-                                                    <li class="date">
-                                                        <i class="icon-calendar-1"></i> 2017-10-10
-                                                    </li>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>출산준비</small>
+                                            <h3>산후우울증 자가진단법</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
                                                 </ul>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
-                                                <figcaption>
-                                                    <ul class="like-comment">
-                                                        <li class="like">123</li>
-                                                        <li class="comment">123</li>
-                                                    </ul>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="details">
-                                                <small>임산부</small>
-                                                <h3>제왕절개수술 정말 정말 흉터 자국이<br>고민이에요</h3>
-                                                <ul class="user-info">
-                                                    <li>
-                                                        <i class="icon-user"></i> 홍길동
-                                                    </li>
-                                                    <li class="date">
-                                                        <i class="icon-calendar-1"></i> 2017-10-10
-                                                    </li>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>임산부</small>
+                                            <h3>출산 전 몸매로 컴백! 산후 다이어트</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
                                                 </ul>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
-                                                <figcaption>
-                                                    <ul class="like-comment">
-                                                        <li class="like">123</li>
-                                                        <li class="comment">123</li>
-                                                    </ul>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="details">
-                                                <small>출산준비</small>
-                                                <h3>산후우울증 자가진단법</h3>
-                                                <ul class="user-info">
-                                                    <li>
-                                                        <i class="icon-user"></i> 홍길동
-                                                    </li>
-                                                    <li class="date">
-                                                        <i class="icon-calendar-1"></i> 2017-10-10
-                                                    </li>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>임산부</small>
+                                            <h3>제왕절개수술 정말 정말 흉터 자국이<br>고민이에요</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
                                                 </ul>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
-                                                <figcaption>
-                                                    <ul class="like-comment">
-                                                        <li class="like">123</li>
-                                                        <li class="comment">123</li>
-                                                    </ul>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="details">
-                                                <small>임산부</small>
-                                                <h3>출산 전 몸매로 컴백! 산후 다이어트</h3>
-                                                <ul class="user-info">
-                                                    <li>
-                                                        <i class="icon-user"></i> 홍길동
-                                                    </li>
-                                                    <li class="date">
-                                                        <i class="icon-calendar-1"></i> 2017-10-10
-                                                    </li>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>출산준비</small>
+                                            <h3>산후우울증 자가진단법</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
                                                 </ul>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
-                                                <figcaption>
-                                                    <ul class="like-comment">
-                                                        <li class="like">123</li>
-                                                        <li class="comment">123</li>
-                                                    </ul>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="details">
-                                                <small>임산부</small>
-                                                <h3>제왕절개수술 정말 정말 흉터 자국이<br>고민이에요</h3>
-                                                <ul class="user-info">
-                                                    <li>
-                                                        <i class="icon-user"></i> 홍길동
-                                                    </li>
-                                                    <li class="date">
-                                                        <i class="icon-calendar-1"></i> 2017-10-10
-                                                    </li>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>임산부</small>
+                                            <h3>출산 전 몸매로 컴백! 산후 다이어트</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
                                                 </ul>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
-                                                <figcaption>
-                                                    <ul class="like-comment">
-                                                        <li class="like">123</li>
-                                                        <li class="comment">123</li>
-                                                    </ul>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="details">
-                                                <small>출산준비</small>
-                                                <h3>산후우울증 자가진단법</h3>
-                                                <ul class="user-info">
-                                                    <li>
-                                                        <i class="icon-user"></i> 홍길동
-                                                    </li>
-                                                    <li class="date">
-                                                        <i class="icon-calendar-1"></i> 2017-10-10
-                                                    </li>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>임산부</small>
+                                            <h3>제왕절개수술 정말 정말 흉터 자국이<br>고민이에요</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
                                                 </ul>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
-                                                <figcaption>
-                                                    <ul class="like-comment">
-                                                        <li class="like">123</li>
-                                                        <li class="comment">123</li>
-                                                    </ul>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="details">
-                                                <small>임산부</small>
-                                                <h3>출산 전 몸매로 컴백! 산후 다이어트</h3>
-                                                <ul class="user-info">
-                                                    <li>
-                                                        <i class="icon-user"></i> 홍길동
-                                                    </li>
-                                                    <li class="date">
-                                                        <i class="icon-calendar-1"></i> 2017-10-10
-                                                    </li>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>출산준비</small>
+                                            <h3>산후우울증 자가진단법</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
                                                 </ul>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
-                                                <figcaption>
-                                                    <ul class="like-comment">
-                                                        <li class="like">123</li>
-                                                        <li class="comment">123</li>
-                                                    </ul>
-                                                </figcaption>
-                                            </figure>
-                                            <div class="details">
-                                                <small>임산부</small>
-                                                <h3>제왕절개수술 정말 정말 흉터 자국이<br>고민이에요</h3>
-                                                <ul class="user-info">
-                                                    <li>
-                                                        <i class="icon-user"></i> 홍길동
-                                                    </li>
-                                                    <li class="date">
-                                                        <i class="icon-calendar-1"></i> 2017-10-10
-                                                    </li>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>임산부</small>
+                                            <h3>출산 전 몸매로 컴백! 산후 다이어트</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
+                                            <figcaption>
+                                                <ul class="like-comment">
+                                                    <li class="like">123</li>
+                                                    <li class="comment">123</li>
                                                 </ul>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="details">
+                                            <small>임산부</small>
+                                            <h3>제왕절개수술 정말 정말 흉터 자국이<br>고민이에요</h3>
+                                            <ul class="user-info">
+                                                <li>
+                                                    <i class="icon-user"></i> 홍길동
+                                                </li>
+                                                <li class="date">
+                                                    <i class="icon-calendar-1"></i> 2017-10-10
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                             <nav class="paging" aria-label="Page navigation">
                                 <ul class="pagination">
                                     <li class="first">
@@ -384,7 +379,7 @@
                             </nav>
                             <div class="btn-area">
                                 <p>
-                                    <a href="#" class="btn btn-pink">등록</a>
+                                    <a href="#" class="btn btn-pink" role="button">등록</a>
                                 </p>
                             </div>
                          </div>
