@@ -168,7 +168,7 @@
                             <div class="btn-area">
                                 <p>
                                     <a href="#" class="btn btn-sm btn-pink" role="button">선택구매</a>
-                                    <a href="#" class="btn btn-sm btn-white" role="button">선택구매</a>
+                                    <a href="#" class="btn btn-sm btn-white" role="button">쇼핑 계속하기</a>
                                 </p>
                             </div>
                         </div>
