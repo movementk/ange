@@ -1674,26 +1674,26 @@ label {
           line-height: 20px;
           margin-top: 15px; }
 
-.model-list {
+.model-item {
   overflow: hidden; }
-  .model-list > li {
+  .model-item > li {
     width: 270px;
     float: left;
     margin-right: 15px; }
-    .model-list > li ~ li {
+    .model-item > li ~ li {
       margin-top: 60px; }
-    .model-list > li:nth-of-type(3n + 1) {
+    .model-item > li:nth-of-type(3n + 1) {
       clear: both; }
-    .model-list > li:nth-of-type(3n + 3) {
+    .model-item > li:nth-of-type(3n + 3) {
       margin-right: 0; }
-    .model-list > li:nth-of-type(2), .model-list > li:nth-of-type(3) {
+    .model-item > li:nth-of-type(2), .model-item > li:nth-of-type(3) {
       margin-top: 0; }
-    .model-list > li a {
+    .model-item > li a {
       display: block;
       text-decoration: none; }
-      .model-list > li a figure {
+      .model-item > li a figure {
         position: relative; }
-        .model-list > li a figure figcaption .like-comment {
+        .model-item > li a figure figcaption .like-comment {
           position: absolute;
           bottom: 15px;
           left: 50%;
@@ -1703,7 +1703,7 @@ label {
           text-align: center;
           text-align: center;
           margin-left: -135px; }
-          .model-list > li a figure figcaption .like-comment > li {
+          .model-item > li a figure figcaption .like-comment > li {
             position: relative;
             display: inline-block;
             font-size: 12px;
@@ -1711,48 +1711,48 @@ label {
             margin-right: 30px;
             padding-left: 20px;
             font-family: 'Roboto', sans-serif; }
-            .model-list > li a figure figcaption .like-comment > li:last-child {
+            .model-item > li a figure figcaption .like-comment > li:last-child {
               margin-right: 0; }
-            .model-list > li a figure figcaption .like-comment > li:before {
+            .model-item > li a figure figcaption .like-comment > li:before {
               position: absolute;
               top: 1px;
               left: 0;
               font-size: 10px;
               font-family: "fontello"; }
-            .model-list > li a figure figcaption .like-comment > li.like:before {
+            .model-item > li a figure figcaption .like-comment > li.like:before {
               content: "\E812"; }
-            .model-list > li a figure figcaption .like-comment > li.comment:before {
+            .model-item > li a figure figcaption .like-comment > li.comment:before {
               content: "\F4AC";
               transform: rotateY(180deg);
               -webkit-transform: rotateY(180deg);
               -ms-transform: rotateY(180deg);
               -moz-transform: rotateY(180deg); }
-      .model-list > li a .details {
+      .model-item > li a .details {
         text-align: center;
         padding: 20px 5px 0; }
-        .model-list > li a .details small {
+        .model-item > li a .details small {
           display: block;
           font-size: 14px;
           color: #ad9cc4;
           margin-bottom: 10px; }
-        .model-list > li a .details h3 {
+        .model-item > li a .details h3 {
           font-size: 15px;
           color: #333;
           font-weight: 400;
           line-height: 20px;
           word-break: keep-all; }
-        .model-list > li a .details > .user-info {
+        .model-item > li a .details > .user-info {
           margin-top: 15px; }
-          .model-list > li a .details > .user-info li {
+          .model-item > li a .details > .user-info li {
             font-size: 13px;
             color: #999;
             display: inline-block;
             margin-right: 20px; }
-            .model-list > li a .details > .user-info li i {
+            .model-item > li a .details > .user-info li i {
               margin-right: 5px; }
-            .model-list > li a .details > .user-info li:last-child {
+            .model-item > li a .details > .user-info li:last-child {
               margin-right: 0; }
-            .model-list > li a .details > .user-info li.date {
+            .model-item > li a .details > .user-info li.date {
               font-size: 12px;
               font-weight: 400;
               font-family: 'Roboto', sans-serif; }
@@ -1848,5 +1848,11 @@ label {
   text-align: right; }
   .community .board-write .section-content .btn-area p .btn {
     width: 120px; }
+.community .board-list .section-content {
+  margin-top: 30px; }
+  .community .board-list .section-content .search-form {
+    margin-bottom: 30px; }
+    .community .board-list .section-content .search-form .btn-search .btn-default {
+      color: #e25371; }
 
 /*# sourceMappingURL=sub.css.map */

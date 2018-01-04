@@ -509,7 +509,7 @@
                             <br><br><br><br>
                             
                             <!-- 도전 모델 -->
-                            <ul class="model-list">
+                            <ul class="model-item">
                                 <li>
                                     <a href="#">
                                         <figure>

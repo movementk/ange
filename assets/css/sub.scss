@@ -2223,7 +2223,7 @@ label {
 }
 
 // 도전 잡지 모델
-.model-list {
+.model-item {
     overflow: hidden;
     > li {
         width: 270px;
@@ -2485,7 +2485,24 @@ label {
     }
     // 게시판 공통 리스트
     .board-list {
-        
+        .section-content {
+            margin-top: 30px;
+            .search-form {
+                margin-bottom: 30px;
+                .btn-search {
+                    .btn-default {
+                        color: #e25371;
+                    }
+                }
+            }
+        }
+    }
+    .poll-list {
+        .board-list {
+            .section-content {
+                
+            }
+        }
     }
 }
 
