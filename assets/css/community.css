@@ -1,1 +1,81 @@
 @import url("/assets/css/common.css");
+
+/* 공통 겔러리 리스트 */
+.gallery-list .article-content {
+    padding: 50px 0; 
+}
+.gallery-list .article-content > .list-wrap {
+    padding-top: 43px;
+}
+.gallery-list .article-content .search-form form .btn-search .btn .icon-search {
+    color: #e25371;
+}
+.gallery-list .article-content > .list-wrap > .model-item {
+    margin-bottom: 60px;
+}
+.gallery-list .article-content  > .list-wrap > .model-item:last-child {
+    margin-bottom: 0;
+}
+.gallery-list .article-content .paging {
+    margin-top: 68px;
+}
+.gallery-list .article-content .paging {
+    margin-top: 68px;
+}
+.gallery-list .article--content .btn-area {
+    margin-top: 18px;
+}
+.gallery-list .article-content .btn-area p {
+    text-align: right;
+}
+.gallery-list .article-content .btn-area p .btn-pink {
+    width: 105px;
+    height: 40px;
+    border-radius: 30px;
+    line-height: 38px;
+}
+/* 아가모델 리스트*/
+.model-list .magazine-model {
+    margin-top: 5px;
+}
+.model-list .magazine-model .article-header .best-model {
+    padding: 60px 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+.model-list .magazine-model .article-header .best-model > figure {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+/* 스폰서 리스트 */
+.sponsor .sponsor-wrap .paging {
+    margin-top: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
