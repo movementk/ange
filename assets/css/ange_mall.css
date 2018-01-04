@@ -1,5 +1,60 @@
 @import url("/assets/css/common.css");
 
+/* step-lsit 공통 */
+.article-header .step-list > ol{
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+}
+.article-header .step-list > ol li {
+    width: 33.3333%;
+    float: left;
+    color: #999;
+    text-align: center;
+    line-height: 56px;
+    border-right: 1px solid #eaeaea;
+}
+.article-header .step-list > ol li:last-child {
+    position: relative;
+    margin-right: 0;
+}
+.article-header .step-list > ol li.active:last-child:after {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    background-color: #ff7875;
+    width: 2px;
+    height: 100%;
+    display: block;
+    content: "";
+}
+.article-header .step-list > ol li.active {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875;
+}
+.article-header .step-list > ol li b {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+.article-header .step-list > ol li .icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+.article-header .step-list > ol li .icon img {
+    position: relative;
+    top: -1px;
+}
+.article-header .step-list > ol li h3 {
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+
 /* 마일리지몰 */
 .mileage-list .item-list .article-header {
     border-bottom: 1px solid #dfdfdf;
@@ -290,57 +345,8 @@
 }
 
 /* 장바구니 목록 */
-.basket-list .step-list > ol{
-    overflow: hidden;
-    border: 1px solid #eaeaea;
-    border-radius: 30px;
-}
-.basket-list .step-list > ol li {
-    width: 33.3333%;
-    float: left;
-    color: #999;
-    text-align: center;
-    line-height: 56px;
-    border-right: 1px solid #eaeaea;
-}
-.basket-list .step-list > ol li:last-child {margin-right: 0; position: relative;}
-.basket-list .step-list > ol li.active:last-child:after {
-    position: absolute;
-    top: 0;
-    right: -2px;
-    background-color: #ff7875;
-    width: 2px;
-    height: 100%;
-    display: block;
-    content: "";
-}
-.basket-list .step-list > ol li.active {
-    color: #fff;
-    border-color: #ff7875;
-    background-color: #ff7875;
-}
-.basket-list .step-list > ol li b {
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    margin-right: 30px;
-}
-.basket-list .step-list > ol li .icon {
-    display: inline-block;
-    margin-right: 10px;
-}
-.basket-list .step-list > ol li .icon img {
-    position: relative;
-    top: -1px;
-}
-.basket-list .step-list > ol li h3 {
-    font-size: 15px;
-    font-weight: 400;
-    display: inline-block;
-}
-.basket-list .list {
-    margin-top: 43px;
+.basket-list .list .article-content {
+    margin-top: 45px;
 }
 .basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(1) {
     width: 50px;
@@ -360,22 +366,21 @@
 .basket-list .list .article-content .table-wrap .table tbody tr td {
     vertical-align: middle;
     padding: 32px 0;
+    background-color: #fff;
 }
 .basket-list .list .article-content .table-wrap .table tbody tr .info {
     text-align: left;
-    background-color: #fff;
 }
-.basket-list .list .article-content .table-wrap .table tbody tr .info img {
-    padding-left:0;
-}
-.basket-list .list .article-content .table-wrap .table tbody tr .info a figure figcaption {
+.basket-list .list .article-content .table-wrap .table tbody tr .info a .item {
     display: inline-block;
-    text-align: left;
+    padding: 0 10px;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .info a .details {
+    display: inline-block;
     font-size: 13px;
     color: #333;
+    font-weight: 400;
     line-height: 18px;
-    font-weight: 500;
-    padding-left:18px;
     vertical-align: middle;
 }
 .basket-list .list .article-content .table-wrap .table tbody tr .amount .form-group {
@@ -402,135 +407,170 @@
     color: #999;
     font-size: 12px;
 }
+.basket-list .list .article-content > .btn-area {
+    text-align: right;
+    margin-top: 30px;
+}
+.basket-list .list .article-content .btn-area p .btn-sm {
+    width: 160px;
+}
+
 
 /* 장바구니 주문결제 */
-.order-write .step-list > ol{
-    overflow: hidden;
-    border: 1px solid #eaeaea;
-    border-radius: 30px;
+.order-write .product-info .article-header {
+    
 }
-.order-write .step-list > ol li {
-    width: 33.3333%;
-    float: left;
-    color: #999;
-    text-align: center;
-    line-height: 56px;
-    border-right: 1px solid #eaeaea;
+.order-write .product-info .article-content {
+    margin-top: 45px;
 }
-.order-write .step-list > ol li:last-child { 
-    margin-right: 0; position: relative;
+.order-write .product-info .article-content .table-wrap .table thead tr th {
+    font-size: 14px;
 }
-.order-write .step-list > ol li.active:last-child:after {
-    position: absolute;
-    top: 0;
-    right: -2px;
-    background-color: #ff7875;
-    width: 2px;
-    height: 100%;
-    display: block;
-    content: "";
-}
-.order-write .step-list > ol li.active {
-    color: #fff;
-    border-color: #ff7875;
-    background-color: #ff7875;
-}
-.order-write .step-list > ol li b {
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    margin-right: 30px;
-}
-.order-write .step-list > ol li .icon {
-    display: inline-block;
-    margin-right: 10px;
-}
-.order-write .step-list > ol li .icon img {
-    position: relative;
-    top: -1px;
-}
-.order-write .step-list > ol li h3 {
-    font-size: 15px;
-    font-weight: 400;
-    display: inline-block;
-}
-.order-write .product-info {
-    margin-top: 44px;
-}
-.order-write .product-info .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(1) {
-    width: 510px;
-}
-.order-write .product-info .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(2) {
-    width: 100px;
-}
-.order-write .product-info .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(3) {
-    width: 90px;
-}
-.order-write .product-info .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(4) {
-    width: 150px;
+.order-write .product-info .article-content .table-wrap .table thead tr th:first-child {
+    width: 520px !important;
 }
 .order-write .product-info .article-content .table-wrap .table tbody tr td {
-    vertical-align: middle;
-    padding: 32px 0;
     font-size: 13px;
+    color: #666;
+    padding: 33px 0;
     font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
     font-family: 'Roboto', sans-serif;
-}
-.order-write .product-info .article-content .table-wrap .table tbody tr .info {
-    text-align: left;
     background-color: #fff;
+}
+.order-write .product-info .article-content .table-wrap .table tbody tr td.info {
+    text-align: left;
     font-family: 'Noto Sans KR', sans-serif;
 }
-.order-write .product-info .article-content .table-wrap .table tbody tr .info img {
-    padding-left:0;
+.order-write .product-info .article-content .table-wrap .table tbody tr td.info a {
+    
 }
-.order-write .product-info .article-content .table-wrap .table tbody tr .info a figure figcaption {
+.order-write .product-info .article-content .table-wrap .table tbody tr td.info a .item {
     display: inline-block;
-    text-align: left;
-    font-size: 13px;
-    color: #333;
-    line-height: 18px;
-    font-weight: 400;
-    padding-left:18px;
-    vertical-align: middle;
+    padding: 0 10px;
 }
-.order-write .product-info .article-content .table-wrap .table tbody tr .total {
+.order-write .product-info .article-content .table-wrap .table tbody tr td.info a .details {
+    display: inline-block;
+    color: #333;
+    text-align: left;
+    line-height: 18px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.order-write .product-info .article-content .table-wrap .table tbody tr td.payment {
     color: #ff7875;
 }
-.order-write .product-info .article-footer {
-    padding: 22px 12px 21px 405px;
+.order-write .product-info .article-content .pay-info {
     background-color: #f9f9f9;
+    text-align: right;
+    padding: 30px 15px;
 }
-.order-write .product-info .article-footer .info-payment {
-    color: #333;
-}
-.order-write .product-info .article-footer .info-payment dl dt {
+.order-write .product-info .article-content .pay-info .sum {
     display: inline-block;
+}
+.order-write .product-info .article-content .pay-info .sum > ul {
+    font-size: 0;
+}
+.order-write .product-info .article-content .pay-info .sum > ul > li {
+    display: inline-block;
+}
+.order-write .product-info .article-content .pay-info .sum > ul > li:first-child {
+    position: relative;
+    margin-right: 45px;
+}
+.order-write .product-info .article-content .pay-info .sum > ul > li:first-child:before {
+    position: absolute;
+    top: 0px;
+    right: -29px;
+    font-size: 13px;
+    color: #666;
+    content: "\E822";
+    font-family: "fontello";
+}
+.order-write .product-info .article-content .pay-info .sum > ul > li dl > dt {
+    display: inline-block;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    margin-right: 5px;
+}
+.order-write .product-info .article-content .pay-info .sum > ul > li dl > dd {
+    display: inline-block;
+    font-size: 13px;
+    color: #333;
     font-weight: 400;
 }
-.order-write .product-info .article-footer .info-payment dl dd {
+.order-write .product-info .article-content .pay-info .sum > ul > li dl > dd > b {
+    font-weight: 500;
+}
+.order-write .product-info .article-content .pay-info .total {
+    display: inline-block;
+    margin-left: 35px;
+}
+.order-write .product-info .article-content .pay-info .total > dl > dt {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+.order-write .product-info .article-content .pay-info .total > dl > dd {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
     display: inline-block;
 }
-.order-write .product-info .article-footer .info-payment dl dd:nth-of-type(1):after {
-    margin: 0 15px;
-    font-size: 13px;
-    font-family: "fontello"; 
-    content: "\E822";
-}
-.order-write .product-info .article-footer .info-payment dl dd:nth-of-type(2) {
-    margin-right: 35px;
-}
-.order-write .product-info .article-footer .info-payment dl .total {
-    font-size: 14px;
-    margin-right: 14px;
-}
-.order-write .product-info .article-footer .info-payment dl dd .price {
+.order-write .product-info .article-content .pay-info .total > dl > dd strong {
     font-size: 18px;
     color: #ff7875;
-    font-weight: 600;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

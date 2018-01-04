@@ -11,39 +11,40 @@
                 <!-- 서브 lnb -->
                 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/ange_mall/_lnb.php"); ?>
                 <!-- Content Start -->
-                 <div class="sub-content">
-                     <h2 class="sub-title">장바구니</h2>
+                <div class="sub-content">
+                    <h2 class="sub-title">장바구니</h2>
                     <!-- Step-list 공통 -->
-                    <div class="step-list">
-                        <ol>
-                            <li>
-                                <b>STEP 01</b>
-                                <p class="icon">
-                                    <img src="/assets/images/ange_mall/icon_step_list01.png" alt="">
-                                </p>
-                                <h3>장바구니</h3>
-                            </li>
-                            <li class="active">
-                                <b>STEP 02</b>
-                                <p class="icon">
-                                    <img src="/assets/images/customer/icon_step_list02_active.png" alt="">
-                                </p>
-                                <h3>주문 / 결제</h3>
-                            </li>
-                            <li>
-                                <b>STEP 03</b>
-                                <p class="icon">
-                                    <img src="/assets/images/customer/icon_step_list03.png" alt="">
-                                </p>
-                                <h3>주문완료</h3>
-                            </li>
-                        </ol>
-                    </div>
-                    
-                     <article class="product-info">
+                    <article class="product-info">
+                        <div class="article-header">
+                            <div class="step-list">
+                                <ol>
+                                    <li>
+                                        <b>STEP 01</b>
+                                        <p class="icon">
+                                            <img src="/assets/images/ange_mall/icon_step_list01.png" alt="">
+                                        </p>
+                                        <h3>장바구니</h3>
+                                    </li>
+                                    <li class="active">
+                                        <b>STEP 02</b>
+                                        <p class="icon">
+                                            <img src="/assets/images/customer/icon_step_list02_active.png" alt="">
+                                        </p>
+                                        <h3>주문 / 결제</h3>
+                                    </li>
+                                    <li>
+                                        <b>STEP 03</b>
+                                        <p class="icon">
+                                            <img src="/assets/images/customer/icon_step_list03.png" alt="">
+                                        </p>
+                                        <h3>주문완료</h3>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
                         <div class="article-content">
                             <div class="table-wrap">
-                               <table class="table tbale-bordered type-2">
+                                <table class="table tbale-bordered type-2">
                                     <thead>
                                         <tr>
                                             <th>상품정보</th>
@@ -56,49 +57,76 @@
                                         <tr>
                                             <td class="info">
                                                 <a href="#">
-                                                    <figure>
+                                                    <div class="item">
                                                         <img src="/assets/images/ange_mall/img_smallpdt.jpg" alt="" >
-                                                        <figcaption>Botanical Therapy 스텝원 베이비<br>
-                                                        치약 (무불소, 블루베리향)</figcaption>
-                                                    </figure>
+                                                    </div>
+                                                    <p class="details">
+                                                        Botanical Therapy 스텝원 베이비<br>
+                                                        치약 (무불소, 블루베리향)
+                                                    </p>
                                                 </a>
                                             </td>
-                                            <td class="payment">999p</td>
-                                            <td class="amount">10</td>
-                                            <td class="total">999.999p</td>
+                                            <td>999 P</td>
+                                            <td>10</td>
+                                            <td class="payment">999,999 P</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
-                        <div class="article-footer">
-                            <div class="info-payment">
-                                <dl>
-                                    <dt>합계</dt>
-                                    <dd>40,000 원</dd>
-                                    <dt>배송비</dt>
-                                    <dd>0 원(착불)</dd>
-                                    <dt class="total">예상결제금액</dt>
-                                    <dd>
-                                        <span class="price">62,000</span>
-                                        원
-                                    </dd>
-                                </dl>
+                            <div class="pay-info">
+                                <div class="sum">
+                                    <ul>
+                                        <li>
+                                            <dl>
+                                                <dt>합계</dt>
+                                                <dd><b>40,000</b> 원</dd>
+                                            </dl>
+                                        </li>
+                                        <li>
+                                            <dl>
+                                                <dt>배송비</dt>
+                                                <dd>0 원(착불)</dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="total">
+                                    <dl>           
+                                        <dt>예상결제금액</dt>
+                                        <dd><strong>62,000</strong> 원</dd>
+                                    </dl>
+                                </div>
                             </div>
                         </div>
+                        
+                        
                     </article>
                     <article class="user-info">
-                        <div class="article-header">
-                            <div class="row">
-                                <div class="col-xs-8"></div>
-                                <div class="col-xs-4"></div>
-                            </div>
-                        </div>
-                        <div class="article-content">
+                        <div class="table-wrap">
+                            <table class="table table-bordered type-1">
+                                <caption>
+                                    표의 제목
+                                </caption>
+                                <tbody>
+                                    <tr>
+                                        <th>신청자</th>
+                                        <td>무브먼트(movementk)</td>
+                                    </tr>
+                                    <tr>
+                                        <th>주소</th>
+                                        <td>서울 서초구 양재동</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </article>
                     <article class="delivery-info">
-                        
+                        <div class="article-header">
+                            
+                        </div>
+                        <div class="article-content">
+                            
+                        </div>
                     </article>
                 </div>
             </div>
