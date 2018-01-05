@@ -508,6 +508,7 @@ body {
             line-height: 22px;
             @include roboto();
             a {
+                color: #666;
                 text-decoration: none;
             }
         }

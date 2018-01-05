@@ -21,6 +21,9 @@ address {
 .container {
   width: 1200px !important; }
 
+.event .search-form .btn-search .btn-default {
+  color: #e25371; }
+
 .event-list .event-slider .bx-wrapper {
   position: relative; }
   .event-list .event-slider .bx-wrapper .bx-viewport .jumbo-slider li a {

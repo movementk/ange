@@ -150,9 +150,93 @@
                     </div>
                 </div>
                 <div class="pop-body">
-                    <div class="result-list">
-                        
+                    <div class="table-wrap">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>그때가 그립네.. 있다!</td>
+                                    <td><i>1,419표</i></td>
+                                    <td><i>86.16%</i></td>
+                                    <td>
+                                        <div class="btn-view">
+                                            <a href="#" class="btn btn-xs btn-gray active" role="button">참여자 보기</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>지금이 더 행복해..없다!</td>
+                                    <td><i>228</i>표</td>
+                                    <td><i>13.84</i>%</td>
+                                    <td>
+                                        <div class="btn-view">
+                                            <a href="#" class="btn btn-xs btn-gray" role="button">참여자 보기</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
+                    <div class="details">
+                        <h5><b>그 때가 그립네...있다!</b> 를 선택한 참여자</h5>
+                        <div class="search-form">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" id="search" class="form-control">
+                                    <label for="search" class="sr-only">검색하기</label>
+                                </div>
+                                <p class="btn-search">
+                                    <button type="submit" class="btn btn-default">
+                                        <i class="icon-search"></i>
+                                        <span class="sr-only">검색 버튼</span>
+                                    </button>
+                                </p>
+                            </form>
+                        </div>
+                        <div class="search-result">
+                            <h6>참여자 별명</h6>
+                            <ul>
+                                <li>KAYA</li>
+                                <li>01067481028</li>
+                                <li>0305iris</li>
+                                <li>0427silver</li>
+                                <li>1004kossoo</li>
+                                <li>블랙러시안</li>
+                                <li>후야맘</li>
+                                <li>술취한고냥이</li>
+                                <li>20005241978</li>
+                                <li>똘망영우</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <nav class="paging" aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li class="first">
+                                <a href="#" aria-label="Previous">
+                                    <i class="icon-angle-double-left"></i>
+                                </a>
+                            </li>
+                            <li class="prev">
+                                <a href="#" aria-label="Previous">
+                                    <i class="icon-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li class="next">
+                                <a href="#" aria-label="Next">
+                                    <i class="icon-angle-right"></i>
+                                </a>
+                            </li>
+                            <li class="last">
+                                <a href="#" aria-label="Next">
+                                    <i class="icon-angle-double-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
