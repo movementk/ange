@@ -74,7 +74,9 @@
                                                     <th class="necessary"><label for="feel">태동느낌 </label></th>
                                                     <td>
                                                         <div class="form-group">
-                                                            <input type="text" id="feel" class="form-control">
+                                                            
+                                                            <textarea id="feel" class="form-control"></textarea>
+<!--                                                        <input type="text" id="feel" class="form-control">-->
                                                         </div>
                                                     </td>
                                                 </tr>
