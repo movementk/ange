@@ -125,11 +125,20 @@
     margin-top: 70px;
 }
 
+/* 커뮤니티 뷰 공통 */
+.community .community-view .section-content .btn-area {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.community .community-view .section-content .btn-area a {
+    width: 120px;
+}
+.community .community-view .section-content .btn-area p a:last-child {
+    float: right;
+}
 
-
-
-
-
+/* 수다수다방 뷰 */
+.chatter-view
 
 
 
