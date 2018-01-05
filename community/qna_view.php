@@ -65,19 +65,18 @@
                                         선정이 조금 늦어져 11일에 발표 될 예정입니다.<br>
                                         양해 부탁드립니다.<br>
                                         감사합니다.<br>
-                                    </div>
-                                    <div class="reply">
-                                        <div class="information">
-                                            <strong class="title">답변 제목</strong>
-                                            <p class="date">2017-10-22 11:03</p>
-                                        </div>
-                                        <div class="comment-content">
-                                            안녕하세요 앙쥬입니다. <br>
-                                            &lt;앙쥬 신규 가입회원 샘플팩 9월_82차 &gt;<br>
-                                            발표일이 금일 10일 발표 예정이었으나 <br>
-                                            선정이 조금 늦어져 11일에 발표 될 예정입니다.<br>
-                                            양해 부탁드립니다.<br>
-                                            감사합니다.<br>
+                                        <div class="reply">
+                                            <h5 class="title">답변 제목
+                                                <small class="date">2017-10-22 11:03</small>
+                                            </h5>
+                                            <div class="reply-content">
+                                                안녕하세요 앙쥬입니다. <br>
+                                                &lt;앙쥬 신규 가입회원 샘플팩 9월_82차 &gt;<br>
+                                                발표일이 금일 10일 발표 예정이었으나 <br>
+                                                선정이 조금 늦어져 11일에 발표 될 예정입니다.<br>
+                                                양해 부탁드립니다.<br>
+                                                감사합니다.<br>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="attach">
@@ -89,35 +88,35 @@
                                             </dd>
                                         </dl>
                                     </div>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn btn-sm btn-white" role="button">수정</a>
+                                            <a href="#" class="btn btn-sm btn-white" role="button">삭제</a>
+                                            <a href="#" class="btn btn-sm btn-pink" role="button">목록</a>
+                                        </p>
+                                    </div>
+                                    <div class="page-link">
+                                        <ul>
+                                            <li class="prev">
+                                                <dl>
+                                                    <dt>이전글</dt>
+                                                    <dd>
+                                                        <a href="#">(6월9일발송)샘플팩 베베쿡 프로바이오맘 쿠폰 안내</a>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                            <li class="next">
+                                                <dl>
+                                                    <dt>다음글</dt>
+                                                    <dd>
+                                                        <a href="#">사이트 서버 점검 안내</a>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </article>
-                            <div class="btn-area">
-                                <p>
-                                    <a href="#" class="btn btn-sm btn-white" role="button">수정</a>
-                                    <a href="#" class="btn btn-sm btn-white" role="button">삭제</a>
-                                    <a href="#" class="btn btn-sm btn-pink" role="button">목록</a>
-                                </p>
-                            </div>
-                            <div class="page-link">
-                                <ul>
-                                    <li class="prev">
-                                        <dl>
-                                            <dt>이전글</dt>
-                                            <dd>
-                                                <a href="#">(6월9일발송)샘플팩 베베쿡 프로바이오맘 쿠폰 안내</a>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                    <li class="next">
-                                        <dl>
-                                            <dt>다음글</dt>
-                                            <dd>
-                                                <a href="#">사이트 서버 점검 안내</a>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                </ul>
-                            </div>
+                            </article>             
                         </div>
                     </section>
                 </div>

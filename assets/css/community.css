@@ -145,30 +145,34 @@
 
 /* 모유수유 QnA 뷰 */
 .qna-view .community-view .section-content .board-view.type-1 .article-content .content {
-    padding-bottom: 70px; 
+    padding-bottom: 65px; 
 }
-.qna-view .community-view .section-content .board-view .article-content .reply {
-    width: 790px;
+.qna-view .community-view .section-content .board-view .article-content .content .reply {
     padding: 25px 25px 30px 55px;
     background-color: #f7f7f7;
     border: 1px solid #ececec;
-    border-radius: 10px; 
-    margin-bottom: 65px;
-    margin-left: 35px;
+    border-radius: 10px;
+    margin-top: 70px;
     font-weight: 300;
     line-height: 20px;
 }
-.qna-view .community-view .section-content .board-view .article-content .reply .information {
+.qna-view .community-view .section-content .board-view .article-content .reply {
     overflow: hidden;
 }
-.qna-view .community-view .section-content .board-view .article-content .reply .information .title {
-    float: left;
+.qna-view .community-view .section-content .board-view .article-content .reply .title {
+    position: relative;
+    width: 700px;
+    padding-right: 100px;
     font-size: 14px;
     color: #333;
     font-weight: 500;
+    margin-bottom: 20px;
 }
-.qna-view .community-view .section-content .board-view .article-content .reply .information .date {
-    float:right;
+.qna-view .community-view .section-content .board-view .article-content .reply .title .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 95px;
     font-size: 12px;
     color: #999;
 }

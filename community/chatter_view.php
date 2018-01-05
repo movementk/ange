@@ -75,59 +75,59 @@
                                             </dd>
                                         </dl>
                                     </div>
-                                </div>
-                            </article>
-                            <div class="vote-progress">
-                                <h5 class="vote-title">미혼으로 돌아가고 싶은 적 있나요?</h5>
-                                <div class="result">
-                                    <ul>
-                                        <li>
-                                            <label><input type="radio"> 그 때가 그립네.. 있다!</label>
-                                            <div class="progress-area">
-                                                <div class="bar" style="width: 60%;"></div>
-                                                <p class="result-txt">1419표, 60.16%</p>
+                                    <div class="vote-progress">
+                                        <h5 class="vote-title">미혼으로 돌아가고 싶은 적 있나요?</h5>
+                                        <div class="result">
+                                            <ul>
+                                                <li>
+                                                    <label><input type="radio"> 그 때가 그립네.. 있다!</label>
+                                                    <div class="progress-area">
+                                                        <div class="bar" style="width: 60%;"></div>
+                                                        <p class="result-txt">1419표, 60.16%</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label><input type="radio"> 지금이 더 행복해.. 없다!</label>
+                                                    <div class="progress-area">
+                                                        <div class="bar" style="width: 40%;"></div>
+                                                        <p class="result-txt">228표, 40.84%</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="more-btn">
+                                                <a href="#" class="btn btn-pink" role="button">참여자 보기</a>
                                             </div>
-                                        </li>
-                                        <li>
-                                            <label><input type="radio"> 지금이 더 행복해.. 없다!</label>
-                                            <div class="progress-area">
-                                                <div class="bar" style="width: 40%;"></div>
-                                                <p class="result-txt">228표, 40.84%</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="more-btn">
-                                        <a href="#" class="btn btn-pink" role="button">참여자 보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn btn-sm btn-white" role="button">수정</a>
+                                            <a href="#" class="btn btn-sm btn-white" role="button">삭제</a>
+                                            <a href="#" class="btn btn-sm btn-pink" role="button">목록</a>
+                                        </p>
+                                    </div>
+                                    <div class="page-link">
+                                        <ul>
+                                            <li class="prev">
+                                                <dl>
+                                                    <dt>이전글</dt>
+                                                    <dd>
+                                                        <a href="#">(6월9일발송)샘플팩 베베쿡 프로바이오맘 쿠폰 안내</a>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                            <li class="next">
+                                                <dl>
+                                                    <dt>다음글</dt>
+                                                    <dd>
+                                                        <a href="#">사이트 서버 점검 안내</a>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="btn-area">
-                                <p>
-                                    <a href="#" class="btn btn-sm btn-white" role="button">수정</a>
-                                    <a href="#" class="btn btn-sm btn-white" role="button">삭제</a>
-                                    <a href="#" class="btn btn-sm btn-pink" role="button">목록</a>
-                                </p>
-                            </div>
-                            <div class="page-link">
-                                <ul>
-                                    <li class="prev">
-                                        <dl>
-                                            <dt>이전글</dt>
-                                            <dd>
-                                                <a href="#">(6월9일발송)샘플팩 베베쿡 프로바이오맘 쿠폰 안내</a>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                    <li class="next">
-                                        <dl>
-                                            <dt>다음글</dt>
-                                            <dd>
-                                                <a href="#">사이트 서버 점검 안내</a>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                </ul>
-                            </div>
+                            </article>
                         </div>
                     </section>
                 </div>
