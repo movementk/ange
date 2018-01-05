@@ -2996,7 +2996,261 @@ label {
     }
 }
 
-
+// 투데이 톡
+.community {
+    .today-talk {
+        .calendar {
+            .calendar-head {
+                position: relative;
+                width: 340px;
+                text-align: center;
+                margin: 0 auto;
+                .date {
+                    font-size: 20px;
+                    color: #f25855;
+                    @include roboto();
+                }
+                .btn-controls {
+                    p {
+                        a {
+                            position: absolute;
+                            top: 0;
+                            font-size: 14px;
+                            color: #999;
+                            font-weight: 400;
+                            line-height: 24px;
+                            i {
+                                position: relative;
+                                top: -2px;
+                                font-size: 12px;
+                            }
+                        }
+                        &.prev {
+                            a {
+                                left: 0;
+                                i {
+                                    margin-right: 15px;
+                                }
+                            }
+                        }
+                        &.next {
+                            a {
+                                right: 0;
+                                i {
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .calendar-body {
+                padding-top: 20px;
+                .day-list {
+                    width: 100%;
+                    font-size: 0;
+                    text-align: center;
+                    > li {
+                        display: inline-block;
+                        width: 27px;
+                        text-align: center;
+                        a {
+                            display: block;
+                            font-size: 13px;
+                            color: #999;
+                            @include roboto();
+                        }
+                        &.active {
+                            a {
+                                width: 27px;
+                                height: 27px;
+                                color: #fff;
+                                line-height: 27px;
+                                border-radius: 50%;
+                                background-color: #ff7875;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .today-view {
+            margin-top: 55px;
+            .article-header {
+                text-align: center;
+                padding: 35px 0 60px;
+                border-radius: 10px;
+                background-color: #f5f6f9;
+                h3 {
+                    width: 74px;
+                    height: 74px;
+                    text-align: center;
+                    line-height: 74px;
+                    margin: 0 auto;
+                    margin-bottom: 35px;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    img {
+                        display: inline-block;
+                    }
+                }
+                p {
+                    font-size: 15px;
+                    color: #666;
+                    line-height: 21px;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                }
+                figure {
+                    width: 495px;
+                    margin: 0 auto;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .article-content {
+                .talk-write {
+                    margin-top: 35px;
+                    h4 {
+                        font-size: 18px;
+                        color: #303030;
+                        font-weight: 400;
+                        small {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-weight: 300;
+                            color: rgba(#666, .5);
+                            margin-left: 20px;
+                        }
+                    }
+                    .write-form {
+                        position: relative;
+                        padding-left: 70px;
+                        margin-top: 25px;
+                        .user-profile {
+                            position: absolute;
+                            top: 3px;
+                            left: 0;
+                            figure {
+                                width: 45px;
+                                height: 45px;
+                                line-height: 45px;
+                                text-align: center;
+                                line-height: 45px;
+                                border-radius: 50%;
+                                overflow: hidden;
+                                background-color: #e0e0e0;
+                                img {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                        .form-group {
+                            position: relative;
+                            &:before {
+                                position: absolute;
+                                top: 20px;
+                                left: -10px;
+                                display: block;
+                                content: url(/assets/images/community/img_today_comment.jpg);
+                            }
+                            .form-control {
+                                font-size: 12px;
+                                color: #999;
+                                font-weight: 300;
+                                width: 770px !important;
+                                height: 105px !important;
+                                padding: 20px 143px 20px 30px;
+                                border-radius: 10px;
+                                border: 1px solid #d7d7d7;
+                            }
+                            .btn-area {
+                                .btn-gray {
+                                    position: absolute;
+                                    top: 0px;
+                                    right: 0px;
+                                    font-size: 13px;
+                                    color: #333;
+                                    width: 122px;
+                                    height: 100%;
+                                    border-radius: 10px;
+                                    border-top-left-radius: 0;
+                                    border-bottom-left-radius: 0;
+                                    border: 1px solid #d7d7d7;
+                                    border-left: 0;
+                                    background-color: #f5f5f5;
+                                }
+                            }
+                            .comment-img {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                        }
+                    }
+                }
+                .banner {
+                    margin: 50px 0;
+                }
+                .talk-list {
+                    > ul {
+                        > li {
+                            position: relative;
+                            padding-left: 70px;
+                            padding-bottom: 30px;
+                            border-bottom: 1px solid #e1e1e1;
+                            & ~ li {
+                                margin-top: 30px;
+                            }
+                            .user-profile {
+                                position: absolute;
+                                top: 3px;
+                                left: 0;
+                                figure {
+                                    width: 45px;
+                                    height: 45px;
+                                    line-height: 45px;
+                                    text-align: center;
+                                    line-height: 45px;
+                                    border-radius: 50%;
+                                    overflow: hidden;
+                                    background-color: #e0e0e0;
+                                    img {
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                            .details {
+                                h5 {
+                                    font-size: 14px;
+                                    color: #333;
+                                    font-weight: 400;
+                                    small {
+                                        display: inline-block;
+                                        font-size: 12px;
+                                        color: #999;
+                                        margin-left: 20px;
+                                        @include roboto();
+                                    }
+                                }
+                                p {
+                                    font-size: 13px;
+                                    color: rgba(#666, .66);
+                                    font-weight: 400;
+                                    margin-top: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .paging {
+                    margin-top: 35px;
+                }
+            }
+        }
+    }
+}
 
 
 

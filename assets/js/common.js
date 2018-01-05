@@ -72,10 +72,10 @@ $(function($){
             return false;
         });
 
-        $('.layer .login-bg').click(function(){
+        /*$('.login-layer .login-bg').click(function(){ // 레이어 밖 클릭시 종료
             $('.login-layer').fadeOut();
             return false;
-        });
+        });*/
     }
 }(jQuery));
 

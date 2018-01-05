@@ -35,6 +35,8 @@
 .icon-vcard:before { content: '\e821'; } /* '' */
 .icon-plus-circled:before { content: '\e822'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
+.icon-right-open:before { content: '\f006'; } /* '' */
+.icon-left-open:before { content: '\f007'; } /* '' */
 .icon-doc-text:before { content: '\f0f6'; } /* '' */
 .icon-angle-double-left:before { content: '\f100'; } /* '' */
 .icon-angle-double-right:before { content: '\f101'; } /* '' */

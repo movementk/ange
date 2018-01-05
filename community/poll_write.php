@@ -1,5 +1,6 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
+<link href="/assets/css/sub_popup.css" rel="stylesheet">
 <link href="/assets/css/community.css" rel="stylesheet">
 </head>
 <body class="sub community"><!-- 폴더별 클래스명 추가 -->
@@ -43,7 +44,7 @@
                                             </div>
                                             <div class="col-xs-6">
                                                 <div class="btn-result">
-                                                    <a href="#" class="btn btn-xs btn-pink" role="button">결과보기</a>
+                                                    <a href="#popup-content" class="btn btn-xs btn-pink btn-popup" role="button">결과보기</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -90,9 +91,87 @@
         </div>
     </main>
     
+    <!-- 투표결과 팝업 -->
+    <div class="popup-layer poll-result">
+        <div class="popup-bg"></div>
+        <div id="popup-content" class="pop-layer">
+            <div class="pop-container">
+                <div class="pop-head">
+                    <h4>주부 9단이 추천하는 육아잇템은 무엇인가요?</h4>
+                    <div class="btn-close">
+                        <button type="button" class="btn close">
+                            <img src="/assets/images/btn_close_white.png" alt="닫기">
+                        </button>
+                    </div>
+                </div>
+                <div class="pop-body">
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <h5 class="question-title">신생아 희귀질환 유전자 검사에 대해 알고 계셨나요?</h5>
+                                <div class="details">
+                                    <ul class="selection-percent">
+                                        <li>
+                                            <p class="selection">네.알고 있습니다.</p>
+                                            <p class="percent">62.9%</p>
+                                        </li>
+                                        <li>
+                                            <p class="selection">아니오. 처음 들었습니다.</p>
+                                            <p class="percent">37.1%</p>
+                                        </li>
+                                    </ul>
+                                    <figure>
+                                        <img src="/assets/images/community/img_none_graph.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="question-title">신생아 희귀질환 유전자 검사에 대해 알고 계셨나요?</h5>
+                                <div class="details">
+                                    <ul class="selection-percent">
+                                        <li>
+                                            <p class="selection">네.알고 있습니다.</p>
+                                            <p class="percent">62.9%</p>
+                                        </li>
+                                        <li>
+                                            <p class="selection">아니오. 처음 들었습니다.</p>
+                                            <p class="percent">37.1%</p>
+                                        </li>
+                                    </ul>
+                                    <figure>
+                                        <img src="/assets/images/community/img_none_graph.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="question-title">신생아 희귀질환 유전자 검사에 대해 알고 계셨나요?</h5>
+                                <div class="details">
+                                    <ul class="selection-percent">
+                                        <li>
+                                            <p class="selection">네.알고 있습니다.</p>
+                                            <p class="percent">62.9%</p>
+                                        </li>
+                                        <li>
+                                            <p class="selection">아니오. 처음 들었습니다.</p>
+                                            <p class="percent">37.1%</p>
+                                        </li>
+                                    </ul>
+                                    <figure>
+                                        <img src="/assets/images/community/img_none_graph.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/sub_aside.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common_sub.js"></script>
+    <script src="/assets/js/sub_popup.js"></script>
 </body>
 </html>

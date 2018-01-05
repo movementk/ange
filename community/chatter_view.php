@@ -1,5 +1,6 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
+<link href="/assets/css/sub_popup.css" rel="stylesheet">
 <link href="/assets/css/community.css" rel="stylesheet">
 </head>
 <body class="sub community"><!-- 폴더별 클래스명 추가 -->
@@ -95,7 +96,7 @@
                                                 </li>
                                             </ul>
                                             <div class="more-btn">
-                                                <a href="#" class="btn btn-pink" role="button">참여자 보기</a>
+                                                <a href="#popup-content" class="btn btn-pink btn-popup" role="button">참여자 보기</a>
                                             </div>
                                         </div>
                                     </div>
@@ -135,9 +136,31 @@
         </div>
     </main>
     
+    <!-- 참여자 보기 팝업 -->
+    <div class="popup-layer participant-result">
+        <div class="popup-bg"></div>
+        <div id="popup-content" class="pop-layer">
+            <div class="pop-container">
+                <div class="pop-head">
+                    <h4>참여자보기</h4>
+                    <div class="btn-close">
+                        <button type="button" class="btn close">
+                            <img src="/assets/images/btn_close_white.png" alt="닫기">
+                        </button>
+                    </div>
+                </div>
+                <div class="pop-body">
+                    <div class="result-list">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/sub_aside.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common_sub.js"></script>
+    <script src="/assets/js/sub_popup.js"></script>
 </body>
 </html>

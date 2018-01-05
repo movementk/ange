@@ -2144,4 +2144,191 @@ label {
     .community .poll-details .section-content > .view .btn-area p .btn {
       width: 120px; }
 
+.community .today-talk .calendar .calendar-head {
+  position: relative;
+  width: 340px;
+  text-align: center;
+  margin: 0 auto; }
+  .community .today-talk .calendar .calendar-head .date {
+    font-size: 20px;
+    color: #f25855;
+    font-family: 'Roboto', sans-serif; }
+  .community .today-talk .calendar .calendar-head .btn-controls p a {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    color: #999;
+    font-weight: 400;
+    line-height: 24px; }
+    .community .today-talk .calendar .calendar-head .btn-controls p a i {
+      position: relative;
+      top: -2px;
+      font-size: 12px; }
+  .community .today-talk .calendar .calendar-head .btn-controls p.prev a {
+    left: 0; }
+    .community .today-talk .calendar .calendar-head .btn-controls p.prev a i {
+      margin-right: 15px; }
+  .community .today-talk .calendar .calendar-head .btn-controls p.next a {
+    right: 0; }
+    .community .today-talk .calendar .calendar-head .btn-controls p.next a i {
+      margin-left: 15px; }
+.community .today-talk .calendar .calendar-body {
+  padding-top: 20px; }
+  .community .today-talk .calendar .calendar-body .day-list {
+    width: 100%;
+    font-size: 0;
+    text-align: center; }
+    .community .today-talk .calendar .calendar-body .day-list > li {
+      display: inline-block;
+      width: 27px;
+      text-align: center; }
+      .community .today-talk .calendar .calendar-body .day-list > li a {
+        display: block;
+        font-size: 13px;
+        color: #999;
+        font-family: 'Roboto', sans-serif; }
+      .community .today-talk .calendar .calendar-body .day-list > li.active a {
+        width: 27px;
+        height: 27px;
+        color: #fff;
+        line-height: 27px;
+        border-radius: 50%;
+        background-color: #ff7875; }
+.community .today-talk .today-view {
+  margin-top: 55px; }
+  .community .today-talk .today-view .article-header {
+    text-align: center;
+    padding: 35px 0 60px;
+    border-radius: 10px;
+    background-color: #f5f6f9; }
+    .community .today-talk .today-view .article-header h3 {
+      width: 74px;
+      height: 74px;
+      text-align: center;
+      line-height: 74px;
+      margin: 0 auto;
+      margin-bottom: 35px;
+      border-radius: 50%;
+      background-color: #fff; }
+      .community .today-talk .today-view .article-header h3 img {
+        display: inline-block; }
+    .community .today-talk .today-view .article-header p {
+      font-size: 15px;
+      color: #666;
+      line-height: 21px;
+      font-weight: 400;
+      margin-bottom: 30px; }
+    .community .today-talk .today-view .article-header figure {
+      width: 495px;
+      margin: 0 auto; }
+      .community .today-talk .today-view .article-header figure img {
+        width: 100%; }
+  .community .today-talk .today-view .article-content .talk-write {
+    margin-top: 35px; }
+    .community .today-talk .today-view .article-content .talk-write h4 {
+      font-size: 18px;
+      color: #303030;
+      font-weight: 400; }
+      .community .today-talk .today-view .article-content .talk-write h4 small {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 300;
+        color: rgba(102, 102, 102, 0.5);
+        margin-left: 20px; }
+    .community .today-talk .today-view .article-content .talk-write .write-form {
+      position: relative;
+      padding-left: 70px;
+      margin-top: 25px; }
+      .community .today-talk .today-view .article-content .talk-write .write-form .user-profile {
+        position: absolute;
+        top: 3px;
+        left: 0; }
+        .community .today-talk .today-view .article-content .talk-write .write-form .user-profile figure {
+          width: 45px;
+          height: 45px;
+          line-height: 45px;
+          text-align: center;
+          line-height: 45px;
+          border-radius: 50%;
+          overflow: hidden;
+          background-color: #e0e0e0; }
+          .community .today-talk .today-view .article-content .talk-write .write-form .user-profile figure img {
+            display: inline-block; }
+      .community .today-talk .today-view .article-content .talk-write .write-form .form-group {
+        position: relative; }
+        .community .today-talk .today-view .article-content .talk-write .write-form .form-group:before {
+          position: absolute;
+          top: 20px;
+          left: -10px;
+          display: block;
+          content: url(/assets/images/community/img_today_comment.jpg); }
+        .community .today-talk .today-view .article-content .talk-write .write-form .form-group .form-control {
+          font-size: 12px;
+          color: #999;
+          font-weight: 300;
+          width: 770px !important;
+          height: 105px !important;
+          padding: 20px 143px 20px 30px;
+          border-radius: 10px;
+          border: 1px solid #d7d7d7; }
+        .community .today-talk .today-view .article-content .talk-write .write-form .form-group .btn-area .btn-gray {
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          font-size: 13px;
+          color: #333;
+          width: 122px;
+          height: 100%;
+          border-radius: 10px;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+          border: 1px solid #d7d7d7;
+          border-left: 0;
+          background-color: #f5f5f5; }
+        .community .today-talk .today-view .article-content .talk-write .write-form .form-group .comment-img {
+          position: absolute;
+          top: 0;
+          left: 0; }
+  .community .today-talk .today-view .article-content .banner {
+    margin: 50px 0; }
+  .community .today-talk .today-view .article-content .talk-list > ul > li {
+    position: relative;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e1e1e1; }
+    .community .today-talk .today-view .article-content .talk-list > ul > li ~ li {
+      margin-top: 30px; }
+    .community .today-talk .today-view .article-content .talk-list > ul > li .user-profile {
+      position: absolute;
+      top: 3px;
+      left: 0; }
+      .community .today-talk .today-view .article-content .talk-list > ul > li .user-profile figure {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        line-height: 45px;
+        border-radius: 50%;
+        overflow: hidden;
+        background-color: #e0e0e0; }
+        .community .today-talk .today-view .article-content .talk-list > ul > li .user-profile figure img {
+          display: inline-block; }
+    .community .today-talk .today-view .article-content .talk-list > ul > li .details h5 {
+      font-size: 14px;
+      color: #333;
+      font-weight: 400; }
+      .community .today-talk .today-view .article-content .talk-list > ul > li .details h5 small {
+        display: inline-block;
+        font-size: 12px;
+        color: #999;
+        margin-left: 20px;
+        font-family: 'Roboto', sans-serif; }
+    .community .today-talk .today-view .article-content .talk-list > ul > li .details p {
+      font-size: 13px;
+      color: rgba(102, 102, 102, 0.66);
+      font-weight: 400;
+      margin-top: 15px; }
+  .community .today-talk .today-view .article-content .paging {
+    margin-top: 35px; }
+
 /*# sourceMappingURL=sub.css.map */
