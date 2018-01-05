@@ -5,4 +5,8 @@ $(function($){
             controls: false
         });
     });
+    // 로그인 스크롤 관련
+    $(window).load(function(){
+       $("#content-scroll").mCustomScrollbar();
+    });
 }(jQuery));

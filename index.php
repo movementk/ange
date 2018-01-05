@@ -702,17 +702,8 @@
     </main>
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/login.php"); ?>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/quick.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
     <script src="/assets/js/main.js"></script>
-    <script>
-        (function($){
-            $(window).load(function(){
-               $("#content-scroll").mCustomScrollbar();
-            });
-        })(jQuery);
-    </script>
 </body>
 </html>

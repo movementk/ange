@@ -76,3 +76,5 @@
         </div>
     </div>
 </footer>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/quick.php"); ?>
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/login.php"); ?>

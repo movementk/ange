@@ -41,41 +41,41 @@ $(function($){
     });
     
     // 로그인 관련 팝업
-        $('.btn-login').click(function(){
-            var $href = $(this).attr('href');
-            layer_popup($href);
-        });
-        function layer_popup(el){
+    $('.btn-login').click(function(){
+        var $href = $(this).attr('href');
+        layer_popup($href);
+    });
+    function layer_popup(el){
 
-            var $el = $(el);        //레이어의 id를 $el 변수에 저장
-            var isDim = $el.prev().hasClass('login-bg');   //dimmed 레이어를 감지하기 위한 boolean 변수
+        var $el = $(el);        //레이어의 id를 $el 변수에 저장
+        var isDim = $el.prev().hasClass('login-bg');   //dimmed 레이어를 감지하기 위한 boolean 변수
 
-            isDim ? $('.login-layer').fadeIn() : $el.fadeIn();
+        isDim ? $('.login-layer').fadeIn() : $el.fadeIn();
 
-            var $elWidth = ~~($el.outerWidth()),
-                $elHeight = ~~($el.outerHeight()),
-                docWidth = $(document).width(),
-                docHeight = $(document).height();
+        var $elWidth = ~~($el.outerWidth()),
+            $elHeight = ~~($el.outerHeight()),
+            docWidth = $(document).width(),
+            docHeight = $(document).height();
 
-            // 화면의 중앙에 레이어를 띄운다.
-            if ($elHeight < docHeight || $elWidth < docWidth) {
-                $el.css({
-                    marginTop: -$elHeight /2,
-                    marginLeft: -$elWidth/2
-                })
-            } else {
-                $el.css({top: 0, left: 0});
-            }
-
-            $el.find('.close').click(function(){
-                isDim ? $('.login-layer').fadeOut() : $el.fadeOut(); // 닫기 버튼을 클릭하면 레이어가 닫힌다.
-                return false;
-            });
-
-            $('.layer .login-bg').click(function(){
-                $('.login-layer').fadeOut();
-                return false;
-            });
+        // 화면의 중앙에 레이어를 띄운다.
+        if ($elHeight < docHeight || $elWidth < docWidth) {
+            $el.css({
+                marginTop: -$elHeight /2,
+                marginLeft: -$elWidth/2
+            })
+        } else {
+            $el.css({top: 0, left: 0});
         }
+
+        $el.find('.close').click(function(){
+            isDim ? $('.login-layer').fadeOut() : $el.fadeOut(); // 닫기 버튼을 클릭하면 레이어가 닫힌다.
+            return false;
+        });
+
+        $('.layer .login-bg').click(function(){
+            $('.login-layer').fadeOut();
+            return false;
+        });
+    }
 }(jQuery));
 

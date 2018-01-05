@@ -88,7 +88,6 @@
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/sub_aside.php"); ?>
-    <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/quick.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common_sub.js"></script>
 </body>
