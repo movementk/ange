@@ -75,35 +75,35 @@
                                             </dd>
                                         </dl>
                                     </div>
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="#" class="btn btn-sm btn-white" role="button">수정</a>
+                                            <a href="#" class="btn btn-sm btn-white" role="button">삭제</a>
+                                            <a href="#" class="btn btn-sm btn-pink" role="button">목록</a>
+                                        </p>
+                                    </div>
+                                    <div class="page-link">
+                                        <ul>
+                                            <li class="prev">
+                                                <dl>
+                                                    <dt>이전글</dt>
+                                                    <dd>
+                                                        <a href="#">(6월9일발송)샘플팩 베베쿡 프로바이오맘 쿠폰 안내</a>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                            <li class="next">
+                                                <dl>
+                                                    <dt>다음글</dt>
+                                                    <dd>
+                                                        <a href="#">사이트 서버 점검 안내</a>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </article>
-                            <div class="btn-area">
-                                <p>
-                                    <a href="#" class="btn btn-sm btn-white" role="button">수정</a>
-                                    <a href="#" class="btn btn-sm btn-white" role="button">삭제</a>
-                                    <a href="#" class="btn btn-sm btn-pink" role="button">목록</a>
-                                </p>
-                            </div>
-                            <div class="page-link">
-                                <ul>
-                                    <li class="prev">
-                                        <dl>
-                                            <dt>이전글</dt>
-                                            <dd>
-                                                <a href="#">(6월9일발송)샘플팩 베베쿡 프로바이오맘 쿠폰 안내</a>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                    <li class="next">
-                                        <dl>
-                                            <dt>다음글</dt>
-                                            <dd>
-                                                <a href="#">사이트 서버 점검 안내</a>
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                     </section>
                 </div>
