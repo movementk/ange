@@ -19,9 +19,9 @@
                     <div class="member">
                         <ul>
                             <li><a href="/">홈으로</a></li>
-                            <li><a href="#">회원가입</a></li>
+                            <li><a href="/customer/agreement.php">회원가입</a></li>
                             <li><a href="#login-popup" class="btn-login">로그인</a></li>
-                            <li><a href="#">마이페이지</a></li>
+                            <li><a href="/mypage/modify.php">마이페이지</a></li>
                         </ul>
                     </div>
                 </div>
@@ -96,47 +96,49 @@
                 </div>
                 <ul class="gnb-menu">
                     <li>
-                        <a href="#">e매거진<span></span></a>
+                        <a href="/e_magazine/ebook.php">e매거진<span></span></a>
                         <ul>
-                            <li><a href="#">임신/출산<span></span></a></li>
-                            <li><a href="#">성장/건강<span></span></a></li>
-                            <li><a href="#">놀이/교육<span></span></a></li>
-                            <li><a href="#">리빙/헬스<span></span></a></li>
-                            <li><a href="#">앙쥬스토리<span></span></a></li>
+                            <li><a href="/e_magazine/ebook.php">E-BOOK<span></span></a></li>
+                            <li><a href="/e_magazine/magazine_list.php">임신/출산<span></span></a></li>
+                            <li><a href="/e_magazine/magazine_list.php">성장/건강<span></span></a></li>
+                            <li><a href="/e_magazine/magazine_list.php">놀이/교육<span></span></a></li>
+                            <li><a href="/e_magazine/magazine_list.php">리빙/헬스<span></span></a></li>
+                            <li><a href="/e_magazine/magazine_list.php">앙쥬스토리<span></span></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">체험이벤트<span></span></a>
+                        <a href="/event/event_list.php">체험이벤트<span></span></a>
                         <ul>
-                            <li><a href="#">체험이벤트<span></span></a></li>
-                            <li><a href="#">앙쥬 샘플팩<span></span></a></li>
-                            <li><a href="#">당첨자 발표<span></span></a></li>
+                            <li><a href="/event/event_list.php">체험이벤트<span></span></a></li>
+                            <li><a href="/event/prizewinner_list.php">당첨자 발표<span></span></a></li>
+                            <li><a href="/event/reader_list.php">애독자엽서<span></span></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">커뮤니티<span></span></a>
+                        <a href="/community/poll_list.php">커뮤니티<span></span></a>
                         <ul>
-                            <li><a href="#">앙쥬맘 생각<span></span></a></li>
-                            <li><a href="#">도전! 잡지모델<span></span></a></li>
-                            <li><a href="#">앙쥬맘 노하우<span></span></a></li>
-                            <li><a href="#">앙쥬클럽<span></span></a></li>
+                            <li><a href="/community/poll_list.php">앙쥬맘 생각<span></span></a></li>
+                            <li><a href="/community/model_list.php">도전! 잡지모델<span></span></a></li>
+                            <li><a href="/community/knowhow_list.php">앙쥬맘 노하우<span></span></a></li>
+                            <li><a href="/community/sponsor.php">앙쥬클럽<span></span></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">앙쥬몰<span></span></a>
+                        <a href="/ange_mall/mileage_list.php">앙쥬몰<span></span></a>
                         <ul>
                             <li><a href="#">출판물<span></span></a></li>
                             <li><a href="#">작명<span></span></a></li>
-                            <li><a href="#">마일리지몰<span></span></a></li>
+                            <li><a href="/ange_mall/mileage_list.php">마일리지몰<span></span></a></li>
                             <li><a href="#">앙쥬 빅딜<span></span></a></li>
+                            <li><a href="/ange_mall/basket_list.php">장바구니<span></span></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">고객센터<span></span></a>
+                        <a href="/customer/notice_list.php">고객센터<span></span></a>
                         <ul>
-                            <li><a href="#">공지사항<span></span></a></li>
-                            <li><a href="#">자주하는 질문<span></span></a></li>
-                            <li><a href="#">회원문의<span></span></a></li>
+                            <li><a href="/customer/notice_list.php">공지사항<span></span></a></li>
+                            <li><a href="/customer/faq_list.php">자주하는 질문<span></span></a></li>
+                            <li><a href="/customer/inquiry_list.php">회원문의<span></span></a></li>
                         </ul>
                     </li>
                     <li>

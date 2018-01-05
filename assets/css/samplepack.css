@@ -273,7 +273,8 @@ font-size: 0;
     margin-right: 10px; 
 }
 .sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr td .form-group textarea {
-    height: 80px !important; 
+    width: 600px;
+    height: 135px !important; 
 }
 .sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr td .form-group .form-control {
     width: 100%;
@@ -302,7 +303,7 @@ font-size: 0;
     margin-left: 13px;
     border-radius: 30px;
     border: 1px solid #ccc;
-/*
+    
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 0.15s;
@@ -312,10 +313,9 @@ font-size: 0;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
 }
-.sample-apply .sample-write .section-content .user-info:hover .table-wrap .table.table-bordered tbody tr td.file-search .form-group label.file-btn:focus {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table.table-bordered tbody tr td.file-search .form-group label.file-btn:hover {
     opacity: 0.7;
 }
-*/
 
 
 
