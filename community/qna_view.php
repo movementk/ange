@@ -13,7 +13,7 @@
                 <!-- Content Start -->
                 <div class="sub-content">
                     <section class="community-view">
-                        <h2 class="sub-title">FAQ</h2>
+                        <h2 class="sub-title">모유수유 QnA</h2>
                         <div class="section-content">
                             <article class="board-view type-1">
                                 <div class="article-header">
@@ -65,6 +65,20 @@
                                         선정이 조금 늦어져 11일에 발표 될 예정입니다.<br>
                                         양해 부탁드립니다.<br>
                                         감사합니다.<br>
+                                    </div>
+                                    <div class="reply">
+                                        <div class="information">
+                                            <strong class="title">답변 제목</strong>
+                                            <p class="date">2017-10-22 11:03</p>
+                                        </div>
+                                        <div class="comment-content">
+                                            안녕하세요 앙쥬입니다. <br>
+                                            &lt;앙쥬 신규 가입회원 샘플팩 9월_82차 &gt;<br>
+                                            발표일이 금일 10일 발표 예정이었으나 <br>
+                                            선정이 조금 늦어져 11일에 발표 될 예정입니다.<br>
+                                            양해 부탁드립니다.<br>
+                                            감사합니다.<br>
+                                        </div>
                                     </div>
                                     <div class="attach">
                                         <dl>

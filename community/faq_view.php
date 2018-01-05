@@ -5,7 +5,7 @@
 <body class="sub community"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <!-- Main Content -->
-    <main id="content" class="chatter-view"><!-- 페이지명 클래스 -->
+    <main id="content" class="qna-view"><!-- 페이지명 클래스 -->
         <div class="container">
             <div class="sub-wrapper">
                 <!-- 서브 lnb -->
@@ -13,10 +13,10 @@
                 <!-- Content Start -->
                 <div class="sub-content">
                     <section class="community-view">
-                        <h2 class="sub-title">수다수다방!</h2>
+                        <h2 class="sub-title">FAQ</h2>
                         <div class="section-content">
                             <article class="board-view type-1">
-                                <div class="article-header" >
+                                <div class="article-header">
                                     <h3>애독자엽서 &lt;비트루트 4종 세트&gt; 당첨자 구성품 변경 안내 (5월 엽서 이용)</h3>
                                     <div class="row">
                                         <div class="col-xs-6">
@@ -77,30 +77,6 @@
                                     </div>
                                 </div>
                             </article>
-                            <div class="vote-progress">
-                                <h5 class="vote-title">미혼으로 돌아가고 싶은 적 있나요?</h5>
-                                <div class="result">
-                                    <ul>
-                                        <li>
-                                            <label><input type="radio"> 그 때가 그립네.. 있다!</label>
-                                            <div class="progress-area">
-                                                <div class="bar" style="width: 60%;"></div>
-                                                <p class="result-txt">1419표, 60.16%</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <label><input type="radio"> 지금이 더 행복해.. 없다!</label>
-                                            <div class="progress-area">
-                                                <div class="bar" style="width: 40%;"></div>
-                                                <p class="result-txt">228표, 40.84%</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="more-btn">
-                                        <a href="#" class="btn btn-pink" role="button">참여자 보기</a>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="btn-area">
                                 <p>
                                     <a href="#" class="btn btn-sm btn-white" role="button">수정</a>
