@@ -381,7 +381,6 @@ address {
           opacity: .7; }
         .magazine-view .view .section-header .share-list li a .icon {
           display: table-cell;
-          height: 33px;
           vertical-align: middle; }
           .magazine-view .view .section-header .share-list li a .icon img {
             display: inline-block;

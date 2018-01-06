@@ -118,16 +118,13 @@ ul, ol {
         font-weight: 400;
         line-height: 35px;
         text-align: center;
+        text-decoration: none;
         border-left: 1px solid #ee749e;
         border-right: 1px solid #d32938; }
       #gnb > ul > li:first-child a {
         border-left: 0; }
       #gnb > ul > li:last-child a {
         border-right: 0; }
-
-#content {
-  height: 400px;
-  padding: 10px; }
 
 #footer {
   padding-top: 20px;
