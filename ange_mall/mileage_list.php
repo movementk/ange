@@ -27,7 +27,7 @@
                         <div class="article-content">
                             <ul class="row">
                                 <li class="col-xs-4">
-                                    <a href="#">
+                                    <a href="/ange_mall/">
                                         <div class="item">
                                             <img src="/assets/images/sub/img_product01.jpg" alt="">
                                         </div>
@@ -41,7 +41,7 @@
                                     </a>
                                 </li>
                                 <li class="col-xs-4">
-                                    <a href="#">
+                                    <a href="/ange_mall/product_info.php">
                                         <div class="item">
                                             <img src="/assets/images/sub/img_product02.jpg" alt="">
                                         </div>
@@ -55,7 +55,7 @@
                                     </a>
                                 </li>
                                 <li class="col-xs-4">
-                                    <a href="#">
+                                    <a href="/ange_mall/product_info.php">
                                         <div class="item">
                                             <img src="/assets/images/sub/img_product03.jpg" alt="">
                                         </div>
@@ -68,7 +68,7 @@
                                     </a>
                                 </li>
                                 <li class="col-xs-4">
-                                    <a href="#">
+                                    <a href="/ange_mall/product_info.php">
                                         <div class="item">
                                             <img src="/assets/images/sub/img_product01.jpg" alt="">
                                         </div>
@@ -82,7 +82,7 @@
                                     </a>
                                 </li>
                                 <li class="col-xs-4">
-                                    <a href="#">
+                                    <a href="/ange_mall/product_info.php">
                                         <div class="item">
                                             <img src="/assets/images/sub/img_product02.jpg" alt="">
                                         </div>
@@ -96,7 +96,7 @@
                                     </a>
                                 </li>
                                 <li class="col-xs-4">
-                                    <a href="#">
+                                    <a href="/ange_mall/product_info.php">
                                         <div class="item">
                                             <img src="/assets/images/sub/img_product03.jpg" alt="">
                                         </div>

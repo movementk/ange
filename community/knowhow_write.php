@@ -63,7 +63,7 @@
                                 <div class="btn-area">
                                     <p>
                                         <button type="submit" class="btn btn-sm btn-pink">저장</button>
-                                        <a href="#" class="btn btn-sm btn-white" role="button">취소</a>
+                                        <a href="/community/knowhow_list.php" class="btn btn-sm btn-white" role="button">취소</a>
                                     </p>
                                 </div>
                             </form>

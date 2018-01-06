@@ -84,73 +84,73 @@
                                         <tbody>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
                                             <tr>
                                                 <td class="num">130</td>
-                                                <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                                <td class="title"><a href="/ange_mall/report_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                                 <td>꼬몽1</td>
                                                 <td class="date">2017-12-01</td>
                                             </tr>
@@ -188,7 +188,7 @@
                                 </nav>
                                 <div class="btn-area">
                                     <p>
-                                        <a href="#" class="btn btn-sm btn-pink" role="button">후기 등록</a>
+                                        <a href=/ange_mall/report_write.php class="btn btn-sm btn-pink" role="button">후기 등록</a>
                                     </p>
                                 </div>
                             </div>

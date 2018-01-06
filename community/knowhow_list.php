@@ -43,7 +43,7 @@
                             </div>
                             <ul class="model-item">
                                 <li>
-                                    <a href="#">
+                                    <a href="/community/knowhow_view.php">
                                         <figure>
                                             <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
                                             <figcaption>
@@ -68,7 +68,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/community/knowhow_view.php">
                                         <figure>
                                             <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
                                             <figcaption>
@@ -93,7 +93,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/community/knowhow_view.php">
                                         <figure>
                                             <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
                                             <figcaption>
@@ -118,7 +118,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/community/knowhow_view.php">
                                         <figure>
                                             <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
                                             <figcaption>
@@ -143,7 +143,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/community/knowhow_view.php">
                                         <figure>
                                             <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
                                             <figcaption>
@@ -168,7 +168,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/community/knowhow_view.php">
                                         <figure>
                                             <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
                                             <figcaption>
@@ -193,7 +193,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/community/knowhow_view.php">
                                         <figure>
                                             <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
                                             <figcaption>
@@ -218,7 +218,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/community/knowhow_view.php">
                                         <figure>
                                             <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
                                             <figcaption>
@@ -243,7 +243,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/community/knowhow_view.php">
                                         <figure>
                                             <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
                                             <figcaption>
@@ -299,7 +299,7 @@
                             </nav>
                             <div class="btn-area">
                                 <p>
-                                    <a href="#" class="btn btn-pink" role="button">등록</a>
+                                    <a href="/community/knowhow_write.php" class="btn btn-pink" role="button">등록</a>
                                 </p>
                             </div>
                          </div>

@@ -69,7 +69,7 @@
                             <div class="btn-area">
                                 <p>
                                     <button type="submit" class="btn btn-pink">쪽지보내기</button>
-                                    <a href="#" class="btn btn-white" role="button">취소</a>
+                                    <a href="/mypage/message_list.php" class="btn btn-white" role="button">취소</a>
                                 </p>
                             </div>
                         </form>

@@ -79,7 +79,7 @@
                                     <div class="btn-area">
                                         <p>
                                             <button type="submit" class="btn btn-sm btn-pink">투표하기</button>
-                                            <a href="#" class="btn btn-sm btn-white" role="button">목록보기</a>
+                                            <a href="/community/poll_list.php" class="btn btn-sm btn-white" role="button">목록보기</a>
                                         </p>
                                     </div>
                                 </form>

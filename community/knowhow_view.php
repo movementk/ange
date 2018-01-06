@@ -79,7 +79,7 @@
                                         <p>
                                             <a href="#" class="btn btn-sm btn-white" role="button">수정</a>
                                             <a href="#" class="btn btn-sm btn-white" role="button">삭제</a>
-                                            <a href="#" class="btn btn-sm btn-pink" role="button">목록</a>
+                                            <a href="/community/knowhow_list.php" class="btn btn-sm btn-pink" role="button">목록</a>
                                         </p>
                                     </div>
                                     <div class="page-link">

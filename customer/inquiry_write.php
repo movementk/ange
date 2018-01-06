@@ -61,7 +61,7 @@
                             <div class="btn-area">
                                 <p>
                                     <button type="submit" class="btn btn-pink">다음</button>
-                                    <a href="#" class="btn btn-white" role="button">취소</a>
+                                    <a href="/customer/inquiry_list.php" class="btn btn-white" role="button">취소</a>
                                 </p>
                             </div>
                         </form>

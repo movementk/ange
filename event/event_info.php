@@ -84,9 +84,9 @@
                                 </div>
                                 <div class="btn-area">
                                     <p>
-                                        <a href="#" class="btn btn-sm btn-pink" role="button">응모하기</a>
+                                        <a href="/event/event_entry.php" class="btn btn-sm btn-pink" role="button">응모하기</a>
                                         <a href="#" class="btn btn-sm btn-white" role="button">구경가기</a>
-                                        <a href="#" class="btn btn-xs btn-white" role="button">목록</a>
+                                        <a href="/event/event_list.php" class="btn btn-xs btn-white" role="button">목록</a>
                                     </p>
                                 </div>
                             </div>

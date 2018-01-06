@@ -75,7 +75,7 @@
                         <p>
                             <a href="#" class="btn btn-white" role="button">수정</a>
                             <a href="#" class="btn btn-white" role="button">삭제</a>
-                            <a href="#" class="btn btn-pink" role="button">목록</a>
+                            <a href="/event/prizewinner_list.php" class="btn btn-pink" role="button">목록</a>
                         </p>
                     </div>
                     

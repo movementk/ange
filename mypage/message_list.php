@@ -29,7 +29,7 @@
                                     <tbody>
                                         <tr>
                                             <td>발신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
@@ -38,7 +38,7 @@
                                         </tr>
                                         <tr>
                                             <td>수신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
@@ -47,7 +47,7 @@
                                         </tr>
                                         <tr>
                                             <td>발신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
@@ -56,7 +56,7 @@
                                         </tr>
                                         <tr>
                                             <td>수신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
@@ -65,7 +65,7 @@
                                         </tr>
                                         <tr>
                                             <td>발신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
@@ -74,7 +74,7 @@
                                         </tr>
                                         <tr>
                                             <td>수신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
@@ -83,7 +83,7 @@
                                         </tr>
                                          <tr>
                                             <td>발신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
@@ -92,7 +92,7 @@
                                         </tr>
                                          <tr>
                                             <td>수신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
@@ -101,7 +101,7 @@
                                         </tr>
                                          <tr>
                                             <td>발신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
@@ -110,7 +110,7 @@
                                         </tr>
                                          <tr>
                                             <td>수신</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/mypage/message_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td>꼬뭉이</td>
                                             <td class="date">0000-00-00 00:00:00</td>
                                             <td>
