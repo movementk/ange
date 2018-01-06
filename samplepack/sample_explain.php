@@ -22,16 +22,14 @@
                         <div class="article-header">
                             <figure>
                                 <img src="/assets/images/samplepack/img_samplepack_info.png" alt="">
-                                <p>
-                                    <a href="#" class="btn btn-blue" role="button">샘플팩 후기보기</a>
-                                </p>
                             </figure>
+                            <a href="#" class="btn btn-blue" role="button">샘플팩 후기보기</a>
                         </div>
                         <div class="article-content">
                             <div class="info-wrap">
-                                <div class="member-info">
+                                <div class="member-info new-member">
                                     <h5>신규 임신부 회원</h5>
-                                    <div class="info-text">
+                                    <div class="details">
                                         <dl>
                                             <dt>신청기간</dt>
                                             <dd>매월 1일 ~ 말일</dd>
@@ -43,9 +41,11 @@
                                             </dd>
                                             <dt>신청방법</dt>
                                             <dd>
-                                                1.출산예정일과 임신부 증거자료 등록<br>
-                                                2-1. 앙쥬 인스타그램 팔로워 하신분 당첨 UP! <br>
-                                                2-2. 앙쥬 페이스북 팔로워하기
+                                                <ol>
+                                                    <li>1.출산예정일과 임신부 증거자료 등록</li>
+                                                    <li>2-1. 앙쥬 인스타그램 팔로워 하신분 당첨 UP!</li>
+                                                    <li>2-2. 앙쥬 페이스북 팔로워하기</li>
+                                                </ol>
                                             </dd>
                                             <dt>증정선물</dt>
                                             <dd>임신/육아용품 샘플팩</dd>
@@ -54,16 +54,16 @@
                                             <dt>발송일정</dt>
                                             <dd>매월 10일 전후</dd>
                                         </dl>
-                                     </div>
+                                    </div>
                                      <div class="btn-area">
                                          <p>
                                              <a href="#" role="button" class="btn btn-pink" >신규회원 샘플팩 신청하기</a>
                                          </p>
                                      </div>
                                 </div>
-                                <div class="member-info">
+                                <div class="member-info member">
                                     <h5>기존 앙쥬(임신부) 회원</h5>
-                                    <div class="info-text">
+                                    <div class="details">
                                         <dl>
                                             <dt>신청기간</dt>
                                             <dd>매월 25일 ~ 말일</dd>
@@ -73,9 +73,11 @@
                                             <dd class="text-blue">200명 선착순</dd>
                                             <dt>신청방법</dt>
                                             <dd>
-                                                1.출산예정일과 임신부 증거자료 등록<br>
-                                                2-1. 앙쥬 인스타그램 팔로워 하신분 당첨 UP! <br>
-                                                2-2. 앙쥬 페이스북 팔로워하기
+                                                <ol>
+                                                    <li>1.출산예정일과 임신부 증거자료 등록</li>
+                                                    <li>2-1. 앙쥬 인스타그램 팔로워 하신분 당첨 UP!</li>
+                                                    <li>2-2. 앙쥬 페이스북 팔로워하기</li>
+                                                </ol>
                                             </dd>
                                             <dt>증정선물</dt>
                                             <dd>임신/육아/생활용품팩 (정품+샘플)</dd>
@@ -88,9 +90,7 @@
                                         </dl>
                                     </div>
                                     <div class="btn-area">
-                                        <p>
-                                             <a href="#" role="button" class="btn btn-gray" >기존회원 샘플팩 신청하기</a>
-                                         </p>
+                                        <a href="#" role="button" class="btn btn-gray" >기존회원 샘플팩 신청하기</a>
                                     </div>
                                 </div>
                             </div>

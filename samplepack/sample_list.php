@@ -12,7 +12,7 @@
                 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/samplepack/_lnb.php"); ?>
                 <!-- Content Start -->
                 <div class="sub-content">
-                    <article class="samplep-list-wrap">
+                    <article class="sample-list-wrap">
                         <div class="article-header">
                             <h2 class="sub-title">샘플팩 후기</h2>
                             <div class="search-form">
@@ -38,139 +38,150 @@
                         <div class="article-content">
                             <ul class="sponsor-list">
                                 <li>
-                                    <div class="sponsor-info">
-                                        <div class="figure">
-                                            <img src="/assets/images/sub/img_sponsor.jpg" alt="">
+                                    <a href="#">
+                                        <div class="sponsor-info">
+                                            <div class="figure">
+                                                <img src="/assets/images/samplepack/img_sample_list_none.png" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <h4>메리포핀스 스튜디오</h4>
+                                                <ul>
+                                                    <li>
+                                                        <i class="icon-user"></i>무브먼트
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-calendar-1"></i> 2017-10-10 
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-heart-filled"></i>123
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-comment"></i>123
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="details">
-                                            <h4>메리포핀스 스튜디오</h4>
-                                            <ul>
-                                                <li>
-                                                    <i class="icon-user"></i>무브먼트
-                                                </li>
-                                                <li>
-                                                    <i class="icon-calendar-1"></i> 2017-10-10 
-                                                </li>
-                                                <li>
-                                                    <i class="icon-heart-filled"></i>123
-                                                </li>
-                                                <li>
-                                                    <i class="icon-comment"></i>123
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
-                                            </p>
+                                    </a>
+                                </li>
+                               
+                                <li>
+                                    <a href="#">
+                                        <div class="sponsor-info">
+                                            <div class="figure">
+                                                <img src="/assets/images/samplepack/img_sample_list02.png" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <h4>메리포핀스 스튜디오</h4>
+                                                <ul>
+                                                    <li>
+                                                        <i class="icon-user"></i>무브먼트
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-calendar-1"></i> 2017-10-10 
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-heart-filled"></i>123
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-comment"></i>123
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </li>
                                 <li>
-                                    <div class="sponsor-info">
-                                        <div class="figure">
-                                            <img src="/assets/images/sub/img_sponsor.jpg" alt="">
+                                    <a href="#">
+                                        <div class="sponsor-info">
+                                            <div class="figure">
+                                                <img src="/assets/images/samplepack/img_sample_list03.png" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <h4>메리포핀스 스튜디오</h4>
+                                                <ul>
+                                                    <li>
+                                                        <i class="icon-user"></i>무브먼트
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-calendar-1"></i> 2017-10-10 
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-heart-filled"></i>123
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-comment"></i>123
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="details">
-                                            <h4>메리포핀스 스튜디오</h4>
-                                            <ul>
-                                                <li>
-                                                    <i class="icon-user"></i>무브먼트
-                                                </li>
-                                                <li>
-                                                    <i class="icon-calendar-1"></i> 2017-10-10 
-                                                </li>
-                                                <li>
-                                                    <i class="icon-heart-filled"></i>123
-                                                </li>
-                                                <li>
-                                                    <i class="icon-comment"></i>123
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
-                                            </p>
-                                        </div>
-                                    </div>
+                                    </a>
                                 </li>
                                 <li>
-                                    <div class="sponsor-info">
-                                        <div class="figure">
-                                            <img src="/assets/images/sub/img_sponsor.jpg" alt="">
+                                    <a href="#">
+                                        <div class="sponsor-info">
+                                            <div class="figure">
+                                                <img src="/assets/images/samplepack/img_sample_list_none.png" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <h4>메리포핀스 스튜디오</h4>
+                                                <ul>
+                                                    <li>
+                                                        <i class="icon-user"></i>무브먼트
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-calendar-1"></i> 2017-10-10 
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-heart-filled"></i>123
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-comment"></i>123
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="details">
-                                            <h4>메리포핀스 스튜디오</h4>
-                                            <ul>
-                                                <li>
-                                                    <i class="icon-user"></i>무브먼트
-                                                </li>
-                                                <li>
-                                                    <i class="icon-calendar-1"></i> 2017-10-10 
-                                                </li>
-                                                <li>
-                                                    <i class="icon-heart-filled"></i>123
-                                                </li>
-                                                <li>
-                                                    <i class="icon-comment"></i>123
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
-                                            </p>
-                                        </div>
-                                    </div>
+                                    </a>
                                 </li>
                                 <li>
-                                    <div class="sponsor-info">
-                                        <div class="figure">
-                                            <img src="/assets/images/sub/img_sponsor.jpg" alt="">
+                                    <a href="#">
+                                        <div class="sponsor-info">
+                                            <div class="figure">
+                                                <img src="/assets/images/samplepack/img_sample_list04.png" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <h4>메리포핀스 스튜디오</h4>
+                                                <ul>
+                                                    <li>
+                                                        <i class="icon-user"></i>무브먼트
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-calendar-1"></i> 2017-10-10 
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-heart-filled"></i>123
+                                                    </li>
+                                                    <li>
+                                                        <i class="icon-comment"></i>123
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="details">
-                                            <h4>메리포핀스 스튜디오</h4>
-                                            <ul>
-                                                <li>
-                                                    <i class="icon-user"></i>무브먼트
-                                                </li>
-                                                <li>
-                                                    <i class="icon-calendar-1"></i> 2017-10-10 
-                                                </li>
-                                                <li>
-                                                    <i class="icon-heart-filled"></i>123
-                                                </li>
-                                                <li>
-                                                    <i class="icon-comment"></i>123
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sponsor-info">
-                                        <div class="figure">
-                                            <img src="/assets/images/sub/img_sponsor.jpg" alt="">
-                                        </div>
-                                        <div class="details">
-                                            <h4>메리포핀스 스튜디오</h4>
-                                            <ul>
-                                                <li>
-                                                    <i class="icon-user"></i>무브먼트
-                                                </li>
-                                                <li>
-                                                    <i class="icon-calendar-1"></i> 2017-10-10 
-                                                </li>
-                                                <li>
-                                                    <i class="icon-heart-filled"></i>123
-                                                </li>
-                                                <li>
-                                                    <i class="icon-comment"></i>123
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
-                                            </p>
-                                        </div>
-                                    </div>
+                                    </a>
                                 </li>
                             </ul>
                             <div class="btn-area">
