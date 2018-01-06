@@ -53,7 +53,7 @@
                                         <tr>
                                             <td>130</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="ongoing">진행중</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                     <i class="icon-new">
@@ -71,7 +71,7 @@
                                         <tr>
                                             <td>129</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="ongoing">진행중</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                 </a>
@@ -86,7 +86,7 @@
                                         <tr>
                                             <td>128</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="ongoing">진행중</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                 </a>
@@ -101,7 +101,7 @@
                                         <tr>
                                             <td>127</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="finish">종&nbsp;&nbsp;&nbsp;&nbsp;료</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                 </a>
@@ -116,7 +116,7 @@
                                         <tr>
                                             <td>126</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="finish">종&nbsp;&nbsp;&nbsp;&nbsp;료</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                 </a>
@@ -131,7 +131,7 @@
                                         <tr>
                                             <td>125</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="finish">종&nbsp;&nbsp;&nbsp;&nbsp;료</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                 </a>
@@ -146,7 +146,7 @@
                                         <tr>
                                             <td>124</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="finish">종&nbsp;&nbsp;&nbsp;&nbsp;료</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                 </a>
@@ -161,7 +161,7 @@
                                         <tr>
                                             <td>123</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="finish">종&nbsp;&nbsp;&nbsp;&nbsp;료</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                 </a>
@@ -176,7 +176,7 @@
                                         <tr>
                                             <td>122</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="finish">종&nbsp;&nbsp;&nbsp;&nbsp;료</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                 </a>
@@ -191,7 +191,7 @@
                                         <tr>
                                             <td>121</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/poll_write.php">
                                                     <span class="finish">종&nbsp;&nbsp;&nbsp;&nbsp;료</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
                                                 </a>

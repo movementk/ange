@@ -61,8 +61,8 @@
                             </div>
                             <div class="btn-area">
                                 <p>
-                                    <a href="#" class="btn btn-pink" role="button">앙쥬 회원가입</a>
-                                    <a href="#" class="btn btn-white" role="button">애독자 엽서 보내기</a>
+                                    <a href="/customer/agreement.php" class="btn btn-pink" role="button">앙쥬 회원가입</a>
+                                    <a href="/event/reader_write.php" class="btn btn-white" role="button">애독자 엽서 보내기</a>
                                 </p>
                             </div>
                         </div>

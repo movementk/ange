@@ -59,7 +59,7 @@
                                 응모종료 > finish-event
                             -->
                             <li>
-                                <a href="#" class="today-event">
+                                <a href="/event/event_info.php" class="today-event">
                                     <div class="item">
                                         <img src="/assets/images/event/img_event_img01.jpg" alt="">
                                         <div class="event-situation">
@@ -99,7 +99,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="today-closing">
+                                <a href="/event/event_info.php" class="today-closing">
                                     <div class="item">
                                         <img src="/assets/images/event/img_event_img02.jpg" alt="">
                                         <div class="event-situation">
@@ -135,7 +135,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/event/event_info.php">
                                     <div class="item">
                                         <img src="/assets/images/event/img_event_img03.jpg" alt="">
                                     </div>
@@ -165,7 +165,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/event/event_info.php">
                                     <div class="item">
                                         <img src="/assets/images/event/img_event_img04.jpg" alt="">
                                     </div>
@@ -195,7 +195,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="finish-event">
+                                <a href="/event/event_info.php" class="finish-event">
                                     <div class="item">
                                         <img src="/assets/images/event/img_event_img05.jpg" alt="">
                                         <div class="event-situation">
@@ -230,7 +230,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="finish-event">
+                                <a href="/event/event_info.php" class="finish-event">
                                     <div class="item">
                                         <img src="/assets/images/event/img_event_img06.jpg" alt="">
                                         <div class="event-situation"></div>

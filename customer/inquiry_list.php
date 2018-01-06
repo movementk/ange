@@ -49,61 +49,61 @@
                                     <tbody>
                                         <tr>
                                             <td class="num">130</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td class="user">꼬뭉이</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>
                                         <tr>
                                             <td class="num">129</td>
-                                            <td class="title"><a href="#">유비케어 건강식품앱/건강한알 앱으로 우리아가 먹을건</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">유비케어 건강식품앱/건강한알 앱으로 우리아가 먹을건</a></td>
                                             <td class="user">꼬뭉이2</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>
                                         <tr>
                                             <td class="num">128</td>
-                                            <td class="title"><a href="#">건강식품앱추천::유비케어 건강한알이면 영유아영양제성</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">건강식품앱추천::유비케어 건강한알이면 영유아영양제성</a></td>
                                             <td class="user">꼬뭉이3</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>
                                         <tr>
                                             <td class="num">127</td>
-                                            <td class="title"><a href="#">[아기크림] 쫀득한 킨더퍼페츠 모짜렐라 크림 고보습</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">[아기크림] 쫀득한 킨더퍼페츠 모짜렐라 크림 고보습</a></td>
                                             <td class="user">꼬뭉이4</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>
                                         <tr>
                                             <td class="num">126</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td class="user">꼬뭉이5</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>
                                         <tr>
                                             <td class="num">125</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td class="user">꼬뭉이6</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>
                                          <tr>
                                             <td class="num">124</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td class="user">꼬뭉이7</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>
                                          <tr>
                                             <td class="num">123</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td class="user">꼬뭉이8</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>
                                          <tr>
                                             <td class="num">122</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td class="user">꼬뭉이9</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>
                                          <tr>
                                             <td class="num">121</td>
-                                            <td class="title"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="title"><a href="/customer/inquiry_view.php">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
                                             <td class="user">꼬뭉이</td>
                                             <td class="date">2017-12-01</td>
                                         </tr>

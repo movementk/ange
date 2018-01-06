@@ -58,7 +58,7 @@
                             <div class="btn-area">
                                 <p>
                                     <button type="submit" class="btn btn-pink">저장</button>
-                                    <a href="#" class="btn btn-white" role="button">취소</a>
+                                    <a href="/event/review_list.php" class="btn btn-white" role="button">취소</a>
                                 </p>
                             </div>
                         </form>

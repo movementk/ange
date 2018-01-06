@@ -24,7 +24,7 @@
                                                 <div class="modify-btn">
                                                     <p class="attention">회원정보가 다른가요?</p>
                                                     <p>
-                                                        <a href="#" class="btn btn-white" role="button">회원정보 수정</a>
+                                                        <a href="/mypage/modify.php" class="btn btn-white" role="button">회원정보 수정</a>
                                                     </p>
                                                 </div>
                                             </caption>
@@ -283,7 +283,7 @@
                                 <div class="btn-area">
                                     <p>
                                         <button type="submit" class="btn btn-pink">신청하기</button>
-                                        <a href="#" class="btn btn-white" role="button">취소하기</a>
+                                        <a href="/event/reader_list.php" class="btn btn-white" role="button">취소하기</a>
                                     </p>
                                 </div>
                             </form>

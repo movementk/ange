@@ -38,7 +38,7 @@
                         <div class="article-content">
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="/event/review_view.php">
                                         <figure>
                                             <img src="/assets/images/event/img_none_review_list.jpg" alt="">
                                         </figure>
@@ -57,7 +57,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/event/review_view.php">
                                         <figure>
                                             <img src="/assets/images/event/img_review_list01.jpg" alt="">
                                         </figure>
@@ -76,7 +76,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/event/review_view.php">
                                         <figure>
                                             <img src="/assets/images/event/img_review_list02.jpg" alt="">
                                         </figure>
@@ -95,7 +95,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/event/review_view.php">
                                         <figure>
                                             <img src="/assets/images/event/img_none_review_list.jpg" alt="">
                                         </figure>
@@ -114,7 +114,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/event/review_view.php">
                                         <figure>
                                             <img src="/assets/images/event/img_review_list03.jpg" alt="">
                                         </figure>
@@ -135,7 +135,7 @@
                             </ul>
                             <div class="btn-area">
                                 <p>
-                                    <a href="#" class="btn btn-pink" role="button">등록하기</a>
+                                    <a href="/event/review_write.php" class="btn btn-pink" role="button">등록하기</a>
                                 </p>
                             </div>
                             <nav class="paging" aria-label="Page navigation">

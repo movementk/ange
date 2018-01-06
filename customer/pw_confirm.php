@@ -91,7 +91,7 @@
                         </table>
                         <div class="btn-area">
                             <p>
-                                <a href="#" class="btn btn-pink" role="button">
+                                <a href="/" class="btn btn-pink" role="button">
                                     <i class="icon-home"></i>홈으로
                                 </a>
                             </p>

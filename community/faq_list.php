@@ -50,7 +50,7 @@
                                         <tr>
                                             <td>130</td>
                                             <td class="title">
-                                                <a href="#">
+                                                <a href="/community/faq_view.php">
                                                     [당첨자 발표] 당첨자 발표 리스트입니다. (12)
                                                     <span class="icon icon-new">
                                                         <img src="/assets/images/event/icon_new.png" alt="">
@@ -72,7 +72,7 @@
                                         <tr>
                                             <td>129</td>
                                             <td class="title">
-                                                <a href="#">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
+                                                <a href="/community/faq_view.php">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
                                             </td>
                                             <td class="date">2017-12-01</td>
                                             <td class="hit">123</td>
@@ -80,7 +80,7 @@
                                         <tr>
                                             <td>128</td>
                                             <td class="title">
-                                                <a href="#">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
+                                                <a href="/community/faq_view.php">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
                                             </td>
                                             <td class="date">2017-12-01</td>
                                             <td class="hit">123</td>
@@ -88,7 +88,7 @@
                                         <tr>
                                             <td>127</td>
                                             <td class="title">
-                                                <a href="#">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
+                                                <a href="/community/faq_view.php">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
                                             </td>
                                             <td class="date">2017-12-01</td>
                                             <td class="hit">123</td>
@@ -96,7 +96,7 @@
                                         <tr>
                                             <td>126</td>
                                             <td class="title">
-                                                <a href="#">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
+                                                <a href="/community/faq_view.php">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
                                             </td>
                                             <td class="date">2017-12-01</td>
                                             <td class="hit">123</td>
@@ -104,7 +104,7 @@
                                         <tr>
                                             <td>125</td>
                                             <td class="title">
-                                                <a href="#">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
+                                                <a href="/community/faq_view.php">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
                                             </td>
                                             <td class="date">2017-12-01</td>
                                             <td class="hit">123</td>
@@ -112,7 +112,7 @@
                                         <tr>
                                             <td>124</td>
                                             <td class="title">
-                                                <a href="#">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
+                                                <a href="/community/faq_view.php">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
                                             </td>
                                             <td class="date">2017-12-01</td>
                                             <td class="hit">123</td>
@@ -120,7 +120,7 @@
                                         <tr>
                                             <td>123</td>
                                             <td class="title">
-                                                <a href="#">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
+                                                <a href="/community/faq_view.php">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
                                             </td>
                                             <td class="date">2017-12-01</td>
                                             <td class="hit">123</td>
@@ -128,7 +128,7 @@
                                         <tr>
                                             <td>122</td>
                                             <td class="title">
-                                                <a href="#">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
+                                                <a href="/community/faq_view.php">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
                                             </td>
                                             <td class="date">2017-12-01</td>
                                             <td class="hit">123</td>
@@ -136,7 +136,7 @@
                                         <tr>
                                             <td>121</td>
                                             <td class="title">
-                                                <a href="#">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
+                                                <a href="/community/faq_view.php">[당첨자 발표] 당첨자 발표 리스트입니다.</a>
                                             </td>
                                             <td class="date">2017-12-01</td>
                                             <td class="hit">123</td>
