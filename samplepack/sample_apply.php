@@ -13,7 +13,7 @@
                 <!-- Content Start -->
                 <div class="sub-content">
                     <section class="sample-write">
-                        <h2 class="sub-title">샘플팩 신청자하기</h2>
+                        <h2 class="sub-title">샘플팩 신청하기</h2>
                         <div class="section-content">
                             <form action="#">
                                 <article class="user-info">
@@ -62,7 +62,7 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <th class="necessary"><label for="file">증빙자료</label></th>
+                                                    <th class="necessary">증빙자료</th>
                                                     <td class="file-search">
                                                         <div class="form-group">
                                                             <input type="file" id="u-file" class="form-control">
@@ -91,13 +91,17 @@
                             </form>
                             <div class="attention-box">
                                 <h5>주의사항</h5>
-                                <ul>
-                                    <li>한번 등록한 내용은 변경하실 수 없습니다.</li>
-                                    <li>엽서등록확인은 마이페이지 마이앙쥬 > 내 활동 조회에서 확인가능 합니다.</li>
-                                    <li>애독자 선물의 종류와 수량은 사진과 다를 수 있으며, 구성은 업체 사정으로 공지없이 변경될 수 있습니다.</li>
+                                <ol>
+                                    <li>
+                                        <b class="text-pink">한번 등록한 내용은 변경하실 수 없습니다.</b>
+                                    </li>
+                                    <li>반드시 <b class="text-blue">임신부만 응모</b>하세요 <b class="text-black">(남자회원 신청불가)</b></li>
+                                    <li> 임신부 증거자료는 1장만 등록 가능하며 <b class="text-blue">사진이 미흡할 경우 당첨이 취소</b>됩니다. (관련없는 사진, 예정일이 없는 사진을 올려줄 경우)</li>
+                                    <li>임신부 증거자료가 본인의 것이 아니거나 중복해서 등록할 경우 선정에서 제외됩니다.</li>
                                     <li>당첨자 발표 후 별도 주소확인은 하지 않으며 주소가 불분명할 경우 선물은 발송되지 않습니다. (번지수가 없거나 아파트 동, 호수 없는 경우)</li>
                                     <li>회원 탈퇴 후 재가입하여 신청하더라도 신청기록은 남기 때문에 샘플팩 선정에서 제외됩니다.</li>
-                                </ul>
+                                    <li>샘플팩의 종류와 수량은 사진과 다를 수 있으며, 구성은 업체 사정으로 공지없이 변경될 수 있습니다.</li>
+                                </ol>
                             </div>
                         </div>
                     </section>
