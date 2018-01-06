@@ -110,48 +110,48 @@ font-size: 0;
 .sample-view .comment-area {
     margin-top: 90px; 
 }
-.sample-view .comment-area form .article-content .paging {
+.sample-view .comment-area .article-content .paging {
     margin-top: 20px;
 }
 
 /* 샘플팩 후기 쓰기 */
-.sample-review .table-wrap form .table tbody tr td .form-group .form-control {
+.sample-review .table-wrap .table tbody tr td .form-group .form-control {
     width: 600px;
     font-size: 12px;
     color: #999;
 }
-.sample-review .table-wrap form .table tbody tr td .form-group select {
+.sample-review .table-wrap .table tbody tr td .form-group select {
     display: inline-block;
     width: 108px !important;
     height: 35px;
     margin-right: 7px;
 }
-.sample-review .table-wrap form .table tbody tr td .form-group #u-name {
+.sample-review .table-wrap .table tbody tr td .form-group #u-name {
     display: inline-block;
     width: 485px;
 }
-.sample-review .table-wrap form .table.type-1 tbody tr th {
+.sample-review .table-wrap .table.type-1 tbody tr th {
     font-size: 14px;
 }
-.sample-review .table-wrap form .table.type-1 tbody tr .v-top {
+.sample-review .table-wrap .table.type-1 tbody tr .v-top {
     vertical-align: top;
     padding-top: 20px;
 }
-.sample-review .table-wrap form .table.type-1 tbody tr .file .form-group .form-control {
+.sample-review .table-wrap .table.type-1 tbody tr .file .form-group .form-control {
     width: 200px;
 }
-.sample-review .table-wrap form .table.type-1 tbody tr:nth-of-type(3) td .form-group .form-control {
+.sample-review .table-wrap .table.type-1 tbody tr:nth-of-type(3) td .form-group .form-control {
     height: 342px;
 }
-.sample-review .table-wrap form .btn-area {
+.sample-review .table-wrap .btn-area {
     margin-top: 30px;
     text-align: right;
 }
-.sample-review .table-wrap form .btn-area p {
+.sample-review .table-wrap .btn-area p {
     font-size: 0;
     
 }
-.sample-review .table-wrap form .btn-area p .btn.btn-pink {
+.sample-review .table-wrap .btn-area p .btn.btn-pink {
     width: 120px;
     height: 45px;
     color: #fff;
@@ -159,7 +159,7 @@ font-size: 0;
     border-radius: 30px;
     margin-right: 10px;
 }
-.sample-review .table-wrap form .btn-area p .btn.btn-white {
+.sample-review .table-wrap .btn-area p .btn.btn-white {
     width: 120px;
     height: 45px;
     margin-right: 0;
@@ -173,7 +173,7 @@ font-size: 0;
 .sample-list .samplep-list-wrap .article-header .search-form {
     margin-bottom: 30px; 
 }
-.sample-list .samplep-list-wrap .article-header .search-form form .btn-search i {
+.sample-list .samplep-list-wrap .article-header .search-form .btn-search i {
     color: #e25371;
 }
 .sample-list .samplep-list-wrap .article-content .btn-area {
@@ -195,41 +195,41 @@ font-size: 0;
 }
 
 /* 체험 및 이벤트 후기 */
-.sample-apply .sample-write .section-content form .user-info .table-wrap .necessary:after {
+.sample-apply .sample-write .section-content .user-info .table-wrap .necessary:after {
     color: #e25371;
     content: " *"; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap label {
+.sample-apply .sample-write .section-content .user-info .table-wrap label {
     font-weight: 400; }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table caption {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table caption {
     overflow: hidden;
     padding: 9px 20px;
     background-color: #acacac; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table caption h3 {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table caption h3 {
     float: left;
     font-size: 16px;
     color: #fff;
     line-height: 30px;
     font-weight: 300; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table caption .modify-btn {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table caption .modify-btn {
     float: right;
     text-align: right; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table caption .modify-btn p {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table caption .modify-btn p {
     display: inline-block; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table caption .modify-btn p.attention {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table caption .modify-btn p.attention {
     font-size: 13px;
     color: #fff;
     line-height: 30px;
     margin-right: 10px; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table caption .modify-btn p.attention:before {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table caption .modify-btn p.attention:before {
     content: "※ "; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table caption .modify-btn p .btn-white {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table caption .modify-btn p .btn-white {
     font-size: 12px;
     color: #666;
     line-height: 30px;
@@ -245,10 +245,10 @@ font-size: 0;
     -webkit-transition-delay: 0s;
     transition-delay: 0s; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table caption .modify-btn p .btn-white:hover, .sample-apply .sample-write .section-content form .user-info .table-wrap .table caption .modify-btn p .btn-white:focus {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table caption .modify-btn p .btn-white:hover, .sample-apply .sample-write .section-content .user-info .table-wrap .table caption .modify-btn p .btn-white:focus {
     opacity: .7; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table tbody tr th {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr th {
     width: 170px;
     font-size: 13px;
     color: #333;
@@ -259,7 +259,7 @@ font-size: 0;
     background-color: #fafafa;
     border-bottom: 1px solid #dfdfdf; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table tbody tr td {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr td {
     font-size: 13px;
     font-weight: 400;
     padding: 10px 40px 10px 30px;
@@ -267,37 +267,37 @@ font-size: 0;
     border-bottom: 1px solid #dfdfdf; 
 }
 
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table tbody tr td dl dd label input {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr td dl dd label input {
     position: relative;
     top: 2px;
     margin-right: 10px; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table tbody tr td .form-group textarea {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr td .form-group textarea {
     width: 600px;
     height: 135px !important; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table tbody tr td .form-group .form-control {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr td .form-group .form-control {
     width: 100%;
     height: 36px;
     font-size: 13px;
     color: #999;
     border: 1px solid #dfdfdf; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table tbody tr td .form-group.basic-group .form-control {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr td .form-group.basic-group .form-control {
     width: 200px; 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table tbody tr:last-child td {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr:last-child td {
 
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table.table-bordered tbody tr th.v-top {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table.table-bordered tbody tr th.v-top {
     vertical-align: top;
     padding-top: 20px;
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table.table-bordered tbody tr td.file-search .form-group .form-control {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table.table-bordered tbody tr td.file-search .form-group .form-control {
     display: inline-block;
     width: 500px;
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table.table-bordered tbody tr td.file-search .form-group label.file-btn {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table.table-bordered tbody tr td.file-search .form-group label.file-btn {
     display: inline-block;
     width: 85px;
     line-height: 35px;
@@ -316,19 +316,19 @@ font-size: 0;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
 }
-.sample-apply .sample-write .section-content form .user-info .table-wrap .table.table-bordered tbody tr td.file-search .form-group label.file-btn:hover {
+.sample-apply .sample-write .section-content .user-info .table-wrap .table.table-bordered tbody tr td.file-search .form-group label.file-btn:hover {
     opacity: 0.7;
 }
-.sample-apply .sample-write .section-content form .btn-area {
+.sample-apply .sample-write .section-content .btn-area {
     margin-top: 30px;
     margin-bottom: 60px; 
 }
 
-.sample-apply .sample-write .section-content form .btn-area {
+.sample-apply .sample-write .section-content .btn-area {
     margin-top: 30px;
     text-align: right; 
 }
-.sample-apply .sample-write .section-content form .btn-area p .btn {
+.sample-apply .sample-write .section-content .btn-area p .btn {
     width: 140px;
     font-size: 14px;
     color: #666;
@@ -337,10 +337,10 @@ font-size: 0;
     border: 1px solid #ccc;
     border-radius: 30px; 
 }
-.sample-apply .sample-write .section-content form .btn-area p .btn:last-child {
+.sample-apply .sample-write .section-content .btn-area p .btn:last-child {
     margin-right: 0; 
 }
-.sample-apply .sample-write .section-content form .btn-area p .btn.btn-pink {
+.sample-apply .sample-write .section-content .btn-area p .btn.btn-pink {
     color: #fff;
     background-color: #ff7875;
     border: 1px solid #ff7875;
