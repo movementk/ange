@@ -38,13 +38,13 @@
                         <div class="article-content">
                             <ul class="sponsor-list">
                                 <li>
-                                    <a href="#">
+                                    <a href="/samplepack/sample_view.php">
                                         <div class="sponsor-info">
                                             <div class="figure">
                                                 <img src="/assets/images/samplepack/img_sample_list_none.png" alt="">
                                             </div>
                                             <div class="details">
-                                                <h4>메리포핀스 스튜디오</h4>
+                                                <h4>샘플팩 이벤트 후기 제목 노출 영역입니다.</h4>
                                                 <ul>
                                                     <li>
                                                         <i class="icon-user"></i>무브먼트
@@ -60,7 +60,7 @@
                                                     </li>
                                                 </ul>
                                                 <p>
-                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다.
+                                                    체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다.
                                                 </p>
                                             </div>
                                         </div>
@@ -68,13 +68,13 @@
                                 </li>
                                
                                 <li>
-                                    <a href="#">
+                                    <a href="/samplepack/sample_view.php">
                                         <div class="sponsor-info">
                                             <div class="figure">
                                                 <img src="/assets/images/samplepack/img_sample_list02.png" alt="">
                                             </div>
                                             <div class="details">
-                                                <h4>메리포핀스 스튜디오</h4>
+                                                <h4>샘플팩 이벤트 후기 제목 노출 영역입니다.</h4>
                                                 <ul>
                                                     <li>
                                                         <i class="icon-user"></i>무브먼트
@@ -90,20 +90,20 @@
                                                     </li>
                                                 </ul>
                                                 <p>
-                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
+                                                    체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다.
                                                 </p>
                                             </div>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/samplepack/sample_view.php">
                                         <div class="sponsor-info">
                                             <div class="figure">
                                                 <img src="/assets/images/samplepack/img_sample_list03.png" alt="">
                                             </div>
                                             <div class="details">
-                                                <h4>메리포핀스 스튜디오</h4>
+                                                <h4>샘플팩 이벤트 후기 제목 노출 영역입니다.</h4>
                                                 <ul>
                                                     <li>
                                                         <i class="icon-user"></i>무브먼트
@@ -119,20 +119,20 @@
                                                     </li>
                                                 </ul>
                                                 <p>
-                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
+                                                    체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다.
                                                 </p>
                                             </div>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/samplepack/sample_view.php">
                                         <div class="sponsor-info">
                                             <div class="figure">
                                                 <img src="/assets/images/samplepack/img_sample_list_none.png" alt="">
                                             </div>
                                             <div class="details">
-                                                <h4>메리포핀스 스튜디오</h4>
+                                                <h4>샘플팩 이벤트 후기 제목 노출 영역입니다.</h4>
                                                 <ul>
                                                     <li>
                                                         <i class="icon-user"></i>무브먼트
@@ -148,20 +148,20 @@
                                                     </li>
                                                 </ul>
                                                 <p>
-                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
+                                                    체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다.
                                                 </p>
                                             </div>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/samplepack/sample_view.php">
                                         <div class="sponsor-info">
                                             <div class="figure">
                                                 <img src="/assets/images/samplepack/img_sample_list04.png" alt="">
                                             </div>
                                             <div class="details">
-                                                <h4>메리포핀스 스튜디오</h4>
+                                                <h4>샘플팩 이벤트 후기 제목 노출 영역입니다.</h4>
                                                 <ul>
                                                     <li>
                                                         <i class="icon-user"></i>무브먼트
@@ -177,7 +177,7 @@
                                                     </li>
                                                 </ul>
                                                 <p>
-                                                    유럽풍의 고급스러운 분위기에서 아기들의 자연스러운 몸짓과 표정을 담아내며  동화 속 꿈과 환상을 마음껏 표현해주는 유아 전문 스튜디오입니다. 
+                                                    체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다.
                                                 </p>
                                             </div>
                                         </div>
@@ -186,7 +186,7 @@
                             </ul>
                             <div class="btn-area">
                                 <p>
-                                    <a href="#" class="btn btn-sm btn-pink" role="button">등록하기</a>
+                                    <a href="/samplepack/sample_review.php" class="btn btn-sm btn-pink" role="button">등록하기</a>
                                 </p>
                              </div>
                             <nav class="paging" aria-label="Page navigation">
