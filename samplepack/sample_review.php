@@ -29,10 +29,10 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th><label for="u-blog">블로그 주소</label></th>
+                                        <th><label for="u-sns">SNS 주소</label></th>
                                         <td>
                                             <div class="form-group">
-                                                <input type="text" id="u-blog" class="form-control" placeholder="Ex) http://blog.naver.com/myblog">
+                                                <input type="text" id="u-sns" class="form-control" placeholder="Ex) http://blog.naver.com/myblog">
                                             </div>
                                         </td>
                                     </tr>

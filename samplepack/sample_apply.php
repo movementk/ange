@@ -15,8 +15,8 @@
                     <section class="sample-write">
                         <h2 class="sub-title">샘플팩 신청하기</h2>
                         <div class="section-content">
-                            <form action="#">
-                                <article class="user-info">
+                            <article class="user-info">
+                                <form action="#">
                                     <div class="table-wrap">
                                         <table class="table table-bordered">
                                             <caption>
@@ -87,8 +87,8 @@
                                             <a href="#" class="btn btn-white" role="button">취소하기</a>
                                         </p>
                                     </div>
-                                </article>
-                            </form>
+                                </form>
+                            </article>
                             <div class="attention-box">
                                 <h5>주의사항</h5>
                                 <ol>
