@@ -41,6 +41,9 @@ button {
     background: none;
     box-shadow: none;
 }
+.btn-default {
+    box-shadow: none !important;
+}
 .section-header {
     padding-bottom: 20px;
     .summary {
@@ -216,7 +219,7 @@ button {
 // 탭메뉴 2
 .tab-menu {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
-    .tab-list {
+    .tab-list-2 {
         > ul {
             overflow: hidden;
             > li {
@@ -382,6 +385,19 @@ button {
                 content: "\E817";
             }
         }
+        &.d-day {
+            @include roboto();
+            &:before {
+                content: "\F133";
+            }
+        }
+        &.point {
+            padding-left: 12px;
+            @include roboto();
+            &:before {
+                content: "\E818";
+            }
+        }
     }
 }
 
@@ -536,6 +552,136 @@ button {
     }
 }
 
+// 의견 쓰기
+.review-write {
+    padding: 20px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    .form-group {
+        textarea {
+            height: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    }
+    .article-header {
+        h4 {
+            font-size: 11px;
+            color: #303030;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .btn-register {
+            margin-top: 10px;
+            .btn-lg {
+                width: 100%;
+                font-size: 10px;
+                color: #333;
+                line-height: 25px;
+                border-radius: 5px;
+                background-color: #f5f5f5;
+            }
+        }
+    }
+    .article-content {
+        margin-top: 25px;
+        .inform {
+            display: block;
+            width: 100%;
+            font-size: 10px;
+            color: #707070;
+            b {
+                color: #eb3e3e;
+            }
+        }
+        .review-list {
+            margin-top: 10px;
+        }
+    }
+}
+// 리뷰 리스트
+.review-list {
+    > li {
+        padding: 20px 10px;
+        border-bottom: 1px solid #dfdfdf;
+        &:first-child {
+            border-top: 1px solid #dfdfdf;
+        }
+        .writer-info {
+            position: relative;
+            padding-right: 55px;
+            margin-bottom: 10px;
+            h5 {
+                font-size: 11px;
+                color: #3d3d3d;
+                font-weight: 500;
+            }
+            .date {
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 10px;
+                color: #999;
+                font-weight: 400;
+                @include roboto();
+            }
+        }
+        .review-content {
+            p {
+                font-size: 10px;
+                color: #515151;
+                line-height: 14px;
+            }
+            .btn-more {
+                font-size: 0;
+                margin-top: 10px;
+                .btn-xs {
+                    display: inline-block;
+                    font-size: 10px;
+                    color: #fff;
+                    padding: 0 10px;
+                    font-weight: 300;
+                    margin-right: 10px;
+                    line-height: 20px;
+                    border-radius: 30px;
+                    background-color: #b3b3b3;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    &:focus {
+                        background-color: #ff7875;
+                    }
+                }
+            }
+            .form-group {
+                margin-top: 10px;
+            }
+        }
+        .reply {
+            margin-top: 10px;
+            padding: 10px;
+            padding-left: 30px;
+            border-radius: 5px;
+            border: 1px solid #ececec;
+            background-color: #f7f7f7;
+            background-image: url(/mobile/assets/images/bg_reply.png);
+            background-repeat: no-repeat;
+            background-size: 9px auto;
+            background-position: 10px 10px;
+            .reply-content {
+                margin-top: 10px;
+                font-size: 10px;
+                color: #515151;
+                line-height: 14px;
+            }
+        }
+    }
+}
+
+
 // paging 
 .paging {
     text-align: center;
@@ -583,12 +729,456 @@ button {
     }
 }
 
+// 리스트 타입 1
+.board-type-1 {
+    padding: 0 10px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    > ul {
+        > li {
+            padding: 20px 10px;
+            border-bottom: 1px solid #ccc;
+            a {
+                text-decoration: none;
+                .list-header {
+                    h4 {
+                        display: block;
+                        font-size: 12px;
+                        color: #333;
+                        font-weight: 500;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    .icon-list {
+                        margin-top: 8px;
+                        li {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                .details {
+                    display: table;
+                    width: 100%;
+                    margin-top: 20px;
+                    .item-img {
+                        display: table-cell;
+                        width: 100px;
+                        figure {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .content {
+                        vertical-align: top;
+                        display: table-cell;
+                        padding-left: 20px;
+                        font-size: 10px;
+                        color: #666;
+                        line-height: 13px;
+                        font-weight: 300;
+                        word-break: keep-all;
+                    }
+                }
+            }
+        }
+    }
+}
+// 리스트 타입 2
+.board-type-2 {
+    padding: 0 10px 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    > ul {
+        > li {
+            padding: 15px 10px 10px;
+            border-bottom: 1px solid #ccc;
+            a {
+                text-decoration: none;
+                h4 {
+                    font-size: 11px;
+                    color: #666;
+                    font-weight: 500;
+                }
+                .icon-list {
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}
 
+// 리스트 아이콘 
+.icon {
+    display: inline-block;
+    margin-left: 4px;
+    &.icon-new {
+        img {
+            width: 9px;
+        }
+    }
+    &.icon-lock {
+        img {
+            width: 7px;
+        }
+    }
+    &.icon-file {
+        img {
+            width: 8px;
+        }
+    }
+    &.icon-img {
+        img {
+            width: 9px;
+        }
+    }
+}
 
+.table-wrap {
+    .table {
+        margin: 0;
+        border: 0;
+        &.table-bordered {
+            border-top: 2px solid #b3b3b3;
+        }
+        caption {
+            overflow: hidden;
+            padding: 10px;
+            background-color: #acacac;
+            h4 {
+                float: left;
+                font-size: 13px;
+                color: #fff;
+                font-weight: 300;
+                line-height: 25px;
+            }
+            .btn-link {
+                float: right;
+                .btn-default {
+                    width: 80px;
+                    font-size: 10px;
+                    color: #999;
+                    text-align: center;
+                    line-height: 25px;
+                    border-radius: 30px;
+                    background-color: #fff;
+                }
+            }
+        }
+        tbody {
+            tr {
+                th {
+                    border: 0;
+                    &.v-top {
+                        vertical-align: top !important;
+                        padding-top: 20px !important;
+                    }
+                    &.essential {
+                        &:after {
+                            color: #e25371;
+                            content: " *";
+                        }
+                    }
+                }
+                td {
+                    vertical-align: middle;
+                    border: 0;
+                    label {
+                        input {
+                            position: relative;
+                            top: 3px;
+                            margin-right: 2px;
+                        }
+                    }
+                    &.file {
+                        .form-group {
+                            position: relative;
+                            padding-right: 70px;
+                            label {
+                                width: 60px;
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                font-size: 10px;
+                                color: #999;
+                                line-height: 28px;
+                                text-align: center;
+                                border-radius: 30px;
+                                border: 1px solid #ccc;
+                            }
+                        }
+                    }
+                    &.overlap-confirm, &.zip-code {
+                        .form-group {
+                            position: relative;
+                            padding-right: 70px;
+                            .btn-overlap-confirm {
+                                .btn-default {
+                                    width: 60px;
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    font-size: 10px;
+                                    color: #999;
+                                    line-height: 28px;
+                                    text-align: center;
+                                    border-radius: 30px;
+                                    border: 1px solid #ccc;
+                                    background: none !important;
+                                }
+                            }
+                        }
+                    }
+                    .add-input {
+                        position: relative;
+                        padding-right: 70px;
+                        .add-btn {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            font-size: 0;
+                            a {
+                                width: 30px;
+                                line-height: 28px;
+                                font-size: 10px;
+                                color: #999;
+                                text-align: center;
+                                display: inline-block;
+                                border: 1px solid #dfdfdf;
+                                &.plus {
+                                    border-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.type-1 {
+            tbody {
+                tr {
+                    th {
+                        width: 100px;
+                        font-size: 10px;
+                        color: #666;
+                        font-weight: 400;
+                        padding: 10px;
+                        vertical-align: middle;
+                        background-color: #f8f8f8;
+                        border-bottom: 1px solid #e5e5e5;
+                    }
+                    td {
+                        font-size: 10px;
+                        color: #999;
+                        font-weight: 300;
+                        height: 50px;
+                        padding: 10px;
+                        background-color: #fff;
+                        border-bottom: 1px solid #e5e5e5;
+                        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+                    }
+                }
+            }
+        }
+        &.table-write {
+            tbody {
+                tr {
+                    td {
+                        select {
+                            width: 90px;
+                            margin-bottom: 10px;
+                        }
+                        textarea {
+                            height: 130px;
+                        }
+                    }
+                }
+            }
+        }
+        &.type-2 {
+            thead {
+                tr {
+                    th {
+                        
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        font-size: 10px;
+                        color: #999;
+                        &.title {
+                            a {
+                                color: #999;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                display: block;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+// 게시판 리스트3
+.board-type-3 {
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    .article-header {
+        padding: 0 10px;
+        background-color: #acacac;
+        ul {
+            display: table;
+            width: 100%;
+            li {
+                display: table-cell;
+                color: #fff;
+                text-align: center;
+                font-size: 11px;
+                padding: 15px 0 10px;
+                &.mileage {
+                    width: 60px;
+                }
+            }
+        }
+    }
+    .article-content {
+        padding: 0 10px;
+        .table-wrap {
+            .table {
+                table-layout: fixed;
+                tbody {
+                    padding: 0 10px;
+                    tr {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        td {
+                            font-size: 10px;
+                            color: #999;
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                            border-bottom: 1px solid #ccc;
+                            &.mileage {
+                                text-align: center;
+                                width: 60px;
+                                span {
+                                    @include roboto();
+                                }
+                            }
+                            &.subject {
+                                text-align: left;
+                                a {
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                    display: block;
+                                    color: #999;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
-
-
+// 게시판 리스트3
+.board-type-4 {
+    border-radius: 5px;
+    padding: 10px 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    > ul {
+        > li {
+            padding: 20px 0 30px;
+            border-bottom: 1px solid #e5e5e5;
+            .list-header {
+                a {
+                    display: table;
+                    width: 100%;
+                    text-decoration: none;
+                    figure {
+                        display: table-cell;
+                        width: 76px;
+                        border: 1px solid #e0e0e0;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .item-title {
+                        vertical-align: top;
+                        display: table-cell;
+                        font-size: 14px;
+                        color: #333;
+                        line-height: 20px;
+                        font-weight: 400;
+                        padding-left: 20px;
+                    }
+                }
+            }
+            .details-info {
+                margin-top: 25px;
+                position: relative;
+                dl {
+                    overflow: hidden;
+                    dt {
+                        float: left;
+                        clear: both;
+                        font-size: 12px;
+                        color: #777;
+                        line-height: 24px;
+                        font-weight: 400;
+                        &:after {
+                            content: ":";
+                            margin: 0 2px 0 3px;
+                        }
+                    }
+                    dd {
+                        font-size: 12px;
+                        color: #777;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                .btn-area {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    .btn-xs {
+                        width: 60px;
+                        display: block;
+                        font-size: 10px;
+                        color: #999;
+                        text-align: center;
+                        border-radius: 30px;
+                        & ~ .btn-xs {
+                            margin-top: 10px;
+                        }
+                        &.btn-white {
+                            line-height: 28px;
+                            border: 1px solid #ccc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -345,74 +345,74 @@ article {
     padding: 0;
     height: 264px;
     margin-top: 25px; }
+    .member-information .article-content h4 {
+      margin-bottom: 15px; }
+      .member-information .article-content h4 a {
+        position: relative;
+        width: 100%;
+        font-size: 13px;
+        color: #333;
+        font-weight: 400;
+        display: block; }
+        .member-information .article-content h4 a:after {
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-size: 12px;
+          color: #999;
+          font-family: "fontello";
+          content: "\E801"; }
+    .member-information .article-content .interest-keyword h4 {
+      margin-bottom: 15px; }
+      .member-information .article-content .interest-keyword h4 a:after {
+        top: 1px;
+        font-size: 10px;
+        content: "\E800"; }
+    .member-information .article-content .interest-keyword .keyword-list {
+      overflow: hidden; }
+      .member-information .article-content .interest-keyword .keyword-list > li {
+        float: left;
+        margin-right: 7px; }
+        .member-information .article-content .interest-keyword .keyword-list > li ~ li {
+          margin-top: 7px; }
+        .member-information .article-content .interest-keyword .keyword-list > li:nth-of-type(2), .member-information .article-content .interest-keyword .keyword-list > li:nth-of-type(3) {
+          margin-top: 0; }
+        .member-information .article-content .interest-keyword .keyword-list > li:nth-of-type(3n + 1) {
+          clear: both; }
+        .member-information .article-content .interest-keyword .keyword-list > li:nth-of-type(3n + 3) {
+          margin-right: 0; }
+        .member-information .article-content .interest-keyword .keyword-list > li > a {
+          display: block;
+          width: 88px;
+          color: #666;
+          font-size: 11px;
+          text-align: center;
+          border-radius: 5px;
+          border-top-right-radius: 0;
+          line-height: 23px;
+          border: 1px solid #dfdfdf;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .member-information .article-content .interest-keyword .keyword-list > li > a:hover, .member-information .article-content .interest-keyword .keyword-list > li > a:focus {
+            opacity: .7; }
+    .member-information .article-content .member-board-list > ul > li > a {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: block;
+      font-size: 12px;
+      color: #666;
+      line-height: 20px; }
     .member-information .article-content .mCustomScrollBox .mCSB_container {
       margin-right: 32px; }
       .member-information .article-content .mCustomScrollBox .mCSB_container > div ~ div {
         margin-top: 30px; }
-      .member-information .article-content .mCustomScrollBox .mCSB_container > div > h4 {
-        margin-bottom: 15px; }
-        .member-information .article-content .mCustomScrollBox .mCSB_container > div > h4 a {
-          position: relative;
-          width: 100%;
-          font-size: 13px;
-          color: #333;
-          font-weight: 400;
-          display: block; }
-          .member-information .article-content .mCustomScrollBox .mCSB_container > div > h4 a:after {
-            position: absolute;
-            top: 0;
-            right: 0;
-            font-size: 12px;
-            color: #999;
-            font-family: "fontello";
-            content: "\E801"; }
-      .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword h4 {
-        margin-bottom: 15px; }
-        .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword h4 a:after {
-          top: 1px;
-          font-size: 10px;
-          content: "\E800"; }
-      .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list {
-        overflow: hidden; }
-        .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list > li {
-          float: left;
-          margin-right: 7px; }
-          .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list > li ~ li {
-            margin-top: 7px; }
-          .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list > li:nth-of-type(2), .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list > li:nth-of-type(3) {
-            margin-top: 0; }
-          .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list > li:nth-of-type(3n + 1) {
-            clear: both; }
-          .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list > li:nth-of-type(3n + 3) {
-            margin-right: 0; }
-          .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list > li > a {
-            display: block;
-            width: 88px;
-            color: #666;
-            font-size: 11px;
-            text-align: center;
-            border-radius: 5px;
-            border-top-right-radius: 0;
-            line-height: 23px;
-            border: 1px solid #dfdfdf;
-            -webkit-transition-property: all;
-            transition-property: all;
-            -webkit-transition-duration: 0.15s;
-            transition-duration: 0.15s;
-            -webkit-transition-timing-function: linear;
-            transition-timing-function: linear;
-            -webkit-transition-delay: 0s;
-            transition-delay: 0s; }
-            .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list > li > a:hover, .member-information .article-content .mCustomScrollBox .mCSB_container > div.interest-keyword .keyword-list > li > a:focus {
-              opacity: .7; }
-      .member-information .article-content .mCustomScrollBox .mCSB_container > div.member-board-list > ul > li > a {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        display: block;
-        font-size: 12px;
-        color: #666;
-        line-height: 20px; }
     .member-information .article-content .mCustomScrollBox .mCSB_scrollTools {
       width: 28px;
       opacity: 1; }

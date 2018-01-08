@@ -419,93 +419,93 @@ article {
         padding: 0;
         height:  264px;
         margin-top: 25px;
+        h4 {
+            margin-bottom: 15px;
+            a {
+                position: relative;
+                width: 100%;
+                font-size: 13px;
+                color: #333;
+                font-weight: 400;
+                display: block;
+                &:after {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    font-size: 12px;
+                    color: #999;
+                    font-family: "fontello";
+                    content: "\E801";
+                }
+            }
+        }
+        .interest-keyword {
+            h4 {
+                margin-bottom: 15px;
+                a {
+                    &:after {
+                        top: 1px;
+                        font-size: 10px;
+                        content: "\E800";
+                    }
+                }
+            }
+            .keyword-list {
+                overflow: hidden;
+                > li {
+                    float: left;
+                    margin-right: 7px;
+                    & ~ li {
+                        margin-top: 7px;
+                    }
+                    &:nth-of-type(2), &:nth-of-type(3) {
+                        margin-top: 0;
+                    }
+                    &:nth-of-type(3n + 1) {
+                        clear: both;
+                    }
+                    &:nth-of-type(3n + 3) {
+                        margin-right: 0;
+                    }
+                    > a {
+                        display: block;
+                        width: 88px;
+                        color: #666;
+                        font-size: 11px;
+                        text-align: center;
+                        border-radius: 5px;
+                        border-top-right-radius: 0;
+                        line-height: 23px;
+                        border: 1px solid #dfdfdf;
+                        @include transition();
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+        .member-board-list {
+            > ul {
+                > li {
+                    > a {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        display: block;
+                        font-size: 12px;
+                        color: #666;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
         .mCustomScrollBox {
             .mCSB_container {
                 margin-right: 32px;
                 > div {
                     & ~ div {
                         margin-top: 30px;
-                    }
-                    > h4 {
-                        margin-bottom: 15px;
-                        a {
-                            position: relative;
-                            width: 100%;
-                            font-size: 13px;
-                            color: #333;
-                            font-weight: 400;
-                            display: block;
-                            &:after {
-                                position: absolute;
-                                top: 0;
-                                right: 0;
-                                font-size: 12px;
-                                color: #999;
-                                font-family: "fontello";
-                                content: "\E801";
-                            }
-                        }
-                    }
-                    &.interest-keyword {
-                        h4 {
-                            margin-bottom: 15px;
-                            a {
-                                &:after {
-                                    top: 1px;
-                                    font-size: 10px;
-                                    content: "\E800";
-                                }
-                            }
-                        }
-                        .keyword-list {
-                            overflow: hidden;
-                            > li {
-                                float: left;
-                                margin-right: 7px;
-                                & ~ li {
-                                    margin-top: 7px;
-                                }
-                                &:nth-of-type(2), &:nth-of-type(3) {
-                                    margin-top: 0;
-                                }
-                                &:nth-of-type(3n + 1) {
-                                    clear: both;
-                                }
-                                &:nth-of-type(3n + 3) {
-                                    margin-right: 0;
-                                }
-                                > a {
-                                    display: block;
-                                    width: 88px;
-                                    color: #666;
-                                    font-size: 11px;
-                                    text-align: center;
-                                    border-radius: 5px;
-                                    border-top-right-radius: 0;
-                                    line-height: 23px;
-                                    border: 1px solid #dfdfdf;
-                                    @include transition();
-                                    &:hover, &:focus {
-                                        opacity: .7;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    &.member-board-list {
-                        > ul {
-                            > li {
-                                > a {
-                                    overflow: hidden;
-                                    text-overflow: ellipsis;
-                                    white-space: nowrap;
-                                    display: block;
-                                    font-size: 12px;
-                                    color: #666;
-                                    line-height: 20px;
-                                }
-                            }
-                        }
                     }
                 }
             }

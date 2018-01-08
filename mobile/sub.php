@@ -98,7 +98,7 @@
                     <!-- 탭메뉴 -->
                     <p class="ex-txt">탭메뉴 2</p>
                     <article class="tab-menu">
-                        <div class="tab-list">
+                        <div class="tab-list-2">
                             <ul>
                                 <li class="active"><a href="#">상세 정보</a></li>
                                 <li><a href="#">신청자한마디</a></li>
@@ -137,6 +137,8 @@
                         <li class="date">2017-10-10</li>
                         <li class="sympathy">공감</li>
                         <li class="user">무브먼트</li>
+                        <li class="d-day">D-12</li>
+                        <li class="point">+1,000</li>
                     </ul>
                     
                     <!-- 검색영역 -->
@@ -188,6 +190,354 @@
                             </div>
                         </div>
                     </article>
+                    
+                    <!-- 검색영역 -->
+                    <p class="ex-txt">의견 쓰기</p>
+                    <article class="review-write">
+                        <form action="#">
+                            <div class="article-header">
+                                <h4>의견쓰기</h4>
+                                <div class="form-group">
+                                    <textarea id="u-content" class="form-control" placeholder="타인비방, 모욕, 개인정보 노출, 상업광고, 홍보글 등은 공지없이 바로 삭제됩니다."></textarea>
+                                    <label for="u-content" class="sr-only"></label>
+                                </div>
+                                <div class="btn-register">
+                                    <button type="submit" class="btn btn-lg btn-gray">등록하기</button>
+                                </div>
+                            </div>
+                            <div class="article-content">
+                                <p class="inform">총 <b>120</b>개의 댓글이 있습니다.</p>
+                                <ul class="review-list">
+                                    <li>
+                                        <div class="writer-info">
+                                            <h5>영이시니</h5>
+                                            <p class="date">2017-10-22</p>
+                                        </div>
+                                        <div class="review-content">
+                                            <p>
+                                                38준데 가급적 자연분만하고싶네요 그래도 만약에 재왕절개하게 된다면 참고할 좋은정보 감사해요
+                                            </p>
+                                            <div class="btn-more">
+                                                <a href="#" class="btn btn-xs btn-gray">댓글</a>
+                                                <a href="#" class="btn btn-xs btn-gray">수 정</a>
+                                                <a href="#" class="btn btn-xs btn-gray">삭 제</a>
+                                                <a href="#" class="btn btn-xs btn-gray">신 고</a>
+                                                <a href="#" class="btn btn-xs btn-gray">블라인드</a>
+                                            </div>
+                                        </div>
+                                        <div class="reply">
+                                            <div class="writer-info">
+                                                <h5>영이시니</h5>
+                                                <p class="date">2017-10-22</p>
+                                            </div>
+                                            <div class="reply-content">
+                                                38준데 가급적 자연분만하고싶네요 그래도 만약에 재왕절개하게 된다면 참고할 좋은정보 감사해요
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="writer-info">
+                                            <h5>영이시니</h5>
+                                            <p class="date">2017-10-22</p>
+                                        </div>
+                                        <div class="review-content">
+                                            <p>
+                                                38준데 가급적 자연분만하고싶네요 그래도 만약에 재왕절개하게 된다면 참고할 좋은정보 감사해요
+                                            </p>
+                                            <div class="btn-more">
+                                                <a href="#" class="btn btn-xs btn-gray">댓글</a>
+                                                <a href="#" class="btn btn-xs btn-gray">수 정</a>
+                                                <a href="#" class="btn btn-xs btn-gray">삭 제</a>
+                                                <a href="#" class="btn btn-xs btn-gray">신 고</a>
+                                                <a href="#" class="btn btn-xs btn-gray">블라인드</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="writer-info">
+                                            <h5>영이시니</h5>
+                                            <p class="date">2017-10-22</p>
+                                        </div>
+                                        <div class="review-content">
+                                            <p>
+                                                38준데 가급적 자연분만하고싶네요 그래도 만약에 재왕절개하게 된다면 참고할 좋은정보 감사해요
+                                            </p>
+                                            <div class="btn-more">
+                                                <a href="#" class="btn btn-xs btn-gray">댓글</a>
+                                                <a href="#" class="btn btn-xs btn-gray">수 정</a>
+                                                <a href="#" class="btn btn-xs btn-gray">삭 제</a>
+                                                <a href="#" class="btn btn-xs btn-gray">신 고</a>
+                                                <a href="#" class="btn btn-xs btn-gray">블라인드</a>
+                                            </div>
+                                            <!-- 댓글수정시 -->
+                                            <div class="form-group">
+                                                <textarea id="m-content" class="form-control" placeholder="38준데 가급적 자연분만하고싶네요 그래도 만약에 재왕절개하게 된다면 참고할 좋은정보 감사해요"></textarea>
+                                                <label for="m-content" class="sr-only"></label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </article>
+                    
+                    <!-- 리스트 아이콘 -->
+                    <p class="ex-txt">리스트 아이콘</p>
+                    <span class="icon icon-new"><img src="/mobile/assets/images/icon_new.png" alt=""></span>
+                    <span class="icon icon-lock"><img src="/mobile/assets/images/icon_lock.png" alt=""></span>
+                    <span class="icon icon-file"><img src="/mobile/assets/images/icon_file.png" alt=""></span>
+                    <span class="icon icon-img"><img src="/mobile/assets/images/icon_img.png" alt=""></span>
+                    
+                    <!-- 게시판 리스트 type-1 -->
+                    <p class="ex-txt">게시판 리스트 type-1</p>
+                    <article class="board-type-1">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="list-header">
+                                        <h4>체험 이벤트 후기 제목 노출 영역입니다.</h4>
+                                        <ul class="icon-list">
+                                            <li class="user">무브먼트</li>
+                                            <li class="date">2017-10-10</li>
+                                            <li class="like">123</li>
+                                            <li class="comment">123</li>
+                                        </ul>
+                                    </div>
+                                    <div class="details">
+                                        <div class="item-img">
+                                            <figure>
+                                                <img src="/mobile/assets/images/sub/board_none_img.jpg" alt="">
+                                            </figure>
+                                        </div>
+                                        <p class="content">
+                                            체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 이벤트 후기 컨텐츠 내용이 노출되는 영역입니다. 체험 ...
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+                    
+                    <!-- 게시판 리스트 type-2 -->
+                    <p class="ex-txt">게시판 리스트 type-2</p>
+                    <article class="board-type-2">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <h4>당첨자 발표 제목이 노출되는 영역입니다.</h4>
+                                    <ul class="icon-list">
+                                        <li class="user">무브먼트</li>
+                                        <li class="date">2017-10-10</li>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+                    
+                    <!-- 게시판 리스트 -->
+                    <p class="ex-txt">게시판 리스트 type-3</p>
+                    <article class="board-type-3">
+                        <div class="article-header">
+                            <ul>
+                                <li>적립내용</li>
+                                <li class="mileage">적립금</li>
+                            </ul>
+                        </div>
+                        <div class="article-content">
+                            <div class="table-wrap">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="subject"><a href="#">딸램의 잠투정도 이제 클라우드비로 안녕~</a></td>
+                                            <td class="mileage"><span>333</span> P</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="subject"><a href="#">[아기크림] 쫀득한 킨더퍼페츠 모짜렐라 크림 고보습[아기크림] 쫀득한 킨더퍼페츠 모짜렐라 크림 고보습~</a></td>
+                                            <td class="mileage"><span>333</span> P</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- 게시판 리스트 -->
+                    <p class="ex-txt">게시판 리스트 type-4</p>
+                    <article class="board-type-4">
+                        <ul>
+                            <li>
+                                <div class="list-header">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/mobile/assets/images/sub/img_product01.png" alt="">
+                                        </figure>
+                                        <p class="item-title">
+                                            Botanical Therapy 스텝원 베이비치약 (무불소, 블루베리향) 
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="details-info">
+                                    <dl>
+                                        <dt>수량</dt>
+                                        <dd>1</dd>
+                                        <dt>재고</dt>
+                                        <dd>있음</dd>
+                                        <dt>적립금</dt>
+                                        <dd>630</dd>
+                                        <dt>가격</dt>
+                                        <dd>71,900</dd>
+                                    </dl>
+                                    <div class="btn-area">
+                                        <a href="#" class="btn btn-xs btn-white" role="button">취소</a>
+                                        <a href="#" class="btn btn-xs btn-white" role="button">문의</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-header">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="/mobile/assets/images/sub/img_product01.png" alt="">
+                                        </figure>
+                                        <p class="item-title">
+                                            Botanical Therapy 스텝원 베이비치약 (무불소, 블루베리향) 
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="details-info">
+                                    <dl>
+                                        <dt>수량</dt>
+                                        <dd>1</dd>
+                                        <dt>재고</dt>
+                                        <dd>있음</dd>
+                                        <dt>적립금</dt>
+                                        <dd>630</dd>
+                                        <dt>가격</dt>
+                                        <dd>71,900</dd>
+                                    </dl>
+                                    <div class="btn-area">
+                                        <a href="#" class="btn btn-xs btn-white" role="button">취소</a>
+                                        <a href="#" class="btn btn-xs btn-white" role="button">문의</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                    
+                    
+                    <!-- 테이블 -->
+                    <p class="ex-txt">테이블 type-1</p>
+                    <div class="table-wrap">
+                        <!-- caption 이 들어갈 경우 클래스 table-bordered 제거 -->
+                        <table class="table type-1">
+                            <caption>
+                                <h4>회원정보</h4>
+                                <div class="btn-link">
+                                    <a href="#" class="btn btn-default" role="button">회원정보 수정</a>
+                                </div>
+                            </caption>
+                            <tbody>
+                                <tr>
+                                    <th>신청자</th>
+                                    <td>무브먼트(movementk)</td>
+                                </tr>
+                                <tr>
+                                    <th class="essential"><label for="u-name">아이디</label></th>
+                                    <td class="overlap-confirm">
+                                        <div class="form-group">
+                                            <input type="text" id="u-name" class="form-control">
+                                            <div class="btn-overlap-confirm">
+                                                <a href="#" class="btn btn-default" role="button">중복확인</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="essential"><label for="u-zip-code">우편번호</label></th>
+                                    <td class="zip-code">
+                                        <div class="form-group">
+                                            <input type="text" id="u-zip-code" class="form-control">
+                                            <div class="btn-overlap-confirm">
+                                                <a href="#" class="btn btn-default" role="button">우편번호</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="u-sns">SNS 주소</label></th>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="text" id="u-sns" class="form-control">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>파일첨부</th>
+                                    <td class="file">
+                                        <div class="form-group">
+                                            <input type="file" id="attach" class="form-control">
+                                            <label for="attach">찾아보기</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="u-blog">블로그 주소</label></th>
+                                    <td>
+                                        <div class="form-group add-input">
+                                            <input type="text" id="u-blog" class="form-control">
+                                            <div class="add-btn">
+                                                <a href="#" class="plus">
+                                                    <i class="icon-plus-1">
+                                                        <span class="sr-only">추가하기</span>
+                                                    </i>
+                                                </a>
+                                                <a href="#" class="minus">
+                                                    <i class="icon-minus">
+                                                        <span class="sr-only">제거하기</span>
+                                                    </i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <!-- 공통 게시판 쓰기 -->
+                        <p class="ex-txt">게시판 쓰기</p>
+                        <table class="table table-bordered table-write type-1">
+                            <tbody>
+                                <tr>
+                                    <th class="v-top"><label for="subject">제목</label></th>
+                                    <td>
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option>구분</option>
+                                            </select>
+                                            <input type="text" id="subject" class="form-control">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="v-top"><label for="u-content">내용</label></th>
+                                    <td>
+                                        <div class="form-group">
+                                            <textarea id="u-content" class="form-control"></textarea>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>파일첨부</th>
+                                    <td class="file">
+                                        <div class="form-group">
+                                            <input type="file" id="attach" class="form-control">
+                                            <label for="attach">찾아보기</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     
                     <!-- paging -->
                     <p class="ex-txt">페이징</p>

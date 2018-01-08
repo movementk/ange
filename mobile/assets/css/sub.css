@@ -98,6 +98,9 @@ button {
   background: none;
   box-shadow: none; }
 
+.btn-default {
+  box-shadow: none !important; }
+
 .section-header {
   padding-bottom: 20px; }
   .section-header .summary {
@@ -227,13 +230,13 @@ button {
 
 .tab-menu {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
-  .tab-menu .tab-list > ul {
+  .tab-menu .tab-list-2 > ul {
     overflow: hidden; }
-    .tab-menu .tab-list > ul > li {
+    .tab-menu .tab-list-2 > ul > li {
       float: left;
       text-align: center;
       width: 33.33%; }
-      .tab-menu .tab-list > ul > li > a {
+      .tab-menu .tab-list-2 > ul > li > a {
         font-size: 11px;
         color: #666;
         font-weight: 400;
@@ -246,7 +249,7 @@ button {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         background-color: #fff; }
-      .tab-menu .tab-list > ul > li.active a {
+      .tab-menu .tab-list-2 > ul > li.active a {
         color: #e25371;
         border-color: #e96d7b;
         border-bottom: 1px solid #fff; }
@@ -360,6 +363,15 @@ button {
       padding-left: 12px; }
       .icon-list > li.user:before {
         content: "\E817"; }
+    .icon-list > li.d-day {
+      font-family: 'Roboto', sans-serif; }
+      .icon-list > li.d-day:before {
+        content: "\F133"; }
+    .icon-list > li.point {
+      padding-left: 12px;
+      font-family: 'Roboto', sans-serif; }
+      .icon-list > li.point:before {
+        content: "\E818"; }
 
 .board-view {
   border-top: 3px solid #b3b3b3; }
@@ -473,6 +485,104 @@ button {
   .page-link > ul > li.next a:after {
     content: "\F107"; }
 
+.review-write {
+  padding: 20px 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+  .review-write .form-group textarea {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; }
+  .review-write .article-header h4 {
+    font-size: 11px;
+    color: #303030;
+    font-weight: 500;
+    margin-bottom: 10px; }
+  .review-write .article-header .btn-register {
+    margin-top: 10px; }
+    .review-write .article-header .btn-register .btn-lg {
+      width: 100%;
+      font-size: 10px;
+      color: #333;
+      line-height: 25px;
+      border-radius: 5px;
+      background-color: #f5f5f5; }
+  .review-write .article-content {
+    margin-top: 25px; }
+    .review-write .article-content .inform {
+      display: block;
+      width: 100%;
+      font-size: 10px;
+      color: #707070; }
+      .review-write .article-content .inform b {
+        color: #eb3e3e; }
+    .review-write .article-content .review-list {
+      margin-top: 10px; }
+
+.review-list > li {
+  padding: 20px 10px;
+  border-bottom: 1px solid #dfdfdf; }
+  .review-list > li:first-child {
+    border-top: 1px solid #dfdfdf; }
+  .review-list > li .writer-info {
+    position: relative;
+    padding-right: 55px;
+    margin-bottom: 10px; }
+    .review-list > li .writer-info h5 {
+      font-size: 11px;
+      color: #3d3d3d;
+      font-weight: 500; }
+    .review-list > li .writer-info .date {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 10px;
+      color: #999;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif; }
+  .review-list > li .review-content p {
+    font-size: 10px;
+    color: #515151;
+    line-height: 14px; }
+  .review-list > li .review-content .btn-more {
+    font-size: 0;
+    margin-top: 10px; }
+    .review-list > li .review-content .btn-more .btn-xs {
+      display: inline-block;
+      font-size: 10px;
+      color: #fff;
+      padding: 0 10px;
+      font-weight: 300;
+      margin-right: 10px;
+      line-height: 20px;
+      border-radius: 30px;
+      background-color: #b3b3b3; }
+      .review-list > li .review-content .btn-more .btn-xs:last-child {
+        margin-right: 0; }
+      .review-list > li .review-content .btn-more .btn-xs:focus {
+        background-color: #ff7875; }
+  .review-list > li .review-content .form-group {
+    margin-top: 10px; }
+  .review-list > li .reply {
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7;
+    background-image: url(/mobile/assets/images/bg_reply.png);
+    background-repeat: no-repeat;
+    background-size: 9px auto;
+    background-position: 10px 10px; }
+    .review-list > li .reply .reply-content {
+      margin-top: 10px;
+      font-size: 10px;
+      color: #515151;
+      line-height: 14px; }
+
 .paging {
   text-align: center; }
   .paging .pagination {
@@ -501,5 +611,311 @@ button {
       margin-right: 10px; }
     .paging .pagination > li.next a {
       margin-left: 10px; }
+
+.board-type-1 {
+  padding: 0 10px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+  .board-type-1 > ul > li {
+    padding: 20px 10px;
+    border-bottom: 1px solid #ccc; }
+    .board-type-1 > ul > li a {
+      text-decoration: none; }
+      .board-type-1 > ul > li a .list-header h4 {
+        display: block;
+        font-size: 12px;
+        color: #333;
+        font-weight: 500;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .board-type-1 > ul > li a .list-header .icon-list {
+        margin-top: 8px; }
+        .board-type-1 > ul > li a .list-header .icon-list li {
+          margin-right: 10px; }
+      .board-type-1 > ul > li a .details {
+        display: table;
+        width: 100%;
+        margin-top: 20px; }
+        .board-type-1 > ul > li a .details .item-img {
+          display: table-cell;
+          width: 100px; }
+          .board-type-1 > ul > li a .details .item-img figure img {
+            width: 100%; }
+        .board-type-1 > ul > li a .details .content {
+          vertical-align: top;
+          display: table-cell;
+          padding-left: 20px;
+          font-size: 10px;
+          color: #666;
+          line-height: 13px;
+          font-weight: 300;
+          word-break: keep-all; }
+
+.board-type-2 {
+  padding: 0 10px 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+  .board-type-2 > ul > li {
+    padding: 15px 10px 10px;
+    border-bottom: 1px solid #ccc; }
+    .board-type-2 > ul > li a {
+      text-decoration: none; }
+      .board-type-2 > ul > li a h4 {
+        font-size: 11px;
+        color: #666;
+        font-weight: 500; }
+      .board-type-2 > ul > li a .icon-list {
+        margin-top: 8px; }
+
+.icon {
+  display: inline-block;
+  margin-left: 4px; }
+  .icon.icon-new img {
+    width: 9px; }
+  .icon.icon-lock img {
+    width: 7px; }
+  .icon.icon-file img {
+    width: 8px; }
+  .icon.icon-img img {
+    width: 9px; }
+
+.table-wrap .table {
+  margin: 0;
+  border: 0; }
+  .table-wrap .table.table-bordered {
+    border-top: 2px solid #b3b3b3; }
+  .table-wrap .table caption {
+    overflow: hidden;
+    padding: 10px;
+    background-color: #acacac; }
+    .table-wrap .table caption h4 {
+      float: left;
+      font-size: 13px;
+      color: #fff;
+      font-weight: 300;
+      line-height: 25px; }
+    .table-wrap .table caption .btn-link {
+      float: right; }
+      .table-wrap .table caption .btn-link .btn-default {
+        width: 80px;
+        font-size: 10px;
+        color: #999;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 30px;
+        background-color: #fff; }
+  .table-wrap .table tbody tr th {
+    border: 0; }
+    .table-wrap .table tbody tr th.v-top {
+      vertical-align: top !important;
+      padding-top: 20px !important; }
+    .table-wrap .table tbody tr th.essential:after {
+      color: #e25371;
+      content: " *"; }
+  .table-wrap .table tbody tr td {
+    vertical-align: middle;
+    border: 0; }
+    .table-wrap .table tbody tr td label input {
+      position: relative;
+      top: 3px;
+      margin-right: 2px; }
+    .table-wrap .table tbody tr td.file .form-group {
+      position: relative;
+      padding-right: 70px; }
+      .table-wrap .table tbody tr td.file .form-group label {
+        width: 60px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 10px;
+        color: #999;
+        line-height: 28px;
+        text-align: center;
+        border-radius: 30px;
+        border: 1px solid #ccc; }
+    .table-wrap .table tbody tr td.overlap-confirm .form-group, .table-wrap .table tbody tr td.zip-code .form-group {
+      position: relative;
+      padding-right: 70px; }
+      .table-wrap .table tbody tr td.overlap-confirm .form-group .btn-overlap-confirm .btn-default, .table-wrap .table tbody tr td.zip-code .form-group .btn-overlap-confirm .btn-default {
+        width: 60px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 10px;
+        color: #999;
+        line-height: 28px;
+        text-align: center;
+        border-radius: 30px;
+        border: 1px solid #ccc;
+        background: none !important; }
+    .table-wrap .table tbody tr td .add-input {
+      position: relative;
+      padding-right: 70px; }
+      .table-wrap .table tbody tr td .add-input .add-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 0; }
+        .table-wrap .table tbody tr td .add-input .add-btn a {
+          width: 30px;
+          line-height: 28px;
+          font-size: 10px;
+          color: #999;
+          text-align: center;
+          display: inline-block;
+          border: 1px solid #dfdfdf; }
+          .table-wrap .table tbody tr td .add-input .add-btn a.plus {
+            border-right: 0; }
+  .table-wrap .table.type-1 tbody tr th {
+    width: 100px;
+    font-size: 10px;
+    color: #666;
+    font-weight: 400;
+    padding: 10px;
+    vertical-align: middle;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e5e5e5; }
+  .table-wrap .table.type-1 tbody tr td {
+    font-size: 10px;
+    color: #999;
+    font-weight: 300;
+    height: 50px;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+  .table-wrap .table.table-write tbody tr td select {
+    width: 90px;
+    margin-bottom: 10px; }
+  .table-wrap .table.table-write tbody tr td textarea {
+    height: 130px; }
+  .table-wrap .table.type-2 tbody tr td {
+    font-size: 10px;
+    color: #999; }
+    .table-wrap .table.type-2 tbody tr td.title a {
+      color: #999;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: block;
+      text-decoration: none; }
+
+.board-type-3 {
+  padding-bottom: 20px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+  .board-type-3 .article-header {
+    padding: 0 10px;
+    background-color: #acacac; }
+    .board-type-3 .article-header ul {
+      display: table;
+      width: 100%; }
+      .board-type-3 .article-header ul li {
+        display: table-cell;
+        color: #fff;
+        text-align: center;
+        font-size: 11px;
+        padding: 15px 0 10px; }
+        .board-type-3 .article-header ul li.mileage {
+          width: 60px; }
+  .board-type-3 .article-content {
+    padding: 0 10px; }
+    .board-type-3 .article-content .table-wrap .table {
+      table-layout: fixed; }
+      .board-type-3 .article-content .table-wrap .table tbody {
+        padding: 0 10px; }
+        .board-type-3 .article-content .table-wrap .table tbody tr {
+          padding-left: 10px;
+          padding-right: 10px; }
+          .board-type-3 .article-content .table-wrap .table tbody tr td {
+            font-size: 10px;
+            color: #999;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ccc; }
+            .board-type-3 .article-content .table-wrap .table tbody tr td.mileage {
+              text-align: center;
+              width: 60px; }
+              .board-type-3 .article-content .table-wrap .table tbody tr td.mileage span {
+                font-family: 'Roboto', sans-serif; }
+            .board-type-3 .article-content .table-wrap .table tbody tr td.subject {
+              text-align: left; }
+              .board-type-3 .article-content .table-wrap .table tbody tr td.subject a {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                display: block;
+                color: #999;
+                text-decoration: none; }
+
+.board-type-4 {
+  border-radius: 5px;
+  padding: 10px 10px 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+  .board-type-4 > ul > li {
+    padding: 20px 0 30px;
+    border-bottom: 1px solid #e5e5e5; }
+    .board-type-4 > ul > li .list-header a {
+      display: table;
+      width: 100%;
+      text-decoration: none; }
+      .board-type-4 > ul > li .list-header a figure {
+        display: table-cell;
+        width: 76px;
+        border: 1px solid #e0e0e0; }
+        .board-type-4 > ul > li .list-header a figure img {
+          width: 100%; }
+      .board-type-4 > ul > li .list-header a .item-title {
+        vertical-align: top;
+        display: table-cell;
+        font-size: 14px;
+        color: #333;
+        line-height: 20px;
+        font-weight: 400;
+        padding-left: 20px; }
+    .board-type-4 > ul > li .details-info {
+      margin-top: 25px;
+      position: relative; }
+      .board-type-4 > ul > li .details-info dl {
+        overflow: hidden; }
+        .board-type-4 > ul > li .details-info dl dt {
+          float: left;
+          clear: both;
+          font-size: 12px;
+          color: #777;
+          line-height: 24px;
+          font-weight: 400; }
+          .board-type-4 > ul > li .details-info dl dt:after {
+            content: ":";
+            margin: 0 2px 0 3px; }
+        .board-type-4 > ul > li .details-info dl dd {
+          font-size: 12px;
+          color: #777;
+          font-weight: 400;
+          line-height: 24px; }
+      .board-type-4 > ul > li .details-info .btn-area {
+        position: absolute;
+        bottom: 0;
+        right: 0; }
+        .board-type-4 > ul > li .details-info .btn-area .btn-xs {
+          width: 60px;
+          display: block;
+          font-size: 10px;
+          color: #999;
+          text-align: center;
+          border-radius: 30px; }
+          .board-type-4 > ul > li .details-info .btn-area .btn-xs ~ .btn-xs {
+            margin-top: 10px; }
+          .board-type-4 > ul > li .details-info .btn-area .btn-xs.btn-white {
+            line-height: 28px;
+            border: 1px solid #ccc; }
 
 /*# sourceMappingURL=sub.css.map */
