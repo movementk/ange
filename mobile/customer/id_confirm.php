@@ -14,7 +14,7 @@
                 </div>
                 <div class="section-content">
                     <form action="#">
-                        <article class="table-wrap">
+                        <div class="table-wrap">
                             <table class="table table-bordered table-write type-1">
                                 <tbody>
                                     <tr>
@@ -35,7 +35,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </article>
+                        </div>
                         <article class="authentication">
                             <b>회원정보에 등록된 휴대전화 번호와<br>일치해야, 인증번호를 받을 수 있습니다.</b>
                             <p>
@@ -61,7 +61,7 @@
                         </article>
                     </form>
                     <div class="result">
-                        사용자 아이디는<b> movementk </b>입니다.
+                        <p>사용자 아이디는 <i>movementk</i> 입니다.</p>
                     </div>
                     <div class="btn-area">
                         <p>

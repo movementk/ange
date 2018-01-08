@@ -1,7 +1,7 @@
 @import 'common';
 
 #content {
-    padding: 10px;
+    padding: 10px 5px;
     a {
         text-decoration: none;
     }
@@ -9,12 +9,12 @@
 
 // hot-issue
 .hot-issue {
+    a {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
     background-color: #fff;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
-    a {
         display: block;
         strong {
             font-size: 11px;
@@ -43,8 +43,8 @@
                         figure {
                             overflow: hidden;
                             border-radius: 10px;
-                            .img-responsvie {
-                                margin: 0 auto;
+                            .img-responsive {
+                                width: 100%;
                             }
                         }
                     }
@@ -81,3 +81,78 @@
         }
     }
 }
+
+// 브랜드 뉴스 및 배너
+.brand-banner {
+    margin-top: 10px;
+    .brand-news {
+        position: relative;
+        a {
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+            figure {
+                .img-responsive {
+                    width: 100%;
+                }
+            }
+            .details {
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 10px;
+                h1 {
+                    font-size: 12px;
+                    color: #333;
+                    font-weight: 500;
+                    @include roboto();
+                }
+                p {
+                    font-size: 10px;
+                    color: #666;
+                    margin-top: 15px;
+                }
+                i {
+                    font-size: 10px;
+                    line-height: 12px;
+                    
+                }
+            }
+        }
+    }
+}
+
+
+.qna {
+    overflow: hidden;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

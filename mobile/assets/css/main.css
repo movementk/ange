@@ -20,69 +20,68 @@ ul, ol {
   list-style: none; }
 
 .container {
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 5px;
+  padding-right: 5px; }
   .container .row {
-    margin-left: -10px;
-    margin-right: -10px; }
+    margin-left: -5px;
+    margin-right: -5px; }
     .container .row .col-xs-1 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-2 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-3 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-4 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-5 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-6 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-7 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-8 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-9 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-10 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-11 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
     .container .row .col-xs-12 {
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-left: 5px;
+      padding-right: 5px; }
 
 #content {
-  padding: 10px; }
+  padding: 10px 5px; }
   #content a {
     text-decoration: none; }
 
-.hot-issue {
+.hot-issue a {
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
   background-color: #fff;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
-  .hot-issue a {
-    display: block; }
-    .hot-issue a strong {
-      font-size: 11px;
-      color: #e96d7b;
-      font-family: 'Roboto', sans-serif; }
-    .hot-issue a p {
-      font-size: 10px;
-      color: #666;
-      margin-top: 8px; }
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+  display: block; }
+  .hot-issue a strong {
+    font-size: 11px;
+    color: #e96d7b;
+    font-family: 'Roboto', sans-serif; }
+  .hot-issue a p {
+    font-size: 10px;
+    color: #666;
+    margin-top: 8px; }
 
 .jumbo {
   overflow: hidden;
@@ -95,8 +94,8 @@ ul, ol {
       .jumbo .bx-wrapper .bx-viewport ul li a figure {
         overflow: hidden;
         border-radius: 10px; }
-        .jumbo .bx-wrapper .bx-viewport ul li a figure .img-responsvie {
-          margin: 0 auto; }
+        .jumbo .bx-wrapper .bx-viewport ul li a figure .img-responsive {
+          width: 100%; }
     .jumbo .bx-wrapper .bx-controls {
       position: absolute;
       bottom: 10px;
@@ -120,5 +119,40 @@ ul, ol {
             margin: 0 3px; }
             .jumbo .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
               background-color: #777; }
+
+.brand-banner {
+  margin-top: 10px; }
+  .brand-banner .brand-news {
+    position: relative; }
+    .brand-banner .brand-news a {
+      overflow: hidden;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+      .brand-banner .brand-news a figure .img-responsive {
+        width: 100%; }
+      .brand-banner .brand-news a .details {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px; }
+        .brand-banner .brand-news a .details h1 {
+          font-size: 12px;
+          color: #333;
+          font-weight: 500;
+          font-family: 'Roboto', sans-serif; }
+        .brand-banner .brand-news a .details p {
+          font-size: 10px;
+          color: #666;
+          margin-top: 15px; }
+        .brand-banner .brand-news a .details i {
+          font-size: 10px;
+          line-height: 12px; }
+
+.qna {
+  overflow: hidden;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px; }
 
 /*# sourceMappingURL=main.css.map */
