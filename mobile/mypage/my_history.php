@@ -2,7 +2,7 @@
 <link href="/mobile/assets/css/sub.css" rel="stylesheet">
 <link href="/mobile/assets/css/mypage.css" rel="stylesheet">
 </head>
-<body class="mypage"><!-- 폴더별 클래스명 추가 -->
+<body class="sub mypage"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/header.php"); ?>
     <!-- pgae-header -->
     <div class="page-header">
@@ -23,10 +23,10 @@
     </div>
     
     <!-- sub content start -->
-    <main id="content" class="sub my-history"><!-- 페이지명 클래스 -->
+    <main id="content" class="my-history"><!-- 페이지명 클래스 -->
         <div class="container">
-            <div class="sub-content">
-                <h4>내가 쓴 게시물</h4>
+            <section class="my-board">
+                <h3>내가 쓴 게시물</h3>
                 <div class="search-form">
                     <form action="#">
                         <div class="form-group">
@@ -143,7 +143,8 @@
                         </ul>
                     </nav>
                 </article>
-                
+            </section>
+            <section class="my-comment">
                 <h5>내가 쓴 댓글</h5>
                 <article class="board-type-3">
                     <div class="article-header">
@@ -210,12 +211,11 @@
                         </nav>
                     </div>
                 </article>
-            </div>
+            </section>
         </div>
     </main>
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/docfoot.php"); ?>
-    <script src="/mobile/assets/js/common_sub.js"></script>
 </body>
 </html>
