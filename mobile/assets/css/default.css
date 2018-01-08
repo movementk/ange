@@ -312,21 +312,18 @@ ul, ol {
             #gnb-nav .nav-container .nav-body .sns-list > ul > li a img {
               width: 23px; }
 
-/*.mypage-opened {
-    overflow: hidden;
-    #mypage-nav {
-        width: 100%;
-        .nav-container {
-            right: 0;
-        }
-    }
-}*/
+.mypage-opened {
+  overflow: hidden; }
+  .mypage-opened #mypage-nav {
+    width: 100%; }
+    .mypage-opened #mypage-nav .nav-container {
+      right: 0; }
+
 #mypage-nav {
   position: fixed;
   top: 0;
   right: 0;
-  /*width: 0;*/
-  width: 100%;
+  width: 0;
   height: 100%;
   z-index: 400; }
   #mypage-nav .nav-backdrop {
@@ -339,8 +336,7 @@ ul, ol {
   #mypage-nav .nav-container {
     position: absolute;
     top: 0;
-    /*right: -220px;*/
-    right: 0;
+    right: -220px;
     width: 220px;
     height: 100%;
     overflow: auto;
@@ -486,6 +482,57 @@ ul, ol {
       border-bottom: 1px solid #ccc; }
       #mypage-nav .nav-container .nav-body > div:first-child {
         border-top: 0; }
+      #mypage-nav .nav-container .nav-body > div:last-child {
+        border-bottom: 0; }
+      #mypage-nav .nav-container .nav-body > div.interest-keyword .title:after {
+        content: "\E80D"; }
+      #mypage-nav .nav-container .nav-body > div.interest-keyword > ul {
+        overflow: hidden; }
+        #mypage-nav .nav-container .nav-body > div.interest-keyword > ul > li {
+          float: left;
+          width: 50%; }
+          #mypage-nav .nav-container .nav-body > div.interest-keyword > ul > li ~ li {
+            margin-top: 5px; }
+          #mypage-nav .nav-container .nav-body > div.interest-keyword > ul > li a {
+            display: block;
+            width: 100%;
+            font-size: 10px;
+            color: #666;
+            text-align: center;
+            line-height: 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            border-top-right-radius: 0;
+            border: 1px solid #ccc; }
+          #mypage-nav .nav-container .nav-body > div.interest-keyword > ul > li:nth-of-type(2) {
+            margin-top: 0; }
+          #mypage-nav .nav-container .nav-body > div.interest-keyword > ul > li:nth-of-type(2n + 1) {
+            clear: both;
+            padding-right: 5px; }
+          #mypage-nav .nav-container .nav-body > div.interest-keyword > ul > li:nth-of-type(2n + 2) {
+            padding-left: 5px; }
+      #mypage-nav .nav-container .nav-body > div .title {
+        display: block;
+        font-size: 12px;
+        color: #333;
+        font-weight: 400;
+        margin-bottom: 13px;
+        text-decoration: none; }
+        #mypage-nav .nav-container .nav-body > div .title:after {
+          font-size: 10px;
+          color: #999;
+          content: "\E81A";
+          float: right;
+          font-family: "fontello"; }
+      #mypage-nav .nav-container .nav-body > div > .board-list li a {
+        display: block;
+        font-size: 10px;
+        color: #666;
+        line-height: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-decoration: none; }
 
 #footer {
   padding-top: 20px;

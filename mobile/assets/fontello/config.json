@@ -227,6 +227,12 @@
       "css": "plus-1",
       "code": 59414,
       "src": "typicons"
+    },
+    {
+      "uid": "70370693ada58ef0a60fa0984fe8d52a",
+      "css": "plus-2",
+      "code": 59418,
+      "src": "entypo"
     }
   ]
 }
