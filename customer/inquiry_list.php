@@ -1,6 +1,6 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
-<link href="/assets/css/custormer.css" rel="stylesheet">
+<link href="/assets/css/customer.css" rel="stylesheet">
 </head>
 <body class="sub customer"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>

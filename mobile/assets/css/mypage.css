@@ -175,6 +175,7 @@
     padding: 25px 15px;
     background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
 }
 .mileage .mileage-view dl dt {
     display: inline;
@@ -188,7 +189,7 @@
     color: #e25371; 
     font-family: 'Roboto', sans-serif;
 }
-.mileage .mileage-view dl dd figure {
+.mileage .mileage-view dl dd p.icon-point {
     display: inline-block;
     width: 17px;
     margin-right: 7px;

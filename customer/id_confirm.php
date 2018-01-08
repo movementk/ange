@@ -1,6 +1,6 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
-<link href="/assets/css/custormer.css" rel="stylesheet">
+<link href="/assets/css/customer.css" rel="stylesheet">
 </head>
 <body class="sub customer"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
@@ -60,19 +60,19 @@
                                    <input type="text" id="cofirm-num" class="form-control" placeholder="인증번호를 입력해주세요"><label for="cofirm-num" class="sr-only">인증번호확인</label>
                                    <div class="btn-area">
                                         <p>
-                                            <a href="#" class="btn btn-gray" role="button">인증번호 확인</a>
+                                            <button tyle="submit" class="btn btn-gray">인증번호 확인</button>
                                         </p>
                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="confrim-check">
-                            <dl>
-                                <dt>사용자 아이디 </dt>
-                                <dd>Test123</dd>
-                            </dl>
-                        </div>
                     </form>
+                    <div class="confirm-check">
+                        <dl>
+                            <dt>사용자 아이디 </dt>
+                            <dd>Test123</dd>
+                        </dl>
+                    </div>
                     <div class="btn-area">
                         <p>
                             <a href="/" class="btn btn-pink" role="button">

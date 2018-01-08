@@ -29,9 +29,9 @@
                 <dl>
                     <dt>관리자 님의 사용가능 마일리지</dt>
                     <dd>
-                        <figure>
+                        <p class="icon-point">
                             <img src="/mobile/assets/images/mypage/img_mileage.png" alt="">
-                        </figure>
+                        </p>
                         999,999,999 P
                     </dd>
                 </dl>
