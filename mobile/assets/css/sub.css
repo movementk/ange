@@ -116,7 +116,7 @@ button {
   font-weight: 500; }
 
 #content {
-  padding: 20px 0 40px; }
+  padding: 20px 0 50px; }
 
 .ex-txt {
   font-size: 15px;
@@ -922,5 +922,51 @@ button {
           .board-type-4 > ul > li .details-info .btn-area .btn-xs.btn-white {
             line-height: 28px;
             border: 1px solid #ccc; }
+
+.btn-area {
+  text-align: center; }
+  .btn-area p {
+    font-size: 0; }
+    .btn-area p .btn {
+      display: inline-block;
+      font-size: 10px;
+      text-align: center;
+      margin-right: 10px;
+      border-radius: 30px; }
+      .btn-area p .btn:last-child {
+        margin-right: 0; }
+      .btn-area p .btn.btn-white {
+        line-height: 28px;
+        color: #666;
+        border: 1px solid #ccc;
+        background-color: #fff; }
+      .btn-area p .btn.btn-pink {
+        line-height: 30px;
+        border: 0;
+        color: #fff;
+        background-color: #ff7875; }
+      .btn-area p .btn.btn-gray {
+        line-height: 30px;
+        border: 0;
+        color: #fff;
+        background-color: #b3b3b3; }
+    .btn-area p .btn-xs {
+      width: 70px;
+      height: 30px; }
+    .btn-area p .btn-sm {
+      width: 100px; }
+    .btn-area p .btn-md {
+      width: 145px; }
+    .btn-area p .btn-lg {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .btn-area p .btn-lg.btn-more {
+        text-align: left; }
+        .btn-area p .btn-lg.btn-more:after {
+          color: #999;
+          float: right;
+          content: "\E802";
+          font-family: "fontello"; }
 
 /*# sourceMappingURL=sub.css.map */

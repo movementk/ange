@@ -63,7 +63,7 @@ button {
 
 // Content
 #content {
-    padding: 20px 0 40px;
+    padding: 20px 0 50px;
 }
 .ex-txt {
     font-size: 15px;
@@ -1191,7 +1191,65 @@ button {
     }
 }
 
-
+// 버튼 목록
+.btn-area {
+    text-align: center;
+    p {
+        font-size: 0;
+        .btn {
+            display: inline-block;
+            font-size: 10px;
+            text-align: center;
+            margin-right: 10px;
+            border-radius: 30px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &.btn-white {
+                line-height: 28px;
+                color: #666;
+                border: 1px solid #ccc;
+                background-color: #fff;
+            }
+            &.btn-pink {
+                line-height: 30px;
+                border: 0;
+                color: #fff;
+                background-color: #ff7875;
+            }
+            &.btn-gray {
+                line-height: 30px;
+                border: 0;
+                color: #fff;
+                background-color: #b3b3b3;
+            }
+        }
+        .btn-xs {
+            width: 70px;
+            height: 30px;
+        }
+        .btn-sm {
+            width: 100px;
+        }
+        .btn-md {
+            width: 145px;
+        }
+        .btn-lg {
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            &.btn-more {
+                text-align: left;
+                &:after {
+                    color: #999;
+                    float: right;
+                    content: "\E802";
+                    font-family: "fontello";
+                }
+            }
+        }
+    }
+}
 
 
 

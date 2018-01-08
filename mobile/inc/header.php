@@ -8,10 +8,10 @@
     </div>
     <div class="logo-nav">
         <h1><a href="/mobile/index.php"><img src="/mobile/assets/images/logo.jpg" alt=""></a></h1>
-        <button type="button" class="btn-menu">
+        <button type="button" class="btn-open-nav">
             <img src="/mobile/assets/images/btn_menu.jpg" alt="버튼 아이콘">
         </button>
-        <button type="button" class="btn-mypage">
+        <button type="button" class="btn-open-mypage">
             <img src="/mobile/assets/images/btn_mypage.jpg" alt="버튼 아이콘">
         </button>
     </div>

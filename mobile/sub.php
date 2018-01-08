@@ -571,6 +571,39 @@
                             </li>
                         </ul>
                     </nav>
+                    
+                    <!-- paging -->
+                    <p class="ex-txt">버튼 종류</p>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-xs btn-white" role="button">수정</a>
+                            <a href="#" class="btn btn-xs btn-white" role="button">삭제</a>
+                            <a href="#" class="btn btn-xs btn-pink" role="button">목록</a>
+                            <a href="#" class="btn btn-xs btn-gray" role="button">목록</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="#" class="btn btn-sm btn-white" role="button">확인</a>
+                            <a href="#" class="btn btn-sm btn-pink" role="button">취소</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="#" class="btn btn-md btn-white" role="button">확인</a>
+                            <a href="#" class="btn btn-md btn-pink" role="button">취소</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="#" class="btn btn-lg btn-white" role="button">구경가기</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="#" class="btn btn-lg btn-pink" role="button">응모하기</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="#" class="btn btn-lg btn-white btn-more" role="button">자세히보기</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
