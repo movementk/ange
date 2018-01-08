@@ -9,24 +9,24 @@
 }
 
 /* 쪽지 뷰 */
-.message-view .sub-content .table-wrap {
+.message-view .table-wrap {
     margin-top: 40px;
 }
-.message-view .sub-content .table-wrap h5 {
+.message-view .table-wrap h5 {
     font-size: 12px;
     color: #333;
     margin-bottom: 17px;
 }
-.message-view .sub-content .table-wrap .btn-area {
+.message-view .table-wrap .btn-area {
     margin-top: 31px;
     text-align: right;
 }
-.message-view .sub-content .table-wrap .btn-area p > .btn{
+.message-view .table-wrap .btn-area p > .btn{
     width: 90px;
 }
 /* 비밀번호 확인*/
 .pw-confirm .confirm-form {
-    padding: 35px 20px;
+    padding: 35px 0;
     background-color: #fff;
     border-radius: 10px;
 }
@@ -53,9 +53,8 @@
     color: #8f8f8f;
 }
 .pw-confirm .confirm-form .form-group .form-control {
-    width: 86%;
+    width: 260px;
     margin: 0 auto;
-    /*질문*/
 }
 .pw-confirm .confirm-form .btn-area {
     margin-top: 30px;
@@ -63,94 +62,96 @@
 
 
 /* 내가 쓴 글 */
-.my-history .sub-content h4 {
+.my-history .my-board h3 {
     font-size: 12px;
     color: #333;
 }
-.my-history .sub-content .search-form {
+.my-history .my-board .search-form {
     margin: 15px 0;
 }
-.my-history .sub-content .board-type-2 .paging {
+.my-history .my-board .board-type-2 .paging {
     margin-top: 22px;
 }
-.my-history .sub-content h5 {
+.my-history .my-board .board-type-2 > ul > li {
+    border-bottom: 1px solid #dfdfdf;
+}
+.my-history .my-comment h5 {
     font-size: 13px;
     color: #333;
     margin-top: 40px;
 }
-.my-history .sub-content .board-type-3 {
+.my-history .my-comment .board-type-3 {
     border-radius: 10px;
     margin-top: 20px;
 }
-.my-history .sub-content .board-type-3 .article-header ul li.date {
+.my-history .my-comment .board-type-3 .article-header ul li.date {
     width: 108px;
     text-align: right;
     padding-right: 18px;
     /*질문*/
 }
-.my-history .sub-content .board-type-3 .article-content .table-wrap .table tbody tr td.date {
+.my-history .my-comment .board-type-3 .article-content .table-wrap .table tbody tr td.date {
     text-align: right;
     width: 108px;
     font-family: 'Roboto', sans-serif;
     color: #999;
 }
-.my-history .sub-content .board-type-3 .article-content .paging {
+.my-history .my-comment .board-type-3 .article-content .paging {
     margin-top: 20px;
 }
 
 /* 회원탈퇴 동의 */
-.member-leave .sub-content .text-box {
+.member-leave .text-box {
     padding: 40px 18px;
     background-color: #fff;
     border-radius: 10px;
 }
-.member-leave .sub-content .text-box figure {
+.member-leave .text-box figure {
     width: 92px;
     margin: 0 auto;
 }
-.member-leave .sub-content .text-box figure img {
+.member-leave .text-box figure img {
     width: 100%;
 }
-.member-leave .sub-content .text-box .info {
+.member-leave .text-box .info {
     margin-top: 20px;
 }
-.member-leave .sub-content .text-box .info p {
+.member-leave .text-box .info p {
     font-size: 11px;
     color: #8f8f8f;
     text-align: center;
     line-height: 16px;
 }
-.member-leave .sub-content .text-box .info p:last-child {
-    margin-top: 20px;
-}
-.member-leave .sub-content .check-box {
+.member-leave label {
     margin-top: 20px;
     width: 100%;
     color: #666;
+    font-weight: 300;
 }
-.member-leave .sub-content .check-box input {
+.member-leave input {
     font-size: 11px;
     position: relative;
     top: 3px;
     margin-right: 7px;
 }
-.member-leave .sub-content .btn-area {
+.member-leave .btn-area {
     margin-top: 40px;
     text-align: right;
 }
 
 /* 회원탈퇴 완료 */
-.success .sub-content {
+.success .success {
     padding: 50px 44px 40px;
     background-color: #fff;
     border-radius: 10px;
 }
-.success .sub-content h4 {
+.success .success h4 {
+    font-weight: 400;
     font-size: 13px;
     color: #333;
     text-align: center;
 }
-.success .sub-content .summary {
+.success .success .summary {
     font-size: 11px;
     color: #8f8f8f;
     line-height: 16px;
@@ -158,13 +159,13 @@
     margin-top: 18px;
     margin-bottom: 28px;
 }
-.success .sub-content figure {
+.success .success figure {
     width: 173px;
     margin: 0 auto
 }
-.success .sub-content figure img {
+.success .success figure img {
     width: 100%;
 }
-.success .sub-content .btn-area {
+.success .success .btn-area {
     margin-top: 30px;
 }

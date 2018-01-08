@@ -2,7 +2,7 @@
 <link href="/mobile/assets/css/sub.css" rel="stylesheet">
 <link href="/mobile/assets/css/mypage.css" rel="stylesheet">
 </head>
-<body class="mypage"><!-- 폴더별 클래스명 추가 -->
+<body class="sub mypage"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/header.php"); ?>
     <!-- pgae-header -->
     <div class="page-header">
@@ -23,96 +23,95 @@
     </div>
     
     <!-- sub content start -->
-    <main id="content" class="sub message-list"><!-- 페이지명 클래스 -->
+    <main id="content" class="message-list"><!-- 페이지명 클래스 -->
         <div class="container">
-            <div class="sub-content">
-                <div class="search-form">
-                    <form action="#">
-                        <div class="form-group">
-                            <select class="form-control">
-                                <option>제목</option>
-                            </select>
-                            <input type="text" id="search" class="form-control" placeholder="검색어를 입력해 주세요">
-                            <label for="search" class="sr-only">검색하기</label>
-                        </div>
-                        <div class="search-btn">
-                            <button type="submit" class="btn btn-default">
-                                <i class="icon-search">
-                                    <span class="sr-only">검색버튼</span>
-                                </i>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <article class="board-type-2">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
-                                <ul class="icon-list">
-                                    <li class="date"><span>2017-10-10</span></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
-                                <ul class="icon-list">
-                                    <li class="date"><span>2017-10-10</span></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
-                                <ul class="icon-list">
-                                    <li class="date"><span>2017-10-10</span></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
-                                <ul class="icon-list">
-                                    <li class="date"><span>2017-10-10</span></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
-                                <ul class="icon-list">
-                                    <li class="date"><span>2017-10-10</span></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
-                                <ul class="icon-list">
-                                    <li class="date"><span>2017-10-10</span></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
-                                <ul class="icon-list">
-                                    <li class="date"><span>2017-10-10</span></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
-                                <ul class="icon-list">
-                                    <li class="date"><span>2017-10-10</span></li>
-                                </ul>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="search-form">
+                <form action="#">
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option>제목</option>
+                        </select>
+                        <input type="text" id="search" class="form-control" placeholder="검색어를 입력해 주세요">
+                        <label for="search" class="sr-only">검색하기</label>
+                    </div>
+                    <div class="search-btn">
+                        <button type="submit" class="btn btn-default">
+                            <i class="icon-search">
+                                <span class="sr-only">검색버튼</span>
+                            </i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <article class="board-type-2">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
+                            <ul class="icon-list">
+                                <li class="date"><span>2017-10-10</span></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
+                            <ul class="icon-list">
+                                <li class="date"><span>2017-10-10</span></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
+                            <ul class="icon-list">
+                                <li class="date"><span>2017-10-10</span></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
+                            <ul class="icon-list">
+                                <li class="date"><span>2017-10-10</span></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
+                            <ul class="icon-list">
+                                <li class="date"><span>2017-10-10</span></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
+                            <ul class="icon-list">
+                                <li class="date"><span>2017-10-10</span></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
+                            <ul class="icon-list">
+                                <li class="date"><span>2017-10-10</span></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h4>내가 쓴 게시물 제목이 노출되는 영역입니다</h4>
+                            <ul class="icon-list">
+                                <li class="date"><span>2017-10-10</span></li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
 
-                    <nav class="paging" aria-label="Page navigation">
+                <nav class="paging" aria-label="Page navigation">
                     <ul class="pagination">
                         <li class="first">
                             <a href="#" aria-label="Previous">
@@ -141,13 +140,11 @@
                         </li>
                     </ul>
                 </nav>
-                </article>
-            </div>
+            </article>
         </div>
     </main>
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/docfoot.php"); ?>
-    <script src="/mobile/assets/js/common_sub.js"></script>
 </body>
 </html>
