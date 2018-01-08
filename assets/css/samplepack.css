@@ -457,6 +457,12 @@ font-size: 0;
     color: #999;
     font-size: 12px;
 }
+.sample-explain .samplepack-wrap .article-content .info-wrap .member-info .details dl dd ol li a.insta{
+    margin-left: 10px;
+}
+.sample-explain .samplepack-wrap .article-content .info-wrap .member-info .details dl dd ol li a.facebook{
+    margin-left: 10px;
+}
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info .btn-area {
     text-align: center;
 }

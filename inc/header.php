@@ -142,9 +142,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">샘플팩 신청<span></span></a>
+                        <a href="/samplepack/sample_explain.php">샘플팩 신청<span></span></a>
                         <ul>
-                            <li><a href="#">샘플팩 신청<span></span></a></li>
+                            <li><a href="/samplepack/sample_explain.php">샘플팩 신청<span></span></a></li>
+                            <li><a href="/samplepack/sample_list.php">샘플팩 후기<span></span></a></li>
                         </ul>
                     </li>
                 </ul>
