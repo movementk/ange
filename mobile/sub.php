@@ -35,28 +35,28 @@
                     <p class="ex-txt">STEP LIST</p>
                     <ol class="step-list">
                         <li class="active">
-                            <a href="#">
-                                <p class="icon">
-                                    <img src="" alt="">
+                            <div>
+                                <p class="icon-img">
+                                    <img src="/mobile/assets/images/sub/icon_step01_active.png" alt="step01">
                                 </p>
                                 약관동의
-                            </a>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">
-                                <p class="icon">
-                                    <img src="" alt="">
+                            <div>
+                                <p class="icon-img">
+                                    <img src="/mobile/assets/images/sub/icon_step02.png" alt="step02">
                                 </p>
                                 회원정보입력
-                            </a>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">
-                                <p class="icon">
-                                    <img src="" alt="">
+                            <div>
+                                <p class="icon-img">
+                                    <img src="/mobile/assets/images/sub/icon_step03.png" alt="step03">
                                 </p>
                                 가입완료
-                            </a>
+                            </div>
                         </li>
                     </ol>
                     
@@ -131,14 +131,15 @@
                     
                     <!-- 검색영역 -->
                     <p class="ex-txt">아이콘 리스트</p>
+                    <!-- 폰트 스타일 roboto 일때 span 태그로 적용 -->
                     <ul class="icon-list">
-                        <li class="like">123</li>
-                        <li class="comment">123</li>
-                        <li class="date">2017-10-10</li>
+                        <li class="like"><span>123</span></li>
+                        <li class="comment"><span>123</span></li>
+                        <li class="date"><span>2017-10-10</span></li>
                         <li class="sympathy">공감</li>
                         <li class="user">무브먼트</li>
-                        <li class="d-day">D-12</li>
-                        <li class="point">+1,000</li>
+                        <li class="d-day"><span>D-12</span></li>
+                        <li class="point"><span>+1,000</span></li>
                     </ul>
                     
                     <!-- 검색영역 -->
@@ -147,10 +148,10 @@
                         <div class="article-header">
                             <h4>애독자엽서 &lt;비트루트 4종 세트&gt; 당첨자 구성품 변경 안내 (5월 엽서 이용)</h4>
                             <ul class="icon-list">
-                                <li class="like">123</li>
-                                <li class="comment">123</li>
-                                <li class="date">2017-10-10</li>
-                                <li class="sympathy">공감</li>
+                                <li class="like"><span>123</span></li>
+                                <li class="comment"><span>123</span></li>
+                                <li class="date"><span>2017-10-10</span></li>
+                                <li class="sympathy"><a href="#">공감</a></li>
                             </ul>
                         </div>
                         <div class="article-content">
@@ -298,9 +299,9 @@
                                         <h4>체험 이벤트 후기 제목 노출 영역입니다.</h4>
                                         <ul class="icon-list">
                                             <li class="user">무브먼트</li>
-                                            <li class="date">2017-10-10</li>
-                                            <li class="like">123</li>
-                                            <li class="comment">123</li>
+                                            <li class="date"><span>2017-10-10</span></li>
+                                            <li class="like"><span>123</span></li>
+                                            <li class="comment"><span>123</span></li>
                                         </ul>
                                     </div>
                                     <div class="details">
@@ -327,7 +328,7 @@
                                     <h4>당첨자 발표 제목이 노출되는 영역입니다.</h4>
                                     <ul class="icon-list">
                                         <li class="user">무브먼트</li>
-                                        <li class="date">2017-10-10</li>
+                                        <li class="date"><span>2017-10-10</span></li>
                                     </ul>
                                 </a>
                             </li>
