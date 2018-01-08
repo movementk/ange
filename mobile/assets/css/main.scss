@@ -87,36 +87,38 @@
     margin-top: 10px;
     .brand-news {
         position: relative;
-        a {
-            overflow: hidden;
-            border-radius: 10px;
-            background-color: #fff;
-            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
-            figure {
-                .img-responsive {
-                    width: 100%;
-                }
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+        figure {
+            .img-responsive {
+                width: 100%;
             }
+        }
+        a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
             .details {
-                position: absolute;
-                top: 0;
-                left: 0;
                 padding: 10px;
-                h1 {
-                    font-size: 12px;
-                    color: #333;
-                    font-weight: 500;
-                    @include roboto();
+                h3 {
+                    line-height: 6px;
+                    margin-bottom: 8px;
+                    img {
+                        width: 56px;
+                    }
                 }
                 p {
                     font-size: 10px;
-                    color: #666;
-                    margin-top: 15px;
-                }
-                i {
-                    font-size: 10px;
-                    line-height: 12px;
-                    
+                    color: #333;
+                    &.summary {
+                        color: #666;
+                        line-height: 13px;
+                        margin-top: 3px;
+                    }
                 }
             }
         }
@@ -124,11 +126,127 @@
 }
 
 
-.qna {
+// 공통 
+.article-header {
     overflow: hidden;
-    padding: 10px;
+    h3 {
+        font-size: 11px;
+        color: #333;
+        font-weight: 500;
+        float: left;
+    }
+    .btn-controls {
+        float: right;
+        font-size: 0;
+        a {
+            display: inline-block;
+            font-size: 11px;
+            color: #ccc;
+            margin-right: 5px;
+            @include transition();
+            &:last-child {
+                margin-right: 9;
+            }
+            &:hover, &:focus {
+                color: #e96d7b;
+            }
+            i {
+                &:before {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+.article-content {
+    padding-top: 10px;
+}
+
+.qna-list {
+    overflow: hidden;
+    padding: 15px 10px;
+    margin-top: 10px;
     background-color: #fff;
     border-radius: 10px;
+    .article-header {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .article-content {
+        table-layout: fixed;
+        display: table;
+        width: 100%;
+        figure {
+            position: relative;
+            vertical-align: top;
+            display: table-cell;
+            width: 90px;
+            figcaption {
+                position: absolute;
+                bottom: 5px;
+                font-size: 10px;
+                color: #fff;
+                line-height: 13px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        .details {
+            vertical-align: top;
+            display: table-cell;
+            padding-left: 20px;
+            vertical-align: middle;
+            ul {
+                li {
+                    a {
+                        display: block;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-size: 10px;
+                        color: #666;
+                        font-weight: 400;
+                        line-height: 20px;
+                        padding-left: 16px;
+                        background-image: url(/mobile/assets/images/main/icon_question.gif);
+                        background-repeat: no-repeat;
+                        background-position: 0 50%;
+                        background-size: 11px auto;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+.parenting-learn {
+    overflow: hidden;
+    padding: 15px 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    .article-content {
+        > ul {
+            > li {
+                a {
+                    display: block;
+                    text-align: center;
+                    figure {
+                        img {
+                            width: 100%;
+                        }
+                        figcaption {
+                            font-size: 10px;
+                            color: #666;
+                            line-height: 13px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 
