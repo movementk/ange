@@ -358,7 +358,7 @@
     text-align: center;
     line-height: normal;
 }
-.id-confirm .confrim-check {
+.id-confirm .confirm-check {
     margin-top: 50px;
     padding: 43px 0;
     border-radius: 5px;
@@ -369,19 +369,19 @@
     font-size: 14px;
     line-height: 68px;
 }
-.id-confirm .confrim-check dl {
+.id-confirm .confirm-check dl {
     margin: 0 auto;
     font-size: 14px;
     color: #666;
 }
-.id-confirm .confrim-check dl dt {
+.id-confirm .confirm-check dl dt {
     font-weight: 300;
     display: inline;
 }
-.id-confirm .confrim-check dl dt:after {
+.id-confirm .confirm-check dl dt:after {
     content:" :";
 }
-.id-confirm .confrim-check dl dd {
+.id-confirm .confirm-check dl dd {
     font-weight: 300;
     display: inline;
 }
