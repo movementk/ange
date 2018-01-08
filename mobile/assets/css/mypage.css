@@ -169,3 +169,85 @@
 .success .container > article .btn-area {
     margin-top: 30px;
 }
+
+/* 마일리지 */
+.mileage .mileage-view {
+    padding: 25px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.mileage .mileage-view dl dt {
+    display: inline;
+    font-size: 12px;
+    color: #333;
+}
+.mileage .mileage-view dl dd {
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    color: #e25371; 
+    font-family: 'Roboto', sans-serif;
+}
+.mileage .mileage-view dl dd figure {
+    display: inline-block;
+    width: 17px;
+    margin-right: 7px;
+}
+.mileage .mileage-view dl dd img {
+    width: 100%;
+}
+.mileage .mileage-check .section-header {
+    margin-top: 30px;
+    padding: 0;
+}
+.mileage .mileage-check .section-header h3 {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 17px;
+}
+.mileage .mileage-check .board-type-3 .article-content .table-wrap .table tbody tr td {
+    font-size: 9px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.mileage .mileage-check .board-type-3 .article-content .paging {
+    margin-top: 20px;
+}
+
+/* 주문현황 */
+.order-info .mileage-order h3{
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.order-info .board-type-4 {
+    padding: 25px 23px 20px;
+}
+.order-info .board-type-4 > ul > li:first-child {
+    padding-top: 0;
+}
+.order-info .mileage-order .board-type-4 .paging {
+    margin-top: 20px;
+}
+.order-info .big-deal h3 {
+    font-size: 13px;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.order-info .big-deal .board-type-4 .paging {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

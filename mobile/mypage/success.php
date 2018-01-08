@@ -44,5 +44,6 @@
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/docfoot.php"); ?>
+    <script src="/mobile/assets/js/common.js"></script>
 </body>
 </html>
