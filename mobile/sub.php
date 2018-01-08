@@ -1,7 +1,7 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/dochead.php"); ?>
 <link href="/mobile/assets/css/sub.css" rel="stylesheet">
 </head>
-<body class=""><!-- 폴더별 클레스 -->
+<body class="sub"><!-- 폴더별 클레스 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/header.php"); ?>
     <!-- pgae-header -->
     <div class="page-header">
@@ -22,7 +22,7 @@
     </div>
     
     <!-- sub content start -->
-    <main id="content" class="sub"><!-- 페이지 클레스 -->
+    <main id="content"><!-- 페이지 클레스 -->
         <section>
             <div class="container">
                 <!-- 페이지 타이틀 -->

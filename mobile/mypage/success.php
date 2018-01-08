@@ -25,7 +25,7 @@
     <!-- sub content start -->
     <main id="content" class="success"><!-- 페이지명 클래스 -->
         <div class="container">
-            <article class="success">
+            <article>
                 <h4>회원님의 탈퇴가 완료되었습니다.</h4>
                 <p class="summary">
                     앞으로도 회원님들께 더 나은 서비스를 제공하기<br>

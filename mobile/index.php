@@ -59,7 +59,7 @@
                             <li>
                                 <a href="#">
                                     <figure>
-                                        <img src="" alt="샘플팩 신청">
+                                        <img src="/mobile/assets/images/icon_samplepack.gif" alt="샘플팩 신청">
                                     </figure>
                                     <p>샘플팩 신청</p>
                                 </a>
@@ -67,7 +67,7 @@
                             <li>
                                 <a href="#">
                                     <figure>
-                                        <img src="" alt="당첨자 발표">
+                                        <img src="/mobile/assets/images/icon_prizewinner.gif" alt="당첨자 발표">
                                     </figure>
                                     <p>당첨자 발표</p>
                                 </a>
@@ -75,9 +75,116 @@
                             <li>
                                 <a href="#">
                                     <figure>
-                                        <img src="" alt="고객센터">
+                                        <img src="/mobile/assets/images/icon_customer.gif" alt="고객센터">
                                     </figure>
                                     <p>고객센터</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gnb-menu">
+                        <ul>
+                            <li>
+                                <a href="#">e매거진</a>
+                                <ul>
+                                    <li><a href="#">e-book</a></li>
+                                    <li><a href="#">임신/출산</a></li>
+                                    <li><a href="#">성장/건강</a></li>
+                                    <li><a href="#">놀이/교육</a></li>
+                                    <li><a href="#">리빙/헬스</a></li>
+                                    <li><a href="#">앙쥬스토리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">e매거진</a>
+                                <ul>
+                                    <li><a href="#">e-book</a></li>
+                                    <li><a href="#">임신/출산</a></li>
+                                    <li><a href="#">성장/건강</a></li>
+                                    <li><a href="#">놀이/교육</a></li>
+                                    <li><a href="#">리빙/헬스</a></li>
+                                    <li><a href="#">앙쥬스토리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">e매거진</a>
+                                <ul>
+                                    <li><a href="#">e-book</a></li>
+                                    <li><a href="#">임신/출산</a></li>
+                                    <li><a href="#">성장/건강</a></li>
+                                    <li><a href="#">놀이/교육</a></li>
+                                    <li><a href="#">리빙/헬스</a></li>
+                                    <li><a href="#">앙쥬스토리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">e매거진</a>
+                                <ul>
+                                    <li><a href="#">e-book</a></li>
+                                    <li><a href="#">임신/출산</a></li>
+                                    <li><a href="#">성장/건강</a></li>
+                                    <li><a href="#">놀이/교육</a></li>
+                                    <li><a href="#">리빙/헬스</a></li>
+                                    <li><a href="#">앙쥬스토리</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gnb-banner">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/img_gnb_banner01.jpg" alt="">
+                                    </figure>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/img_gnb_banner02.jpg" alt="">
+                                    </figure>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/img_gnb_banner03.jpg" alt="">
+                                    </figure>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sns-list">
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="/mobile/assets/images/icon_naver_post.png" alt="네이버 포스트">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="/mobile/assets/images/icon_naver_blog.png" alt="네이버 블로그">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="/mobile/assets/images/icon_kakao.png" alt="카카오스토리">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="/mobile/assets/images/icon_facebook.png" alt="페이스북">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="/mobile/assets/images/icon_insta.png" alt="인스타그램">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="/mobile/assets/images/icon_youtube.png" alt="유튜브">
                                 </a>
                             </li>
                         </ul>
@@ -85,13 +192,65 @@
                 </div>
             </div>
         </nav>
-        <!-- mypage --->
+        <!-- mypage -->
         <nav id="mypage-nav">
             <div class="nav-backdrop"></div>
             <div class="nav-container">
-                <button type="button" class="btn btn-close">
-                    <img src="/mobile/assets/images/nav_btn_close.png" alt="네비 닫기">
-                </button>
+                <div class="nav-header">
+                    <button type="button" class="btn btn-close">
+                        <img src="/mobile/assets/images/nav_btn_close.png" alt="네비 닫기">
+                    </button>
+                    <div class="user-info">
+                        <h2>
+                            무브먼트 <small>님</small>
+                            <a href="#" class="logout-btn" role="button">
+                                <i class="icon-off">
+                                    <span class="sr-only">로그아웃하기</span>
+                                </i>
+                            </a>
+                        </h2>
+                        <div class="user-profile">
+                            <div class="profile">
+                                <figure>
+                                    <img src="/mobile/assets/images/user_profile_none_img.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="information">
+                                <ul class="mileage">
+                                    <li><b>M</b> 123,456</li>
+                                    <li><b>C</b> 123</li>
+                                </ul>
+                                <dl class="d-day">
+                                    <dt>출산예정</dt>
+                                    <dd><b>D-150</b>일</dd>
+                                    <dt>결혼기념일</dt>
+                                    <dd><b>D-365</b>일</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ange-event">
+                    <a href="#">
+                        <h3>앙쥬네이밍 <small>우리아이 이름짓기</small></h3>
+                    </a>
+                </div>
+                <div class="nav-body">
+                    <div class="interest-keyword">
+                        <a href="#" class="title">나의 관심글</a>
+                        <ul>
+                            <li><a href="#">[임신] 심한 입덧 가라앉히는 방법 없이 가라앉히는 방법 없이</a></li>
+                            <li><a href="#">[출산] 산후조리할 때 어떤 음식을 챙때 어떤 음식을 챙</a></li>
+                            <li><a href="#">[임신] 어떤 산부인과를 다녀야 할까다녀야 할까</a></li>
+                        </ul>
+                    </div>
+                    <div class="experience-event">
+                        <a href="#" class="title">체험 이벤트</a>
+                    </div>
+                    <div class="community">
+                        <a href="#" class="title">커뮤니</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -121,8 +280,8 @@
             });
 
 
-            /* 메뉴 관련 
-            $(document).on("click", "#gnb-nav .nav-container > ul > li > a", function(e) {		
+            // 메뉴 관련 
+            $(document).on("click", "#gnb-nav .nav-container .nav-body .gnb-menu > ul > li > a", function(e) {		
                 if ($(this).parent().hasClass("active")) {
                     $(this).parent().removeClass("active");
                 } else {
@@ -131,7 +290,6 @@
                 }
                 e.preventDefault();
             });
-            */ 
         })(jQuery);
     </script>
 </body>

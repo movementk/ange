@@ -25,38 +25,39 @@
     width: 90px;
 }
 /* 비밀번호 확인*/
-.pw-confirm .confirm-form {
-    padding: 35px 0;
+.pw-confirm .container > article {
+    padding: 35px 20px;
     background-color: #fff;
     border-radius: 10px;
 }
-.pw-confirm .confirm-form figure {
+.pw-confirm .container > article figure {
     width: 44px;
     margin: 0 auto;
 }
-.pw-confirm .confirm-form figure img {
+.pw-confirm .container > article figure img {
     width: 100%;
 }
-.pw-confirm .confirm-form .details {
+.pw-confirm .container > article .details {
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.pw-confirm .confirm-form .details h2 {
+.pw-confirm .container > article .details h2 {
     text-align: center;
     font-size: 13px;
     margin-bottom: 20px;
 }
-.pw-confirm .confirm-form .details .summary {
+.pw-confirm .container > article .details .summary {
     font-size: 11px;
     text-align: center;
     line-height: 16px;
     color: #8f8f8f;
+    word-break: keep-all;
 }
-.pw-confirm .confirm-form .form-group .form-control {
+.pw-confirm .container > article .form-group .form-control {
     width: 260px;
     margin: 0 auto;
 }
-.pw-confirm .confirm-form .btn-area {
+.pw-confirm .container > article .btn-area {
     margin-top: 30px;
 }
 
@@ -85,42 +86,41 @@
     margin-top: 20px;
 }
 .my-history .my-comment .board-type-3 .article-header ul li.date {
-    width: 108px;
-    text-align: right;
-    padding-right: 18px;
-    /*질문*/
+    width: 70px;
 }
+.my-history .my-comment .board-type-3 .article-content .table-wrap .table tbody tr td {
+    border-color: #dfdfdf;
+}
+
 .my-history .my-comment .board-type-3 .article-content .table-wrap .table tbody tr td.date {
-    text-align: right;
-    width: 108px;
-    font-family: 'Roboto', sans-serif;
+    width: 70px;
     color: #999;
+    font-family: 'Roboto', sans-serif;
 }
 .my-history .my-comment .board-type-3 .article-content .paging {
     margin-top: 20px;
 }
 
 /* 회원탈퇴 동의 */
-.member-leave .text-box {
+.member-leave article {
     padding: 40px 18px;
     background-color: #fff;
     border-radius: 10px;
 }
-.member-leave .text-box figure {
+.member-leave article figure {
     width: 92px;
     margin: 0 auto;
 }
-.member-leave .text-box figure img {
+.member-leave article figure img {
     width: 100%;
 }
-.member-leave .text-box .info {
-    margin-top: 20px;
-}
-.member-leave .text-box .info p {
+.member-leave article p {
     font-size: 11px;
     color: #8f8f8f;
     text-align: center;
     line-height: 16px;
+    word-break: keep-all;
+    margin-top: 20px;
 }
 .member-leave label {
     margin-top: 20px;
@@ -140,18 +140,18 @@
 }
 
 /* 회원탈퇴 완료 */
-.success .success {
-    padding: 50px 44px 40px;
+.success .container > article {
+    padding: 50px 0 40px;
     background-color: #fff;
     border-radius: 10px;
 }
-.success .success h4 {
+.success .container > article h4 {
     font-weight: 400;
     font-size: 13px;
     color: #333;
     text-align: center;
 }
-.success .success .summary {
+.success .container > article .summary {
     font-size: 11px;
     color: #8f8f8f;
     line-height: 16px;
@@ -159,13 +159,13 @@
     margin-top: 18px;
     margin-bottom: 28px;
 }
-.success .success figure {
+.success .container > article figure {
     width: 173px;
     margin: 0 auto
 }
-.success .success figure img {
+.success .container > article figure img {
     width: 100%;
 }
-.success .success .btn-area {
+.success .container > article .btn-area {
     margin-top: 30px;
 }

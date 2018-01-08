@@ -7,7 +7,7 @@
     <!-- sub content start -->
     <main id="content" class="pw-confirm"><!-- 페이지명 클래스 -->
         <div class="container">
-            <div class="confirm-form">
+            <article>
                 <form action="#">
                     <figure>
                         <img src="/mobile/assets/images/mypage/img_pw_confirm.png" alt="">
@@ -30,7 +30,7 @@
                         </p>
                     </div>
                 </form>
-            </div>
+            </article>
         </div>
     </main>
     
