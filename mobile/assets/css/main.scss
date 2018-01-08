@@ -1,6 +1,83 @@
 @import 'common';
 
 #content {
-    height: 400px;
     padding: 10px;
+    a {
+        text-decoration: none;
+    }
+}
+
+// hot-issue
+.hot-issue {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    a {
+        display: block;
+        strong {
+            font-size: 11px;
+            color: #e96d7b;
+            @include roboto();
+        }
+        p {
+            font-size: 10px;
+            color: #666;
+            margin-top: 8px;
+        }
+    }
+}
+
+.jumbo {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    .bx-wrapper {
+        position: relative;
+        .bx-viewport {
+            ul {
+                li {
+                    a {
+                        display: block;
+                        figure {
+                            overflow: hidden;
+                            border-radius: 10px;
+                            .img-responsvie {
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bx-controls {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            .bx-pager {
+                display: inline-block;
+                height: 18px;
+                padding: 4px 10px;
+                border-radius: 30px;
+                background-color: rgba(255, 255, 255, .95);
+                .bx-pager-item {
+                    display: inline-block;
+                    a {
+                        display: block;
+                        width: 10px;
+                        height: 10px;
+                        text-indent: -99999px;
+                        border-radius: 50%;
+                        border: 1px solid #777;
+                        margin: 0 3px;
+                        &.active {
+                            background-color: #777;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -63,7 +63,62 @@ ul, ol {
       padding-right: 10px; }
 
 #content {
-  height: 400px;
   padding: 10px; }
+  #content a {
+    text-decoration: none; }
+
+.hot-issue {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+  .hot-issue a {
+    display: block; }
+    .hot-issue a strong {
+      font-size: 11px;
+      color: #e96d7b;
+      font-family: 'Roboto', sans-serif; }
+    .hot-issue a p {
+      font-size: 10px;
+      color: #666;
+      margin-top: 8px; }
+
+.jumbo {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
+  .jumbo .bx-wrapper {
+    position: relative; }
+    .jumbo .bx-wrapper .bx-viewport ul li a {
+      display: block; }
+      .jumbo .bx-wrapper .bx-viewport ul li a figure {
+        overflow: hidden;
+        border-radius: 10px; }
+        .jumbo .bx-wrapper .bx-viewport ul li a figure .img-responsvie {
+          margin: 0 auto; }
+    .jumbo .bx-wrapper .bx-controls {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center; }
+      .jumbo .bx-wrapper .bx-controls .bx-pager {
+        display: inline-block;
+        height: 18px;
+        padding: 4px 10px;
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.95); }
+        .jumbo .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+          display: inline-block; }
+          .jumbo .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+            display: block;
+            width: 10px;
+            height: 10px;
+            text-indent: -99999px;
+            border-radius: 50%;
+            border: 1px solid #777;
+            margin: 0 3px; }
+            .jumbo .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+              background-color: #777; }
 
 /*# sourceMappingURL=main.css.map */
