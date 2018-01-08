@@ -43,8 +43,16 @@
                                             <dd>
                                                 <ol>
                                                     <li>1.출산예정일과 임신부 증거자료 등록</li>
-                                                    <li>2-1. 앙쥬 인스타그램 팔로워 하신분 당첨 UP!</li>
-                                                    <li>2-2. 앙쥬 페이스북 팔로워하기</li>
+                                                    <li>2-1. 앙쥬 인스타그램 팔로워 하신분 당첨 UP!
+                                                        <a href="https://www.instagram.com/angemoms/" target="_blank" class="insta">
+                                                            <img src="/assets/images/samplepack/img_insta.png" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>2-2. 앙쥬 페이스북 팔로워하기
+                                                        <a href="https://www.facebook.com/angemoms/" target="_blank" class="facebook">
+                                                            <img src="/assets/images/samplepack/img_facebook.png" alt="">
+                                                        </a>
+                                                    </li>
                                                 </ol>
                                             </dd>
                                             <dt>증정선물</dt>
@@ -75,8 +83,16 @@
                                             <dd>
                                                 <ol>
                                                     <li>1.출산예정일과 임신부 증거자료 등록</li>
-                                                    <li>2-1. 앙쥬 인스타그램 팔로워 하신분 당첨 UP!</li>
-                                                    <li>2-2. 앙쥬 페이스북 팔로워하기</li>
+                                                    <li>2-1. 앙쥬 인스타그램 팔로워 하신분 당첨 UP!
+                                                        <a href="https://www.instagram.com/angemoms/" target="_blank" class="insta">
+                                                            <img src="/assets/images/samplepack/img_insta.png" alt="">
+                                                        </a>
+                                                    </li>
+                                                    <li>2-2. 앙쥬 페이스북 팔로워하기
+                                                        <a href="https://www.facebook.com/angemoms/" target="_blank" class="facebook">
+                                                            <img src="/assets/images/samplepack/img_facebook.png" alt="">
+                                                        </a>
+                                                    </li>
                                                 </ol>
                                             </dd>
                                             <dt>증정선물</dt>

@@ -1,0 +1,59 @@
+@import url("/mobile/assets/css/common.css");
+
+/* 쪽지 리스트 */
+.message-list .search-form {
+    margin-bottom: 15px;
+}
+.message-list .board-type-2 .paging {
+    margin-top: 21px;
+}
+
+/* 쪽지 뷰 */
+.message-view .table-wrap {
+    margin-top: 40px;
+}
+.message-view .table-wrap h5 {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 17px;
+}
+
+/* 비밀번호 확인*/
+.pw-confirm .confirm-form {
+    padding: 35px 20px;
+}
+.pw-confirm .confirm-form figure {
+    width: 44px;
+    margin: 0 auto;
+}
+.pw-confirm .confirm-form figure img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
