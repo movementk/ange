@@ -49,11 +49,11 @@
 .pw-confirm .pw-find .section-content .new-pw {
     margin-top: 20px;
 }
-.pw-confirm .pw-find .section-content .btn-area {
+.pw-confirm .pw-find .section-content .new-pw .btn-area {
     margin-top: 20px;
     text-align: right;
 }
-.pw-confirm ..pw-find section-content .btn-area > p > .btn-pink > i {
+.pw-confirm ..pw-find section-content .new-pw .btn-area > p > .btn-pink > i {
     font-size: 10px;
     margin-right: 6px;
 }
@@ -97,20 +97,18 @@
     height: 85px;
     font-size: 11px;
     color: #666;
-    line-height: 7px;
+    line-height: 16px;
     padding: 10px;
     margin-top: 10px;
     background-color: #fff;
 }
-.agreement .agreement-list .section-content .terms .check-box {
+.agreement .agreement-list .section-content .terms label {
     margin-top: 10px;
-}
-.agreement .agreement-list .section-content .terms .check-box label {
     font-size: 10px;
     color: #666;
     font-weight: 300;
 }
-.agreement .agreement-list .section-content .terms .check-box label input {
+.agreement .agreement-list .section-content .terms label input {
     position: relative;
     top: 2px;
     margin-right: 5px;
@@ -123,13 +121,13 @@
 .agreement .agreement-list .section-content .btn-area {
     text-align: left;
 }
-.agreement .agreement-list .section-content .btn-area .check-box label {
+.agreement .agreement-list .section-content label.all {
     font-size: 11px;
     color: #666;
     line-height: 15px;
     font-weight: 300;
 }
-.agreement .agreement-list .section-content .btn-area .check-box label input {
+.agreement .agreement-list .section-content label.all > input {
     position: relative;
     top: 2px;
     margin-right: 5px;
