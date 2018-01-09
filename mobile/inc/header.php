@@ -250,7 +250,7 @@
                     </ul>
                 </div>
                 <div class="experience-event">
-                    <a href="#" class="title">나의 관심글</a>
+                    <a href="#" class="title">체험 이벤트</a>
                     <ul class="board-list">
                         <li><a href="#">[서평단]썬비의 육아 가계부썬비의 육아 가계부 육아 가계부</a></li>
                         <li><a href="#">[비세이프] 안전 최고평가,안전 최고평가,안전 최고평가, 최고평가,</a></li>
@@ -258,7 +258,7 @@
                     </ul>
                 </div>
                 <div class="community">
-                    <a href="#" class="title">커뮤니</a>
+                    <a href="#" class="title">커뮤니티</a>
                     <ul class="board-list">
                         <li><a href="#">[서평단]썬비의 육아 가계부썬비의 육아 가계부 육아 가계부</a></li>
                         <li><a href="#">[비세이프] 안전 최고평가,안전 최고평가,안전 최고평가, 최고평가,</a></li>
