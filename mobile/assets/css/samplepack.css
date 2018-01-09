@@ -1,0 +1,61 @@
+@import url("/mobile/assets/css/common.css");
+
+/* 샘플팩 설명 */
+.sample-explain section .section-header p.summary {
+    margin-bottom: 10px;
+}
+.sample-explain section .section-header figure {
+    width: 300px;
+    margin: 0 auto;
+}
+.sample-explain section .section-header figure img {
+    width: 100%;
+}
+.sample-explain section .section-header .btn-area {
+    margin-top: 10px;
+}
+.sample-explain section .section-header .btn-area p .btn.btn-gray {
+    line-height: 28px;
+    color: #fff;
+    border: 1px solid #b3b3b3;
+    background-color: #b3b3b3;
+}
+.sample-explain section .section-content .member-info h5 {
+    font-size: 12px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.sample-explain section .section-content .member-info .new-member h5 {
+    color: #ff7875;
+    border-bottom: 3px solid #ffd6d5;
+}
+.sample-explain section .section-content .member-info .member h5 {
+    color: #7da7d9;
+    border-bottom: 3px solid #d8e4f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -46,32 +46,26 @@
                             <div class="content">
                                 이용약관 내용
                             </div>
-                            <div class="check-box">
-                                <label><input type="checkbox">위의 내용을 읽어보았으며, 내용에 동의합니다.</label>
-                            </div>
+                            <label><input type="checkbox">위의 내용을 읽어보았으며, 내용에 동의합니다.</label>
                         </article>
                         <article class="terms">
                             <h3>개인정보처리 방침 <i class="necessary">필수</i></h3>
                             <div class="content">
                                 개인정보처리 방침 내용
                             </div>
-                            <div class="check-box">
-                                <label><input type="checkbox">위의 내용을 읽어보았으며, 내용에 동의합니다.</label>
-                            </div>
+                            <label><input type="checkbox">위의 내용을 읽어보았으며, 내용에 동의합니다.</label>
                         </article>
                         <article class="terms">
                             <h3>제 3자 정보제공동의 <i>선택</i></h3>
                             <div class="content">
                                 제 3자 정보제공동의 영역
                             </div>
-                            <div class="check-box">
-                                <label><input type="checkbox">위의 내용을 읽어보았으며, 내용에 동의합니다.</label>
-                            </div>
+                            <label><input type="checkbox">위의 내용을 읽어보았으며, 내용에 동의합니다.</label>
                         </article>
                         <hr>
+                        <label class="all"><input type="checkbox">[전체동의] 이용약관, 개인정보취급방침, 제 3자 정보제공 모두 동의합니다.</label>
                         <div class="btn-area">
                             <div class="check-box">
-                                <label><input type="checkbox">[전체동의] 이용약관, 개인정보취급방침, 제 3자 정보제공 모두 동의합니다.</label>
                                 <p>
                                     <button type="submit" class="btn btn-sm btn-pink">다음</button>
                                     <a href="#" class="btn btn-sm btn-white" role="button">취소</a>
