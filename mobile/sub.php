@@ -540,6 +540,19 @@
                         </table>
                     </div>
                     
+                    <!-- 주의사항 -->
+                    <p class="ex-txt">주의사항</p>
+                    <div class="attention-box">
+                        <strong>주의사항</strong>
+                        <ol class="decimal-list">
+                            <li>반드시 임신부만 응모하세요 (남자회원 신청불가)</li>
+                            <li>임신부 증거자료는 1장만 등록 가능하며 사진이 미흡할 경우 당첨이 취소됩니다. (관련없는 사진, 예정일이 없는 사진을 올려줄 경우)</li>
+                            <li>임신부 증거자료가 본인의 것이 아니거나 중복해서 등록할 경우 선정에서 제외됩니다.</li>
+                            <li>당첨자 발표 후 별도 주소확인은 하지 않으며 주소가 불분명할 경우 선물은 발송되지 않습니다. (번지수가 없거나 아파트 동, 호수 없는 경우)</li>
+
+                        </ol>
+                    </div>
+                    
                     <!-- paging -->
                     <p class="ex-txt">페이징</p>
                     <nav class="paging" aria-label="Page navigation">
