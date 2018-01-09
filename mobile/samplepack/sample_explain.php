@@ -125,7 +125,29 @@
                             </div>
                         </div>
                     </article>
+                    <article class="banner">
+                        <a href="#">
+                            <figure>
+                                <img src="/mobile/assets/images/samplepack/img_samplepack_banner.png" alt="">
+                            </figure>
+                        </a>
+                    </article>
                     
+                    <article class="attention-box">
+                        <strong>주의사항</strong>
+                        <ol class="decimal-list">
+                            <li>반드시 <b class="text-blue">임신부만 응모</b>하세요 <b class="text-black">(남자회원 신청불가)</b></li>
+                            <li>임신부 증거자료는 1장만 등록 가능하며 <b class="text-blue">사진이 미흡할 경우 당첨이 취소</b>됩니다. (관련없는 사진, 예정일이 없는 사진을 올려줄 경우)</li>
+                            <li>임신부 증거자료가 본인의 것이 아니거나 중복해서 등록할 경우 선정에서 제외됩니다.</li>
+                            <li>당첨자 발표 후 별도 주소확인은 하지 않으며 주소가 불분명할 경우 선물은 발송되지 않습니다. (번지수가 없거나 아파트 동, 호수 없는 경우)</li>
+                            <li>한번 등록한 내용은 변경하실 수 없습니다.</li>
+                            <li>회원 탈퇴 후 재가입하여 신청하더라도 신청기록은 남기 때문에 샘플팩 선정에서 제외됩니다.</li>
+                            <li>샘플팩의 종류와 수량은 사진과 다를 수 있으며, 구성은 업체 사정으로 공지없이 변경될 수 있습니다.</li>
+                            <li>각 샘플팩 응모방법 및 주의사항을 숙지하시기 바랍니다.</li>
+                            <li>사진과 함께 샘플팩 후기를 남겨주세요! <b class="text-pink">후기를 작성해주시는 분께 앙쥬 마일리지 200점을 적립</b>해드립니다.</li>
+                            <li>기존 앙쥬(임신부) 샘플팩은 신청이 완료되면 <b class="text-blue">100% 증정</b>이기 때문에 당첨자 발표를 하지 않습니다.</li>
+                        </ol>
+                    </article>
                 </div>
             </section>
         </div>
