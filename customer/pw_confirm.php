@@ -66,37 +66,37 @@
                                 </div>
                             </div>
                         </div>
-                    </form>
-                    <div class="table-wrap new-pw">
-                        <table class="table table-bordered type-1">
-                            <tbody>
-                                <tr>
-                                    <th class="essential"><label for="u-pw">새 비밀번호</label></th>
-                                    <td>
-                                        <div class="form-group">
-                                            <input type="password" id="u-pw" class="form-control"
-                                            placeholder="비밀번호 입력">
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th class="essential"><label for="u-newpw">새 비밀번호 확인</label></th>
-                                    <td>
-                                        <div class="form-group">
-                                            <input type="password" id="u-newpw" class="form-control" placeholder="비밀번호 입력">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <div class="btn-area">
-                            <p>
-                                <a href="/" class="btn btn-pink" role="button">
-                                    <i class="icon-home"></i>홈으로
-                                </a>
-                            </p>
+                        <div class="table-wrap new-pw">
+                            <table class="table table-bordered type-1">
+                                <tbody>
+                                    <tr>
+                                        <th class="essential"><label for="u-pw">새 비밀번호</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="password" id="u-pw" class="form-control"
+                                                placeholder="비밀번호 입력">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="essential"><label for="u-newpw">새 비밀번호 확인</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="password" id="u-newpw" class="form-control" placeholder="비밀번호 입력">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="/" class="btn btn-pink" role="button">
+                                        <i class="icon-home"></i>홈으로
+                                    </a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>

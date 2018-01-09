@@ -19,10 +19,10 @@
                         <h2>LOGIN</h2>
                         <p class="summary">로그인 및 출석체크하고 마일리지 받으세요!</p>
                         <div class="form-group">
-                            <input type="text" id="u-id" class="form-control" placeholder="아이디">
-                            <label for="u-id" class="sr-only">아이디</label>
-                            <input type="text" id="u-pw" class="form-control" placeholder="비밀번호">
-                            <label for="u-pw" class="sr-only">비밀번호</label>
+                            <input type="text" id="login-id" class="form-control" placeholder="아이디">
+                            <label for="login-id" class="sr-only">아이디</label>
+                            <input type="text" id="login-pw" class="form-control" placeholder="비밀번호">
+                            <label for="login-pw" class="sr-only">비밀번호</label>
                         </div>
                         <div class="btn-area">
                             <button type="submit" class="btn btn-lg btn-pink">로그인</button>
