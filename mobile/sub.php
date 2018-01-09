@@ -81,6 +81,33 @@
                         </form>
                     </div>
                     
+                    <!-- 달력 -->
+                    <p class="ex-txt">달력</p>
+                    <div class="search-date">
+                        <form action="#">
+                            <div class="calendar">
+                                <div class="form-group">
+                                    <input type="text" id="datepicker1" class="form-control">
+                                    <label for="datepicker1">
+                                        <i class="icon-calendar-1"></i>
+                                    </label>
+                                </div>
+                                <span>~</span>
+                                <div class="form-group">
+                                    <input type="text" id="datepicker1" class="form-control">
+                                    <label for="datepicker1">
+                                        <i class="icon-calendar-1"></i>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="btn-area">
+                                <p>
+                                    <button class="btn btn-lg btn-pink">조회하기</button>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    
                     <!-- 자주하는 질문 -->
                     <p class="ex-txt">탭메뉴 1</p>
                     <nav class="tab-list">

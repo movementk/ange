@@ -15,7 +15,7 @@
 .message-view .table-wrap h5 {
     font-size: 12px;
     color: #333;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
 }
 .message-view .table-wrap .btn-area {
     margin-top: 31px;
@@ -204,7 +204,7 @@
 .mileage .mileage-check .section-header h3 {
     font-size: 13px;
     color: #333;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
 }
 .mileage .mileage-check .board-type-3 .article-content .table-wrap .table tbody tr td {
     font-size: 9px;
@@ -212,6 +212,9 @@
 }
 .mileage .mileage-check .board-type-3 .article-content .paging {
     margin-top: 20px;
+}
+.mileage .mileage-check .section-header .search-date {
+    margin-bottom: 20px;
 }
 
 /* 주문현황 */
@@ -238,8 +241,19 @@
 .order-info .big-deal .board-type-4 .paging {
     margin-top: 20px;
 }
-
-
+.order-info .mileage-order .section-header .search-date {
+    margin-bottom: 30px;
+}
+.order-info .mileage-order .section-header .search-date .search {
+    margin-top: 10px;
+}
+.order-info .mileage-order .section-header .search-date .search .form-control {
+    border-radius: 30px;
+    border-color: #ccc;
+    padding-left: 20px;
+}
+/* modify */
+.modify .join-write .section-content {margin-top:0;}
 
 
 

@@ -1091,4 +1091,56 @@ button {
     margin-top: 30px;
     text-align: right; }
 
+.search-date .date-selection {
+  margin-bottom: 15px; }
+  .search-date .date-selection label {
+    font-size: 10px;
+    color: #999;
+    font-weight: 300;
+    margin-right: 15px; }
+    .search-date .date-selection label input {
+      position: relative;
+      top: 3px;
+      margin-top: 0;
+      margin-right: 5px; }
+    .search-date .date-selection label:last-child {
+      margin-right: 0; }
+.search-date .calendar {
+  display: table;
+  width: 100%; }
+  .search-date .calendar .form-group {
+    position: relative;
+    display: table-cell;
+    width: 45%; }
+    .search-date .calendar .form-group .form-control {
+      padding-left: 20px;
+      border-radius: 30px;
+      border-color: #ccc; }
+    .search-date .calendar .form-group label {
+      position: absolute;
+      top: 0;
+      right: 10px;
+      font-size: 12px;
+      color: #ff7875;
+      line-height: 30px; }
+      .search-date .calendar .form-group label i:before {
+        position: relative;
+        top: -2px; }
+  .search-date .calendar span {
+    width: 10%;
+    font-size: 10px;
+    color: #999;
+    display: table-cell;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; }
+.search-date .btn-area {
+  margin-top: 10px; }
+  .search-date .btn-area > p .btn-lg:before {
+    position: relative;
+    top: -1px;
+    color: #fff;
+    font-family: "fontello";
+    content: "\E808";
+    margin-right: 5px; }
+
 /*# sourceMappingURL=sub.css.map */

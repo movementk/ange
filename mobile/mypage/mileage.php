@@ -1,6 +1,7 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/dochead.php"); ?>
 <link href="/mobile/assets/css/sub.css" rel="stylesheet">
 <link href="/mobile/assets/css/mypage.css" rel="stylesheet">
+<link rel="stylesheet" property="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" type="text/css">
 </head>
 <body class="sub mypage"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/header.php"); ?>
@@ -39,6 +40,36 @@
             <section class="mileage-check">
                 <div class="section-header">
                     <h3>조회기간</h3>
+                    <div class="search-date">
+                        <form action="#">
+                            <div class="form-group date-selection">
+                                <label><input type="radio"> 6개월</label>
+                                <label><input type="radio"> 3개월</label>
+                                <label><input type="radio"> 1개월</label>
+                                <label><input type="radio"> 직접 입력</label>
+                            </div>
+                            <div class="calendar">
+                                <div class="form-group">
+                                    <input type="text" id="datepicker1" class="form-control">
+                                    <label for="datepicker1">
+                                        <i class="icon-calendar-1"></i>
+                                    </label>
+                                </div>
+                                <span>~</span>
+                                <div class="form-group">
+                                    <input type="text" id="datepicker2" class="form-control">
+                                    <label for="datepicker2">
+                                        <i class="icon-calendar-1"></i>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="btn-area">
+                                <p>
+                                    <button class="btn btn-lg btn-pink">조회하기</button>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <article class="board-type-3">
                     <div class="article-header">
@@ -112,5 +143,24 @@
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/docfoot.php"); ?>
     <script src="/mobile/assets/js/common.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function($) {
+            $.datepicker.setDefaults({
+                dateFormat: 'yy-mm-dd',
+                prevText: '이전 달',
+                nextText: '다음 달',
+                monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+                monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+                dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+                dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+                dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+                showMonthAfterYear: true,
+                yearSuffix: '년'
+            });
+            $('#datepicker1').datepicker();
+            $('#datepicker2').datepicker();
+        }(jQuery));
+    </script>
 </body>
 </html>
