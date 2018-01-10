@@ -39,8 +39,8 @@
                     </div>
                 </div>
                 <div class="section-content">
-                    <article class="member-info">
-                        <div class="new-member">
+                    <article class="info-wrap">
+                        <div class="member-info new-member">
                             <h5>신규 임신부 회원</h5>
                             <div class="details">
                                 <dl>
@@ -82,7 +82,7 @@
                                  </p>
                              </div>
                         </div>
-                        <div class="member">
+                        <div class="member-info member">
                             <h5>기존 앙쥬(임신부) 회원</h5>
                             <div class="details">
                                 <dl>
@@ -125,15 +125,15 @@
                             </div>
                         </div>
                     </article>
-                    <article class="banner">
+                    <div class="banner">
                         <a href="#">
                             <figure>
                                 <img src="/mobile/assets/images/samplepack/img_samplepack_banner.png" alt="">
                             </figure>
                         </a>
-                    </article>
+                    </div>
                     
-                    <article class="attention-box">
+                    <div class="attention-box">
                         <strong>주의사항</strong>
                         <ol class="decimal-list">
                             <li>반드시 <b class="text-blue">임신부만 응모</b>하세요 <b class="text-black">(남자회원 신청불가)</b></li>
@@ -147,7 +147,7 @@
                             <li>사진과 함께 샘플팩 후기를 남겨주세요! <b class="text-pink">후기를 작성해주시는 분께 앙쥬 마일리지 200점을 적립</b>해드립니다.</li>
                             <li>기존 앙쥬(임신부) 샘플팩은 신청이 완료되면 <b class="text-blue">100% 증정</b>이기 때문에 당첨자 발표를 하지 않습니다.</li>
                         </ol>
-                    </article>
+                    </div>
                 </div>
             </section>
         </div>
