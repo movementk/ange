@@ -612,7 +612,50 @@
                         </ul>
                     </nav>
                     
-                    <!-- paging -->
+                    <!-- 이벤트 아이템 -->
+                    <p class="ex-txt">이벤트 아이템</p>
+                    <aritlce>
+                        <!--
+                            오늘오픈 > today-event
+                            오늘마감 > today-closing
+                            응모종료 > finish-event
+                        -->
+                        <ul class="event-list">
+                            <li class="event-item today-event">
+                                <a href="#">
+                                    <div class="item">
+                                        <img src="/mobile/assets/images/sub/img_event_item01.jpg" alt="">
+                                        <div class="event-backdrop">
+                                            <p>오늘<br>오픈</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="event-item today-closing">
+                                <a href="#">
+                                    <div class="item">
+                                        <img src="/mobile/assets/images/sub/img_event_item01.jpg" alt="">
+                                        <div class="event-backdrop">
+                                            <p>오늘<br>마감</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="event-item finish-event">
+                                <a href="#">
+                                    <div class="item">
+                                        <img src="/mobile/assets/images/sub/img_event_item01.jpg" alt="">
+                                        <div class="event-backdrop">
+                                            <p>응모<br>종료</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </aritlce>
+                    
+                    
+                    <!-- 버튼 종류 -->
                     <p class="ex-txt">버튼 종류</p>
                     <div class="btn-area">
                         <p>

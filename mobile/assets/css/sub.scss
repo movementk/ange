@@ -232,11 +232,12 @@ button {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
     .tab-list-2 {
         > ul {
-            overflow: hidden;
+            display: table;
+            width: 100%;
             > li {
-                float: left;
+                display: table-cell;
                 text-align: center;
-                width: 33.33%;
+                width: 1%;
                 > a {
                     font-size: 11px;
                     color: #666;
@@ -1524,7 +1525,65 @@ button {
     }
 }
 
-
+// 이벤트 아이템
+.event-list {
+    > li {
+        & ~ li {
+            margin-top: 30px;
+        }
+        > a {
+            text-decoration: none;
+        }
+    }
+}
+.event-item {
+    .item {
+        position: relative;
+        img {
+            width: 100%;
+        }
+        .event-backdrop {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            p {
+                width: 35px;
+                font-size: 12px;
+                color: #fff;
+                text-align: center;
+                line-height: 12px;
+                margin: 10px;
+                border-radius: 5px;
+                padding: 5px 0 6px;
+                border-top-left-radius: 0;
+            }
+        }
+    }
+    &.today-event {
+        .event-backdrop {
+            p {
+                background-color: #ff7875;
+            }
+        }
+    }
+    &.today-closing {
+        .event-backdrop {
+            p {
+                background-color: #7da7d9;
+            }
+        }
+    }
+    &.finish-event {
+        .event-backdrop {
+            background-color: rgba(99, 99, 99, .7);
+            p {
+                background-color: #252525;
+            }
+        }
+    }
+}
 
 
 

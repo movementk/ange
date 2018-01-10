@@ -235,11 +235,12 @@ button {
 .tab-menu {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05); }
   .tab-menu .tab-list-2 > ul {
-    overflow: hidden; }
+    display: table;
+    width: 100%; }
     .tab-menu .tab-list-2 > ul > li {
-      float: left;
+      display: table-cell;
       text-align: center;
-      width: 33.33%; }
+      width: 1%; }
       .tab-menu .tab-list-2 > ul > li > a {
         font-size: 11px;
         color: #666;
@@ -1142,5 +1143,39 @@ button {
     font-family: "fontello";
     content: "\E808";
     margin-right: 5px; }
+
+.event-list > li ~ li {
+  margin-top: 30px; }
+.event-list > li > a {
+  text-decoration: none; }
+
+.event-item .item {
+  position: relative; }
+  .event-item .item img {
+    width: 100%; }
+  .event-item .item .event-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .event-item .item .event-backdrop p {
+      width: 35px;
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+      line-height: 12px;
+      margin: 10px;
+      border-radius: 5px;
+      padding: 5px 0 6px;
+      border-top-left-radius: 0; }
+.event-item.today-event .event-backdrop p {
+  background-color: #ff7875; }
+.event-item.today-closing .event-backdrop p {
+  background-color: #7da7d9; }
+.event-item.finish-event .event-backdrop {
+  background-color: rgba(99, 99, 99, 0.7); }
+  .event-item.finish-event .event-backdrop p {
+    background-color: #252525; }
 
 /*# sourceMappingURL=sub.css.map */
