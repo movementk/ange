@@ -75,6 +75,37 @@ ul, ol {
     top: 10px;
     right: 10px; }
 
+.share-list {
+  text-align: center;
+  font-size: 0; }
+  .share-list li {
+    display: inline-block; }
+    .share-list li a {
+      display: block;
+      font-size: 10px;
+      width: 20px;
+      height: 20px;
+      margin: 0 3px;
+      border-radius: 50%;
+      border: 1px solid #eeeff4;
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    .share-list li.tweeter a {
+      background-image: url(/mobile/assets/images/e_magazine/icon_tweeter.png);
+      background-size: 9px auto; }
+    .share-list li.facebook a {
+      background-image: url(/mobile/assets/images/e_magazine/icon_facebook.png);
+      background-size: 5px auto; }
+    .share-list li.kakao a {
+      background-image: url(/mobile/assets/images/e_magazine/icon_kakao.png);
+      background-size: 4px auto; }
+    .share-list li.folder a {
+      background-image: url(/mobile/assets/images/e_magazine/icon_folder.png);
+      background-size: 9px auto; }
+    .share-list li.export a {
+      background-image: url(/mobile/assets/images/e_magazine/icon_export.png);
+      background-size: 9px auto; }
+
 .ebook {
   padding-top: 10px; }
   .ebook .section-header {
@@ -271,5 +302,81 @@ ul, ol {
         line-height: 13px; }
 .magazine-list .section-content.list-type-2 .paging {
   margin-top: 20px; }
+
+.magazine-view .section-header {
+  padding-bottom: 10px; }
+.magazine-view .section-content article {
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff; }
+  .magazine-view .section-content article .article-header {
+    text-align: center;
+    padding-bottom: 30px; }
+    .magazine-view .section-content article .article-header h4 {
+      font-size: 14px;
+      color: #333;
+      font-weight: 500;
+      margin: 10px 0 20px; }
+    .magazine-view .section-content article .article-header figure img {
+      width: 100%; }
+    .magazine-view .section-content article .article-header .table-wrap {
+      margin-top: 20px; }
+      .magazine-view .section-content article .article-header .table-wrap .table {
+        border: 0; }
+        .magazine-view .section-content article .article-header .table-wrap .table tbody tr th {
+          width: 110px;
+          font-size: 10px;
+          color: #333;
+          font-weight: 400;
+          text-align: left;
+          vertical-align: middle;
+          background-color: #f5f5f5;
+          border-bottom: 1px solid #dfdfdf; }
+        .magazine-view .section-content article .article-header .table-wrap .table tbody tr td {
+          text-align: left;
+          font-size: 10px;
+          color: #999;
+          word-break: keep-all;
+          font-weight: 300;
+          line-height: 13px;
+          padding: 10px;
+          vertical-align: middle;
+          border-bottom: 1px solid #dfdfdf; }
+        .magazine-view .section-content article .article-header .table-wrap .table tbody tr:first-child th {
+          border-top: 1px solid #dfdfdf; }
+        .magazine-view .section-content article .article-header .table-wrap .table tbody tr:first-child td {
+          border-top: 1px solid #dfdfdf; }
+    .magazine-view .section-content article .article-header .btn-area {
+      margin-top: 20px; }
+      .magazine-view .section-content article .article-header .btn-area p {
+        overflow: hidden; }
+        .magazine-view .section-content article .article-header .btn-area p .btn-md img {
+          display: inline-block;
+          width: 10px;
+          margin-left: 10px; }
+        .magazine-view .section-content article .article-header .btn-area p .btn-xs {
+          float: left; }
+          .magazine-view .section-content article .article-header .btn-area p .btn-xs:last-child {
+            float: right; }
+    .magazine-view .section-content article .article-header .summary {
+      font-size: 10px;
+      color: #999;
+      line-height: 16px;
+      margin-top: 20px;
+      font-weight: 300; }
+      .magazine-view .section-content article .article-header .summary i {
+        color: #ff7875;
+        font-style: normal; }
+    .magazine-view .section-content article .article-header hr {
+      margin: 20px 0 10px;
+      border-top: 1px solid #dfdfdf; }
+  .magazine-view .section-content article .article-content .review-write {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: none; }
+  .magazine-view .section-content article .article-content .paging {
+    margin-top: 20px; }
 
 /*# sourceMappingURL=e_magazine.css.map */
