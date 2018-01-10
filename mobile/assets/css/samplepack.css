@@ -7,10 +7,7 @@
 .sample-explain section .section-header p.summary {
     margin-bottom: 10px;
 }
-.sample-explain section .section-header figure {
-    width: 300px;
-    margin: 0 auto;
-}
+
 .sample-explain section .section-header figure img {
     width: 100%;
 }
@@ -44,14 +41,17 @@
     overflow: hidden;
 }
 /* 샘플팩 폰트 공통 */
-.samplepack #content .text-pink {
-    color: #ff7875;
+.samplepack b {
+    font-weight: 500;
+}
+.samplepack .text-pink {
+    color: #ff7875 !important;
 }
 .samplepack #content .text-blue {
-    color: #7da7d9;
+    color: #7da7d9 !important;
 }
 .samplepack #content .text-black {
-    color: #666;
+    color: #666 !important;
 }
 .sample-explain section .section-content .member-info .details dl dt {
     float: left;
@@ -79,10 +79,6 @@
 }
 .sample-explain section .section-content .banner {
     margin-top: 30px;
-}
-.sample-explain section .section-content .banner a figure {
-    width: 300px;
-    margin: 0 auto;
 }
 .sample-explain section .section-content .banner a figure img {
     width: 100%;
@@ -120,10 +116,6 @@
 }
 
 /* 샘플팩후기 보기 */
-.sample-view .info figure {
-    width: 300px;
-    margin: 0 auto;
-}
 .sample-view .info figure img {
     width: 100%;
 }
@@ -132,25 +124,92 @@
     line-height: 20px;
     color: #333;
     padding-bottom: 15px;
-    border-bottom: 1px solid #cecfd2;
 }
-/*
 .sample-view .info .details dl {
-    padding: 15px 0;
-    margin-bottom: 20px;
+    padding: 15px 5px;
+    border-top: 1px solid #cecfd2;
     border-bottom: 1px solid #cecfd2;
     overflow: hidden;
 }
 .sample-view .info .details dl dt {
     float: left;
     clear: both;
-    padding-left: 5px;
+    width: 70px;
+    line-height: 23px;
 }
 .sample-view .info .details dl dd {
-    float: left;
-    padding-left: 23px;
+    color: #999;
+    line-height: 23px;
 }
-*/
+.sample-view .info .details dl dd a {
+    color: #999;
+    text-decoration: none;
+}
+.sample-view .info .btn-area {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.sample-view .info .btn-area p a .icon-heart {
+    color: #ff7875;
+    margin-right: 10px;
+}
+.sample-view .view figure img {
+    width: 100%;
+}
+.sample-view .view .btn-area {
+    margin: 20px 0;
+    overflow: hidden;
+}
+.sample-view .view .btn-area p .btn-xs.btn-white {
+    float: left;
+}
+.sample-view .view .btn-area p .btn-xs.btn-pink {
+    float: right;
+}
+.sample-view .view .page-link {
+    clear: both;
+}
+.sample-view .review-write {
+    margin-top: 20px;
+}
+.sample-view .review-write .article-content .review-list li .review-content .btn-more .btn-xs.btn-pink {
+    background-color: #ff7875;
+}
+.sample-view .review-write .article-content .paging {
+    margin-top: 20px;
+}
+
+/* 샘플팩 후기 쓰기 */
+.sample-review section .section-title {
+    margin-bottom: 15px;
+}
+.sample-review section .table-wrap .btn-area {
+    margin-top: 30px;
+    text-align: right;
+}
+.sample-review section .table-wrap .btn-area .btn.btn-pink {
+    width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
