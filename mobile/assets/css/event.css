@@ -147,5 +147,59 @@
 }
 
 
+/* 체험이벤트 응모하기 */
+.event-entry .section-content .table-wrap .table ~ .table {
+    margin-top: 20px;
+}
+.event-entry .section-content .table-wrap .table.type-1 tbody tr .title {
+    font-weight: 400;
+}
+.event-entry .section-content .table-wrap .table tbody tr td dl dt {
+    font-weight: 300;
+}
+.event-entry .section-content .table-wrap .table tbody tr td dl dt label {
+    font-weight: 300;
+}
+.event-entry .section-content .table-wrap .table tbody tr td dl dd .add-input {
+    margin-top: 10px;
+}
+.event-entry .section-content .table-wrap .table tbody tr td.addition-list dl dd .form-group {
+    margin-top: 5px;
+}
+.event-entry .section-content .table-wrap .table tbody tr td.addition-list dl dd {
+    margin-bottom: 10px;
+}
+.event-entry .section-content .table-wrap .table tbody tr td.addition-list dl dd:last-child {
+    margin-bottom: 0;
+}
+.event-entry .section-content .table-wrap .table tbody tr td .form-group textarea {
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
