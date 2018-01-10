@@ -1,0 +1,151 @@
+@import url("/mobile/assets/css/common.css");
+
+/* 이벤트 공통 */
+.event .section-header {
+    padding-bottom: 0;
+}
+.event .item .sns-like {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.event .item .sns-like .sns-share {
+    float:left;
+    margin-top: 5px;
+}
+.event .item .sns-like .sns-share li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.event .item .sns-like .sns-share li:last-child {
+    margin-right: 0;
+}
+.event .item .sns-like .sns-share li > a > p {
+    width: 20px;
+}
+.event .item .sns-like .sns-share li > a > p img {
+    width: 100%;
+}
+.event .item .sns-like .btn-like {
+    float: right;
+}
+.event .item .sns-like .btn-like .btn.btn-xs {
+    text-align: center;
+    width: 63px;
+    font-size: 10px;
+    color: #666;
+    line-height: 30px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.event .item .sns-like .btn-like .btn.btn-xs .icon-heart {
+    color: #ff7875;
+}
+.event .information .info-head {
+    padding-bottom: 20px;
+}
+.event .information .info-head .subject {
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.event .information .info-head p {
+    font-size: 11px;
+    line-height: 15px;
+    color: #666;
+}
+.event .information .info-body {
+    padding: 15px 10px;
+    border-top: 1px solid #cecfd2;
+    border-bottom: 1px solid #cecfd2;
+    overflow: hidden;
+}
+.event .information .info-body dl {
+    overflow: hidden;
+}
+.event .information .info-body dl dt {
+    float: left;
+    clear: both;
+    width: 70px;
+    line-height: 23px;
+}
+.event .information .info-body dl dd {
+    color: #999;
+    line-height: 23px;
+}
+.event .information .btn-area {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.event .information .btn-area .btn.btn-md {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* 이벤트 신청자한마디 */
+.event-applicant .section-content .tab-content {
+    padding-top: 20px;
+}
+.event-applicant .section-content .tab-content .review li {
+    padding-left: 55px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dfdfdf;
+    position: relative;
+}
+.event-applicant .section-content .tab-content .review li figure {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 40px;
+    overflow: hidden;
+}
+.event-applicant .section-content .tab-content .review > li ~ li {
+    margin-top: 20px;
+}
+.event-applicant .section-content .tab-content .review li figure img {
+    width: 100%;
+}
+.event-applicant .section-content .tab-content .review li .review-content 
+{
+    padding-left: 10px;
+}
+
+.event-applicant .section-content .tab-content .review li .review-content .user-info {
+    position: relative;
+}
+.event-applicant .section-content .tab-content .review li .review-content .user-info .user-name {
+    font-size: 11px;
+    color: #3d3d3d;
+}
+.event-applicant .section-content .tab-content .review li .review-content .user-info .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 9px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+}
+.event-applicant .section-content .tab-content .review li .review-content .comment {
+    font-size: 10px;
+    line-height: 15px;
+    color: #515151;
+    margin-top: 10px;
+}
+.event-applicant .section-content .tab-content .paging {
+    margin-top: 20px;
+}
+
+/* 체험이벤트 후기 */
+.event-review .section-content .tab-menu .tab-content {
+    padding: 0;
+}
+.event-review .section-content .tab-menu .tab-content .board-type-2 .paging {
+    margin-top: 20px;
+}
+
+
+
+

@@ -38,7 +38,7 @@
                         <dd>2017-12-01</dd>
                         <dt>블로그주소</dt>
                         <dd>
-                            <a href="#">http://movementkg.co.kr</a>
+                            <a href="#" target="_blank">http://movementk.co.kr</a>
                         </dd>
                     </dl>
                 </div>
@@ -52,7 +52,7 @@
                 </div>
             </article>
             
-            <article class="view">
+            <article class="review-details">
                 <figure>
                     <img src="/mobile/assets/images/samplepack/img_sample_view_content.png" alt="">
                 </figure>

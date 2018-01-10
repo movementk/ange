@@ -429,7 +429,6 @@ font-size: 0;
 }
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info .details {
     border-bottom: 1px solid #dadada;
-    padding-top: 20px;
 }
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info.new-member .details {
     padding-bottom: 50px;
@@ -439,12 +438,12 @@ font-size: 0;
 }
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info .details dl {
     overflow: hidden;
+    padding: 20px 10px 0;
 }
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info .details dl dt {
     width: 100px;
     float: left;
     clear: both;
-    padding-left: 10px;
     padding-right: 45px;
     font-size: 12px;
     color: #666;
