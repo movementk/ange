@@ -926,6 +926,42 @@ button {
             line-height: 28px;
             border: 1px solid #ccc; }
 
+.board-type-5 > ul > li > a {
+  display: block;
+  text-decoration: none;
+  text-align: center; }
+  .board-type-5 > ul > li > a figure {
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff; }
+    .board-type-5 > ul > li > a figure img {
+      width: 100%; }
+  .board-type-5 > ul > li > a .details {
+    margin-top: 15px;
+    padding: 0 10px; }
+    .board-type-5 > ul > li > a .details p {
+      font-size: 11px;
+      color: #333;
+      word-break: keep-all;
+      font-weight: 400;
+      line-height: 14px; }
+    .board-type-5 > ul > li > a .details small {
+      display: block;
+      font-size: 10px;
+      color: #ff7875;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 10px; }
+.board-type-5 > ul > li ~ li a {
+  margin-top: 30px; }
+.board-type-5 > ul > li:nth-of-type(2n + 1) {
+  clear: both; }
+.board-type-5 > ul > li:nth-of-type(2) a {
+  margin-top: 0; }
+.board-type-5 > ul.border-line > li > a figure {
+  border: 1px solid #cbcbcb; }
+
 .attention-box {
   padding: 20px 10px;
   border-radius: 5px;

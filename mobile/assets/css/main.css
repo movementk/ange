@@ -180,7 +180,7 @@ ul, ol {
       -webkit-transition-delay: 0s;
       transition-delay: 0s; }
       .article-header .btn-controls a:last-child {
-        margin-right: 9; }
+        margin-right: 0; }
       .article-header .btn-controls a:hover, .article-header .btn-controls a:focus {
         color: #e96d7b; }
       .article-header .btn-controls a i:before {

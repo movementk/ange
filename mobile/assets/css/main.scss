@@ -156,7 +156,7 @@
             margin-right: 5px;
             @include transition();
             &:last-child {
-                margin-right: 9;
+                margin-right: 0;
             }
             &:hover, &:focus {
                 color: #e96d7b;

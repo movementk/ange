@@ -1110,7 +1110,7 @@ button {
     }
 }
 
-// 게시판 리스트3
+// 게시판 리스트4
 .board-type-4 {
     border-radius: 5px;
     padding: 10px 10px 20px;
@@ -1187,6 +1187,68 @@ button {
                             line-height: 28px;
                             border: 1px solid #ccc;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+// 게시판 리스트4
+.board-type-5 {
+    > ul {
+        > li {
+            > a {
+                display: block;
+                text-decoration: none;
+                text-align: center;
+                figure {
+                    overflow: hidden;
+                    border-radius: 10px;
+                    padding: 10px;
+                    background-color: #fff;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .details {
+                    margin-top: 15px;
+                    padding: 0 10px;
+                    p {
+                        font-size: 11px;
+                        color: #333;
+                        word-break: keep-all;
+                        font-weight: 400;
+                        line-height: 14px;
+                    }
+                    small {
+                        display: block;
+                        font-size: 10px;
+                        color: #ff7875;
+                        font-weight: 400;
+                        @include roboto();
+                        margin-top: 10px;
+                    }
+                }
+            }
+            & ~ li {
+                a {
+                    margin-top: 30px;
+                }
+            }
+            &:nth-of-type(2n + 1) {
+                clear: both;
+            }
+            &:nth-of-type(2) {
+                a {
+                    margin-top: 0;
+                }
+            }
+        }
+        &.border-line {
+            > li {
+                > a {
+                    figure {
+                        border: 1px solid #cbcbcb;
                     }
                 }
             }

@@ -452,6 +452,62 @@
                         </ul>
                     </article>
                     
+                    <!-- 게시판 리스트 -->
+                    <p class="ex-txt">게시판 리스트 type-5</p>
+                    <article class="board-type-5">
+                        <ul class="row">
+                            <li class="col-xs-6">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/sub/img_product02.jpg" alt="">
+                                    </figure>
+                                    <div class="details">
+                                        <p>Botanical Therapy 스텝원 베이비 치약 (무불소, 블루베리향)</p>
+                                        <small>5,600 P</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-6">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/sub/img_product03.jpg" alt="">
+                                    </figure>
+                                    <div class="details">
+                                        <p>드림베이비 가스레인지 &amp; 오븐 손잡이 보호대</p>
+                                        <small>5,600 P</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        <p class="ex-txt">border 값이 있을경우</p>
+                        <!-- border 값이 있을경우 -->
+                        <ul class="row border-line">
+                            <li class="col-xs-6">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/sub/img_product02.jpg" alt="">
+                                    </figure>
+                                    <div class="details">
+                                        <p>Botanical Therapy 스텝원 베이비 치약 (무불소, 블루베리향)</p>
+                                        <small>5,600 P</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-6">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/sub/img_product03.jpg" alt="">
+                                    </figure>
+                                    <div class="details">
+                                        <p>드림베이비 가스레인지 &amp; 오븐 손잡이 보호대</p>
+                                        <small>5,600 P</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+                    
                     
                     <!-- 테이블 -->
                     <p class="ex-txt">테이블 type-1</p>
