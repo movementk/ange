@@ -293,6 +293,24 @@
       "css": "right-open",
       "code": 61446,
       "src": "mfglabs"
+    },
+    {
+      "uid": "fojo3y3ju5f4vge0bepcxl1mgmzgit9k",
+      "css": "export",
+      "code": 59427,
+      "src": "modernpics"
+    },
+    {
+      "uid": "e0d15ef5945000f5f264acc35494002f",
+      "css": "basket",
+      "code": 59428,
+      "src": "typicons"
+    },
+    {
+      "uid": "5cbe092278ff71fc27c920298b0f3ca3",
+      "css": "fax",
+      "code": 61868,
+      "src": "fontawesome"
     }
   ]
 }

@@ -15,7 +15,7 @@
             <div class="col-xs-6">
                 <div class="company">
                     <ul class="policy">
-                        <li><a href="#">회사소개</a></li>
+                        <li><a href="/introduction/introduce.php">회사소개</a></li>
                         <li><a href="#">광고</a></li>
                         <li><a href="#">제안</a></li>
                         <li><a href="/customer/agreement.php">이용약관</a></li>

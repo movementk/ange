@@ -34,6 +34,8 @@
 .icon-lock-filled:before { content: '\e820'; } /* '' */
 .icon-vcard:before { content: '\e821'; } /* '' */
 .icon-plus-circled:before { content: '\e822'; } /* '' */
+.icon-export:before { content: '\e823'; } /* '' */
+.icon-basket:before { content: '\e824'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
 .icon-left-open:before { content: '\f007'; } /* '' */
@@ -45,5 +47,6 @@
 .icon-angle-up:before { content: '\f106'; } /* '' */
 .icon-angle-down:before { content: '\f107'; } /* '' */
 .icon-calendar-empty:before { content: '\f133'; } /* '' */
+.icon-fax:before { content: '\f1ac'; } /* '' */
 .icon-circle-thin:before { content: '\f1db'; } /* '' */
 .icon-comment:before { content: '\f4ac'; } /* '' */
