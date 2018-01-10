@@ -106,44 +106,153 @@
                 
                 <div class="section-content">
                     <div class="table-wrap">
-                        <table class="table type-1">
-                            <caption>
-                                <h4>회원정보</h4>
-                                <div class="btn-link">
-                                    <a href="#" class="btn btn-default" role="button">회원정보 수정</a>
-                                </div>
-                            </caption>
-                            <tbody>
-                                <tr>
-                                    <th>신청자</th>
-                                    <td>무브먼트(movementk)</td>
-                                </tr>
-                                <tr>
-                                    <th>주소</th>
-                                    <td>서울 서초구 양재동 120-1번지 양재빌딩 2층</td>
-                                </tr>
-                                <tr>
-                                    <th>연락처</th>
-                                    <td>02-1234-5678</td>
-                                </tr>
-                                <tr>
-                                    <th><label for="u-blog">블로그</label></th>
-                                    <td>
-                                        <div class="form-group">
-                                            <input type="text" id="u-blog" class="form-control" placeholder="ex) http://blog.naver.com/myblog">
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th><label for="u-sns">SNS 주소</label></th>
-                                    <td>
-                                        <div class="form-group">
-                                            <input type="text" id="u-sns" class="form-control">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <form action="#">
+                            <table class="table type-1">
+                                <caption>
+                                    <h4>회원정보</h4>
+                                    <div class="btn-link">
+                                        <a href="#" class="btn btn-default" role="button">회원정보 수정</a>
+                                    </div>
+                                </caption>
+                                <tbody>
+                                    <tr>
+                                        <th>신청자</th>
+                                        <td>무브먼트(movementk)</td>
+                                    </tr>
+                                    <tr>
+                                        <th>주소</th>
+                                        <td>서울 서초구 양재동 120-1번지 양재빌딩 2층</td>
+                                    </tr>
+                                    <tr>
+                                        <th>연락처</th>
+                                        <td>02-1234-5678</td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="u-blog">블로그</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="text" id="u-blog" class="form-control" placeholder="ex) http://blog.naver.com/myblog">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="u-sns">SNS 주소</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="text" id="u-sns" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <table class="table type-1">
+                                <caption>
+                                    <h4>신청서 작성</h4>
+                                </caption>
+                                <tbody>
+                                    <tr>
+                                        <th>제목</th>
+                                        <td class="title">착용해보시개 &lt;밸라베이비해피 기저귀&gt;체험단 이벤트</td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="u-blog">블로그 주소</label></th>
+                                        <td>
+                                            <dl>
+                                                <dt>상품 설명을 스크랩한 블로그 주소를 입력해 주세요. 미션에 따라 블로그 개수만큼 추가해주세요</dt>
+                                                <dd>
+                                                    <div class="form-group add-input">
+                                                        <input type="text" id="u-blog" class="form-control">
+                                                        <div class="add-btn">
+                                                            <a href="#" class="plus">
+                                                                <i class="icon-plus-1">
+                                                                    <span class="sr-only">추가하기</span>
+                                                                </i>
+                                                            </a>
+                                                            <a href="#" class="minus">
+                                                                <i class="icon-minus">
+                                                                    <span class="sr-only">제거하기</span>
+                                                                </i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>추가정보</th>
+                                        <td class="addition-list">
+                                            <dl>
+                                                <dt><label for="addition-class1">추가정보 제목 1</label></dt>
+                                                <dd>
+                                                    <div class="form-group">
+                                                        <input type="text" id="addition-class1" class="form-control">
+                                                    </div>
+                                                </dd>
+                                                <dt><label for="addition-class2">추가정보 제목 2</label></dt>
+                                                <dd>
+                                                    <div class="form-group">
+                                                        <input type="text" id="addition-class2" class="form-control">
+                                                    </div>
+                                                </dd>
+                                                <dt><label for="addition-class3">추가정보 제목 3</label></dt>
+                                                <dd>
+                                                    <div class="form-group">
+                                                        <input type="text" id="addition-class3" class="form-control">
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="reason">신청이유</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <textarea id="reason" class="form-control" placeholder="신청이유를 작성해주세요"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="one-word">신청 한마디</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="text" id="one-word" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>개인정보 제공 동의</th>
+                                        <td>
+                                            <dl>
+                                                <dt>체험단 신청 후 개인정보 제3자 제공동의 내용</dt>
+                                                <dd>
+                                                    <div class="form-group">
+                                                        <label><input type="radio">동의함</label>
+                                                        <label><input type="radio">동의안함</label>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>유의사항</th>
+                                        <td>
+                                            <dl>
+                                                <dt>체험단 신청 후 개인정보 제3자 제공동의 내용</dt>
+                                                <dd>
+                                                    <div class="form-group">
+                                                        <label><input type="radio">동의함</label>
+                                                        <label><input type="radio">동의안함</label>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </form>
                    </div>
                 </div>
             </section>
