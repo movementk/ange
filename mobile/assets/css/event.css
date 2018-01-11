@@ -543,21 +543,120 @@
     text-align: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 이벤트 목록 */
+.event-list .section-header .prizewinner {
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.event-list .section-header .prizewinner dt {
+    float: left;
+    clear: both;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 10px;
+    line-height: 30px;
+    background-color: #ff7875;
+}
+.event-list .section-header .prizewinner dd {
+    float: left;
+    line-height: 30px;
+    color: #666;
+    font-weight: 300;
+    padding-left: 20px;
+    background-image: url(/mobile/assets/images/event/bg_prizewinner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.event-list .section-content .form-group {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.event-list .section-content .form-group .form-control {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 10px;
+    color: #333;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #dfdfdf;
+}
+.event-list .section-content .list-wrap {
+    margin-top: 15px;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details {
+    padding-top: 20px;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .title {
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information {
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information ul {
+    display: inline-block;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information ul li:last-child {
+    margin-right: 0;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information ul li i.icon-heart:before {
+    content: "\E80F";
+    margin-right: 5px;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information ul li i.icon-calendar-empty:before {
+    content: "\F133";
+    margin-right: 5px;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information ul li i.icon-user:before {
+    content: "\E817";
+    margin-right: 5px;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information ul li i.icon-database:before {
+    content: "\E818";
+    margin-right: 5px;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information p.event-sucess {
+    display: inline-block;
+    width: 50px;
+    height: 16px;
+    margin-left: 20px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+    background-color: #ccc;
+}
+.event-list .section-content .list-wrap .event-list .event-item a .details .event-information p.event-before {
+    display: inline-block;
+    width: 50px;
+    height: 16px;
+    margin-left: 20px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 14px;
+    color: #999;
+    border: 1px solid #ccc;
+}
+.event-list .section-content .list-wrap .paging {
+    margin-top: 40px;
+}
 
 
 
