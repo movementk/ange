@@ -174,34 +174,34 @@
                             </p>
                         </div>
                         <nav class="paging" aria-label="Page navigation">
-                        <ul class="pagination">
-                            <li class="first">
-                                <a href="#" aria-label="Previous">
-                                    <i class="icon-angle-double-left"></i>
-                                </a>
-                            </li>
-                            <li class="prev">
-                                <a href="#" aria-label="Previous">
-                                    <i class="icon-angle-left"></i>
-                                </a>
-                            </li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li class="next">
-                                <a href="#" aria-label="Next">
-                                    <i class="icon-angle-right"></i>
-                                </a>
-                            </li>
-                            <li class="last">
-                                <a href="#" aria-label="Next">
-                                    <i class="icon-angle-double-right"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                            <ul class="pagination">
+                                <li class="first">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="icon-angle-double-left"></i>
+                                    </a>
+                                </li>
+                                <li class="prev">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="icon-angle-left"></i>
+                                    </a>
+                                </li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li class="next">
+                                    <a href="#" aria-label="Next">
+                                        <i class="icon-angle-right"></i>
+                                    </a>
+                                </li>
+                                <li class="last">
+                                    <a href="#" aria-label="Next">
+                                        <i class="icon-angle-double-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
                     </article>
                 </div>
             </section>

@@ -69,13 +69,13 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <div class="btn-area">
+                            <p>
+                                <button type=""submit class="btn btn-sm btn-pink">다음</button>
+                                <a href="#" class="btn btn-sm btn-white" role="button">취소</a>
+                            </p>
+                        </div>
                     </form>
-                    <div class="btn-area">
-                        <p>
-                            <a href="#" class="btn btn-sm btn-pink" role="button">다음</a>
-                            <a href="#" class="btn btn-sm btn-white" role="button">취소</a>
-                        </p>
-                    </div>
                 </div>
             </section>
         </div>

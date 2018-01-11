@@ -1193,7 +1193,7 @@ button {
         }
     }
 }
-// 게시판 리스트4
+// 게시판 리스트5
 .board-type-5 {
     > ul {
         > li {
@@ -1249,6 +1249,76 @@ button {
                 > a {
                     figure {
                         border: 1px solid #cbcbcb;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 게시판 리스트6 
+.board-type-6 {
+    padding: 20px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+    > ul {
+        > li {
+            position: relative;
+            padding: 15px 55px 15px 10px;
+            border-bottom: 1px solid #dfdfdf;
+            &:first-child {
+                padding-top: 0;
+            }
+            > div {
+                .situation {
+                    margin-bottom: 10px;
+                    span {
+                        width: 40px;
+                        display: inline-block;
+                        margin-right: 10px;
+                        font-size: 10px;
+                        color: #666;
+                        border-radius: 30px;
+                        text-align: center;
+                        line-height: 16px;
+                        &.ongoing {
+                            color: #fff;
+                            background-color: #ff7a77;
+                        }
+                        &.finish {
+                            background-color: #d5d5d5;
+                        }
+                    }
+                    > p {
+                        display: inline-block;
+                        font-size: 10px;
+                        color: #999;
+                        font-weight: 400;
+                        line-height: 16px;
+                        @include roboto();
+                    }
+                }
+                .subject {
+                    font-size: 11px;
+                    color: #666;
+                    line-height: 15px;
+                    word-break: keep-all;
+                }
+                .btn-result {
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    margin-top: -10px;
+                    .btn-xs {
+                        width: 50px;
+                        font-size: 10px;
+                        font-weight: 300;
+                        color: #999;
+                        text-align: center;
+                        line-height: 18px;
+                        border-radius: 5px;
+                        border: 1px solid #ccc;
                     }
                 }
             }

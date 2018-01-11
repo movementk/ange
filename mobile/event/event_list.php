@@ -23,14 +23,45 @@
     </div>
     
     <!-- sub content start -->
-    <main id="content" class="event-list"><!-- 페이지명 클래스 -->
+    <main id="content" class="experience-event"><!-- 페이지명 클래스 -->
         <div class="container">
             <section>
                 <div class="section-header">
-                    
+                    <div class="event-slider">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/main/img_jumbo_slider01.jpg" alt="">
+                                    </figure>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/main/img_jumbo_slider01.jpg" alt="">
+                                    </figure>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/main/img_jumbo_slider01.jpg" alt="">
+                                    </figure>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <figure>
+                                        <img src="/mobile/assets/images/main/img_jumbo_slider01.jpg" alt="">
+                                    </figure>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <dl class="prizewinner">
                         <dt>당첨자 발표</dt>
-                        <dd>베파파 레드루트 체험단</dd>
+                        <dd><a href="#">베파파 레드루트 체험단</a></dd>
                     </dl>
                 </div>
                 
@@ -77,10 +108,10 @@
                                                     <i class="icon-database"></i>+1,000
                                                 </li>
                                             </ul>
-<!--
-                                            응모완료 > event-sucess
-                                            미응모 > event-before
--->
+                                            <!--
+                                                응모완료 > event-sucess
+                                                미응모 > event-before
+                                            -->
                                             <p class="event-sucess">응모완료</p> 
                                         </div>
                                     </div>
@@ -113,10 +144,10 @@
                                                     <i class="icon-database"></i>+1,000
                                                 </li>
                                             </ul>
-<!--
-                                            응모완료 > event-sucess
-                                            미응모 > event-before
--->
+                                            <!--
+                                                응모완료 > event-sucess
+                                                미응모 > event-before
+                                            -->
                                             <p class="event-before">미응모</p> 
                                         </div>
                                     </div> 
@@ -149,10 +180,10 @@
                                                     <i class="icon-database"></i>+1,000
                                                 </li>
                                             </ul>
-<!--
-                                            응모완료 > event-sucess
-                                            미응모 > event-before
--->
+                                            <!--
+                                                응모완료 > event-sucess
+                                                미응모 > event-before
+                                            -->
                                             <p class="event-sucess">응모완료</p>
                                         </div>
                                     </div> 
@@ -197,6 +228,17 @@
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/docfoot.php"); ?>
+    <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="/mobile/assets/js/common.js"></script>
+    <script>
+        (function($) {
+            // 메인슬라이드
+            $(document).ready(function(){
+                $('.event-slider > ul').bxSlider({
+                    controls: false
+                });
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>

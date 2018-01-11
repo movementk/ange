@@ -66,11 +66,11 @@
                     </article>
                     <div class="attention-box">
                         <strong>주의사항</strong>
-                        <ol>
+                        <ul>
                             <li>지정일에 반드시 당첨확인 전화 필요 (02-333-4650 내선 0번)</li>
                             <li>한번 작성하여 보내주신 엽서는 수정할 수 없습니다.</li>
                             <li>보내기에 문제가 생기신 분은 angeweb@ange.co.kr 메일로 해당 내용을 보내주시기 바랍니다.</li>
-                        </ol>
+                        </ul>
                     </div>
                     <div class="btn-area">
                         <p>

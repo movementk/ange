@@ -44,7 +44,7 @@
                                         <tr>
                                             <th class="essential"><label for="u-name">신청자명</label></th>
                                             <td>
-                                                <div class="form-group basic-group">
+                                                <div class="form-group">
                                                     <input type="text" id="u-name" class="form-control" placeholder="무브먼트">
                                                 </div>
                                             </td>
@@ -52,7 +52,7 @@
                                         <tr>
                                             <th class="essential"><label for="u-tel">전화번호</label></th>
                                             <td>
-                                                <div class="form-group basic-group">
+                                                <div class="form-group">
                                                     <input type="text" id="u-tel" class="form-control" placeholder="02-123-5678">
                                                 </div>
                                             </td>
@@ -60,7 +60,7 @@
                                         <tr>
                                             <th class="essential"><label for="u-phone">핸드폰 번호</label></th>
                                             <td>
-                                                <div class="form-group basic-group">
+                                                <div class="form-group">
                                                     <input type="text" id="u-phone" class="form-control" placeholder="010-1234-5678">
                                                 </div>
                                             </td>

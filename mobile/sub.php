@@ -508,6 +508,45 @@
                         </ul>
                     </article>
                     
+                    <!-- 게시판 리스트 -->
+                    <p class="ex-txt">게시판 리스트 type-6</p>
+                    <article class="board-type-6">
+                        <!--
+                            진행중 : ongoing
+                            종료 : finish
+                        -->
+                        <ul>
+                            <li>
+                                <div>
+                                    <div class="situation">
+                                        <span class="ongoing">진행중</span>
+                                        <p class="date">2017-12-01 ~ 2017-12-01</p>
+                                    </div>
+                                    <p class="subject">
+                                        공지사항 제목이 노출되는 영역입니다.공지 사항 제목이 노출되는 영역입니다.
+                                    </p>
+                                    <div class="btn-result">
+                                        <a href="#" class="btn btn-xs btn-white" role="button">결과보기</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="situation">
+                                        <span class="finish">완 료</span>
+                                        <p class="date">2017-12-01 ~ 2017-12-01</p>
+                                    </div>
+                                    <p class="subject">
+                                        공지사항 제목이 노출되는 영역입니다.공지 사항 제목이 노출되는 영역입니다.
+                                    </p>
+                                    <div class="btn-result">
+                                        <a href="#" class="btn btn-xs btn-white" role="button">결과보기</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                    
                     
                     <!-- 테이블 -->
                     <p class="ex-txt">테이블 type-1</p>
