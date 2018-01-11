@@ -29,6 +29,10 @@
 .icon-attention-filled:before { content: '\e81b'; } /* '' */
 .icon-home:before { content: '\e81c'; } /* '' */
 .icon-menu-1:before { content: '\e81d'; } /* '' */
+.icon-right-small:before { content: '\e81e'; } /* '' */
+.icon-left-small:before { content: '\e81f'; } /* '' */
+.icon-phone:before { content: '\e820'; } /* '' */
+.icon-home-1:before { content: '\e821'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
 .icon-doc-text:before { content: '\f0f6'; } /* '' */
@@ -39,4 +43,5 @@
 .icon-angle-up:before { content: '\f106'; } /* '' */
 .icon-angle-down:before { content: '\f107'; } /* '' */
 .icon-calendar-empty:before { content: '\f133'; } /* '' */
+.icon-fax:before { content: '\f1ac'; } /* '' */
 .icon-comment:before { content: '\f4ac'; } /* '' */
