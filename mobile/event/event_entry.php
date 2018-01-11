@@ -34,41 +34,36 @@
                      -->
                     <div class="event-item today-event">
                         <div class="item">
-                           <img src="/mobile/assets/images/event/img_event_view.jpg" alt="">
+                           <img src="/mobile/assets/images/sub/img_event_item01.jpg" alt="">
                             <div class="event-backdrop">
                                 <p>오늘<br>오픈</p>
                             </div>
-                            <div class="sns-like">
-                                <ul class="sns-share">
-                                    <li>
-                                        <a href="#">
-                                            <p class="icon-blog">
-                                                <img src="/mobile/assets/images/event/img_icon_blog.png" alt="">
-                                            </p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <p class="icon-tweeter">
-                                                <img src="/mobile/assets/images/event/img_icon_tweeter.png" alt="">
-                                            </p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <p class="icon-fbook">
-                                                <img src="/mobile/assets/images/event/img_icon_facebook.png" alt="">
-                                            </p>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <p class="btn-like">
-                                    <a href="#" class="btn btn-xs btn-white" role="button">
-                                        123 <i class="icon-heart"></i>
-                                    </a>
-                                </p>
-                            </div>
                         </div>
+                        <div class="sns-like">
+                            <ul class="sns-share">
+                                <li>
+                                    <a href="#">
+                                        <img src="/mobile/assets/images/event/img_icon_blog.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/mobile/assets/images/event/img_icon_tweeter.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/mobile/assets/images/event/img_icon_facebook.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="btn-like">
+                                <a href="#" class="btn btn-xs btn-white" role="button">
+                                    123 <i class="icon-heart"></i>
+                                </a>
+                            </p>
+                        </div>
+                        
                     </div>
                     <div class="information">
                         <div class="info-head">
@@ -98,6 +93,8 @@
                             <p>
                                 <a href="#" class="btn btn-md btn-white" role="button">구경가기</a>
                                 <a href="#" class="btn btn-md btn-white" role="button">목록</a>
+                            </p>
+                            <p>
                                 <a href="#" class="btn btn-lg btn-pink" role="button">응모하기</a>
                             </p>
                         </div>
@@ -128,15 +125,15 @@
                                         <td>02-1234-5678</td>
                                     </tr>
                                     <tr>
-                                        <th><label for="u-blog">블로그</label></th>
+                                        <th><label for="blog">블로그</label></th>
                                         <td>
                                             <div class="form-group">
-                                                <input type="text" id="u-blog" class="form-control" placeholder="ex) http://blog.naver.com/myblog">
+                                                <input type="text" id="blog" class="form-control" placeholder="ex) http://blog.naver.com/myblog">
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th><label for="u-sns">SNS 주소</label></th>
+                                        <th><label for="u-sns">SNS</label></th>
                                         <td>
                                             <div class="form-group">
                                                 <input type="text" id="u-sns" class="form-control">
@@ -209,7 +206,7 @@
                                         <th><label for="reason">신청이유</label></th>
                                         <td>
                                             <div class="form-group">
-                                                <textarea id="reason" class="form-control" placeholder="신청이유를 작성해주세요"></textarea>
+                                                <textarea id="reason" class="form-control"></textarea>
                                             </div>
                                         </td>
                                     </tr>
@@ -222,10 +219,10 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>개인정보 제공 동의</th>
+                                        <th>개인정보제공동의</th>
                                         <td>
                                             <dl>
-                                                <dt>체험단 신청 후 개인정보 제3자 제공동의 내용</dt>
+                                                <dt>체험단 신청 후 개인정보 제3자 제공동의</dt>
                                                 <dd>
                                                     <div class="form-group">
                                                         <label><input type="radio">동의함</label>
@@ -239,7 +236,7 @@
                                         <th>유의사항</th>
                                         <td>
                                             <dl>
-                                                <dt>체험단 신청 후 개인정보 제3자 제공동의 내용</dt>
+                                                <dt>각종 유의사항에 대한 항목</dt>
                                                 <dd>
                                                     <div class="form-group">
                                                         <label><input type="radio">동의함</label>
@@ -249,9 +246,14 @@
                                             </dl>
                                         </td>
                                     </tr>
-
                                 </tbody>
                             </table>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="#" class="btn btn-sm btn-pink">신청</a>
+                                    <a href="#" class="btn btn-sm btn-white">취소</a>
+                                </p>
+                            </div>
                         </form>
                    </div>
                 </div>
