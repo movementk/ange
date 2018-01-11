@@ -4,32 +4,32 @@
 .event .section-header {
     padding-bottom: 0;
 }
-.event .item .sns-like {
+.event .sns-like {
     padding-top: 10px;
     padding-bottom: 20px;
     overflow: hidden;
 }
-.event .item .sns-like .sns-share {
+.event .sns-like .sns-share {
     float:left;
     margin-top: 5px;
 }
-.event .item .sns-like .sns-share li {
+.event .sns-like .sns-share li {
     display: inline-block;
     margin-right: 5px;
 }
-.event .item .sns-like .sns-share li:last-child {
+.event .sns-like .sns-share li:last-child {
     margin-right: 0;
 }
-.event .item .sns-like .sns-share li > a > p {
+.event .sns-like .sns-share li {
     width: 20px;
 }
-.event .item .sns-like .sns-share li > a > p img {
+.event .sns-like .sns-share li > a > img {
     width: 100%;
 }
-.event .item .sns-like .btn-like {
+.event .sns-like .btn-like {
     float: right;
 }
-.event .item .sns-like .btn-like .btn.btn-xs {
+.event .sns-like .btn-like .btn.btn-xs {
     text-align: center;
     width: 63px;
     font-size: 10px;
@@ -40,7 +40,7 @@
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
 }
-.event .item .sns-like .btn-like .btn.btn-xs .icon-heart {
+.event .sns-like .btn-like .btn.btn-xs .icon-heart {
     color: #ff7875;
 }
 .event .information .info-head {
@@ -58,7 +58,7 @@
     color: #666;
 }
 .event .information .info-body {
-    padding: 15px 10px;
+    padding: 10px 10px;
     border-top: 1px solid #cecfd2;
     border-bottom: 1px solid #cecfd2;
     overflow: hidden;
@@ -75,16 +75,24 @@
 .event .information .info-body dl dd {
     color: #999;
     line-height: 23px;
+    font-weight: 300;
 }
 .event .information .btn-area {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.event .information .btn-area .btn.btn-md {
-    display: inline-block;
-    margin-bottom: 10px;
+.event .information .btn-area p:nth-of-type(2) {
+    margin-top: 10px;
+}
+.event .information .btn-area p:nth-of-type(2) .btn.btn-lg{
+    max-width: 300px;
 }
 
+
+/* 이벤트 상세보기 */
+.event-info .section-content .tab-menu .tab-content figure img {
+    width: 100%;
+}
 /* 이벤트 신청자한마디 */
 .event-applicant .section-content .tab-content {
     padding-top: 20px;
@@ -130,7 +138,7 @@
 }
 .event-applicant .section-content .tab-content .review li .review-content .comment {
     font-size: 10px;
-    line-height: 15px;
+    line-height: 14px;
     color: #515151;
     margin-top: 10px;
 }
@@ -175,11 +183,365 @@
 .event-entry .section-content .table-wrap .table tbody tr td .form-group textarea {
     height: 80px;
 }
+.event-entry .section-content .table-wrap .btn-area {
+    margin-top: 30px;
+    text-align: right;
+}
 
+/* 체험후기 리스트 */
+.review-list .section-header > h4 {
+    font-size: 12px;
+    color: #333;
+}
+.review-list .section-header .search-form {
+    margin: 15px 0;
+}
+.review-list .section-content .btn-area {
+    margin: 20px 0;
+    text-align: right;
+}
+.review-list .section-content .btn-area .btn.btn-sm {
+    width: 90px;
+}
 
+/* 체험후기 보기 */
+.review-view .section-header .information .info-head {
+    padding-bottom: 0;
+}
+.review-view .section-header .information .info-head .subject {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.review-view .section-header .information .info-body dl dd {
+    padding-left: 70px;
+}
+.review-view .section-header .information .info-body dl dd a {
+    color: #999;
+    text-decoration: none;
+}
+.review-view .section-header .information .btn-area p a .icon-heart {
+    color: #ff7875;
+}
+.review-view .review-details figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+.review-view .review-details .btn-area {
+    margin: 20px 0;
+    overflow: hidden;
+}
+.review-view .review-details .btn-area p .btn-xs.btn-white {
+    float: left;
+}
+.review-view .review-details .btn-area p .btn-xs.btn-pink {
+    float: right;
+}
+.review-view .review-details .page-link {
+    clear: both;
+}
+.review-view .review-write {
+    margin-top: 20px;
+}
+.review-view .review-write .article-content .review-list li .review-content .btn-more .btn-xs.btn-pink {
+    background-color: #ff7875;
+}
+.review-view .review-write .article-content .paging {
+    margin-top: 20px;
+}
 
+/* 체험후기 쓰기 */
+.review-write section h3 {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.review-write section .section-title {
+    margin-bottom: 15px;
+}
+.review-write .table-wrap .table tbody tr td .form-group textarea {
+    border-radius: 0;
+}
+.review-write section .table-wrap .btn-area {
+    margin-top: 30px;
+    text-align: right;
+}
+.review-write section .table-wrap .btn-area .btn.btn-sm {
+    width: 90px;
+}
 
+/* 비밀번호 확인 */
+.pw-confirm .confirm-form {
+    padding: 35px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.pw-confirm .confirm-form figure {
+    width: 44px;
+    margin: 0 auto;
+}
+.pw-confirm .confirm-form figure img {
+    width: 100%;
+}
+.pw-confirm .confirm-form .details {
+    padding: 20px 0;
+}
+.pw-confirm .confirm-form .details h2 {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.pw-confirm .confirm-form .details .summary {
+    font-size: 11px;
+    text-align: center;
+    line-height: 16px;
+    color: #8f8f8f;
+    word-break: keep-all;
+}
+.pw-confirm .confirm-form .form-group .form-control {
+    width: 260px;
+    margin: 0 auto;
+}
+.pw-confirm .confirm-form .btn-area {
+    margin-top: 20px;
+}
 
+/* 당첨자발표 리스트 */
+.prizewinner-list .section-header h4 {
+    font-size: 12px;
+    color: #333;
+}
+.prizewinner-list .section-header .search-form {
+    margin: 15px 0;
+}
+.prizewinner-list .section-content .board-type-2 .paging {
+    margin-top: 20px;
+}
+
+/* 당첨자발표 보기 */
+.prizewinner-view section > h3 {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.prizewinner-view section .board-view {
+    padding-bottom: 20px;
+}
+.prizewinner-view section .review-write .article-content .review-list li .btn-more .btn-xs.btn-pink {
+    background-color: #ff7875;
+}
+.prizewinner-view section .review-write .paging {
+    margin-top: 20px;
+}
+.prizewinner-view section .review-write .article-content  .review-list > li .review-content .btn-more .btn-xs {
+    margin-right: 5px;
+}
+.prizewinner-view section .review-write .article-content  .review-list > li .review-content .btn-more .btn-xs:last-child {
+    margin-right: 0;
+}
+
+/* 애독자 엽서 보내기*/
+.reader-view .section-header figure img {
+    width: 100%;
+}
+.reader-view .section-header .details {
+    padding-left: 15px;
+}
+.reader-view .section-header .details small {
+    display: block;
+    padding-top: 5px;
+    font-size: 9px;
+    color: #999;
+}
+.reader-view .section-header .details h3 {
+    font-size: 15px;
+    color: #333;
+    line-height: 20px;
+    padding: 15px 0 30px;
+}
+.reader-view .section-header .details p {
+    font-size: 10px;
+    color: #666;
+    line-height: 15px;
+}
+.reader-view .section-content .info {
+    margin-top: 20px;
+}
+.reader-view .section-content .info h5 {
+    font-size: 11px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.reader-view .section-content .info dl {
+    padding: 15px 10px;
+    border-bottom: 1px solid #cecfd2;
+    border-top: 1px solid #cecfd2;
+    overflow: hidden;
+}
+.reader-view .section-content .info dl dt {
+    float: left;
+    clear: both;
+    width: 70px;
+    font-size: 10px;
+    color: #666;
+    line-height: 21px;
+}
+.reader-view .section-content .info dl dd {
+    float: left;
+    font-size: 10px;
+    color: #999;
+    line-height: 21px;
+    font-weight: 300;
+}
+.reader-view .section-content .attention-box {
+    margin: 20px 0 30px;
+}
+.reader-view .section-content .attention-box ol li {
+    color: #888;
+    line-height: 15px;
+}
+.reader-view .section-content .attention-box ol li:before {
+    content: "- ";
+}
+
+/* 애독자 엽서 쓰기 */
+.reader-write section > h3 {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.reader-write .section-content .post-form .table-wrap .table tbody tr .essential:after {
+    color: #e25371;
+    content: " *";
+}
+.reader-write .section-content .post-form .table-wrap .table tbody tr td .form-group textarea {
+    margin-top: 10px;
+    height: 80px;
+}
+.reader-write .section-content .post-form .table-wrap .table tbody tr td.space dl dd .form-group {
+    margin-top: 10px;
+}
+.reader-write .section-content .post-form .table-wrap .table tbody tr td dl dd label {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.reader-write .section-content .post-form .table-wrap .table tbody tr td dl dt p {
+    font-size: 10px;
+    color: #666;
+    line-height: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.reader-write .section-content .gift-list {
+    margin-top: 20px;
+}
+.reader-write .section-content .gift-list .article-header {
+    padding: 15px 10px;
+    background-color: #acacac;
+}
+.reader-write .section-content .gift-list .article-header h3 {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 300;
+}
+.reader-write .section-content .gift-list .article-content > ul > li {
+    padding: 0 20px 30px;
+    background-color: #fff;
+}
+.reader-write .section-content .gift-list .article-content ul li .gift-item {
+    position: relative;
+    padding-top: 20px;
+    border-top: 1px solid #dfdfdf;
+}
+.reader-write .section-content .gift-list .article-content ul li:first-child .gift-item {
+    border: none;
+}
+.reader-write .section-content .gift-list .article-content ul li .gift-item figure {
+    width: 133px;
+    margin: 0 auto;
+}
+.reader-write .section-content .gift-list .article-content ul li .gift-item figure img {
+    width: 100%;
+}
+.reader-write .section-content .gift-list .article-content ul li .gift-item .person {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    background-color: #ff7875;
+}
+.reader-write .section-content .gift-list .article-content ul li .details {
+    padding-top: 20px;
+}
+.reader-write .section-content .gift-list .article-content ul li .details h4 {
+    font-size: 12px;
+    color: #333;
+    font-weight: 400;
+}
+.reader-write .section-content .gift-list .article-content ul li .details > p {
+    margin: 20px 0; 
+    font-size: 10px;
+    line-height: 16px;
+    color: #666;
+}
+.reader-write .section-content .gift-list .article-content ul li .details ul {
+    overflow: hidden;
+}
+.reader-write .section-content .gift-list .article-content ul li .details ul li {
+    color: #999;
+}
+.reader-write .section-content .gift-list .article-content ul li .details ul li:first-child:before {
+    font-family: "fontello";
+    content: "\E820"; 
+    float: left;
+    clear: both;
+    padding-right: 10px;
+}
+.reader-write .section-content .gift-list .article-content ul li .details ul li:nth-of-type(2):before {
+    font-family: "fontello";
+    content: "\E821"; 
+    float: left;
+    clear: both;
+    padding-right: 8px;
+}
+.reader-write .section-content .gift-list .article-content ul li .details ul li dl {
+    overflow: hidden;
+}
+.reader-write .section-content .gift-list .article-content ul li .details ul li dl dt {
+    float: left;
+    clear: both;
+    font-weight: 300;
+}
+.reader-write .section-content .gift-list .article-content ul li .details ul li dl dt:after {
+    content: ":";
+    margin:0 3px;
+}
+.reader-write .section-content .gift-list .article-content ul li .details ul li dl dd {
+    font-weight: 300;
+}
+.reader-write .section-content .gift-list .article-content ul li .details ul li dl dd a {
+    color: #999;
+    text-decoration: none;
+}
+.reader-write .section-content .attention-box {
+    margin: 20px 0 30px;
+}
+.reader-write .section-content .attention-box ol li {
+    color: #999;
+    line-height: 16px;
+}
+.reader-write .section-content .attention-box ol li:before {
+    content: "- "
+}
+.reader-write .section-content .btn-area {
+    text-align: right;
+}
 
 
 

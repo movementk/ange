@@ -38,37 +38,32 @@
                             <div class="event-backdrop">
                                 <p>오늘<br>오픈</p>
                             </div>
-                            <div class="sns-like">
-                                <ul class="sns-share">
-                                    <li>
-                                        <a href="#">
-                                            <p class="icon-blog">
-                                                <img src="/mobile/assets/images/event/img_icon_blog.png" alt="">
-                                            </p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <p class="icon-tweeter">
-                                                <img src="/mobile/assets/images/event/img_icon_tweeter.png" alt="">
-                                            </p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <p class="icon-fbook">
-                                                <img src="/mobile/assets/images/event/img_icon_facebook.png" alt="">
-                                            </p>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <p class="btn-like">
-                                    <a href="#" class="btn btn-xs btn-white" role="button">
-                                        123 <i class="icon-heart"></i>
-                                    </a>
-                                </p>
-                            </div>
                         </div>
+                        <div class="sns-like">
+                            <ul class="sns-share">
+                                <li>
+                                    <a href="#">
+                                        <img src="/mobile/assets/images/event/img_icon_blog.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/mobile/assets/images/event/img_icon_tweeter.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/mobile/assets/images/event/img_icon_facebook.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="btn-like">
+                                <a href="#" class="btn btn-xs btn-white" role="button">
+                                    123 <i class="icon-heart"></i>
+                                </a>
+                            </p>
+                        </div>
+                        
                     </div>
                     <div class="information">
                         <div class="info-head">
@@ -98,6 +93,8 @@
                             <p>
                                 <a href="#" class="btn btn-md btn-white" role="button">구경가기</a>
                                 <a href="#" class="btn btn-md btn-white" role="button">목록</a>
+                            </p>
+                            <p>
                                 <a href="#" class="btn btn-lg btn-pink" role="button">응모하기</a>
                             </p>
                         </div>
@@ -116,7 +113,7 @@
                             </ul>
                         </div>
                         <div class="tab-content">
-                            <article class="board-type-2">
+                            <div class="board-type-2">
                                 <ul>
                                     <li>
                                         <a href="#">
@@ -240,7 +237,7 @@
                                         </li>
                                     </ul>
                                 </nav>
-                            </article>
+                            </div>
                         </div>
                     </article>
                 </div>
