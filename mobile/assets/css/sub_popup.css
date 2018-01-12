@@ -174,4 +174,115 @@ ul, ol {
     .result .popup-area .layer-container .content .pop-body ul li figure img {
       width: 100%; }
 
+.participation .popup-area .layer-container .content .pop-header {
+  background-color: #ad9cc4; }
+  .participation .popup-area .layer-container .content .pop-header .pop-title {
+    line-height: 35px; }
+  .participation .popup-area .layer-container .content .pop-header .btn-pop-close {
+    background-color: #9079af; }
+    .participation .popup-area .layer-container .content .pop-header .btn-pop-close img {
+      width: 15px; }
+.participation .popup-area .layer-container .content .pop-body .result-box {
+  padding: 25px 20px;
+  border-radius: 5px;
+  border: 1px solid #ebebeb;
+  background-color: #fafafa; }
+  .participation .popup-area .layer-container .content .pop-body .result-box ul li {
+    position: relative;
+    padding-right: 65px; }
+    .participation .popup-area .layer-container .content .pop-body .result-box ul li ~ li {
+      margin-top: 20px; }
+    .participation .popup-area .layer-container .content .pop-body .result-box ul li .details p {
+      font-size: 10px;
+      color: #666;
+      font-weight: 300;
+      line-height: 15px; }
+      .participation .popup-area .layer-container .content .pop-body .result-box ul li .details p.outcome {
+        font-weight: 400; }
+        .participation .popup-area .layer-container .content .pop-body .result-box ul li .details p.outcome b {
+          display: inline-block;
+          margin-left: 10px;
+          font-weight: 500;
+          font-family: 'Roboto', sans-serif; }
+    .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more {
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more .btn-gray {
+        width: 65px;
+        font-size: 10px;
+        color: #666;
+        line-height: 30px;
+        border-radius: 30px;
+        background-color: #dfdfdf;
+        box-shadow: none; }
+        .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more .btn-gray:focus {
+          color: #fff;
+          background-color: #ad9cc4; }
+        .participation .popup-area .layer-container .content .pop-body .result-box ul li .btn-more .btn-gray.active {
+          color: #fff;
+          background-color: #ad9cc4; }
+.participation .popup-area .layer-container .content .pop-body article {
+  margin-top: 20px; }
+  .participation .popup-area .layer-container .content .pop-body article .article-header {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ad9cc4; }
+    .participation .popup-area .layer-container .content .pop-body article .article-header h6 {
+      font-size: 11px;
+      color: #333;
+      font-weight: 300; }
+      .participation .popup-area .layer-container .content .pop-body article .article-header h6 b {
+        font-weight: 500;
+        color: #9079af; }
+  .participation .popup-area .layer-container .content .pop-body article .article-content .search-area {
+    padding: 20px 0 10px;
+    text-align: right; }
+    .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group {
+      position: relative;
+      width: 100px;
+      display: inline-block; }
+      .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group .form-control {
+        height: 26px;
+        padding-right: 30px;
+        border-radius: 30px; }
+      .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group .search-btn .btn-default {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 26px;
+        text-align: center;
+        line-height: 26px;
+        font-size: 12px;
+        color: #ad9cc4;
+        background: none !important; }
+        .participation .popup-area .layer-container .content .pop-body article .article-content .search-area .form-group .search-btn .btn-default i {
+          position: relative;
+          top: -1px; }
+  .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list h6 {
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    background-color: #979aa2; }
+  .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list ul {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 10px 15px;
+    border-bottom: 1px solid #e7e7e7; }
+    .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list ul li {
+      float: left;
+      width: 33.33%;
+      text-align: left;
+      font-size: 10px;
+      color: #666;
+      font-weight: 300;
+      line-height: 22px;
+      display: table-cell;
+      vertical-align: middle; }
+      .participation .popup-area .layer-container .content .pop-body article .article-content .participation-list ul li:nth-of-type(3n + 1) {
+        clear: both; }
+  .participation .popup-area .layer-container .content .pop-body article .article-content .paging {
+    margin-top: 20px; }
+
 /*# sourceMappingURL=sub_popup.css.map */

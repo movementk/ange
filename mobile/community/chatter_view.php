@@ -1,6 +1,7 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/dochead.php"); ?>
 <link href="/mobile/assets/css/sub.css" rel="stylesheet">
 <link href="/mobile/assets/css/community.css" rel="stylesheet">
+<link href="/mobile/assets/css/sub_popup.css" rel="stylesheet">
 </head>
 <body class="sub community"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/header.php"); ?>
@@ -69,7 +70,7 @@
                                 </div>
                                 <div class="btn-area">
                                     <p>
-                                        <a href="#" class="btn btn-xs btn-pink" role="button">참여자 보기</a>
+                                        <a href="#layerPopup" class="btn btn-xs btn-pink btn-popup" role="button">참여자 보기</a>
                                     </p>
                                 </div>
                             </div>
@@ -97,8 +98,132 @@
         </section>
     </main>
     
+    
+    <!-- layer-popup -->
+    <div class="layer-popup participation" id="layerPopup">
+        <div class="pop-backdrop"></div>
+        <div class="popup-area">
+            <div class="layer-container">
+                <div class="content">
+                    <div class="pop-header">
+                        <h5 class="pop-title">참여자 보기</h5>
+                        <a class="btn-pop-close" href="#none"><img src="/mobile/assets/images/community/btn_close.png" alt=""></a>
+                    </div>
+                    <div class="pop-body">
+                        <div class="result-box">
+                            <ul>
+                                <li>
+                                    <div class="details">
+                                        <p class="question">그때가 그립네.. 있다!</p>
+                                        <p class="outcome">1,419표 <b>86.16%</b></p>
+                                    </div>
+                                    <p class="btn-more">
+                                        <a href="#" class="btn btn-sm btn-gray active">참여자 보기</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="details">
+                                        <p class="question">지금이 더 행복해.. 없다!</p>
+                                        <p class="outcome">228표 <b>13.84%</b></p>
+                                    </div>
+                                    <p class="btn-more">
+                                        <a href="#" class="btn btn-sm btn-gray">참여자 보기</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <article>
+                            <div class="article-header">
+                                <h6><b>그 때가 그립네.. 있다!</b> 를 선택한 참여자</h6>
+                            </div>
+                            <div class="article-content">
+                                <div class="search-area">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <input type="text" id="search-participation" class="form-control">
+                                            <label for="#" class="sr-only">참여자 검색하기</label>
+                                            <p class="search-btn">
+                                                <button type="submit" class="btn btn-default">
+                                                    <i class="icon-search">
+                                                        <span class="sr-only">검색하기</span>
+                                                    </i>
+                                                </button>
+                                            </p>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="participation-list">
+                                    <h6>참여자별명</h6>
+                                    <ul>
+                                        <li>KAYA</li>
+                                        <li>KAYA</li>
+                                        <li>KAYA</li>
+                                        <li>1004kossoo</li>
+                                        <li>1004kossoo</li>
+                                        <li>1004kossoo</li>
+                                        <li>20005241978</li>
+                                        <li>20005241978</li>
+                                        <li>20005241978</li>
+                                    </ul>
+                                </div>
+                                <nav class="paging" aria-label="Page navigation">
+                                    <ul class="pagination">
+                                        <li class="first">
+                                            <a href="#" aria-label="Previous">
+                                                <i class="icon-angle-double-left"></i>
+                                            </a>
+                                        </li>
+                                        <li class="prev">
+                                            <a href="#" aria-label="Previous">
+                                                <i class="icon-angle-left"></i>
+                                            </a>
+                                        </li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li class="next">
+                                            <a href="#" aria-label="Next">
+                                                <i class="icon-angle-right"></i>
+                                            </a>
+                                        </li>
+                                        <li class="last">
+                                            <a href="#" aria-label="Next">
+                                                <i class="icon-angle-double-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/docfoot.php"); ?>
     <script src="/mobile/assets/js/common.js"></script>
+    <script>
+        $(function($){
+            // 팝업 레이어
+            $('.btn-popup').on('click', function(e) {
+                e.preventDefault();
+                
+                var el = $($(this).attr('href'));
+                
+                if (!el.hasClass('open')) {
+                    el.addClass('open');
+                } else {
+                    el.removeClass('open');
+                }
+            });
+
+            $('.btn-pop-close, .pop-backdrop').on('click', function(e) {
+                $(this).closest('.layer-popup').removeClass('open');
+            });
+        }(jQuery));
+    </script>
 </body>
 </html>
