@@ -1717,7 +1717,59 @@ button {
     }
 }
 
-
+// tab-accordion
+.tab-accordion {
+    .panel-group {
+        .panel {
+            border: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: none !important;
+            background: none !important;
+            & ~ .panel {
+                margin-top: 20px;
+            }
+            .panel-heading {
+                padding: 0;
+                box-shadow: none;
+                border: 0;
+                background: none !important;
+                a {
+                    display: block;
+                    font-size: 12px;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: 1px solid #999;
+                    border-radius: 10px;
+                    text-decoration: none;
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                    background-color: #999;
+                    &:after {
+                        float: right;
+                        font-family: "fontello";
+                        content: "\F106";
+                    }
+                }
+                .collapsed {
+                    color: #666;
+                    border-radius: 10px;
+                    background-color: #fff;
+                    &:after {
+                        content: "\F107";
+                    }
+                }
+            }
+            .panel-collapse {
+                .panel-body {
+                    padding: 20px 10px;
+                    border: 0;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -42,7 +42,7 @@
                                 <li class="user"><span>99,999</span></li>
                             </ul>
                             <p class="result">
-                                <a href="#popup-content" class="btn btn-xs btn-pink btn-popup" role="button">결과보기</a>
+                                <a href="#layerPopup" class="btn btn-xs btn-pink btn-popup" role="button">결과보기</a>
                             </p>
                         </div>
                         <div class="article-content">
@@ -96,27 +96,21 @@
         </section>
     </main>
     
-    
-    
-    <div class="popup-layer poll-result">
-        <div class="popup-bg"></div>
-        <div id="popup-content" class="pop-layer">
-            <div class="pop-container">
-                <div class="pop-head">
-                    <h4>주부 9단이 추천하는 육아잇템은 무엇인가요?</h4>
-                    <div class="btn-close">
-                        <button type="button" class="btn close">
-                            <img src="/mobile/assets/images/community/btn_close.png" alt="닫기">
-                        </button>
-                    </div>
-                </div>
-                <div class="pop-body">
-                    aaa
+    <!-- layer-popup -->
+    <div class="layer-popup result" id="layerPopup">
+        <div class="pop-backdrop"></div>
+        <div class="header">
+            <span>제목</span>
+            <a class="btn-pop-close" href="#none">닫기</a>
+        </div>
+        <div class="layer-containers">
+            <div class="inner">
+                <div class="box">
+                    popup content 영역
                 </div>
             </div>
         </div>
     </div>
-    
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/docfoot.php"); ?>
@@ -124,42 +118,21 @@
     <script>
         $(function($){
             // 팝업 레이어
-            $('.btn-popup').click(function(){
-                var $href = $(this).attr('href');
-                layer_popup($href);
-            });
-            function layer_popup(el){
-
-                var $el = $(el);        //레이어의 id를 $el 변수에 저장
-                var isDim = $el.prev().hasClass('popup-bg');   //dimmed 레이어를 감지하기 위한 boolean 변수
-
-                isDim ? $('.popup-layer').fadeIn() : $el.fadeIn();
-
-                var $elWidth = ~~($el.outerWidth()),
-                    $elHeight = ~~($el.outerHeight()),
-                    docWidth = $(document).width(),
-                    docHeight = $(document).height();
-
-                // 화면의 중앙에 레이어를 띄운다.
-                /*if ($elHeight < docHeight || $elWidth < docWidth) {
-                    $el.css({
-                        marginTop: -$elHeight /2,
-                        marginLeft: -$elWidth/2
-                    })
+            $('.btn-popup').on('click', function(e) {
+                e.preventDefault();
+                
+                var el = $($(this).attr('href'));
+                
+                if (!el.hasClass('open')) {
+                    el.addClass('open');
                 } else {
-                    $el.css({top: 0, left: 0});
-                }*/
+                    el.removeClass('open');
+                }
+            });
 
-                $el.find('.close').click(function(){
-                    isDim ? $('.popup-layer').fadeOut() : $el.fadeOut(); // 닫기 버튼을 클릭하면 레이어가 닫힌다.
-                    return false;
-                });
-
-                $('.popup-layer .popup-bg').click(function(){
-                    $('.popup-layer').fadeOut();
-                    return false;
-                });
-            }
+            $('.btn-pop-close, .pop-backdrop').on('click', function(e) {
+                $(this).closest('.layer-popup').removeClass('open');
+            });
         }(jQuery));
     </script>
 </body>
