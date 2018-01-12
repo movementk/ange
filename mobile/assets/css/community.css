@@ -619,4 +619,9 @@ ul, ol {
   .movie-list .article-content .paging {
     margin-top: 35px; }
 
+.faq-list .article-content .search-form {
+  margin-bottom: 15px; }
+.faq-list .article-content .paging {
+  margin-top: 20px; }
+
 /*# sourceMappingURL=community.css.map */
