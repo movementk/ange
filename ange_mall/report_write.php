@@ -20,10 +20,12 @@
                                    <tr>
                                         <th>상품정보</th>
                                         <td>
-                                            <figure>
-                                                <img src="/assets/images/ange_mall/img_smallpdt.jpg" alt="">
-                                                <figcaption>Botanical Therapy 스텝원 베이비 치약 (무불소, 블루베리향)</figcaption>
-                                            </figure>
+                                            <a href="/ange_mall/product_info.php">
+                                                <figure>
+                                                    <img src="/assets/images/ange_mall/img_smallpdt.jpg" alt="">
+                                                    <figcaption>Botanical Therapy 스텝원 베이비 치약 (무불소, 블루베리향)</figcaption>
+                                                </figure>
+                                            </a>
                                         </td>
                                     </tr>
                                     <tr>

@@ -349,7 +349,9 @@
                                 </div>
                                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                     <div class="panel-body">
-                                        content 4
+                                        <figure>
+                                            <img src="/mobile/assets/images/ange_mall/img_careful.jpg" alt="">
+                                        </figure>
                                     </div>
                                 </div>
                             </div>
