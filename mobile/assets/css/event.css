@@ -418,23 +418,31 @@
     color: #e25371;
     content: " *";
 }
+.reader-write .section-content .post-form .table-wrap .table tbody tr:last-child td {
+    padding: 15px 10px;
+}
 .reader-write .section-content .post-form .table-wrap .table tbody tr td .form-group textarea {
     margin-top: 10px;
     height: 80px;
+}
+.reader-write .section-content .post-form .table-wrap .table tbody tr td dl dt {
+    color: #666;
 }
 .reader-write .section-content .post-form .table-wrap .table tbody tr td.space dl dd .form-group {
     margin-top: 10px;
 }
 .reader-write .section-content .post-form .table-wrap .table tbody tr td dl dd label {
+    color: rgba(102, 102, 102, .8);
     margin-right: 20px;
     margin-top: 10px;
+    font-weight: 300;
 }
 .reader-write .section-content .post-form .table-wrap .table tbody tr td dl dt p {
     font-size: 10px;
-    color: #666;
     line-height: 15px;
     font-weight: 300;
     margin-top: 10px;
+    color: rgba(102, 102, 102, .8);
 }
 .reader-write .section-content .gift-list {
     margin-top: 20px;
@@ -497,9 +505,11 @@
 }
 .reader-write .section-content .gift-list .article-content ul li .details ul {
     overflow: hidden;
+    
 }
 .reader-write .section-content .gift-list .article-content ul li .details ul li {
     color: #999;
+    line-height: 16px;
 }
 .reader-write .section-content .gift-list .article-content ul li .details ul li:first-child:before {
     font-family: "fontello";
@@ -517,11 +527,13 @@
 }
 .reader-write .section-content .gift-list .article-content ul li .details ul li dl {
     overflow: hidden;
+    
 }
 .reader-write .section-content .gift-list .article-content ul li .details ul li dl dt {
     float: left;
     clear: both;
     font-weight: 300;
+    line-height: 16px;
 }
 .reader-write .section-content .gift-list .article-content ul li .details ul li dl dt:after {
     content: ":";
@@ -529,6 +541,7 @@
 }
 .reader-write .section-content .gift-list .article-content ul li .details ul li dl dd {
     font-weight: 300;
+    line-height: 16px;
 }
 .reader-write .section-content .gift-list .article-content ul li .details ul li dl dd a {
     color: #999;
@@ -537,12 +550,17 @@
 .reader-write .section-content .attention-box {
     margin: 20px 0 30px;
 }
-.reader-write .section-content .attention-box ol li {
+.reader-write .section-content .attention-box ul li {
+    position: relative;
     color: #999;
     line-height: 16px;
+    padding-left: 10px;
 }
-.reader-write .section-content .attention-box ol li:before {
-    content: "- "
+.reader-write .section-content .attention-box ul li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "-";
 }
 .reader-write .section-content .btn-area {
     text-align: right;
