@@ -1,6 +1,6 @@
 @import 'common';
 
-#layerPopup {
+.layer-popup {
     position: fixed;
     top: 60px;
     bottom: 60px;
@@ -22,41 +22,135 @@
     &.open {
         display: block;
     }
-    .header {
-        position: relative;
-        height: 50px;
-        line-height: 50px;
-        font-weight: bold;
-        text-align: center;
-        color: #fff;
-        background-color: #ff0000;
-        .btn_close_layer {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            display: block;
-        }
-    }
-    .layer-containers {
+    .popup-area {
         position: absolute;
-        top: 50px;
+        top: 35px;
         right: 0;
         bottom: 0;
         left: 0;
-        .inner {
+        .layer-container {
             height: 100%;
-            background-color: yellow;
-        }
-        .box {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            padding: 20px 10px;
-            overflow: hidden;
-            overflow-y: auto;
-            -webkit-overflow-scrolling: touch;
+            background-color: #fff;
+            .content {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                overflow: hidden;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                .pop-header {
+                    position: relative;
+                    padding-left: 10px;
+                    padding-right: 35px;
+                    color: #fff;
+                    text-align: left;
+                    .pop-title {
+                        display: block;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 35px;
+                    }
+                    .btn-pop-close {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        text-align: center;
+                        display: block;
+                        img {
+                            position: relative;
+                            top: -2px;
+                            width: 15px;
+                        }
+                    }
+                }
+                .pop-body {
+                    padding: 20px 10px;
+                }
+            }
         }
     }
 }
+
+// 투표결과 팝업
+.result {
+    .popup-area {
+        .layer-container {
+            .content {
+                .pop-header {
+                    background-color: #9fca83;
+                    .pop-title {
+                        line-height: 35px;
+                    }
+                    .btn-pop-close {
+                        background-color: #7db858;
+                        img {
+                            width: 15px;
+                        }
+                    }
+                }
+                .pop-body {
+                    ul {
+                        li {
+                            border-bottom: 2px solid #b2d69b;
+                            & ~ li {
+                                padding-top: 30px;
+                            }
+                            dl {
+                                dt {
+                                    position: relative;
+                                    font-size: 11px;
+                                    color: #333;
+                                    padding-left: 20px;
+                                    padding-bottom: 10px;
+                                    border-bottom: 2px solid #b2d69b;
+                                    &:before {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        font-weight: 500;
+                                        content: "Q";
+                                        color: #fff;
+                                        width: 16px;
+                                        line-height: 16px;
+                                        font-size: 10px;
+                                        text-align: center;
+                                        border-radius: 50%;
+                                        background-color: #b2d69b;
+                                    }
+                                }
+                                dd {
+                                    padding-top: 10px;
+                                    p {
+                                        font-size: 10px;
+                                        color: #666;
+                                        line-height: 20px;
+                                        b {
+                                            float: right;
+                                            font-weight: 400;
+                                            @include roboto();
+                                        }
+                                    }
+                                }
+                            }
+                            figure {
+                                margin-top: 10px;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+

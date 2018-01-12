@@ -903,28 +903,42 @@ button {
           font-weight: 400; }
           .board-type-4 > ul > li .details-info dl dt:after {
             content: ":";
-            margin: 0 2px 0 3px; }
+            margin: 0 4px 0 3px; }
         .board-type-4 > ul > li .details-info dl dd {
           font-size: 12px;
           color: #777;
           font-weight: 400;
           line-height: 24px; }
+          .board-type-4 > ul > li .details-info dl dd .form-group select {
+            width: 50px;
+            height: 24px;
+            padding: 2px 5px;
+            border-radius: 30px; }
       .board-type-4 > ul > li .details-info .btn-area {
         position: absolute;
         bottom: 0;
         right: 0; }
-        .board-type-4 > ul > li .details-info .btn-area .btn-xs {
-          width: 60px;
+        .board-type-4 > ul > li .details-info .btn-area .btn {
           display: block;
           font-size: 10px;
-          color: #999;
           text-align: center;
           border-radius: 30px; }
-          .board-type-4 > ul > li .details-info .btn-area .btn-xs ~ .btn-xs {
+          .board-type-4 > ul > li .details-info .btn-area .btn ~ .btn {
             margin-top: 10px; }
-          .board-type-4 > ul > li .details-info .btn-area .btn-xs.btn-white {
+          .board-type-4 > ul > li .details-info .btn-area .btn.btn-xs {
+            width: 60px; }
+          .board-type-4 > ul > li .details-info .btn-area .btn.btn-white {
+            color: #999;
             line-height: 28px;
             border: 1px solid #ccc; }
+          .board-type-4 > ul > li .details-info .btn-area .btn.btn-md {
+            font-size: 10px;
+            width: 150px;
+            line-height: 28px; }
+          .board-type-4 > ul > li .details-info .btn-area .btn.btn-pink {
+            color: #fff;
+            border: 1px solid #ff7875;
+            background-color: #ff7875; }
 
 .board-type-5 > ul > li > a {
   display: block;

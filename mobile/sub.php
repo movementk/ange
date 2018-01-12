@@ -177,6 +177,18 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        주의사항
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                    <div class="panel-body">
+                                        content 4
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
@@ -478,7 +490,13 @@
                                 <div class="details-info">
                                     <dl>
                                         <dt>수량</dt>
-                                        <dd>1</dd>
+                                        <dd>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>1</option>
+                                                </select>
+                                            </div>
+                                        </dd>
                                         <dt>재고</dt>
                                         <dd>있음</dd>
                                         <dt>적립금</dt>
@@ -487,8 +505,8 @@
                                         <dd>71,900</dd>
                                     </dl>
                                     <div class="btn-area">
-                                        <a href="#" class="btn btn-xs btn-white" role="button">취소</a>
-                                        <a href="#" class="btn btn-xs btn-white" role="button">문의</a>
+                                        <a href="#" class="btn btn-md btn-white" role="button">취소</a>
+                                        <a href="#" class="btn btn-md btn-pink" role="button">문의</a>
                                     </div>
                                 </div>
                             </li>

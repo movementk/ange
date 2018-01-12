@@ -99,14 +99,42 @@
     <!-- layer-popup -->
     <div class="layer-popup result" id="layerPopup">
         <div class="pop-backdrop"></div>
-        <div class="header">
-            <span>제목</span>
-            <a class="btn-pop-close" href="#none">닫기</a>
-        </div>
-        <div class="layer-containers">
-            <div class="inner">
-                <div class="box">
-                    popup content 영역
+        <div class="popup-area">
+            <div class="layer-container">
+                <div class="content">
+                    <div class="pop-header">
+                        <h5 class="pop-title">주부 9단이 추천하는 육아잇템은?</h5>
+                        <a class="btn-pop-close" href="#none"><img src="/mobile/assets/images/community/btn_close.png" alt=""></a>
+                    </div>
+                    <div class="pop-body">
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>신생아 희귀질환 유전자 검사에 대해 알고 계셨나요?</dt>
+                                    <dd>
+                                        <p>네. 알고 있습니다. <b>62.9%</b></p>
+                                        <p>아니오. 처음 들었습니다. <b>37.1%</b></p>
+                                        <figure>
+                                            <img src="/mobile/assets/images/community/img_graph.jpg" alt="">
+                                        </figure>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>신생아 희귀질환 유전자 검사가 있다면, 검사해 보고 싶으신가요?</dt>
+                                    <dd>
+                                        <p>네. 알고 있습니다. <b>62.9%</b></p>
+                                        <p>아니오. 처음 들었습니다. <b>37.1%</b></p>
+                                        <p>기타 <b>37.1%</b></p>
+                                        <figure>
+                                            <img src="/mobile/assets/images/community/img_graph.jpg" alt="">
+                                        </figure>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

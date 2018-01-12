@@ -62,7 +62,7 @@ ul, ol {
       padding-left: 5px;
       padding-right: 5px; }
 
-#layerPopup {
+.layer-popup {
   position: fixed;
   top: 60px;
   bottom: 60px;
@@ -73,46 +73,105 @@ ul, ol {
   margin: 0 auto;
   background-color: #fff;
   z-index: 100; }
-  #layerPopup .pop-backdrop {
+  .layer-popup .pop-backdrop {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8); }
-  #layerPopup.open {
+  .layer-popup.open {
     display: block; }
-  #layerPopup .header {
-    position: relative;
-    height: 50px;
-    line-height: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #fff;
-    background-color: #ff0000; }
-    #layerPopup .header .btn_close_layer {
-      position: absolute;
-      top: 5px;
-      right: 5px;
-      display: block; }
-  #layerPopup .layer-containers {
+  .layer-popup .popup-area {
     position: absolute;
-    top: 50px;
+    top: 35px;
     right: 0;
     bottom: 0;
     left: 0; }
-    #layerPopup .layer-containers .inner {
+    .layer-popup .popup-area .layer-container {
       height: 100%;
-      background-color: yellow; }
-    #layerPopup .layer-containers .box {
+      background-color: #fff; }
+      .layer-popup .popup-area .layer-container .content {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch; }
+        .layer-popup .popup-area .layer-container .content .pop-header {
+          position: relative;
+          padding-left: 10px;
+          padding-right: 35px;
+          color: #fff;
+          text-align: left; }
+          .layer-popup .popup-area .layer-container .content .pop-header .pop-title {
+            display: block;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 35px; }
+          .layer-popup .popup-area .layer-container .content .pop-header .btn-pop-close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            display: block; }
+            .layer-popup .popup-area .layer-container .content .pop-header .btn-pop-close img {
+              position: relative;
+              top: -2px;
+              width: 15px; }
+        .layer-popup .popup-area .layer-container .content .pop-body {
+          padding: 20px 10px; }
+
+.result .popup-area .layer-container .content .pop-header {
+  background-color: #9fca83; }
+  .result .popup-area .layer-container .content .pop-header .pop-title {
+    line-height: 35px; }
+  .result .popup-area .layer-container .content .pop-header .btn-pop-close {
+    background-color: #7db858; }
+    .result .popup-area .layer-container .content .pop-header .btn-pop-close img {
+      width: 15px; }
+.result .popup-area .layer-container .content .pop-body ul li {
+  border-bottom: 2px solid #b2d69b; }
+  .result .popup-area .layer-container .content .pop-body ul li ~ li {
+    padding-top: 30px; }
+  .result .popup-area .layer-container .content .pop-body ul li dl dt {
+    position: relative;
+    font-size: 11px;
+    color: #333;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b2d69b; }
+    .result .popup-area .layer-container .content .pop-body ul li dl dt:before {
       position: absolute;
       top: 0;
-      right: 0;
-      bottom: 0;
       left: 0;
-      padding: 20px 10px;
-      overflow: hidden;
-      overflow-y: auto;
-      -webkit-overflow-scrolling: touch; }
+      font-weight: 500;
+      content: "Q";
+      color: #fff;
+      width: 16px;
+      line-height: 16px;
+      font-size: 10px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #b2d69b; }
+  .result .popup-area .layer-container .content .pop-body ul li dl dd {
+    padding-top: 10px; }
+    .result .popup-area .layer-container .content .pop-body ul li dl dd p {
+      font-size: 10px;
+      color: #666;
+      line-height: 20px; }
+      .result .popup-area .layer-container .content .pop-body ul li dl dd p b {
+        float: right;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif; }
+  .result .popup-area .layer-container .content .pop-body ul li figure {
+    margin-top: 10px; }
+    .result .popup-area .layer-container .content .pop-body ul li figure img {
+      width: 100%; }
 
 /*# sourceMappingURL=sub_popup.css.map */

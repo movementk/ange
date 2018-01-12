@@ -1159,7 +1159,7 @@ button {
                         font-weight: 400;
                         &:after {
                             content: ":";
-                            margin: 0 2px 0 3px;
+                            margin: 0 4px 0 3px;
                         }
                     }
                     dd {
@@ -1167,25 +1167,45 @@ button {
                         color: #777;
                         font-weight: 400;
                         line-height: 24px;
+                        .form-group {
+                            select {
+                                width: 50px;
+                                height: 24px;
+                                padding: 2px 5px;
+                                border-radius: 30px;
+                            }
+                        }
                     }
                 }
                 .btn-area {
                     position: absolute;
                     bottom: 0;
                     right: 0;
-                    .btn-xs {
-                        width: 60px;
+                    .btn {
                         display: block;
                         font-size: 10px;
-                        color: #999;
                         text-align: center;
                         border-radius: 30px;
-                        & ~ .btn-xs {
+                        & ~ .btn {
                             margin-top: 10px;
                         }
+                        &.btn-xs {
+                            width: 60px;
+                        }
                         &.btn-white {
+                            color: #999;
                             line-height: 28px;
                             border: 1px solid #ccc;
+                        }
+                        &.btn-md {
+                            font-size: 10px;
+                            width: 150px;
+                            line-height: 28px;
+                        }
+                        &.btn-pink {
+                            color: #fff;
+                            border: 1px solid #ff7875;
+                            background-color: #ff7875;
                         }
                     }
                 }
