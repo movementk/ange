@@ -7,7 +7,7 @@
     <!-- pgae-header -->
     <div class="page-header">
         <!-- 폴더별 타이틀 -->
-        <h2>앙쥬맘 노하우</h2>
+        <h2>모유수유 QnA</h2>
         <div class="btn-controls">
             <a href="#" class="prev">
                 <i class="icon-left-open-big">
@@ -24,9 +24,9 @@
     
     <!-- sub content start -->
     <main id="content">
-        <article class="knowhow-view">
+        <article class="qna-view">
             <div class="container">
-                <div class="knowhow-content">
+                <div class="qna-content">
                     <div class="board-view">
                         <div class="article-header">
                             <h4>애독자엽서 &lt;비트루트 4종 세트&gt; 당첨자 구성품 변경 안내 (5월 엽서 이용)</h4>
@@ -47,6 +47,17 @@
                                     양해 부탁드립니다.<br>
                                     감사합니다.
                                 </p>
+                                <div class="reply">
+                                    <h5 class="reply-title">답변제목 <small>2017-10-22 11:03</small></h5>
+                                    <div class="content">
+                                        안녕하세요 앙쥬입니다.<br>
+                                        &lt;앙쥬 신규 가입회원 샘플팩 9월_82차&gt; <br>
+                                        발표일이 금일 10일 발표 예정이었으나 <br>
+                                        선정이 조금 늦어져 11일에 발표 될 예정입니다.<br>
+                                        양해 부탁드립니다.<br>
+                                        감사합니다.
+                                    </div>
+                                </div>
                             </div>
                             <dl class="attach">
                                 <dt>첨부파일</dt>

@@ -23,7 +23,7 @@
     </div>
     
     <!-- sub content start -->
-    <main id="content" class="report-write"><!-- 페이지명 클래스 -->
+    <main id="content" class="mileage-write"><!-- 페이지명 클래스 -->
         <div class="container">
             <div class="table-wrap">
                 <form action="#">
@@ -32,12 +32,14 @@
                             <tr>
                                 <th class="v-top">상품정보</th>
                                 <td>
-                                    <figure>
-                                        <img src="/mobile/assets/images/sub/img_product01.png" alt="">
-                                    </figure>
-                                    <figcaption>
-                                        Botanical Therapy 스텝원 베이비치약(무불소, 블루베리향) 
-                                    </figcaption>
+                                    <a href="#">
+                                        <div class="item">
+                                            <img src="/mobile/assets/images/sub/img_product01.png" alt="">
+                                        </div>
+                                        <p class="details">
+                                            Botanical Therapy 스텝원 베이비치약(무불소, 블루베리향) 
+                                        </p>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
@@ -78,6 +80,12 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="btn-area">
+                        <p>
+                            <button type="submit" class="btn btn-sm btn-pink">저장</button>
+                            <a href="#" class="btn btn-sm btn-white" role="button">취소</a>
+                        </p>
+                    </div>
                 </form>
             </div>
         </div>

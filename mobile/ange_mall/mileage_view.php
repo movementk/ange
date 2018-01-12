@@ -121,10 +121,11 @@
                                                 <img src="/mobile/assets/images/ange_mall/img_product_banner.jpg" alt="">
                                             </figure>
                                         </a>
-                                        <article class="board-type-2">
+                                        <!-- 리뷰 리스트 -->
+                                        <article class="board-type-2 mileage-review-list">
                                             <ul>
                                                 <li>
-                                                    <a href="/mobile/ange_mall/report_list.php">
+                                                    <a href="#">
                                                         <h4>
                                                             자주하는 질문 제목이 노출되는 영역입니다.
                                                             <span class="icon icon-new"><img src="/mobile/assets/images/icon_new.png" alt=""></span>
@@ -139,7 +140,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/mobile/ange_mall/report_view.php">
+                                                    <a href="#">
                                                         <h4>자주하는 질문 제목이 노출되는 영역입니다.</h4>
                                                         <ul class="icon-list">
                                                             <li class="user">무브먼트</li>
@@ -148,7 +149,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/mobile/ange_mall/report_view.php">
+                                                    <a href="#">
                                                         <h4>자주하는 질문 제목이 노출되는 영역입니다.</h4>
                                                         <ul class="icon-list">
                                                             <li class="user">무브먼트</li>
@@ -157,7 +158,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/mobile/ange_mall/report_view.php">
+                                                    <a href="#">
                                                         <h4>자주하는 질문 제목이 노출되는 영역입니다.</h4>
                                                         <ul class="icon-list">
                                                             <li class="user">무브먼트</li>
@@ -166,7 +167,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/mobile/ange_mall/report_view.php">
+                                                    <a href="#">
                                                         <h4>자주하는 질문 제목이 노출되는 영역입니다.</h4>
                                                         <ul class="icon-list">
                                                             <li class="user">무브먼트</li>
@@ -175,7 +176,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/mobile/ange_mall/report_view.php">
+                                                    <a href="#">
                                                         <h4>자주하는 질문 제목이 노출되는 영역입니다.</h4>
                                                         <ul class="icon-list">
                                                             <li class="user">무브먼트</li>
@@ -184,7 +185,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/mobile/ange_mall/report_view.php">
+                                                    <a href="#">
                                                         <h4>자주하는 질문 제목이 노출되는 영역입니다.</h4>
                                                         <ul class="icon-list">
                                                             <li class="user">무브먼트</li>
@@ -193,7 +194,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/mobile/ange_mall/report_view.php">
+                                                    <a href="#">
                                                         <h4>자주하는 질문 제목이 노출되는 영역입니다.</h4>
                                                         <ul class="icon-list">
                                                             <li class="user">무브먼트</li>
@@ -237,6 +238,47 @@
                                                 </p>
                                             </div>
                                         </article>
+                                        
+                                        <br><br><br>
+                                        <!-- 리뷰 뷰 -->
+                                        <article class="board-view mileage-review-view">
+                                            <div class="article-header">
+                                                <h4>애독자엽서 &lt;비트루트 4종 세트&gt; 당첨자 구성품 변경 안내 (5월 엽서 이용)</h4>
+                                                <ul class="icon-list">
+                                                    <li class="like"><span>123</span></li>
+                                                    <li class="comment"><span>123</span></li>
+                                                    <li class="date"><span>2017-10-10</span></li>
+                                                    <li class="sympathy"><a href="#">공감</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="article-content">
+                                                <div class="view-content">
+                                                    <p>
+                                                        안녕하세요 앙쥬입니다.<br>
+                                                        &lt;앙쥬 신규 가입회원 샘플팩 9월_82차&gt;<br>
+                                                        발표일이 금일 10일 발표 예정이었으나 <br>
+                                                        선정이 조금 늦어져 11일에 발표 될 예정입니다.<br>
+                                                        양해 부탁드립니다.<br>
+                                                        감사합니다.
+                                                    </p>
+                                                </div>
+                                                <dl class="attach">
+                                                    <dt>첨부파일</dt>
+                                                    <dd>
+                                                        <a href="#">첨부파일.jpg</a>
+                                                        <a href="#">첨부파일.jpg</a>
+                                                    </dd>
+                                                </dl>
+                                                <div class="btn-area">
+                                                    <p>
+                                                        <a href="#" class="btn btn-xs btn-white" role="button">수정</a>
+                                                        <a href="#" class="btn btn-xs btn-white" role="button">삭제</a>
+                                                        <a href="#" class="btn btn-xs btn-pink" role="button">목록</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,12 @@
 @import url("/mobile/assets/css/common.css");
 
+/* 마일리지 독립 리스트, 뷰 */
+.mileage-review-list {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
 /* 마일리지 몰 */
 .mileage-list .section-content .board-type-5 .paging {
     margin-top: 30px;
@@ -111,20 +118,28 @@
 }
 
 /* 마일리지몰 상품후기 쓰기 */
-.report-write .table-wrap .table tbody tr td figure {
+.mileage-write .table-wrap .table tbody tr td a {
+    display: block;
+    text-decoration: none;
+}
+.mileage-write .table-wrap .table tbody tr td a .item {
     width: 77px;
     margin-top: 10px;
     margin-bottom: 15px;
     border: 1px solid #d7d7d7;
 }
-.report-write .table-wrap .table tbody tr td figure img {
+.mileage-write .table-wrap .table tbody tr td a .item img {
     width: 100%;
 }
-.report-write .table-wrap .table tbody tr td figcaption {
+.mileage-write .table-wrap .table tbody tr td a .details {
     font-size: 10px;
     color: #333;
     line-height: 16px;
     margin-bottom: 10px;
+}
+.mileage-write .table-wrap .btn-area {
+    text-align: right;
+    margin-top: 30px;
 }
 
 /* 비밀번호 확인 */
