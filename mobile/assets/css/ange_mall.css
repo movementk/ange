@@ -1,0 +1,167 @@
+@import url("/mobile/assets/css/common.css");
+
+/* 마일리지 몰 */
+.mileage-list .section-content .board-type-5 .paging {
+    margin-top: 30px;
+}
+
+/* 마일리지몰 뷰 상품후기 공통*/
+.product-report .section-header {
+    padding-bottom: 0;
+}
+.product-report .section-header figure img {
+    width: 100%;
+}
+.product-report .section-header .sns-like {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.product-report .section-header .sns-like .sns-share {
+    float: left;
+    padding-top: 5px;
+}
+.product-report .section-header .sns-like .sns-share li {
+    display: inline-block;
+    width: 20px;
+    margin-right: 5px;
+}
+.product-report .section-header .sns-like .sns-share > li > a > img {
+    width: 100%;
+}
+.product-report .section-header .sns-like .btn-like {
+    float: right;
+}
+.product-report .section-header .sns-like .btn-like .btn.btn-xs {
+    text-align: center;
+    width: 63px;
+    font-size: 10px;
+    color: #666;
+    line-height: 30px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.product-report .section-header .sns-like .btn-like .btn.btn-xs .icon-heart {
+    color: #ff7875;
+}
+.product-report .section-header .information {
+    margin-top: 20px;
+}
+.product-report .section-header .information .info-head h3 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+}
+.product-report .section-header .information .info-head p {
+    font-size: 11px;
+    line-height: 15px;
+    color: #666;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.product-report .section-header .information .info-body {
+    border-top: 1px solid #cecfd2;
+    border-bottom: 1px solid #cecfd2;
+}
+.product-report .section-header .information .info-body .info-first dl {
+    border-bottom: 1px solid #cecfd2;
+}
+.product-report .section-header .information .info-body dl {   
+    padding: 15px 5px;
+    overflow: hidden;
+}
+.product-report .section-header .information .info-body dl dt {
+    float: left;
+    clear: both;
+    width: 80px;
+    color: #666;
+}
+.product-report .section-header .information .info-body dl dd {
+    padding-left: 80px;
+    color: #999;
+    font-weight: 300;
+}
+.product-report .section-header .information .info-body .info-second dl .payment {
+    color: #ff7875;
+}
+.product-report .section-header .information .info-body .info-second dl .delivery {
+    color: #ff7875;
+}
+.product-report .section-header .btn-area {
+    margin: 20px 0 40px;
+}
+.product-report .section-content .tab-accordion .panel-group .panel .panel-collapse .panel-body figure img {
+    width: 100%;
+}
+
+/* 마일리지몰 상품후기 상품정보*/
+.mileage-view .section-content .tab-accordion .panel-group .panel .panel-collapse .panel-body .board-type-2 .paging {
+    margin-top: 20px;
+}
+.mileage-view .section-content .tab-accordion .panel-group .panel .panel-collapse .panel-body .board-type-2 .btn-area {
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* 마일리지몰 상품후기 뷰*/
+.report-view .product-report .section-content .tab-accordion .panel-group .panel .panel-collapse .panel-body .board-view .btn-area {
+    margin-bottom: 0;
+}
+
+/* 마일리지몰 상품후기 쓰기 */
+.report-write .table-wrap .table tbody tr td figure {
+    width: 77px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d7d7d7;
+}
+.report-write .table-wrap .table tbody tr td figure img {
+    width: 100%;
+}
+.report-write .table-wrap .table tbody tr td figcaption {
+    font-size: 10px;
+    color: #333;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+/* 비밀번호 확인 */
+.pw-confirm .container > article {
+    padding: 35px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.pw-confirm .container > article figure {
+    width: 44px;
+    margin: 0 auto;
+}
+.pw-confirm .container > article figure img {
+    width: 100%;
+}
+.pw-confirm .container > article .details {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.pw-confirm .container > article .details h2 {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.pw-confirm .container > article .details .summary {
+    font-size: 11px;
+    text-align: center;
+    line-height: 16px;
+    color: #8f8f8f;
+    word-break: keep-all;
+}
+.pw-confirm .container > article .form-group .form-control {
+    width: 260px;
+    margin: 0 auto;
+}
+.pw-confirm .container > article .btn-area {
+    margin-top: 30px;
+}
+
+
