@@ -348,7 +348,7 @@
 .report-write .table-wrap .table tbody tr:first-child td {
     padding: 15px 30px;
 }
-.report-write .table-wrap .table tbody tr td figure figcaption {
+.report-write .table-wrap .table tbody tr td a figure figcaption {
     display: inline-block;
     padding-left: 18px;
     font-size: 13px;
