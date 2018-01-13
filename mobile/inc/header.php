@@ -17,10 +17,10 @@
     </div>
     <div id="gnb">
         <ul>
-            <li><a href="#">e매거진</a></li>
-            <li><a href="#">체험이벤트</a></li>
-            <li><a href="#">커뮤니티</a></li>
-            <li><a href="#">고객센터</a></li>
+            <li><a href="/mobile/e_magazine/magazine_list.php">e매거진</a></li>
+            <li><a href="/mobile/event/event_list.php">체험이벤트</a></li>
+            <li><a href="/mobile/community/poll_list.php">커뮤니티</a></li>
+            <li><a href="/mobile/customer/inquiry_list.php">고객센터</a></li>
         </ul>
     </div>
 
@@ -52,7 +52,7 @@
                 <div class="quick-menu">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="/mobile/samplepack/sample_explain.php">
                                 <figure>
                                     <img src="/mobile/assets/images/icon_samplepack.gif" alt="샘플팩 신청">
                                 </figure>
@@ -60,7 +60,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/mobile/event/prizewinner_list.php">
                                 <figure>
                                     <img src="/mobile/assets/images/icon_prizewinner.gif" alt="당첨자 발표">
                                 </figure>
@@ -68,7 +68,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/mobile/customer/inquiry_list.php">
                                 <figure>
                                     <img src="/mobile/assets/images/icon_customer.gif" alt="고객센터">
                                 </figure>
@@ -82,45 +82,39 @@
                         <li>
                             <a href="#">e매거진</a>
                             <ul>
-                                <li><a href="#">e-book</a></li>
-                                <li><a href="#">임신/출산</a></li>
-                                <li><a href="#">성장/건강</a></li>
-                                <li><a href="#">놀이/교육</a></li>
-                                <li><a href="#">리빙/헬스</a></li>
-                                <li><a href="#">앙쥬스토리</a></li>
+                                <li><a href="/mobile/e_magazine/ebook.php">E-BOOK<span></span></a></li>
+                                <li><a href="/mobile/e_magazine/magazine_list.php">임신/출산<span></span></a></li>
+                                <li><a href="/mobile/e_magazine/magazine_list.php">성장/건강<span></span></a></li>
+                                <li><a href="/mobile/e_magazine/magazine_list.php">놀이/교육<span></span></a></li>
+                                <li><a href="/mobile/e_magazine/magazine_list.php">리빙/헬스<span></span></a></li>
+                                <li><a href="/mobile/e_magazine/magazine_list.php">앙쥬스토리<span></span></a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#">e매거진</a>
+                            <a href="#">체험이벤트<span></span></a>
                             <ul>
-                                <li><a href="#">e-book</a></li>
-                                <li><a href="#">임신/출산</a></li>
-                                <li><a href="#">성장/건강</a></li>
-                                <li><a href="#">놀이/교육</a></li>
-                                <li><a href="#">리빙/헬스</a></li>
-                                <li><a href="#">앙쥬스토리</a></li>
+                                <li><a href="/mobile/event/event_list.php">체험이벤트<span></span></a></li>
+                                <li><a href="/mobile/event/prizewinner_list.php">당첨자 발표<span></span></a></li>
+                                <li><a href="/mobile/event/reader_list.php">애독자엽서<span></span></a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#">e매거진</a>
+                            <a href="#">커뮤니티<span></span></a>
                             <ul>
-                                <li><a href="#">e-book</a></li>
-                                <li><a href="#">임신/출산</a></li>
-                                <li><a href="#">성장/건강</a></li>
-                                <li><a href="#">놀이/교육</a></li>
-                                <li><a href="#">리빙/헬스</a></li>
-                                <li><a href="#">앙쥬스토리</a></li>
+                                <li><a href="/mobile/community/poll_list.php">앙쥬맘 생각<span></span></a></li>
+                                <li><a href="/mobile/community/model_list.php">도전! 잡지모델<span></span></a></li>
+                                <li><a href="/mobile/community/knowhow_list.php">앙쥬맘 노하우<span></span></a></li>
+                                <li><a href="/mobile/community/sponsor.php">앙쥬클럽<span></span></a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#">e매거진</a>
+                            <a href="#">앙쥬몰<span></span></a>
                             <ul>
-                                <li><a href="#">e-book</a></li>
-                                <li><a href="#">임신/출산</a></li>
-                                <li><a href="#">성장/건강</a></li>
-                                <li><a href="#">놀이/교육</a></li>
-                                <li><a href="#">리빙/헬스</a></li>
-                                <li><a href="#">앙쥬스토리</a></li>
+                                <li><a href="#">출판물<span></span></a></li>
+                                <li><a href="#">작명<span></span></a></li>
+                                <li><a href="/mobile/ange_mall/mileage_list.php">마일리지몰<span></span></a></li>
+                                <li><a href="#">앙쥬 빅딜<span></span></a></li>
+                                <li><a href="/mobile/ange_mall/basket_list.php">장바구니<span></span></a></li>
                             </ul>
                         </li>
                     </ul>

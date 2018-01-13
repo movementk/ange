@@ -114,6 +114,7 @@
     color: #7da7d9;
     font-weight: 400;
     margin-top: 30px;
+    line-height: 20px;
     margin-bottom: 20px;
 }
 .introduce .section-content article .article-content .info {
@@ -146,7 +147,12 @@
     font-family: "fontello";
     margin-left: 5px;
 }
-
+.introduce .section-content .studio .btn-area p .btn-md {
+    width: 160px;
+}
+.introduce .section-content article .btn-area p .btn-md {
+        font-weight: 300;
+}
 
 
 

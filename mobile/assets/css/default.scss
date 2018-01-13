@@ -2,6 +2,11 @@
 
 // Header
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
     background-color: #fff;
     .top-banner {
         height: 50px;
@@ -517,6 +522,7 @@
                 display: block;
                 padding-left: 15px;
                 background-color: #ff7875;
+                text-decoration: none;
                 h3 {
                     font-size: 15px;
                     color: #fff;
