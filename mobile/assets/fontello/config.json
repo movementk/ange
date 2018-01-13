@@ -287,6 +287,12 @@
       "css": "plus-circle",
       "code": 59426,
       "src": "websymbols"
+    },
+    {
+      "uid": "e0d15ef5945000f5f264acc35494002f",
+      "css": "basket",
+      "code": 59428,
+      "src": "typicons"
     }
   ]
 }
