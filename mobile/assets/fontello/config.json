@@ -281,6 +281,12 @@
       "css": "home-1",
       "code": 59425,
       "src": "fontawesome"
+    },
+    {
+      "uid": "a66e72da83c98248ae3ef43808efc452",
+      "css": "plus-circle",
+      "code": 59426,
+      "src": "websymbols"
     }
   ]
 }

@@ -723,6 +723,35 @@
                         </table>
                     </div>
                     
+                    <p class="ex-txt">상품정보</p>
+                    <div class="view-details">
+                        <div class="product">
+                            <a href="#">
+                                <figure>
+                                    <img src="/mobile/assets/images/sub/img_product01.png" alt="">
+                                </figure>
+                                <p class="item-title">Botanical Therapy 스텝원 베이비치약 (무불소, 블루베리향) </p>
+                            </a>
+                            <dl>
+                                <dt>수량</dt>
+                                <dd>1</dd>
+                                <dt>재고</dt>
+                                <dd>있음</dd>
+                                <dt>적립금</dt>
+                                <dd>630</dd>
+                                <dt>가격</dt>
+                                <dd>71,900</dd>
+                            </dl>
+                        </div>
+                        <div class="total">
+                            <ul>
+                                <li>합계 40,000 원</li>
+                                <li>배송비 0 원(착불)</li>
+                            </ul>
+                            <p class="payment">총 결제금액 <strong>71,900</strong> <span>원</span></p>
+                        </div>
+                    </div>
+                    
                     <!-- 주의사항 -->
                     <p class="ex-txt">주의사항</p>
                     <div class="attention-box">
@@ -732,7 +761,6 @@
                             <li>임신부 증거자료는 1장만 등록 가능하며 사진이 미흡할 경우 당첨이 취소됩니다. (관련없는 사진, 예정일이 없는 사진을 올려줄 경우)</li>
                             <li>임신부 증거자료가 본인의 것이 아니거나 중복해서 등록할 경우 선정에서 제외됩니다.</li>
                             <li>당첨자 발표 후 별도 주소확인은 하지 않으며 주소가 불분명할 경우 선물은 발송되지 않습니다. (번지수가 없거나 아파트 동, 호수 없는 경우)</li>
-
                         </ol>
                     </div>
                     
