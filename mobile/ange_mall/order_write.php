@@ -55,14 +55,33 @@
                         </li>
                     </ol>
                     
-                    <article class="board-type-7">
-                        <div class="product-info">
+                    <div class="view-details">
+                        <div class="product">
                             <a href="#">
-                                <img src="/mobile/assets/images/sub/img_product01.png" alt="">
+                                <figure>
+                                    <img src="/mobile/assets/images/sub/img_product01.png" alt="">
+                                </figure>
+                                <p class="item-title">Botanical Therapy 스텝원 베이비치약 (무불소, 블루베리향) </p>
                             </a>
-                            
+                            <dl>
+                                <dt>수량</dt>
+                                <dd>1</dd>
+                                <dt>재고</dt>
+                                <dd>있음</dd>
+                                <dt>적립금</dt>
+                                <dd>630</dd>
+                                <dt>가격</dt>
+                                <dd>71,900</dd>
+                            </dl>
                         </div>
-                    </article>
+                        <div class="total">
+                            <ul>
+                                <li>합계 40,000 원</li>
+                                <li>배송비 0 원(착불)</li>
+                            </ul>
+                            <p class="payment">총 결제금액 <strong>71,900</strong> <span>원</span></p>
+                        </div>
+                    </div>
                 </div>
                 <div class="section-content">
                     <div class="table-wrap">

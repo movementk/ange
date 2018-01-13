@@ -1,8 +1,8 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/dochead.php"); ?>
 <link href="/mobile/assets/css/sub.css" rel="stylesheet">
-<link href="/mobile/assets/css/event.css" rel="stylesheet">
+<link href="/mobile/assets/css/mypage.css" rel="stylesheet">
 </head>
-<body class="sub event"><!-- 폴더별 클래스명 추가 -->
+<body class="sub mypage"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/header.php"); ?>
     <!-- pgae-header -->
     <div class="page-header">
@@ -23,10 +23,9 @@
     </div>
     
     <!-- sub content start -->
-    <main id="content" class="review-write"><!-- 페이지명 클래스 -->
+    <main id="content" class="event-modify"><!-- 페이지명 클래스 -->
         <div class="container">
-            <section>
-                <h3>회원문의</h3>
+            <article>
                 <div class="table-wrap">
                     <form action="#">
                         <table class="table table-bordered table-write type-1">
@@ -77,7 +76,7 @@
                         </div>
                     </form>
                 </div>
-            </section>
+            </article>
         </div>
     </main>
     
