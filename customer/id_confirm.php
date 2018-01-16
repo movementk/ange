@@ -60,7 +60,7 @@
                                    <input type="text" id="cofirm-num" class="form-control" placeholder="인증번호를 입력해주세요"><label for="cofirm-num" class="sr-only">인증번호확인</label>
                                    <div class="btn-area">
                                         <p>
-                                            <button tyle="submit" class="btn btn-gray">인증번호 확인</button>
+                                            <button type="submit" class="btn btn-gray">인증번호 확인</button>
                                         </p>
                                    </div>
                                 </div>

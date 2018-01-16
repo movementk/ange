@@ -141,7 +141,7 @@
                                     <form action="#">
                                         <div class="form-group">
                                             <input type="text" id="search-participation" class="form-control">
-                                            <label for="#" class="sr-only">참여자 검색하기</label>
+                                            <label for="search-participation" class="sr-only">참여자 검색하기</label>
                                             <p class="search-btn">
                                                 <button type="submit" class="btn btn-default">
                                                     <i class="icon-search">
