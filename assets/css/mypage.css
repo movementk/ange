@@ -1,4 +1,4 @@
-@import url("/assets/css/common.css");
+@import url("../css/common.css");
 
 /* 내가 쓴글 */
 .my-history .sub-content > article h3 {
@@ -162,7 +162,7 @@
     background-color: #fcfcfc;
     border-top: 1px solid #e9e9e9;
     border-bottom: 1px solid #e9e9e9;
-    background-image: url(/assets/images/mypage/bg_member_leave.gif);
+    background-image: url(../images/mypage/bg_member_leave.gif);
     background-repeat: no-repeat;
     background-position: 43px 80px;
 }
@@ -549,7 +549,6 @@
 .event-modify .btn-area p .btn {
     font-size: 14px;
     color: #666;
-    border: 1px solid #666;
     line-height: 43px;
     width: 120px;
     margin-right: 10px;

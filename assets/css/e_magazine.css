@@ -451,7 +451,7 @@ address {
         top: 2px;
         display: inline-block;
         margin-left: 15px;
-        content: url(/assets/images/e_magazine/btn_pink.png); }
+        content: url(../images/e_magazine/btn_pink.png); }
     .magazine-view .view .section-content .table-wrap .sympathize p {
       font-size: 13px;
       color: #999;

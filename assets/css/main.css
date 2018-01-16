@@ -424,7 +424,7 @@ article {
         .member-information .article-content .mCustomScrollBox .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger .mCSB_dragger_bar {
           width: 28px !important;
           height: 26px !important;
-          background-image: url(/assets/images/icon_scroll_img.png);
+          background-image: url(../images/icon_scroll_img.png);
           background-repeat: no-repeat;
           z-index: 999; }
       .member-information .article-content .mCustomScrollBox .mCSB_scrollTools .mCSB_draggerContainer .mCSB_draggerRail {
@@ -439,7 +439,7 @@ article {
   .brand-news a {
     padding: 20px 30px;
     display: block;
-    background-image: url(/assets/images/main/bg_brand_news.jpg);
+    background-image: url(../images/main/bg_brand_news.jpg);
     background-repeat: no-repeat;
     background-position: 100% 50%; }
     .brand-news a strong {
@@ -709,15 +709,15 @@ article {
         text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); }
     .ange-community > div.sample-pack {
       background-color: #f7ada7;
-      background-image: url(/assets/images/main/bg_sample_pack.jpg); }
+      background-image: url(../images/main/bg_sample_pack.jpg); }
     .ange-community > div.event-prizewinner {
       background-color: #b2d69b;
-      background-image: url(/assets/images/main/bg_event_prizewinner.jpg); }
+      background-image: url(../images/main/bg_event_prizewinner.jpg); }
     .ange-community > div.ange-club {
       width: 370px;
       background-color: #acc5ee;
       background-position: 87% 100%;
-      background-image: url(/assets/images/main/bg_ange_club.jpg); }
+      background-image: url(../images/main/bg_ange_club.jpg); }
 
 .ange-board {
   font-size: 0; }
