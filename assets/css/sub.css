@@ -568,7 +568,7 @@ label {
     padding: 30px 30px 30px 60px;
     border: 1px solid #ececec;
     background-color: #f7f7f7;
-    background-image: url(/assets/images/e_magazine/icon_reply.png);
+    background-image: url(../images/e_magazine/icon_reply.png);
     background-repeat: no-repeat;
     background-position: 35px 26px; }
   .comment-area .comment-list > li .write {
@@ -631,7 +631,7 @@ label {
       font-size: 12px;
       color: #999;
       font-weight: 400;
-      padding: 10px 30px;
+      padding: 10px 30px 10px 29px;
       border: 0;
       border-bottom: 1px solid #e5e5e5; }
       .table-wrap .table.type-1 tbody tr td .form-group .form-control {
@@ -744,7 +744,7 @@ label {
         padding-top: 20px; }
     .table-wrap .table.type-3 tbody tr td {
       height: 60px;
-      padding: 10px 30px;
+      padding: 10px 30px 10px 29px;
       border-bottom: 1px solid #dfdfdf; }
       .table-wrap .table.type-3 tbody tr td .form-group textarea {
         height: 340px !important; }
@@ -1209,7 +1209,7 @@ label {
   border: 1px solid #e5e5e5;
   border-radius: 10px;
   background-color: #fafafa;
-  background-image: url(/assets/images/customer/bg_phone.png);
+  background-image: url(../images/customer/bg_phone.png);
   background-repeat: no-repeat;
   background-position: 72px 100%; }
   .identification h5 {
@@ -1821,7 +1821,7 @@ label {
   position: relative;
   width: 840px;
   height: 200px;
-  background-image: url(/assets/images/sub/bg_movie_banner.png);
+  background-image: url(../images/sub/bg_movie_banner.png);
   background-repeat: no-repeat;
   background-position: 50% 0;
   border-radius: 15px;
@@ -2262,7 +2262,7 @@ label {
           top: 20px;
           left: -10px;
           display: block;
-          content: url(/assets/images/community/img_today_comment.jpg); }
+          content: url(../images/community/img_today_comment.jpg); }
         .community .today-talk .today-view .article-content .talk-write .write-form .form-group .form-control {
           font-size: 12px;
           color: #999;

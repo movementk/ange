@@ -521,7 +521,7 @@ article {
                         .mCSB_dragger_bar {
                             width: 28px !important;
                             height: 26px !important;
-                            background-image: url(/assets/images/icon_scroll_img.png);
+                            background-image: url(../images/icon_scroll_img.png);
                             background-repeat: no-repeat;
                             z-index: 999;
                         }
@@ -545,7 +545,7 @@ article {
     a {
         padding: 20px 30px;
         display: block;
-        background-image: url(/assets/images/main/bg_brand_news.jpg);
+        background-image: url(../images/main/bg_brand_news.jpg);
         background-repeat: no-repeat;
         background-position: 100% 50%;
         strong {
@@ -914,17 +914,17 @@ article {
         }
         &.sample-pack {
             background-color: #f7ada7;
-            background-image: url(/assets/images/main/bg_sample_pack.jpg);
+            background-image: url(../images/main/bg_sample_pack.jpg);
         }
         &.event-prizewinner {
             background-color: #b2d69b;
-            background-image: url(/assets/images/main/bg_event_prizewinner.jpg);
+            background-image: url(../images/main/bg_event_prizewinner.jpg);
         }
         &.ange-club {
             width: 370px;
             background-color: #acc5ee;
             background-position: 87% 100%;
-            background-image: url(/assets/images/main/bg_ange_club.jpg);
+            background-image: url(../images/main/bg_ange_club.jpg);
         }
     }
 }
