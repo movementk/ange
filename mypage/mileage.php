@@ -15,54 +15,51 @@
                  <div class="sub-content">
                     <h2 class="sub-title">마일리지 적립현황</h2>
                     <div class="mileage-view">
-                        <dl>
-                            <dt>관리자 님의 사용가능 마일리지</dt>
-                            <dd>
-                                <img src="/assets/images/mypage/img_point.png" alt="">
-                                 999,999,999 P
-                            </dd>
-                        </dl>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <dl>
+                                    <dt>관리자 님의 총 마일리지</dt>
+                                    <dd>
+                                         999,999,999 P
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-6">
+                                <dl class="available">
+                                    <dt>관리자 님의 <b>사용가능</b> 마일리지</dt>
+                                    <dd>
+                                        9,999 P
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
                     </div>
                     <article class="list">
                         <div class="selection-date">
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <dl class="selection">
-                                        <dt>조회기간</dt>
-                                        <dd>
-                                            <label><input type="radio"> 6개월</label>
-                                            <label><input type="radio"> 3개월</label>
-                                            <label><input type="radio"> 1개월</label>
-                                            <label><input type="radio"> 직접 입력</label>
-                                        </dd>
-                                    </dl>
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="calendar">
-                                        <form action="#">
-                                            <div class="form-group">
-                                                <input type="text" id="datepicker1" class="form-control">
-                                                <label for="datepicker1">
-                                                    <i class="icon-calendar-1">
-                                                        <span class="sr-only">달력 열기</span>
-                                                    </i>
-                                                </label>
-                                            </div>
-                                            ~ 
-                                            <div class="form-group">
-                                                <input type="text" id="datepicker2" class="form-control">
-                                                <label for="datepicker2">
-                                                    <i class="icon-calendar-1">
-                                                        <span class="sr-only">달력 열기</span>
-                                                    </i>
-                                                </label>
-                                            </div>
-                                            <div class="btn-inquire">
-                                                <button type="submit" class="btn btn-pink">조회</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
+                            <div class="form-group">
+                                <dl>
+                                    <dt>연도별 조회</dt>
+                                    <dd>
+                                        <select class="form-control">
+                                            <option>2017</option>
+                                        </select>        
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="form-group">
+                                <dl>
+                                    <dt>월별 조회</dt>
+                                    <dd>
+                                        <select class="form-control">
+                                            <option>11</option>
+                                        </select>        
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="btn-area">
+                                <p>
+                                    <button type="submit" class="btn btn-pink">조회</button>
+                                </p>
                             </div>
                         </div>
                         <div class="article-content">
