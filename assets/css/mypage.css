@@ -236,35 +236,96 @@
     border: 1px solid #e5e5e5;
     background-color: #fafafa;
     border-radius: 5px;
-    padding-right: 39px;
+    padding: 20px 30px;
 }
-.mileage .mileage-view > dl > dt {
+.mileage .mileage-view dl {
+    font-size: 0;
+}
+.mileage .mileage-view dl.available {
+    text-align: right;
+}
+.mileage .mileage-view dl dt {
+    display: inline-block;
     font-size: 15px;
-    line-height: 70px;
     color: #333;
-    margin-left: 24px;
-    display: inline;
     font-weight: 400;
 }
-.mileage .mileage-view > dl > dd {
+.mileage .mileage-view dl dt b {
+    color: #ff817e;
+    font-weight: 400;
+}
+.mileage .mileage-view dl dd {
+    margin-left: 20px;
+    padding-left: 35px;
     display: inline-block;
-    float: right;
-    line-height: 70px;
     font-size: 18px;
     color: #e25371;
-    letter-spacing: -1px;
     font-family: 'Roboto', sans-serif;
+    background-image: url(/assets/images/mypage/img_point.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
 }
-.mileage .mileage-view > dl > dd img {
-    margin-right: 10px;
+.mileage .list .selection-date {
+    text-align: right;
+    overflow: hidden;
 }
-.mileage .list .article-head {
-    height: 66px;
-    margin-top: 37px;
-    margin-bottom: 19px;
-    border-top: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
+.mileage .list .selection-date .form-group {
+    display: inline-block;
 }
+.mileage .list .selection-date .form-group dl {
+    font-size: 0;
+}
+.mileage .list .selection-date .form-group dl dt {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+}
+.mileage .list .selection-date .form-group dl dd {
+    display: inline-block;
+}
+.mileage .list .selection-date .form-group dl dd .form-control {
+    width: 100px;
+    border-radius: 30px;
+    margin-right: 20px;
+    position: relative;
+    top: 1px;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+.mileage .list .selection-date .form-group dl dd .form-control:last-child {
+    width: 80px;
+}
+.mileage .list .selection-date .btn-area {
+    display: inline-block;
+}
+.mileage .list .selection-date .btn-area p .btn {
+    width: 90px;
+    line-height: 36px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mileage .list .article-content .table thead tr th:nth-of-type(1) {
     width: 70px !important;
 }
