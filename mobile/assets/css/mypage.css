@@ -172,49 +172,89 @@
 
 /* 마일리지 */
 .mileage .mileage-view {
-    padding: 25px 15px;
+    padding: 15px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
 }
+.mileage .mileage-view dl {
+    overflow: hidden;
+}
 .mileage .mileage-view dl dt {
-    display: inline;
+    float: left;
     font-size: 12px;
     color: #333;
+    line-height: 30px;
+}
+.mileage .mileage-view dl dt i {
+    font-style: normal;
+    color: #ff7875;
 }
 .mileage .mileage-view dl dd {
-    display: inline-block;
     float: right;
-    font-size: 12px;
-    color: #e25371; 
+    font-size: 11px;
+    color: #e25371;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 24px;
     font-family: 'Roboto', sans-serif;
+    background-image: url(/mobile/assets/images/mypage/img_mileage.png);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    background-size: 17px auto;
 }
-.mileage .mileage-view dl dd p.icon-point {
+.mileage .mileage-check {
+    margin-top: 20px;
+}
+.mileage .mileage-check .search-date {
+    font-size: 0;
+    margin-bottom: 20px;
+}
+.mileage .mileage-check .search-date .form-group {
+    position: relative;
     display: inline-block;
-    width: 17px;
-    margin-right: 7px;
+    width: 50%;
 }
-.mileage .mileage-view dl dd img {
+.mileage .mileage-check .search-date .date-year {
+    padding-left: 65px;
+}
+.mileage .mileage-check .search-date .date-day {
+    padding-left: 85px;
+}
+.mileage .mileage-check .search-date .date-day dl dt {
+    margin-left: 30px;
+}
+.mileage .mileage-check .search-date .form-group dl {
     width: 100%;
 }
-.mileage .mileage-check .section-header {
-    margin-top: 30px;
-    padding: 0;
-}
-.mileage .mileage-check .section-header h3 {
-    font-size: 13px;
+.mileage .mileage-check .search-date .form-group dl dt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 11px;
+    line-height: 30px;
     color: #333;
-    margin-bottom: 15px;
 }
+.mileage .mileage-check .search-date .form-group dl dd {
+    font-size: 11px;
+    color: #999;
+}
+.mileage .mileage-check .search-date .form-group dl dd .form-control {
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
 .mileage .mileage-check .board-type-3 .article-content .table-wrap .table tbody tr td {
     font-size: 9px;
     border-bottom: 1px solid #dfdfdf;
 }
 .mileage .mileage-check .board-type-3 .article-content .paging {
     margin-top: 20px;
-}
-.mileage .mileage-check .section-header .search-date {
-    margin-bottom: 20px;
 }
 
 /* 주문현황 */

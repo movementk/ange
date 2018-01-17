@@ -27,48 +27,49 @@
     <main id="content" class="mileage"><!-- 페이지명 클래스 -->
         <div class="container">
             <div class="mileage-view">
-                <dl>
-                    <dt>관리자 님의 사용가능 마일리지</dt>
-                    <dd>
-                        <p class="icon-point">
-                            <img src="/mobile/assets/images/mypage/img_mileage.png" alt="">
-                        </p>
-                        999,999,999 P
-                    </dd>
-                </dl>
+                <div class="mileage-info">
+                    <dl>
+                        <dt>관리자 님의 총 마일리지</dt>
+                        <dd>999,999,999 P</dd>
+                    </dl>
+                </div>
+                <div class="mileage-info">
+                    <dl>
+                        <dt>관리자 님의 <i>사용가능</i> 마일리지</dt>
+                        <dd>9,999 P</dd>
+                    </dl>
+                </div>
             </div>
-            <section class="mileage-check">
-                <div class="section-header">
-                    <h3>조회기간</h3>
-                    <div class="search-date">
-                        <form action="#">
-                            <div class="form-group date-selection">
-                                <label><input type="radio"> 6개월</label>
-                                <label><input type="radio"> 3개월</label>
-                                <label><input type="radio"> 1개월</label>
-                                <label><input type="radio"> 직접 입력</label>
-                            </div>
-                            <div class="calendar">
-                                <div class="form-group">
-                                    <input type="text" id="datepicker1" class="form-control">
-                                    <label for="datepicker1">
-                                        <i class="icon-calendar-1"></i>
-                                    </label>
-                                </div>
-                                <span>~</span>
-                                <div class="form-group">
-                                    <input type="text" id="datepicker2" class="form-control">
-                                    <label for="datepicker2">
-                                        <i class="icon-calendar-1"></i>
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="btn-area">
-                                <p>
-                                    <button class="btn btn-lg btn-pink">조회하기</button>
-                                </p>
-                            </div>
-                        </form>
+            <div class="mileage-check">
+                <div class="search-date">
+                    <div class="form-group date-year">
+                        <dl>
+                            <dt>연도별 조회</dt>
+                            <dd>
+                                <select class="form-control">
+                                    <option>2018</option>
+                                    <option>2017</option>
+                                    <option>2016</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="form-group date-day">
+                        <dl>
+                            <dt>월별 조회</dt>
+                            <dd>
+                                <select class="form-control">
+                                    <option>11</option>
+                                    <option>10</option>
+                                    <option>9</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-lg btn-pink" role="button">조회하기</a>
+                        </p>
                     </div>
                 </div>
                 <article class="board-type-3">
@@ -136,31 +137,12 @@
                         </nav>
                     </div>
                 </article>
-            </section>
+            </div>
         </div>
     </main>
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/mobile/inc/docfoot.php"); ?>
     <script src="/mobile/assets/js/common.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-        $(function($) {
-            $.datepicker.setDefaults({
-                dateFormat: 'yy-mm-dd',
-                prevText: '이전 달',
-                nextText: '다음 달',
-                monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
-                monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
-                dayNames: ['일', '월', '화', '수', '목', '금', '토'],
-                dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
-                dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
-                showMonthAfterYear: true,
-                yearSuffix: '년'
-            });
-            $('#datepicker1').datepicker();
-            $('#datepicker2').datepicker();
-        }(jQuery));
-    </script>
 </body>
 </html>
