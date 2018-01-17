@@ -34,11 +34,11 @@
                                         어깨가 들썩이는 즐거운 볼거리와 놀거리 중 어느 하나만 챙겨도<br>
                                         아이 얼굴에 함박웃음이 가득한 크리스마스가 된다.
                                     </p>
-                                    <ol class="part-list">
-                                        <li>Part 1 원 포인트 크리스마스 인테리어</li>
-                                        <li>Part 2 한나절 크리스마스 나들이</li>
-                                        <li>Part 3 아이 선물로 좋은 장난감 컬렉션</li>
-                                    </ol>
+                                    <p class="part-list">
+                                        - Part 1 원 포인트 크리스마스 인테리어<br>
+                                        - Part 2 한나절 크리스마스 나들이<br>
+                                        - Part 3 아이 선물로 좋은 장난감 컬렉션
+                                    </p>
                                     <div class="btn-area">
                                         <p>
                                             <a href="#" class="btn btn-white btn-more" role="button">자세히 보기</a>
