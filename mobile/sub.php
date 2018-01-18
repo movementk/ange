@@ -366,10 +366,10 @@
                     
                     <!-- 리스트 아이콘 -->
                     <p class="ex-txt">리스트 아이콘</p>
-                    <span class="icon icon-new"><img src="/mobile/assets/images/icon_new.png" alt=""></span>
-                    <span class="icon icon-lock"><img src="/mobile/assets/images/icon_lock.png" alt=""></span>
-                    <span class="icon icon-file"><img src="/mobile/assets/images/icon_file.png" alt=""></span>
-                    <span class="icon icon-img"><img src="/mobile/assets/images/icon_img.png" alt=""></span>
+                    <span class="icon icon-new"></span>
+                    <span class="icon icon-lock"></span>
+                    <span class="icon icon-file"></span>
+                    <span class="icon icon-img"></span>
                     
                     <!-- 게시판 리스트 type-1 -->
                     <p class="ex-txt">게시판 리스트 type-1</p>

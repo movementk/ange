@@ -679,18 +679,26 @@ button {
         margin-top: 8px; }
 
 .icon {
-  position: relative;
-  top: -1px;
   display: inline-block;
-  margin-left: 4px; }
-  .icon.icon-new img {
-    width: 9px; }
-  .icon.icon-lock img {
-    width: 7px; }
-  .icon.icon-file img {
-    width: 8px; }
-  .icon.icon-img img {
-    width: 9px; }
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+  margin-left: 4px;
+  margin-top: -2px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+  .icon.icon-new {
+    background-image: url(/mobile/assets/images/icon_new.png);
+    background-size: 9px auto; }
+  .icon.icon-lock {
+    background-image: url(/mobile/assets/images/icon_lock.png);
+    background-size: 7px auto; }
+  .icon.icon-file {
+    background-image: url(/mobile/assets/images/icon_file.png);
+    background-size: 8px auto; }
+  .icon.icon-img {
+    background-image: url(/mobile/assets/images/icon_img.png);
+    background-size: 9px auto; }
 
 .table-wrap .table {
   margin: 0;

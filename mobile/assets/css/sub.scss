@@ -832,29 +832,29 @@ button {
 
 // 리스트 아이콘 
 .icon {
-    position: relative;
-    top: -1px;
     display: inline-block;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
     margin-left: 4px;
+    margin-top: -2px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     &.icon-new {
-        img {
-            width: 9px;
-        }
+        background-image: url(/mobile/assets/images/icon_new.png);
+        background-size: 9px auto;
     }
     &.icon-lock {
-        img {
-            width: 7px;
-        }
+        background-image: url(/mobile/assets/images/icon_lock.png);
+        background-size: 7px auto;
     }
     &.icon-file {
-        img {
-            width: 8px;
-        }
+        background-image: url(/mobile/assets/images/icon_file.png);
+        background-size: 8px auto;
     }
     &.icon-img {
-        img {
-            width: 9px;
-        }
+        background-image: url(/mobile/assets/images/icon_img.png);
+        background-size: 9px auto;
     }
 }
 
