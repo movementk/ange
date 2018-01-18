@@ -52,18 +52,10 @@
                                             <td class="title">
                                                 <a href="/event/prizewinner_view.php">
                                                     [당첨자 발표] 당첨자 발표 리스트입니다. (12)
-                                                    <span class="icon-new">
-                                                        <img src="/assets/images/event/icon_new.png" alt="">
-                                                    </span>
-                                                    <span class="icon-lock">
-                                                        <img src="/assets/images/event/icon_lock.png" alt="">
-                                                    </span>
-                                                    <span class="icon-clip">
-                                                        <img src="/assets/images/event/icon_clip.png" alt="">
-                                                    </span>
-                                                    <span class="icon-img">
-                                                        <img src="/assets/images/event/icon_img.png" alt="">
-                                                    </span>
+                                                    <span class="icon icon-new"></span>
+                                                    <span class="icon icon-lock"></span>
+                                                    <span class="icon icon-clip"></span>
+                                                    <span class="icon icon-img"></span>
                                                 </a>
                                             </td>
                                             <td class="date">2017-12-01</td>

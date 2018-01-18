@@ -2332,4 +2332,20 @@ label {
   .community .today-talk .today-view .article-content .paging {
     margin-top: 35px; }
 
+span.icon {
+  width: 12px !important;
+  display: inline-block;
+  margin-left: 5px; }
+  span.icon:before {
+    margin-top: -2px;
+    vertical-align: middle; }
+  span.icon.icon-new:before {
+    content: url(../images/event/icon_new.png); }
+  span.icon.icon-lock:before {
+    content: url(../images/event/icon_lock.png); }
+  span.icon.icon-clip:before {
+    content: url(../images/event/icon_clip.png); }
+  span.icon.icon-img:before {
+    content: url(../images/event/icon_img.png); }
+
 /*# sourceMappingURL=sub.css.map */

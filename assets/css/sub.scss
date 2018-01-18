@@ -3253,8 +3253,38 @@ label {
     }
 }
 
-
-
+// 리스트 아이콘
+span {
+    &.icon {
+        width: 12px !important;
+        display: inline-block;
+        margin-left: 5px;
+        &:before {
+            margin-top: -2px;
+            vertical-align: middle;
+        }
+        &.icon-new {
+            &:before {
+                content: url(../images/event/icon_new.png);
+            }
+        }
+        &.icon-lock {
+            &:before {
+                content: url(../images/event/icon_lock.png);
+            }
+        }
+        &.icon-clip {
+            &:before {
+                content: url(../images/event/icon_clip.png);
+            }
+        }
+        &.icon-img {
+            &:before {
+                content: url(../images/event/icon_img.png);
+            }
+        }
+    }
+}
 
 
 
