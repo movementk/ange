@@ -54,10 +54,10 @@
                                 <a href="#">
                                     <h4>
                                     자주하는 질문 제목이 노출되는 영역입니다.
-                                        <span class="icon icon-new"><img src="/mobile/assets/images/icon_new.png" alt=""></span>
-                                        <span class="icon icon-lock"><img src="/mobile/assets/images/icon_lock.png" alt=""></span>
-                                        <span class="icon icon-file"><img src="/mobile/assets/images/icon_file.png" alt=""></span>
-                                        <span class="icon icon-img"><img src="/mobile/assets/images/icon_img.png" alt=""></span>
+                                        <span class="icon icon-new"></span>
+                                        <span class="icon icon-lock"></span>
+                                        <span class="icon icon-file"></span>
+                                        <span class="icon icon-img"></span>
                                     </h4>
                                     <ul class="icon-list">
                                         <li class="user"><span>무브먼트</span></li>
