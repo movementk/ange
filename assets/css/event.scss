@@ -880,6 +880,10 @@
                 tbody {
                     tr {
                         td {
+                            span {
+                                display: inline-block;
+                                margin-left: 10px;
+                            }
                             &.hit {
                                 @include roboto();
                             }

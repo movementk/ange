@@ -3254,31 +3254,30 @@ label {
 }
 
 // 리스트 아이콘
-span {
-    &.icon {
-        width: 12px !important;
+i {
+    &.ico {
         display: inline-block;
-        margin-left: 5px;
+        margin-left: 6px;
         &:before {
             margin-top: -2px;
             vertical-align: middle;
         }
-        &.icon-new {
+        &.ico-new {
             &:before {
                 content: url(../images/event/icon_new.png);
             }
         }
-        &.icon-lock {
+        &.ico-lock {
             &:before {
                 content: url(../images/event/icon_lock.png);
             }
         }
-        &.icon-clip {
+        &.ico-clip {
             &:before {
                 content: url(../images/event/icon_clip.png);
             }
         }
-        &.icon-img {
+        &.ico-img {
             &:before {
                 content: url(../images/event/icon_img.png);
             }

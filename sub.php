@@ -627,10 +627,10 @@
                     
                     <div style="margin: 50px 0;"></div>
                     <!-- 리스트 아이콘입니다. -->
-                    <span class="icon icon-new"></span>
-                    <span class="icon icon-lock"></span>
-                    <span class="icon icon-clip"></span>
-                    <span class="icon icon-img"></span>
+                    <i class="ico ico-new"></i>
+                    <i class="ico ico-lock"></i>
+                    <i class="ico ico-clip"></i>
+                    <i class="ico ico-img"></i>
                     
                     <div style="margin: 50px 0;"></div>
                     <!-- paging -->
