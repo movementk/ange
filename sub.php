@@ -304,7 +304,6 @@
                         </table>
                         
                         <div style="margin: 50px 0;"></div>
-                        
                         <table class="table tbale-bordered type-2">
                             <thead>
                                 <tr>
@@ -626,7 +625,12 @@
                         </div>
                     </article>
                     
-                    
+                    <div style="margin: 50px 0;"></div>
+                    <!-- 리스트 아이콘입니다. -->
+                    <span class="icon icon-new"></span>
+                    <span class="icon icon-lock"></span>
+                    <span class="icon icon-clip"></span>
+                    <span class="icon icon-img"></span>
                     
                     <div style="margin: 50px 0;"></div>
                     <!-- paging -->

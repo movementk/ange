@@ -632,9 +632,6 @@ address {
   width: 130px; }
 .prizewinner-list .list .table-wrap .type-2 thead tr th:nth-of-type(4) {
   width: 100px; }
-.prizewinner-list .list .table-wrap .type-2 tbody tr td span {
-  display: inline-block;
-  margin-left: 10px; }
 .prizewinner-list .list .table-wrap .type-2 tbody tr td.hit {
   font-family: 'Roboto', sans-serif; }
 .prizewinner-list .list .article-content {

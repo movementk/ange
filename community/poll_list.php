@@ -56,9 +56,7 @@
                                                 <a href="/community/poll_write.php">
                                                     <span class="ongoing">진행중</span>
                                                     앙쥬POLL 질문이 노출되는 리스트 영역입니다.
-                                                    <i class="icon-new">
-                                                        <img src="/assets/images/event/icon_new.png" alt="">
-                                                    </i>
+                                                    <span class="icon icon-new"></span>
                                                 </a>
                                             </td>
                                             <td class="date">2017-12-01 ~ 2017-12-31</td>
