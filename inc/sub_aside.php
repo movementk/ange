@@ -12,6 +12,7 @@
         </div>
     </div>
     <div class="aside-body">
+        <!-- 로그인 되었을때 
         <div class="profile">
             <div class="user-info">
                 <h6>무브먼트 <small>님</small></h6>
@@ -19,6 +20,7 @@
                     <img src="/assets/images/sub/img_profile.jpg" class="img-responsive" alt="">
                 </div>
             </div>
+            
             <div class="details">
                 <ul class="item">
                     <li><b>M</b> <a href="#">123,456</a></li>
@@ -28,6 +30,19 @@
                     <li><strong>출산예정 <a href="#">D-150</a>일</strong></li>
                     <li><strong>결혼기념일 <a href="#">D-150</a>일</strong></li>
                 </ul>
+            </div>
+        </div>
+        -->
+        <!-- 로그아웃 되었을때 -->
+        <div class="none-member">
+            <div class="figure">
+                <img src="/assets/images/sub/img_profile.jpg" class="img-responsive" alt="">
+            </div>
+            <div class="btn-login">
+                <p>
+                    <a href="#" class="btn btn-xs btn-white" role="button">로그인</a>
+                    <a href="#" class="btn btn-xs btn-white" role="button">회원가입</a>
+                </p>
             </div>
         </div>
         <div class="category">

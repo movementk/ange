@@ -198,6 +198,7 @@
         position: relative;
         text-align: center;
         z-index: 1;
+        // login
         .profile {
             padding: 30px 10px 25px;
             border-bottom: 1px solid #7b7f89;
@@ -268,6 +269,43 @@
                 }
             }
         }
+        // logout
+        .none-member {
+            padding: 0 10px;
+            margin-top: 30px;
+            margin-bottom: 25px;
+            .figure {
+                display: inline-block;
+                width: 75px;
+                height: 75px;
+                line-height: 73px;
+                text-align: center;
+                border-radius: 50%;
+                overflow: hidden;
+                background-color: #fff;
+                .img-responsive {
+                    display: inline-block;
+                }
+            }
+            .btn-login {
+                margin-top: 15px;
+                p {
+                    .btn {
+                        display: block;
+                        width: 100%;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height: 28px;
+                        color: #fefefe;
+                        border: 1px solid #fff;
+                        border-radius: 30px;
+                        & ~ .btn {
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
         .category {
             border-bottom: 1px solid #7b7f89;
             > div {
@@ -316,6 +354,7 @@
             }
         }
         .aside-body {
+            // login
             .profile {
                 padding: 30px 10px;
                 .user-info {
@@ -357,6 +396,24 @@
                     }
                     .d-day {
                         display: block;
+                    }
+                }
+            }
+            // logout
+            .none-member {
+                .btn-login {
+                    margin-top: 15px;
+                    p {
+                        font-size: 0;
+                        .btn {
+                            display: inline-block;
+                            width: 70px;
+                            font-size: 12px;
+                            & ~ .btn {
+                                margin-top: 0;
+                                margin-left: 5px;
+                            }
+                        }
                     }
                 }
             }
@@ -1645,15 +1702,42 @@ label {
         text-align: left;
         .btn-white {
             width: 168px;
-            font-size: 14px;
+            font-size: 13px;
             color: #666;
-            line-height: 43px;
+            line-height: 38px;
             border-radius: 30px;
             border: 1px solid #ccc;
             background-color: #fff;
             @include transition();
             &:hover, &:focus {
                 opacity: .7;
+            }
+        }
+    }
+    .form-group {
+        margin-top: 15px;
+        .form-control {
+            display: inline-block;
+            width: 248px;
+            height: 40px;
+            line-height: 35px;
+            padding-left: 16px;
+            font-size: 13px;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+        }
+        > .confirm-btn {
+            vertical-align: top;
+            display: inline-block;
+            .btn-gray {
+                font-size: 13px;
+                margin-left: 10px;
+                width: 130px;
+                line-height: 40px;
+                border: 0;
+                color: #fff;
+                border-radius: 30px;
+                background-color: #b3b3b3;
             }
         }
     }

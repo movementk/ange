@@ -458,8 +458,14 @@
                                     <div class="confirm-btn">
                                         <a href="#" class="btn btn-white" role="button">휴대폰 인증하기</a>
                                     </div>
+                                    <div class="form-group">
+                                        <input type="text" id="phone-confirm" class="form-control" placeholder="인증번호를 입력해주세요">
+                                        <label for="phone-confirm" class="sr-only">휴대폰 인증번호</label>
+                                        <div class="confirm-btn">
+                                            <a href="#" class="btn btn-gray" role="button">인증번호 확인</a>
+                                        </div>
+                                    </div>
                                 </div>
-                                
                                 <div class="btn-area">
                                     <p>
                                         <button type="submit" class="btn btn-pink">다음</button>

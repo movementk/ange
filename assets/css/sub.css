@@ -227,6 +227,34 @@ address {
             color: #fdc689;
             font-weight: 400;
             font-family: 'Roboto', sans-serif; }
+    #aside .aside-body .none-member {
+      padding: 0 10px;
+      margin-top: 30px;
+      margin-bottom: 25px; }
+      #aside .aside-body .none-member .figure {
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        line-height: 73px;
+        text-align: center;
+        border-radius: 50%;
+        overflow: hidden;
+        background-color: #fff; }
+        #aside .aside-body .none-member .figure .img-responsive {
+          display: inline-block; }
+      #aside .aside-body .none-member .btn-login {
+        margin-top: 15px; }
+        #aside .aside-body .none-member .btn-login p .btn {
+          display: block;
+          width: 100%;
+          font-size: 12px;
+          text-align: center;
+          line-height: 28px;
+          color: #fefefe;
+          border: 1px solid #fff;
+          border-radius: 30px; }
+          #aside .aside-body .none-member .btn-login p .btn ~ .btn {
+            margin-top: 5px; }
     #aside .aside-body .category {
       border-bottom: 1px solid #7b7f89; }
       #aside .aside-body .category > div {
@@ -287,6 +315,17 @@ address {
           margin: 0; }
       #aside.aside-open .aside-body .profile .details .d-day {
         display: block; }
+    #aside.aside-open .aside-body .none-member .btn-login {
+      margin-top: 15px; }
+      #aside.aside-open .aside-body .none-member .btn-login p {
+        font-size: 0; }
+        #aside.aside-open .aside-body .none-member .btn-login p .btn {
+          display: inline-block;
+          width: 70px;
+          font-size: 12px; }
+          #aside.aside-open .aside-body .none-member .btn-login p .btn ~ .btn {
+            margin-top: 0;
+            margin-left: 5px; }
     #aside.aside-open .aside-body .category > div {
       padding: 20px; }
       #aside.aside-open .aside-body .category > div .category-title {
@@ -1227,9 +1266,9 @@ label {
     text-align: left; }
     .identification .confirm-btn .btn-white {
       width: 168px;
-      font-size: 14px;
+      font-size: 13px;
       color: #666;
-      line-height: 43px;
+      line-height: 38px;
       border-radius: 30px;
       border: 1px solid #ccc;
       background-color: #fff;
@@ -1243,6 +1282,29 @@ label {
       transition-delay: 0s; }
       .identification .confirm-btn .btn-white:hover, .identification .confirm-btn .btn-white:focus {
         opacity: .7; }
+  .identification .form-group {
+    margin-top: 15px; }
+    .identification .form-group .form-control {
+      display: inline-block;
+      width: 248px;
+      height: 40px;
+      line-height: 35px;
+      padding-left: 16px;
+      font-size: 13px;
+      border: 1px solid #ccc;
+      border-radius: 30px; }
+    .identification .form-group > .confirm-btn {
+      vertical-align: top;
+      display: inline-block; }
+      .identification .form-group > .confirm-btn .btn-gray {
+        font-size: 13px;
+        margin-left: 10px;
+        width: 130px;
+        line-height: 40px;
+        border: 0;
+        color: #fff;
+        border-radius: 30px;
+        background-color: #b3b3b3; }
 
 .selection-date {
   margin: 40px 0 20px;
