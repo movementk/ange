@@ -28,6 +28,7 @@ address {
 .sub .sub-wrapper {
   display: table;
   width: 100%;
+  min-height: 650px;
   background-color: #fff;
   border: 1px solid #dfdfdf;
   border-radius: 6px;
