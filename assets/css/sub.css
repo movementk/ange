@@ -1843,7 +1843,7 @@ label {
           color: #333;
           font-weight: 400;
           line-height: 20px;
-          word-break: keep-all; }
+          /*word-break: keep-all;*/ }
         .model-item > li a .details > .user-info {
           margin-top: 15px; }
           .model-item > li a .details > .user-info li {

@@ -130,18 +130,17 @@
                                 line-height: 43px;
                                 border-radius: 30px;
                                 border: 1px solid #ff7875;
+                                color: #ff7875;
+                                background-color: #fff;
                                 &:before {
                                     content: "\E823";
                                     margin-right: 10px;
                                     font-family: "fontello";
                                 }
-                                &.btn-pink {
+                                &:hover, &:focus {
                                     color: #fff;
+                                    opacity: 1;
                                     background-color: #ff7875;
-                                }
-                                &.btn-white {
-                                    color: #ff7875;
-                                    background-color: #fff;
                                 }
                             }
                         }

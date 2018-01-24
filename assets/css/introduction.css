@@ -121,17 +121,17 @@ address {
           width: 200px;
           line-height: 43px;
           border-radius: 30px;
-          border: 1px solid #ff7875; }
+          border: 1px solid #ff7875;
+          color: #ff7875;
+          background-color: #fff; }
           .introduce .section-content > article > div.article-header .btn-area p .btn-md:before {
             content: "\E823";
             margin-right: 10px;
             font-family: "fontello"; }
-          .introduce .section-content > article > div.article-header .btn-area p .btn-md.btn-pink {
+          .introduce .section-content > article > div.article-header .btn-area p .btn-md:hover, .introduce .section-content > article > div.article-header .btn-area p .btn-md:focus {
             color: #fff;
+            opacity: 1;
             background-color: #ff7875; }
-          .introduce .section-content > article > div.article-header .btn-area p .btn-md.btn-white {
-            color: #ff7875;
-            background-color: #fff; }
     .introduce .section-content > article > div.article-content h5 {
       font-size: 20px;
       color: #7da7d8;
