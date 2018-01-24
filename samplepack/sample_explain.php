@@ -21,7 +21,7 @@
                     <article class="samplepack-wrap"> 
                         <div class="article-header">
                             <figure>
-                                <img src="/assets/images/samplepack/img_samplepack_info.png" alt="">
+                                <img src="/assets/images/samplepack/img_samplepack.jpg" alt="">
                             </figure>
                             <a href="#" class="btn btn-blue" role="button">샘플팩 후기보기</a>
                         </div>

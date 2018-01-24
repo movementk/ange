@@ -77,30 +77,19 @@
                 text-align: left;
                 display: table;
                 width: 100%;
-                > .summary {
-                    display: table-cell;
-                    width: 50%;
-                    &:nth-of-type(1) {
-                        padding-right: 30px;
-                    }
-                    &:nth-of-type(2) {
-                        padding-left: 30px;
-                    }
-                    > p {
-                        font-size: 14px;
-                        color: #666;
-                        line-height: 28px;
-                        text-align: justify;
-                        letter-spacing: -.5px;
-                    }
+                h4 {
+                    font-size: 20px;
+                    color: #666;
+                    font-weight: 400;
                 }
-            }
-            h6 {
-                font-size: 15px;
-                color: #666;
-                font-weight: 400;
-                margin-top: 60px;
-                text-align: right;
+                p {
+                    font-size: 14px;
+                    color: #666;
+                    text-align: justify;
+                    word-break: keep-all;
+                    line-height: 28px;
+                    letter-spacing: -.5px;
+                }
             }
         }
     }
@@ -124,6 +113,7 @@
                         color: #333;
                         font-weight: 400;
                         margin-bottom: 40px;
+                        letter-spacing: -1px;
                     }
                     figure {
                         &.space {
@@ -165,6 +155,7 @@
                         line-height: 28px;
                         letter-spacing: -1px;
                         margin-bottom: 35px;
+                        word-break: keep-all;
                     }
                     > p {
                         font-size: 14px;
@@ -208,6 +199,14 @@
                                     }
                                 }
                             }
+                        }
+                    }
+                    .attention {
+                        font-size: 13px;
+                        color: #999;
+                        margin-top: 15px;
+                        &:before {
+                            content: "* ";
                         }
                     }
                 }

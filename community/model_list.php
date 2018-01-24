@@ -26,7 +26,7 @@
                                     <li>
                                         <a href="/community/m">
                                             <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list01.jpg" alt="">
+                                                <img src="/assets/images/community/img_none_model.jpg" alt="">
                                                 <figcaption>
                                                     <ul class="like-comment">
                                                         <li class="like">123</li>
@@ -51,7 +51,7 @@
                                     <li>
                                         <a href="/community/model_view.php">
                                             <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list02.jpg" alt="">
+                                                <img src="/assets/images/community/img_none_model.jpg" alt="">
                                                 <figcaption>
                                                     <ul class="like-comment">
                                                         <li class="like">123</li>
@@ -76,7 +76,7 @@
                                     <li>
                                         <a href="/community/model_view.php">
                                             <figure>
-                                                <img src="/assets/images/e_magazine/img_week_list03.jpg" alt="">
+                                                <img src="/assets/images/community/img_none_model.jpg" alt="">
                                                 <figcaption>
                                                     <ul class="like-comment">
                                                         <li class="like">123</li>

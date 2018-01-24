@@ -127,6 +127,10 @@
                 a {
                     .item {
                         position: relative;
+                        overflow: hidden;
+                        border-radius: 10px;
+                        border-top-right-radius: 0;
+                        border-top-left-radius: 0;
                         img {
                             width: 100%;
                         }
@@ -225,6 +229,9 @@
                 }
             }
         }
+    }
+    .paging {
+        margin-top: 50px;
     }
 }
 
@@ -435,6 +442,9 @@
             .tab-content {
                 padding-top: 40px;
             }
+        }
+        .table {
+            margin-top: 40px;
         }
     }
 }
@@ -859,6 +869,15 @@
 
 // 당첨자 발표
 .prizewinner-list {
+    .banner {
+        margin-bottom: 30px;
+        a {
+            display: block;
+            img {
+                width: 100%;
+            }
+        }
+    }
     .list {
         .table-wrap {
             .type-2 {

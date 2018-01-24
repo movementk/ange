@@ -25,6 +25,13 @@
                             </ol>
                         </div>
                         <div class="article-content">
+                            <div class="banner">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/assets/images/event/banner_img.jpg" alt="">
+                                    </figure>
+                                </a>
+                            </div>
                             <ul class="row">
                                 <li class="col-xs-4">
                                     <a href="/ange_mall/">

@@ -286,6 +286,9 @@ address {
       position: relative;
       display: block;
       text-decoration: none; }
+      .magazine-list .board-list.list-type-1 .article-content > ul > li a figure {
+        overflow: hidden;
+        border-radius: 10px; }
       .magazine-list .board-list.list-type-1 .article-content > ul > li a .details {
         text-align: center;
         padding: 20px 5px 0; }
@@ -329,7 +332,10 @@ address {
     text-decoration: none; }
     .magazine-list .board-list.list-type-2 .article-content > ul > li a figure {
       float: left;
-      width: 300px; }
+      width: 270px;
+      margin-right: 30px;
+      overflow: hidden;
+      border-radius: 10px; }
     .magazine-list .board-list.list-type-2 .article-content > ul > li a .details {
       float: left;
       width: 480px;
@@ -388,6 +394,8 @@ address {
     margin-top: 20px; }
 .magazine-view .view .section-content figure img {
   width: 100%; }
+.magazine-view .view .section-content figure pre {
+  width: 841px !important; }
 .magazine-view .view .section-content .table-wrap {
   margin-top: 30px; }
   .magazine-view .view .section-content .table-wrap .table {
@@ -403,7 +411,8 @@ address {
       color: #333;
       font-weight: 500;
       vertical-align: middle;
-      padding-left: 60px;
+      padding-left: 20px;
+      padding-right: 20px;
       background-color: #f5f5f5;
       border: 0;
       border-bottom: 1px solid #dfdfdf; }
@@ -421,6 +430,8 @@ address {
       padding: 20px 30px 20px 40px;
       border: 0;
       border-bottom: 1px solid #dfdfdf; }
+      .magazine-view .view .section-content .table-wrap .table tbody tr td a {
+        color: #999; }
   .magazine-view .view .section-content .table-wrap .sympathize {
     text-align: center;
     padding: 45px 0;
@@ -477,6 +488,8 @@ address {
         color: #fff;
         border-color: #b3b3b3;
         background-color: #b3b3b3; }
+.magazine-view .view .comment-area {
+  margin-top: 60px; }
 .magazine-view .view .paging {
   margin-top: 35px; }
 

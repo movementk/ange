@@ -165,7 +165,16 @@
     padding-bottom: 12px;
 }
 .mileage-list .item-list .article-content {
-    margin-top: 48px;
+    margin-top: 30px;
+}
+.mileage-list .item-list .article-content .banner {
+    margin-bottom: 40px;
+}
+.mileage-list .item-list .article-content .banner a {
+    display: block;
+}
+.mileage-list .item-list .article-content .banner a img {
+    width: 100%;
 }
 .mileage-list .item-list .article-content .paging {
     margin-top: 60px;
@@ -173,6 +182,7 @@
 .mileage-list .item-list .article-content .paging > ul > li > a {
     margin-top: 0 !important;
 }
+
 /* 마일리지 공동 */
 .product-info .view-detail > .article-header {
   font-size: 0; 
@@ -336,6 +346,8 @@
 .report-view .view-detail .article-content .page-link > ul > li dl dd {
     color: #666;
 }
+
+
 
 /* 마일리지 몰 뷰 */
 .report-write .table-wrap .table.type-1 tbody tr th {

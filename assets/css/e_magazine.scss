@@ -347,6 +347,10 @@
                             position: relative;
                             display: block;
                             text-decoration: none;
+                            figure {
+                                overflow: hidden;
+                                border-radius: 10px;
+                            }
                             .details {
                                 text-align: center;
                                 padding: 20px 5px 0;
@@ -403,7 +407,10 @@
                             text-decoration: none;
                             figure {
                                 float: left;
-                                width: 300px;
+                                width: 270px;
+                                margin-right: 30px;
+                                overflow: hidden;
+                                border-radius: 10px;
                             }
                             .details {
                                 float: left;
@@ -483,6 +490,9 @@
                 img {
                     width: 100%;
                 }
+                pre {
+                    width: 841px !important;
+                }
             }
             .table-wrap {
                 margin-top: 30px;
@@ -505,7 +515,8 @@
                                 color: #333;
                                 font-weight: 500;
                                 vertical-align: middle;
-                                padding-left: 60px;
+                                padding-left: 20px;
+                                padding-right: 20px;
                                 background-color: #f5f5f5;
                                 border: 0;
                                 border-bottom: 1px solid #dfdfdf;
@@ -527,6 +538,9 @@
                                 padding: 20px 30px 20px 40px;
                                 border: 0;
                                 border-bottom: 1px solid #dfdfdf;
+                                a {
+                                    color: #999;
+                                }
                             }
                         }
                     }
@@ -594,6 +608,9 @@
                     }
                 }
             }
+        }
+        .comment-area {
+            margin-top: 60px;
         }
         .paging {
             margin-top: 35px;

@@ -13,6 +13,13 @@
                 <!-- Content Start -->
                 <div class="sub-content">
                     <h2 class="sub-title">당첨자 발표</h2>
+                    <div class="banner">
+                        <a href="#">
+                            <figure>
+                                <img src="/assets/images/event/banner_img.jpg" alt="">
+                            </figure>
+                        </a>
+                    </div>
                     <article class="list">
                         <div class="article-header">
                             <div class="search-form">

@@ -240,13 +240,23 @@
     width: 70px;
 }
 .inquiry-list .article-content .table-wrap .type-2 thead tr th:nth-of-type(2) {
-    width: 500px;
+    width: 392px;
 }
 .inquiry-list .article-content .table-wrap .type-2 thead tr th:nth-of-type(3) {
-    width: 130px;
+    width: 100px;
 }
 .inquiry-list .article-content .table-wrap .type-2 thead tr th:nth-of-type(4) {
-    width: 140px;
+    width: 100px;
+}
+.inquiry-list .article-content .table-wrap .type-2 thead tr th:nth-of-type(5) {
+    width: 100px;
+}
+.inquiry-list .article-content .table-wrap .type-2 thead tr th:nth-of-type(6) {
+    width: 78px;
+}
+.inquiry-list .article-content .table-wrap .type-2 tbody tr td a i {
+    margin-left: 0;
+    margin-right: 5px;
 }
 .inquiry-list .article-content .paging {
     margin-top: 34px;
@@ -274,7 +284,11 @@
 }
 
 /* 공지사항 뷰 */
+.notice-view .article-content .attach {
+    margin-bottom: 30px;
+}
 .notice-view .btn-area {
+    overflow: hidden;
     margin-top: 30px;
 }
 .notice-view .btn-area p a {
@@ -534,7 +548,8 @@
     border-bottom: 1px solid #dfdfdf;
 }
 .faq-list .list .article-header .point-tabs > li {
-    width: 16.66%;
+    width: 14.25% !important;
+    padding: 0 10px !important;
 }
 .faq-list .list .article-header .point-tabs > li > a {
     font-family: 'Noto Sans KR', sans-serif;
@@ -551,7 +566,6 @@
 .faq-list .list .article-content .table-wrap .type-2 thead tr th:nth-of-type(4) {
     width: 140px;
 }
-
 
 
 

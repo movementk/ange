@@ -325,7 +325,7 @@
                 &.interest-keyword {
                     border-top-color: #b2b4ba;
                     > ul {
-                        display: none;
+                        
                     }
                 }
             }
@@ -691,6 +691,7 @@ label {
 // 댓글 공통 영역
 .comment-area {
     .comment-write {
+        padding-top: 20px;
         padding-bottom: 10px;
         h4 {
             font-size: 18px;
@@ -786,6 +787,8 @@ label {
         position: relative;
         .form-group {
             .form-control {
+                font-size: 12px;
+                color: #999;
                 width: 100%;
                 height: 90px;
                 padding: 20px;
@@ -799,7 +802,7 @@ label {
             top: 0;
             right: 0;
             width: 124px;
-            font-size: 14px;
+            font-size: 13px;
             color: #333;
             line-height: 88px;
             text-align: center;
@@ -1252,6 +1255,12 @@ label {
                 font-weight: 300;
                 min-height: 270px;
                 padding: 34px 35px 160px;
+                img {
+                    display: block;
+                    width: 100%;
+                }
+                p {
+                }
             }
             .attach {
                 padding: 30px 35px;
@@ -1648,6 +1657,31 @@ label {
             }
             .identification {
                 margin-top: 60px;
+                .confirm-btn {
+                    .form-group.identi-btn {
+                        margin-bottom: 15px;
+                        .form-control {
+                            display: inline-block;
+                            margin-right: 10px;
+                        }
+                        .btn-area {
+                            vertical-align: top;
+                            display: inline-block !important;
+                            margin-top: 0 !important;
+                            p {
+                                .btn-gray {
+                                    font-size: 13px;
+                                    width: 130px;
+                                    line-height: 40px;
+                                    border: 0;
+                                    color: #fff;
+                                    border-radius: 30px;
+                                    background-color: #b3b3b3;
+                                }
+                            }
+                        }
+                    }
+                }
             }
             .btn-area {
                 margin-top: 50px;
@@ -1878,9 +1912,6 @@ label {
                             font-style: normal;
                             margin-top: 15px;
                             @include roboto();
-                            &:after {
-                                content: " P";
-                            }
                         }
                     }
                 }
@@ -2332,6 +2363,12 @@ label {
             text-decoration: none;
             figure {
                 position: relative;
+                border-radius: 10px;
+                overflow: hidden;
+                img {
+                    width: 270px !important;
+                    height: 270px !important;
+                }
                 figcaption {
                     .like-comment {
                         position: absolute;
