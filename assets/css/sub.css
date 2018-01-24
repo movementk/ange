@@ -1212,9 +1212,10 @@ label {
         background-color: #fafafa; }
       .join .join-form .section-content .addition-info .table-wrap tbody tr td {
         border: 0;
-        padding: 25px 40px; }
-        .join .join-form .section-content .addition-info .table-wrap tbody tr td .overlap-confirm {
-          vertical-align: middle !important; }
+        padding: 25px 40px;
+        /*.overlap-confirm {
+            vertical-align: middle !important;
+        }*/ }
         .join .join-form .section-content .addition-info .table-wrap tbody tr td > ul > li ~ li {
           margin-top: 40px; }
         .join .join-form .section-content .addition-info .table-wrap tbody tr td > ul > li dl {
@@ -1245,6 +1246,8 @@ label {
                   position: relative; }
               .join .join-form .section-content .addition-info .table-wrap tbody tr td > ul > li dl dd > ul > li:last-child {
                 margin-right: 0; }
+  .join .join-form .section-content .write-form .table-wrap .table tbody tr td .overlap-confirm {
+    vertical-align: middle !important; }
   .join .join-form .section-content .identification {
     margin-top: 60px; }
     .join .join-form .section-content .identification .confirm-btn .form-group.identi-btn {

@@ -568,4 +568,22 @@
 }
 
 
+/* search-form , paging margin 값 수정 */
+.qna-list-2 .sub-content .list .article-content {
+    margin-top: 30px;
+}
+.qna-list-2 .sub-content .list .article-content .paging {
+    margin-top: 30px;
+}
+.faq-list-2 .sub-content .list .article-content {
+    margin-top: 30px;
+}
+.faq-list-2 .sub-content .list .article-content .paging {
+    margin-top: 30px;
+}
+
+
+
+
+
 
