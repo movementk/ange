@@ -183,7 +183,7 @@
     margin-top: 0 !important;
 }
 
-/* 마일리지 공동 */
+/* 마일리지 공통 */
 .product-info .view-detail > .article-header {
   font-size: 0; 
 }
@@ -275,6 +275,18 @@
 }
 .product-info .view-detail .article-content .tab-content {
     padding-top: 40px;
+}
+.product-info .view-detail .article-content #tabContent2 .table-wrap {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.product-info .view-detail .article-content #tabContent2 > .btn-area {
+    margin-top: 8px;
+    text-align: right;
+}
+.product-info .view-detail .article-content #tabContent2 > .btn-area > p > .btn.btn-sm {
+    width: 106px;
+    line-height: 40px;
 }
 
 /* 마일리지 몰 뷰 리스트 */
