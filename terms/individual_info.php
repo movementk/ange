@@ -2,7 +2,7 @@
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/terms.css" rel="stylesheet">
 </head>
-<body class="sub customer"><!-- 폴더별 클래스명 추가 -->
+<body class="sub terms"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
     <!-- Main Content -->
     <main id="content" class="individual-info"><!-- 페이지명 클래스 -->
@@ -13,6 +13,9 @@
                 <!-- Content Start -->
                 <div class="sub-content">
                     <h2 class="sub-title">개인정보처리방침</h2>
+                    <div class="terms-content">
+                        개인정보처리방침 내용입니다.
+                    </div>
                 </div>
             </div>
         </div>      
