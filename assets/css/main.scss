@@ -77,7 +77,7 @@ article {
             &:last-child {
                 margin-right: 0;
             }
-            &:hover, &:focus {
+            &:hover {
                 color: #e96d7b;
             }
         }
@@ -318,13 +318,15 @@ article {
                 figure {
                     width: 75px;
                     height: 75px;
-                    line-height: 75px;
+                    /*line-height: 75px;*/
                     text-align: center;
                     overflow: hidden;
                     border-radius: 50%;
                     background-color: #eeeff4;
                     img {
                         display: inline-block;
+                        width: 100% !important;
+                        height: 100% !important;
                     }
                 }
             }

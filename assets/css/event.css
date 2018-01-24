@@ -376,9 +376,8 @@ address {
     border-radius: 50%; }
     .event-applicant .article-content .tab-content .review-list > li figure img {
       display: inline-block;
-      text-align: center;
-      line-height: 45px;
-      width: 100%; }
+      width: 100%;
+      height: 100%; }
   .event-applicant .article-content .tab-content .review-list > li .user-info .user-name {
     font-size: 14px;
     color: #333;

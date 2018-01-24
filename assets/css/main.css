@@ -84,7 +84,7 @@ article {
       padding: 0; }
     article .btn-controls .btn:last-child {
       margin-right: 0; }
-    article .btn-controls .btn:hover, article .btn-controls .btn:focus {
+    article .btn-controls .btn:hover {
       color: #e96d7b; }
   article .article-header {
     position: relative;
@@ -273,13 +273,15 @@ article {
         .member-information .article-header > div.user-profile figure {
           width: 75px;
           height: 75px;
-          line-height: 75px;
+          /*line-height: 75px;*/
           text-align: center;
           overflow: hidden;
           border-radius: 50%;
           background-color: #eeeff4; }
           .member-information .article-header > div.user-profile figure img {
-            display: inline-block; }
+            display: inline-block;
+            width: 100% !important;
+            height: 100% !important; }
       .member-information .article-header > div.user-info {
         padding-left: 13px; }
         .member-information .article-header > div.user-info .info-header {
