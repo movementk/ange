@@ -1618,6 +1618,9 @@ label {
                             td {
                                 border: 0;
                                 padding: 25px 40px;
+                                .overlap-confirm {
+                                    vertical-align: middle !important;
+                                }
                                 > ul {
                                     > li {
                                         & ~ li {

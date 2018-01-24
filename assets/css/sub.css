@@ -1213,6 +1213,8 @@ label {
       .join .join-form .section-content .addition-info .table-wrap tbody tr td {
         border: 0;
         padding: 25px 40px; }
+        .join .join-form .section-content .addition-info .table-wrap tbody tr td .overlap-confirm {
+          vertical-align: middle !important; }
         .join .join-form .section-content .addition-info .table-wrap tbody tr td > ul > li ~ li {
           margin-top: 40px; }
         .join .join-form .section-content .addition-info .table-wrap tbody tr td > ul > li dl {

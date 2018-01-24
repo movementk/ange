@@ -508,6 +508,8 @@ address {
         border-color: #ff7875;
         background-color: #ff7875; }
 
+.review-list .banner {
+  margin-bottom: 30px; }
 .review-list .list .article-content {
   margin-top: 30px; }
   .review-list .list .article-content > ul > li {
