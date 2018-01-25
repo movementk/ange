@@ -178,8 +178,8 @@ address {
               background-color: #ccc; }
             .event-list .list-content .list > li a .details .event-information > p.event-before {
               color: #999; }
-.event-list .paging {
-  margin-top: 50px; }
+  .event-list .list-content .paging {
+    margin-top: 50px; }
 
 .event-view .event-details .article-header {
   font-size: 0; }

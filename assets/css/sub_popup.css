@@ -237,4 +237,61 @@ address {
     .participant-result .pop-layer .pop-container .pop-body .paging {
       margin-top: 20px; }
 
+.accusation-popup .pop-layer .pop-container {
+  width: 840px;
+  background-color: #fff; }
+  .accusation-popup .pop-layer .pop-container .pop-head {
+    position: relative;
+    width: 100%;
+    padding: 23px 100px 23px 30px;
+    background-color: #9fca83; }
+    .accusation-popup .pop-layer .pop-container .pop-head h4 {
+      font-size: 18px;
+      color: #fafafa;
+      font-weight: 300;
+      vertical-align: middle; }
+    .accusation-popup .pop-layer .pop-container .pop-head .btn-close .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 65px;
+      height: 65px;
+      opacity: 1;
+      text-align: center;
+      line-height: 65px;
+      background-color: #7db858; }
+      .accusation-popup .pop-layer .pop-container .pop-head .btn-close .close img {
+        display: inline-block; }
+  .accusation-popup .pop-layer .pop-container .pop-body {
+    height: 400px;
+    padding: 50px;
+    background-color: #fff; }
+    .accusation-popup .pop-layer .pop-container .pop-body .content {
+      height: 300px; }
+      .accusation-popup .pop-layer .pop-container .pop-body .content .form-group .form-control {
+        width: 740px !important;
+        height: 230px !important;
+        border-radius: 10px;
+        border: 1px solid #ccc; }
+      .accusation-popup .pop-layer .pop-container .pop-body .content .btn-area {
+        text-align: right;
+        margin-top: 30px; }
+        .accusation-popup .pop-layer .pop-container .pop-body .content .btn-area p .btn-sm {
+          width: 140px;
+          line-height: 38px;
+          height: 40px;
+          border-radius: 30px;
+          text-align: center;
+          font-size: 14px;
+          border: 1px solid #fff; }
+          .accusation-popup .pop-layer .pop-container .pop-body .content .btn-area p .btn-sm.btn-white {
+            color: #666;
+            border: 1px solid #ccc;
+            background-color: #fff; }
+          .accusation-popup .pop-layer .pop-container .pop-body .content .btn-area p .btn-sm.btn-green {
+            color: #fff;
+            line-height: 40px;
+            border: 0;
+            background-color: #7db858; }
+
 /*# sourceMappingURL=sub_popup.css.map */

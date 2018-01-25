@@ -1,6 +1,7 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/e_magazine.css" rel="stylesheet">
+<link href="/assets/css/sub_popup.css" rel="stylesheet">
 </head>
 <body class="sub e_magazine"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
@@ -128,7 +129,7 @@
                                                 <a href="#" class="btn btn-xs btn-gray" role="button">댓글</a>
                                                 <a href="#" class="btn btn-xs btn-gray" role="button">수 정</a>
                                                 <a href="#" class="btn btn-xs btn-gray" role="button">삭 제</a>
-                                                <a href="#" class="btn btn-xs btn-pink" role="button">신 고</a>
+                                                <a href="#popup-content" class="btn btn-xs btn-pink btn-popup" role="button">신 고</a>
                                                 <a href="#" class="btn btn-xs btn-gray" role="button">블라인드</a>
                                             </div>
                                             <div class="reply">
@@ -220,9 +221,48 @@
         </div>
     </main>
     
+    
+    
+    
+    <!-- 투표결과 팝업 -->
+    <div class="popup-layer accusation-popup">
+        <div class="popup-bg"></div>
+        <div id="popup-content" class="pop-layer">
+            <div class="pop-container">
+                <div class="pop-head">
+                    <h4>신고하기</h4>
+                    <div class="btn-close">
+                        <button type="button" class="btn close">
+                            <img src="/assets/images/btn_close_white.png" alt="닫기">
+                        </button>
+                    </div>
+                </div>
+                <div class="pop-body">
+                    <div class="content">
+                        <form action="#">
+                            <div class="form-group">
+                                <textarea id="u-accusation" class="form-control" placeholder="신고하실 내용을 입력해 주세요"></textarea>
+                                <label for="u-accusation" class="sr-only">신고접수하기</label>
+                            </div>
+                            <div class="btn-area">
+                                <p>
+                                    <button type="submit" class="btn btn-sm btn-green">신고하기</button>
+                                    <a href="#" class="btn btn-sm btn-white" role="button">취소</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/sub_aside.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common_sub.js"></script>
+    <script src="/assets/js/sub_popup.js"></script>
 </body>
 </html>

@@ -292,7 +292,7 @@
     display: inline-block;
     vertical-align: top;
     height: 28px;
-    content: url(/assets/images/mypage/img_point.png);
+    content: url(../images/mypage/img_point.png);
     margin-right: 5px;
 }
 .mileage .list .selection-date {
@@ -335,39 +335,26 @@
     line-height: 34px;
     border-radius: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.mileage .list .article-content {
+    margin-top: 30px;
+}
+.mileage .list .article-content .table-wrap {
+    margin-top: 30px;
+}
 .mileage .list .article-content .table thead tr th:nth-of-type(1) {
     width: 70px !important;
 }
 .mileage .list .article-content .table thead tr th:nth-of-type(2) {
-    width: 130px !important;
+    width: 140px !important;
 }
 .mileage .list .article-content .table thead tr th:nth-of-type(3) {
-    width: 370px !important;
+    width: 390px !important;
 }
 .mileage .list .article-content .table thead tr th:nth-of-type(4) {
-    width: 130px !important;
+    width: 140px !important;
 }
 .mileage .list .article-content .table thead tr th:nth-of-type(5) {
-    width: 140px !important;
+    width: 100px !important;
 }
 .mileage .list .article-content .table tbody tr .divide a {
     color: #666;

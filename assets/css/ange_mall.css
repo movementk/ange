@@ -738,6 +738,85 @@ opacity: .7;
     background-color: #ff7875; 
 }
 
+
+.order-write .information .table-wrap .table tbody tr td.addr .form-group .form-control {
+    display: inline-block;
+    width: 110px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div {
+    display: inline-block; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.new-addr {
+    display: inline-block;
+    margin-right: 20px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.zip-code:before {
+    content: "(";
+    margin-right: 5px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.zip-code:after {
+    content: ")";
+    margin-left: 5px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.zip-code .form-control:nth-of-type(1) {
+    margin-right: 15px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.zip-code .form-control:nth-of-type(2) {
+    margin-left: 15px; 
+}
+.order-write .information .table-wrap .table tbody tr td.details-addr .form-group .form-control {
+    width: 530px; 
+}
+.order-write .information .table-wrap .table tbody tr td.details-addr .form-group .form-control ~ .form-control {
+    margin-top: 10px; 
+}
+.order-write .information .table-wrap .table tbody tr td .overlap-confirm, .order-write .information .table-wrap .table tbody tr td .zipcode-confirm, .order-write .information .table-wrap .table tbody tr td .selection-btn {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top; 
+}
+.order-write .information .table-wrap .table tbody tr td .overlap-confirm .btn-white, .order-write .information .table-wrap .table tbody tr td .zipcode-confirm .btn-white, .order-write .information .table-wrap .table tbody tr td .selection-btn .btn-white {
+    width: 84px;
+    line-height: 34px;
+    font-size: 12px;
+    color: #999;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; 
+}
+.order-write .information .table-wrap .table tbody tr td .overlap-confirm .btn-white:hover, 
+.order-write .information .table-wrap .table tbody tr td .overlap-confirm .btn-white:focus, 
+.order-write .information .table-wrap .table tbody tr td .zipcode-confirm .btn-white:hover, 
+.order-write .information .table-wrap .table tbody tr td .zipcode-confirm .btn-white:focus, 
+.order-write .information .table-wrap .table tbody tr td .selection-btn .btn-white:hover, 
+.order-write .information .table-wrap .table tbody tr td .selection-btn .btn-white:focus {
+    opacity: .7; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 주문완료 */
 .success .complete-txt {
     text-align: center;

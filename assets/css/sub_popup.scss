@@ -288,3 +288,90 @@
         }
     }
 }
+
+// 신고하기
+.accusation-popup {
+    .pop-layer {
+        .pop-container {
+            width: 840px;
+            background-color: #fff;
+            .pop-head {
+                position: relative;
+                width: 100%;
+                padding: 23px 100px 23px 30px;
+                background-color: #9fca83;
+                h4 {
+                    font-size: 18px;
+                    color: #fafafa;
+                    font-weight: 300;
+                    vertical-align: middle;
+                }
+                .btn-close {
+                    .close {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 65px;
+                        height: 65px;
+                        opacity: 1;
+                        text-align: center;
+                        line-height: 65px;
+                        background-color: #7db858;
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .pop-body {
+                height: 400px;
+                padding: 50px;
+                background-color: #fff;
+                .content {
+                    height: 300px;
+                    .form-group {
+                        .form-control {
+                            width: 740px !important;
+                            height: 230px !important;
+                            border-radius: 10px;
+                            border: 1px solid #ccc;
+                        }
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                        p {
+                            .btn-sm {
+                                width: 140px;
+                                line-height: 38px;
+                                height: 40px;
+                                border-radius: 30px;
+                                text-align: center;
+                                font-size: 14px;
+                                border: 1px solid #fff;
+                                &.btn-white {
+                                    color: #666;
+                                    border: 1px solid #ccc;
+                                    background-color: #fff;
+                                }
+                                &.btn-green {
+                                    color: #fff;
+                                    line-height: 40px;
+                                    border: 0;
+                                    background-color: #7db858;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
