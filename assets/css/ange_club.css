@@ -79,7 +79,8 @@ address {
             color: #555;
             padding-left: 10px;
             word-break: break-all;
-            letter-spacing: -0.5px; }
+            letter-spacing: -0.5px;
+            opacity: .8; }
             .education-intro .section-content .porofile > li .profile-wrap > div.details .info > li:before {
               position: absolute;
               left: 0;
@@ -91,37 +92,36 @@ address {
 .member-benefit .section-content ul li {
   float: left;
   width: 400px;
-  height: 490px;
-  padding: 50px 30px 0;
+  height: 510px;
+  margin-top: 30px;
+  padding: 55px 30px 60px;
   background-color: #f9fafb;
   border: 1px solid #e5e5e5;
-  border-radius: 10px;
-  margin-top: 30px; }
+  border-radius: 10px; }
   .member-benefit .section-content ul li:nth-of-type(2n+1) {
     clear: both;
     margin-right: 40px; }
-  .member-benefit .section-content ul li:first-child {
+  .member-benefit .section-content ul li:nth-of-type(1), .member-benefit .section-content ul li:nth-of-type(2) {
     margin-top: 0; }
-  .member-benefit .section-content ul li:nth-of-type(2) {
-    margin-top: 0; }
-  .member-benefit .section-content ul li p {
-    text-align: center; }
-    .member-benefit .section-content ul li p img {
-      margin-bottom: 35px; }
-  .member-benefit .section-content ul li .benefit-title {
-    text-align: center;
-    font-size: 22px;
-    color: #333;
-    font-weight: 600;
-    margin-bottom: 30px; }
-  .member-benefit .section-content ul li .info {
-    font-size: 14px;
-    line-height: 26px;
-    color: #666;
-    font-weight: 400;
-    text-align: justify; }
-    .member-benefit .section-content ul li .info .txt-pink {
-      color: #e25371;
-      font-weight: 400; }
+  .member-benefit .section-content ul li figure img {
+    display: block;
+    margin: 0 auto; }
+  .member-benefit .section-content ul li figure figcaption {
+    padding-top: 30px; }
+    .member-benefit .section-content ul li figure figcaption h3 {
+      font-size: 22px;
+      color: #333;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 30px; }
+    .member-benefit .section-content ul li figure figcaption p {
+      font-size: 14px;
+      line-height: 26px;
+      color: #666;
+      font-weight: 400;
+      letter-spacing: -.5px; }
+      .member-benefit .section-content ul li figure figcaption p i {
+        font-style: normal;
+        color: #e25371; }
 
 /*# sourceMappingURL=ange_club.css.map */
