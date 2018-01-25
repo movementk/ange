@@ -14,14 +14,28 @@
 .my-history .sub-content > article ~ article {
     margin-top: 80px;
 }
-.my-history .my-board .table thead tr th:nth-of-type(1) {width: 94px;}
-.my-history .my-board .table thead tr th:nth-of-type(3) {width: 120px;}
-.my-history .my-board .table thead tr th:nth-of-type(4) {width: 140px;}
+.my-history .my-board .table thead tr th:nth-of-type(1) {width: 140px;}
+.my-history .my-board .table thead tr th:nth-of-type(3) {width: 100px;}
+.my-history .my-board .table thead tr th:nth-of-type(4) {width: 100px;}
 .my-history .my-board .table tbody tr .title {
     padding-left: 60px;
 }
 .my-history .my-comment .table thead tr th:first-child {width: 700px;}
-
+.my-history .my-board .table-wrap .table tbody tr td {
+    vertical-align: middle;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.my-history .my-board .table-wrap .table tbody tr td .selection-btn .btn-white {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    width: 70px;
+    line-height: 28px;
+    border-radius: 30px;
+    border: 1px solid #dfdfdf;
+}
 /* 쪽지 */
 .message-list .table thead tr th:nth-of-type(1) {width: 70px;}
 .message-list .table thead tr th:nth-of-type(3) {width: 100px;}

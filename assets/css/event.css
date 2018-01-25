@@ -510,6 +510,8 @@ address {
 
 .review-list .banner {
   margin-bottom: 30px; }
+  .review-list .banner img {
+    width: 100%; }
 .review-list .list .article-content {
   margin-top: 30px; }
   .review-list .list .article-content > ul > li {
