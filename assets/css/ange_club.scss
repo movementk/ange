@@ -6,7 +6,180 @@
     
 }
 
-// education-intro
+/* 교육팀장 소개 */
 .education-intro {
-    
+    .section-content {
+        .porofile {
+            font-size: 0;
+            > li {
+                position: relative;
+                padding-top: 5px;
+                margin-top: 30px;
+                &:first-child {
+                    magin-top: 0;
+                }
+                .bookmark {
+                    position: absolute;
+                    top: 0;
+                    right: 50px;
+                    z-index: 2;
+                    img {
+                        width: 100%;
+                    }    
+                }
+                .profile-wrap {
+                    display: table;
+                    width: 100%;
+                    border-radius: 30px;
+                    border: 1px solid #e5e5e5;
+                    background-color: #fbfbfb;
+                    >div {
+                        display: table-cell;
+                        &.profile-img {
+                            position: relative;
+                            width: 300px;
+                            figure {
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                img {
+                                    display: block;
+                                    margin: 0 auto;
+                                }
+                            }
+                        }
+                        &.details {
+                            padding: 50px 20px 50px 0;
+                            vertical-align: middle;
+                            small {
+                                font-size: 14px;
+                                color: #999;
+                            }
+                            h3 {
+                                color: #333;
+                                font-size: 26px;
+                                font-weight: 400;
+                                margin-top: 20px;
+                                margin-bottom:  40px;
+                                strong {
+                                    display: inline-block;
+                                    font-size: 34px;
+                                    font-weight: bold;
+                                }
+                            }
+                            .info {
+                                > li {
+                                    position: relative;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    color: #555;
+                                    padding-left: 10px;
+                                    word-break: break-all;
+                                    letter-spacing: -0.5px;
+                                    &:before {
+                                        position: absolute;
+                                        left: 0;
+                                        font-size: 10px;
+                                        content: "\E803";
+                                        font-family: "fontello";
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 앙쥬클럽 회원혜택 */
+.member-benefit {
+    .section-content {
+        ul {
+            li {
+                float: left;
+                width: 400px;
+                height: 490px;
+                padding: 50px 30px 0;
+                background-color: #f9fafb;
+                border: 1px solid #e5e5e5;
+                border-radius: 10px;
+                margin-top: 30px;
+                &:nth-of-type(2n+1) {
+                    clear : both;
+                    margin-right: 40px;
+                }
+                &:first-child {
+                    margin-top: 0;
+                }
+                &:nth-of-type(2){
+                    margin-top: 0;
+                }
+                p {
+                    text-align: center;
+                    img {
+                        margin-bottom: 35px;
+                    }  
+                }
+                .benefit-title {
+                    text-align: center;
+                    font-size: 22px;
+                    color: #333;
+                    font-weight: 600;
+                    margin-bottom: 30px;
+                }
+                .info {
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #666;
+                    font-weight: 400;
+                    text-align: justify;
+                    .txt-pink {
+                        color: #e25371;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
