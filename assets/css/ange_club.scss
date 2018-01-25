@@ -147,11 +147,170 @@
     }
 }
 
+/* 첫 방문이신가요 */
+.first-visit {
+    .section-content {
+        ul {
+            li {
+                h3 {
+                    position: relative;
+                    display: inline-block;
+                    width: 750px;
+                    padding-left: 110px;
+                    font-size: 18px;
+                    color: #fff;
+                    font-weight: 400;
+                    line-height: 60px;
+                    background-color: #7da7d9;
+                    border-radius: 30px;
+                    &:before {
+                        position: absolute;
+                        display: inline-block;
+                        top: 0;
+                        left: 0;
+                        content: "Q";
+                        width: 95px;
+                        font-size: 26px;
+                        text-align: center;
+                        @include roboto();
+                        background-color: #658cba;
+                        border-radius: 30px;
+                    }
+                }
+                .answer {
+                    padding-top: 20px;
+                    padding-left: 70px;
+                    p {
+                        position: relative;
+                        font-size: 14px;
+                        line-height: 26px;
+                        color: #666;
+                        letter-spacing: -.5px;
+                        padding-left: 40px;
+                        padding-bottom: 60px;
+                        i {
+                            font-style: normal;
+                            color: #ff7875;
+                            strong {
+                                display: inline-block;
+                                font-size: 16px;
+                                font-weight: 400; 
+                                margin-bottom: 10px;
+                            }
+                        }
+                        &:before {
+                            position: absolute;
+                            top: 2px;
+                            left: 0;
+                            margin-right: 15px;
+                            display: inline-block;
+                            content: "A";
+                            width: 27px;
+                            height: 27px;
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #fff;
+                            line-height: 27px;
+                            @include roboto();
+                            text-align: center;
+                            border-radius: 50%;
+                            background-color: #e25371;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
-
-
-
-
+/* 클럽소개 */
+.club-intro {
+    .section-content {
+        h3 {
+            font-size: 36px;
+            line-height: 48px;
+            color: #666;
+            font-weight: 300;
+            margin-top: 40px;
+            margin-bottom: 70px;
+            .blue {
+                font-style: normal;
+                color: #7da7d9;
+                font-weight: 500;
+            }
+        }
+        .explain {
+            font-size:15px;
+            line-height: 26px;
+            color: #666;
+            .pink {
+                font-style: normal;
+                color: #ff7875;
+            }
+        }
+        article {
+            font-size: 0;
+            margin-top: 150px;
+            .title {
+                display: inline-block;
+                background: pink;
+//                width: 370px;
+                h4 {
+                    font-size: 24px;
+                    line-height: 35px;
+                    color: #666;
+                    font-weight: 300;
+                    b {
+                        font-weight: 500;
+                    }
+                    &:before {
+                        content: "";
+                        display: block;
+                        width: 50px;
+                        height: 3px;
+                        margin-bottom: 20px;
+                        background-color: #666;
+                    }
+                }
+                figure {
+                    margin: 20px 60px 20px;
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .info {
+                display: inline-block;
+                background-color: red;
+                ul {
+                    font-size: 0;
+//                    overflow: hidden;
+                    li {
+//                        display: inline-block;
+                        &:nth-of-type(2n+1) {
+                            margin-right: 30px;
+                        }
+                        figure {
+                            width: 200px;
+                            height: 90px;
+                            border: 1px solid #dfdfdf;
+                            background-color: #fff;
+                            img {
+                                text-align: center;
+                            }
+                        }
+                        .figcaption {
+                            font-size: 14px;
+                            color: #666;
+                            margin-top: 10px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

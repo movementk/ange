@@ -124,4 +124,128 @@ address {
         font-style: normal;
         color: #e25371; }
 
+/* 첫 방문이신가요 */
+.first-visit .section-content ul li h3 {
+  position: relative;
+  display: inline-block;
+  width: 750px;
+  padding-left: 110px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 60px;
+  background-color: #7da7d9;
+  border-radius: 30px; }
+  .first-visit .section-content ul li h3:before {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    content: "Q";
+    width: 95px;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #658cba;
+    border-radius: 30px; }
+.first-visit .section-content ul li .answer {
+  padding-top: 20px;
+  padding-left: 70px; }
+  .first-visit .section-content ul li .answer p {
+    position: relative;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    letter-spacing: -.5px;
+    padding-left: 40px;
+    padding-bottom: 60px; }
+    .first-visit .section-content ul li .answer p i {
+      font-style: normal;
+      color: #ff7875; }
+      .first-visit .section-content ul li .answer p i strong {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 10px; }
+    .first-visit .section-content ul li .answer p:before {
+      position: absolute;
+      top: 2px;
+      left: 0;
+      margin-right: 15px;
+      display: inline-block;
+      content: "A";
+      width: 27px;
+      height: 27px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      line-height: 27px;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #e25371; }
+
+/* 클럽소개 */
+.club-intro .section-content h3 {
+  font-size: 36px;
+  line-height: 48px;
+  color: #666;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 70px; }
+  .club-intro .section-content h3 .blue {
+    font-style: normal;
+    color: #7da7d9;
+    font-weight: 500; }
+.club-intro .section-content .explain {
+  font-size: 15px;
+  line-height: 26px;
+  color: #666; }
+  .club-intro .section-content .explain .pink {
+    font-style: normal;
+    color: #ff7875; }
+.club-intro .section-content article {
+  font-size: 0;
+  margin-top: 150px; }
+  .club-intro .section-content article .title {
+    display: inline-block;
+    background: pink; }
+    .club-intro .section-content article .title h4 {
+      font-size: 24px;
+      line-height: 35px;
+      color: #666;
+      font-weight: 300; }
+      .club-intro .section-content article .title h4 b {
+        font-weight: 500; }
+      .club-intro .section-content article .title h4:before {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 3px;
+        margin-bottom: 20px;
+        background-color: #666; }
+    .club-intro .section-content article .title figure {
+      margin: 20px 60px 20px; }
+      .club-intro .section-content article .title figure img {
+        margin: 0 auto; }
+  .club-intro .section-content article .info {
+    display: inline-block;
+    background-color: red; }
+    .club-intro .section-content article .info ul {
+      font-size: 0; }
+      .club-intro .section-content article .info ul li:nth-of-type(2n+1) {
+        margin-right: 30px; }
+      .club-intro .section-content article .info ul li figure {
+        width: 200px;
+        height: 90px;
+        border: 1px solid #dfdfdf;
+        background-color: #fff; }
+        .club-intro .section-content article .info ul li figure img {
+          text-align: center; }
+      .club-intro .section-content article .info ul li .figcaption {
+        font-size: 14px;
+        color: #666;
+        margin-top: 10px;
+        text-align: center; }
+
 /*# sourceMappingURL=ange_club.css.map */
