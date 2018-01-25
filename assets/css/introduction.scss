@@ -289,7 +289,192 @@
     }
 }
 
-
+// 광고문의
+.affiliates {
+    .section-content {
+        .title {
+            display: block;
+            font-size: 15px;
+            color: #333;
+            font-weight: 400;
+        }
+        > p {
+            display: block;
+            text-align: right;
+            font-size: 14px;
+            color: #333;
+            &:before {
+                content: " *";
+                color: #e25371;
+            }
+        }
+        .table-wrap {
+            margin-top: 20px;
+            .table {
+                tbody {
+                    tr {
+                        th {
+                            &.v-top {
+                                vertical-align: top;
+                                padding-top: 20px;
+                            }
+                        }
+                        td {
+                            .form-group {
+                                textarea {
+                                    width: 560px !important;
+                                    height: 180px !important;
+                                }
+                                .form-control {
+                                    font-size: 12px;
+                                    color: #999;
+                                    width: 240px;
+                                }
+                            }
+                            &.homepage {
+                                .form-group {
+                                    .form-control {
+                                        width: 300px;
+                                    }
+                                }
+                            }
+                            &.mail {
+                                .form-group {
+                                    select {
+                                        width: 130px !important;
+                                        margin-left: 10px;
+                                    }
+                                    .form-control {
+                                        display: inline-block;
+                                        width: 180px;
+                                        &:nth-of-type(1) {
+                                            margin-right: 5px;
+                                        }
+                                        &:nth-of-type(2) {
+                                            margin-left: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                            &.contact {
+                                .form-group {
+                                    .form-control {
+                                        width: 80px;
+                                        display: inline-block;
+                                        margin: 0 10px;
+                                        &:first-child {
+                                            margin-left: 0;
+                                        }
+                                        &:last-child {
+                                            margin-right: 0;
+                                        }
+                                    }
+                                }
+                            }
+                            &.file {
+                                .form-group {
+                                    .form-control {
+                                        width: 280px;
+                                        display: inline-block;
+                                    }
+                                    label {
+                                        font-size: 12px;
+                                        color: #999;
+                                        line-height: 34px;
+                                        border-radius: 30px;
+                                        text-align: center;
+                                        width: 80px;
+                                        border: 1px solid #dfdfdf;
+                                        margin-left: 10px;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .privacy {
+            margin: 30px 0;
+            padding: 30px 25px;
+            background-color: #f0f0f0;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            h5 {
+                font-size: 15px;
+                color: #333;
+                line-height: 20px;
+                font-weight: 500;
+                > a {
+                    display: inline-block;
+                    margin-left: 10px;
+                    font-size: 12px;
+                    color: #555;
+                    font-weight: 300px;
+                    padding: 0 5px;
+                    border: 1px solid #ccc;
+                    border-radius: 3px;
+                    background-color: #fff;
+                    @include transition();
+                    &:hover, &:focus {
+                        opacity: .7;
+                    }
+                }
+            }
+            ul {
+                margin: 20px 0;
+                li {
+                    position: relative;
+                    font-size: 12px;
+                    color: #333;
+                    font-weight: 300;
+                    padding-left: 10px;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        content: "\E803";
+                        font-family: "fontello";
+                    }
+                }
+            }
+            label {
+                font-size: 12px;
+                color: #333;
+                font-weight: 300;
+                input {
+                    position: relative;
+                    top: 2px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 50px;
+            text-align: right;
+            p {
+                .btn {
+                    width: 160px;
+                    font-size: 14px;
+                    color: #666;
+                    margin-right: 10px;
+                    line-height: 43px;
+                    border-radius: 30px;
+                    border: 1px solid #ccc;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    &.btn-pink {
+                        color: #fff;
+                        border-color: #ff7875;
+                        background-color: #ff7875;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
