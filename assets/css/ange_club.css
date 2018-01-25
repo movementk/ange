@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -19,5 +20,108 @@ address {
 
 .container {
   width: 1200px !important; }
+
+/* 교육팀장 소개 */
+.education-intro .section-content .porofile {
+  font-size: 0; }
+  .education-intro .section-content .porofile > li {
+    position: relative;
+    padding-top: 5px;
+    margin-top: 30px; }
+    .education-intro .section-content .porofile > li:first-child {
+      magin-top: 0; }
+    .education-intro .section-content .porofile > li .bookmark {
+      position: absolute;
+      top: 0;
+      right: 50px;
+      z-index: 2; }
+      .education-intro .section-content .porofile > li .bookmark img {
+        width: 100%; }
+    .education-intro .section-content .porofile > li .profile-wrap {
+      display: table;
+      width: 100%;
+      border-radius: 30px;
+      border: 1px solid #e5e5e5;
+      background-color: #fbfbfb; }
+      .education-intro .section-content .porofile > li .profile-wrap > div {
+        display: table-cell; }
+        .education-intro .section-content .porofile > li .profile-wrap > div.profile-img {
+          position: relative;
+          width: 300px; }
+          .education-intro .section-content .porofile > li .profile-wrap > div.profile-img figure {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%; }
+            .education-intro .section-content .porofile > li .profile-wrap > div.profile-img figure img {
+              display: block;
+              margin: 0 auto; }
+        .education-intro .section-content .porofile > li .profile-wrap > div.details {
+          padding: 50px 20px 50px 0;
+          vertical-align: middle; }
+          .education-intro .section-content .porofile > li .profile-wrap > div.details small {
+            font-size: 14px;
+            color: #999; }
+          .education-intro .section-content .porofile > li .profile-wrap > div.details h3 {
+            color: #333;
+            font-size: 26px;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-bottom: 40px; }
+            .education-intro .section-content .porofile > li .profile-wrap > div.details h3 strong {
+              display: inline-block;
+              font-size: 34px;
+              font-weight: bold; }
+          .education-intro .section-content .porofile > li .profile-wrap > div.details .info > li {
+            position: relative;
+            font-size: 14px;
+            line-height: 24px;
+            color: #555;
+            padding-left: 10px;
+            word-break: break-all;
+            letter-spacing: -0.5px; }
+            .education-intro .section-content .porofile > li .profile-wrap > div.details .info > li:before {
+              position: absolute;
+              left: 0;
+              font-size: 10px;
+              content: "\E803";
+              font-family: "fontello"; }
+
+/* 앙쥬클럽 회원혜택 */
+.member-benefit .section-content ul li {
+  float: left;
+  width: 400px;
+  height: 490px;
+  padding: 50px 30px 0;
+  background-color: #f9fafb;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-top: 30px; }
+  .member-benefit .section-content ul li:nth-of-type(2n+1) {
+    clear: both;
+    margin-right: 40px; }
+  .member-benefit .section-content ul li:first-child {
+    margin-top: 0; }
+  .member-benefit .section-content ul li:nth-of-type(2) {
+    margin-top: 0; }
+  .member-benefit .section-content ul li p {
+    text-align: center; }
+    .member-benefit .section-content ul li p img {
+      margin-bottom: 35px; }
+  .member-benefit .section-content ul li .benefit-title {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px; }
+  .member-benefit .section-content ul li .info {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    font-weight: 400;
+    text-align: justify; }
+    .member-benefit .section-content ul li .info .txt-pink {
+      color: #e25371;
+      font-weight: 400; }
 
 /*# sourceMappingURL=ange_club.css.map */
