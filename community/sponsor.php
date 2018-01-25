@@ -13,6 +13,12 @@
                 <!-- Content Start -->
                 <div class="sub-content">
                      <h2 class="sub-title">후원사 소개</h2>
+                     <div class="club-tab-link">
+                        <ul>
+                            <li><a href="/community/club_member.php">앙쥬클럽 회원사 소개</a></li>
+                            <li class="active"><a href="/community/sponsor.php">앙쥬클럽 후원사 소개</a></li>
+                        </ul>
+                    </div>
                      <div class="sponsor-wrap">
                         <ul class="sponsor-list">
                             <li>

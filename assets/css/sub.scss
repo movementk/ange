@@ -3580,7 +3580,38 @@ i {
 
 
 
-
+// 탭 메뉴
+.club-tab-link {
+    padding-top: 25px;
+    margin-bottom: 60px;
+    ul {
+        font-size: 0;
+        li {
+            display: inline-block;
+            width: 160px;
+            margin-right: 10px;
+            a {
+                display: block;
+                font-size: 14px;
+                color: #666;
+                text-align: center;
+                line-height: 43px;
+                border: 1px solid #ccc;
+                border-radius: 30px;
+            }
+            &.active {
+                a {
+                    color: #fff;
+                    border-color: #ff7875;
+                    background-color: #ff7875;
+                }
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
 
 
 

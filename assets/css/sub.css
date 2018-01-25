@@ -2567,4 +2567,28 @@ i.ico {
   border-radius: 30px;
   background-color: #d5d5d5; }
 
+.club-tab-link {
+  padding-top: 25px;
+  margin-bottom: 60px; }
+  .club-tab-link ul {
+    font-size: 0; }
+    .club-tab-link ul li {
+      display: inline-block;
+      width: 160px;
+      margin-right: 10px; }
+      .club-tab-link ul li a {
+        display: block;
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+        line-height: 43px;
+        border: 1px solid #ccc;
+        border-radius: 30px; }
+      .club-tab-link ul li.active a {
+        color: #fff;
+        border-color: #ff7875;
+        background-color: #ff7875; }
+      .club-tab-link ul li:last-child {
+        margin-right: 0; }
+
 /*# sourceMappingURL=sub.css.map */
