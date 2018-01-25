@@ -163,4 +163,20 @@
 }
 
 
+/* 토론 */
+.chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+    width: 65px;
+}
+.chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
+    width: 120px;
+}
+.chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+    width: 80px;
+}
+.chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(5) {
+    width: 100px;
+}
+
+
+
 
