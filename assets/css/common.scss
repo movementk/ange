@@ -1,4 +1,5 @@
 @import url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css');
+@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 @font-face {
   font-family: 'Daehan';
   font-style: normal;
@@ -43,7 +44,9 @@ $kcolor: #e25371;
 @mixin daehan() {
     font-family: 'Daehan', serif;
 }
-
+@mixin nns() {
+    font-family: 'NanumSquare', sans-serif;
+}
 
 h1, h2, h3,h4, h5, h6 {
     margin-top: 0;
