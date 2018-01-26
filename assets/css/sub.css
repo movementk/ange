@@ -1830,8 +1830,11 @@ label {
       .model-item > li a figure {
         position: relative;
         border-radius: 10px;
-        overflow: hidden; }
+        overflow: hidden;
+        width: 270px !important;
+        height: 270px !important; }
         .model-item > li a figure img {
+          display: block !important;
           width: 270px !important;
           height: 270px !important; }
         .model-item > li a figure:after {

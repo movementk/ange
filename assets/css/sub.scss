@@ -2426,7 +2426,10 @@ label {
                 position: relative;
                 border-radius: 10px;
                 overflow: hidden;
+                width: 270px !important;
+                height: 270px !important;
                 img {
+                    display: block !important;
                     width: 270px !important;
                     height: 270px !important;
                 }
