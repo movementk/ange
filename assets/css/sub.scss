@@ -2676,6 +2676,9 @@ label {
                                     textarea {
                                         width: 611px !important;
                                         height: 340px !important;
+                                        &.short_area {
+                                            height: 100px !important;
+                                        }
                                     }
                                 }
                                 &.file {

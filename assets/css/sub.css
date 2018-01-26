@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
+@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 @font-face {
   font-family: 'Daehan';
   font-style: normal;
@@ -2024,6 +2025,8 @@ label {
 .community .board-write .section-content .table-wrap .table tbody tr td .form-group textarea {
   width: 611px !important;
   height: 340px !important; }
+  .community .board-write .section-content .table-wrap .table tbody tr td .form-group textarea.short_area {
+    height: 100px !important; }
 .community .board-write .section-content .table-wrap .table tbody tr td.file .form-group .form-control {
   width: 206px; }
 .community .board-write .section-content .table-wrap .table tbody tr td.subject .form-group select {
