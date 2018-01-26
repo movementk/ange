@@ -196,66 +196,171 @@ address {
       background-color: #e25371; }
 
 /* 클럽소개 */
-.club-intro .section-content h3 {
-  font-size: 36px;
-  line-height: 48px;
-  color: #666;
-  font-weight: 300;
-  margin-top: 40px;
-  margin-bottom: 70px; }
-  .club-intro .section-content h3 .blue {
-    font-style: normal;
-    color: #7da7d9;
-    font-weight: 500; }
-.club-intro .section-content .explain {
-  font-size: 15px;
-  line-height: 26px;
-  color: #666; }
-  .club-intro .section-content .explain .pink {
-    font-style: normal;
-    color: #ff7875; }
-.club-intro .section-content article {
+.club-intro .section-content {
+  background-image: url(../images/community/bg_club_intro.png);
+  background-repeat: no-repeat;
+  background-position: 100% 240px; }
+  .club-intro .section-content h3 {
+    font-size: 36px;
+    line-height: 48px;
+    color: #666;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 70px; }
+    .club-intro .section-content h3 .blue {
+      font-style: normal;
+      color: #7da7d9;
+      font-weight: 500; }
+  .club-intro .section-content .explain {
+    font-size: 15px;
+    line-height: 26px;
+    color: #666; }
+    .club-intro .section-content .explain .pink {
+      font-style: normal;
+      color: #ff7875; }
+  .club-intro .section-content article {
+    display: table;
+    width: 100%;
+    margin-top: 150px; }
+    .club-intro .section-content article > div {
+      display: table-cell;
+      vertical-align: top; }
+      .club-intro .section-content article > div.summary-box {
+        display: inline-block;
+        width: 370px;
+        padding-right: 60px; }
+        .club-intro .section-content article > div.summary-box h4 {
+          font-size: 24px;
+          line-height: 35px;
+          color: #666;
+          font-weight: 300;
+          letter-spacing: -1px;
+          font-family: 'Daehan', serif; }
+          .club-intro .section-content article > div.summary-box h4 b {
+            font-weight: bold;
+            color: #333; }
+          .club-intro .section-content article > div.summary-box h4:before {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 3px;
+            margin-bottom: 20px;
+            background-color: #666; }
+        .club-intro .section-content article > div.summary-box figure {
+          margin: 20px 60px 20px; }
+          .club-intro .section-content article > div.summary-box figure img {
+            margin: 0 auto; }
+      .club-intro .section-content article > div.details {
+        display: inline-block;
+        width: 430px; }
+        .club-intro .section-content article > div.details .club-company {
+          overflow: hidden; }
+          .club-intro .section-content article > div.details .club-company > li {
+            float: left; }
+            .club-intro .section-content article > div.details .club-company > li:nth-of-type(2n + 1) {
+              clear: both;
+              margin-right: 30px; }
+            .club-intro .section-content article > div.details .club-company > li ~ li {
+              margin-top: 20px; }
+            .club-intro .section-content article > div.details .club-company > li:nth-of-type(2) {
+              margin-top: 0; }
+            .club-intro .section-content article > div.details .club-company > li > div {
+              width: 200px;
+              height: 90px;
+              line-height: 88px;
+              text-align: center;
+              border: 1px solid #dfdfdf;
+              background-color: #fff; }
+              .club-intro .section-content article > div.details .club-company > li > div img {
+                display: inline-block; }
+            .club-intro .section-content article > div.details .club-company > li > p {
+              font-size: 14px;
+              color: #666;
+              margin-top: 10px;
+              text-align: center; }
+        .club-intro .section-content article > div.details .decimal-list > li {
+          position: relative;
+          font-size: 15px;
+          color: #666;
+          line-height: 24px;
+          margin-top: 140px;
+          padding-left: 40px; }
+          .club-intro .section-content article > div.details .decimal-list > li i {
+            font-style: normal;
+            color: #ff7875; }
+          .club-intro .section-content article > div.details .decimal-list > li ~ li {
+            margin-top: 25px; }
+          .club-intro .section-content article > div.details .decimal-list > li:last-child {
+            padding-bottom: 50px; }
+          .club-intro .section-content article > div.details .decimal-list > li span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 13px;
+            color: #fff;
+            font-weight: 500;
+            background-color: #ef564b;
+            border-radius: 50%;
+            font-family: 'Roboto', sans-serif; }
+
+/* 앙쥬클럽 회원사 */
+.club-member .section-content article .article-header {
   font-size: 0;
-  margin-top: 150px; }
-  .club-intro .section-content article .title {
+  margin-top: 60px; }
+  .club-member .section-content article .article-header figure {
+    vertical-align: top;
+    width: 300px;
+    display: inline-block; }
+    .club-member .section-content article .article-header figure img {
+      width: 100%; }
+  .club-member .section-content article .article-header .details {
+    vertical-align: top;
     display: inline-block;
-    background: pink; }
-    .club-intro .section-content article .title h4 {
+    width: 500px;
+    margin-left: 40px; }
+    .club-member .section-content article .article-header .details h3 {
       font-size: 24px;
-      line-height: 35px;
+      color: #333;
+      margin-top: 25px;
+      margin-bottom: 20px; }
+    .club-member .section-content article .article-header .details a {
+      font-size: 13px;
+      color: #7da7d9; }
+      .club-member .section-content article .article-header .details a i {
+        margin-right: 10px; }
+    .club-member .section-content article .article-header .details p {
+      font-size: 14px;
+      line-height: 28px;
       color: #666;
-      font-weight: 300; }
-      .club-intro .section-content article .title h4 b {
-        font-weight: 500; }
-      .club-intro .section-content article .title h4:before {
-        content: "";
-        display: block;
-        width: 50px;
-        height: 3px;
-        margin-bottom: 20px;
-        background-color: #666; }
-    .club-intro .section-content article .title figure {
-      margin: 20px 60px 20px; }
-      .club-intro .section-content article .title figure img {
-        margin: 0 auto; }
-  .club-intro .section-content article .info {
-    display: inline-block;
-    background-color: red; }
-    .club-intro .section-content article .info ul {
-      font-size: 0; }
-      .club-intro .section-content article .info ul li:nth-of-type(2n+1) {
-        margin-right: 30px; }
-      .club-intro .section-content article .info ul li figure {
-        width: 200px;
-        height: 90px;
-        border: 1px solid #dfdfdf;
-        background-color: #fff; }
-        .club-intro .section-content article .info ul li figure img {
-          text-align: center; }
-      .club-intro .section-content article .info ul li .figcaption {
-        font-size: 14px;
-        color: #666;
-        margin-top: 10px;
-        text-align: center; }
+      margin-top: 30px;
+      word-break: break-all;
+      text-align: justify; }
+.club-member .section-content article .article-content {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #ccc; }
+  .club-member .section-content article .article-content .information {
+    width: 100%;
+    padding: 30px 30px 35px;
+    background-color: #f5f5f5;
+    border-radius: 30px; }
+    .club-member .section-content article .article-content .information dl {
+      margin-top: 30px; }
+      .club-member .section-content article .article-content .information dl dt {
+        font-size: 18px;
+        color: #333; }
+    .club-member .section-content article .article-content .information .info {
+      font-size: 14px;
+      line-height: 28px;
+      color: #999;
+      font-weight: 300;
+      margin-top: 20px;
+      word-break: break-all;
+      text-align: justify; }
 
 /*# sourceMappingURL=ange_club.css.map */

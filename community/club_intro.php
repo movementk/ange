@@ -45,7 +45,7 @@
                             </p>
                             
                             <article>
-                                <div class="title">
+                                <div class="summary-box">
                                     <h4>
                                     주 고객층에게<br> 
                                     <b>육아서비스 제공을 위한 육아클럽</b></h4>
@@ -54,39 +54,46 @@
                                     </figure>
                                     <h4>
                                         간호사 출신의<br>
-                                        전문가 구성·다양한 정보 제공
+                                        <b>전문가 구성·다양한 정보 제공</b>
                                     </h4>
                                 </div>
-                                <div class="info">
-                                    <ul>
+                                <div class="details">
+                                    <ul class="club-company">
                                         <li>
-                                            <figure>
-                                                <img src="/assets/images/community/img_club01.png" alt="">
-                                            </figure>
-                                            <p class="figcaption"></p>
+                                            <div>
+                                                <img src="/assets/images/community/img_club01_sm.jpg" alt="">
+                                            </div>
+                                            <p>한국MSD</p>
                                         </li>
                                         <li>
-                                            <figure>
-                                                <img src="" alt="">
-                                            </figure>
-                                            <p class="figcaption"></p>
+                                            <div>
+                                                <img src="/assets/images/community/img_club02_sm.jpg" alt="">
+                                            </div>
+                                            <p>사노피 파스퇴르</p>
                                         </li>
                                         <li>
-                                            <figure>
-                                                <img src="" alt="">
-                                            </figure>
-                                            <p class="figcaption"></p>
+                                            <div>
+                                                <img src="/assets/images/community/img_club03_sm.jpg" alt="">
+                                            </div>
+                                            <p>유한킴벌리</p>
                                         </li>
                                         <li>
-                                            <figure>
-                                                <img src="" alt="">
-                                            </figure>
-                                            <p class="figcaption"></p>
+                                            <div>
+                                                <img src="/assets/images/community/img_club04_sm.jpg" alt="">
+                                            </div>
+                                            <p>에듀챌린지</p>
                                         </li>
                                     </ul>
-                                    <ol>
-                                        <li></li>
-                                        <li></li>
+                                    <ol class="decimal-list">
+                                        <li>
+                                            <span>1</span>
+                                            산후조리원을 통해 <i>유방마사지, 유방관리법, 모유수유 방법</i><br> 등의 강의로 모유수유 캠페인을 전개
+                                        </li>
+                                        <li>
+                                            <span>2</span>
+                                            <i>피임법 강의, 육아용품 샘플팩 증정, 육아 잡지 &lt;앙쥬&gt; 증정</i><br> 
+                                            등으로아기를 키우는 엄마들에게 실질적인 도움이 되는<br> 정보를 제공
+                                        </li>
                                     </ol>
                                 </div>
                             </article>
