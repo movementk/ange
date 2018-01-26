@@ -578,13 +578,28 @@
 .qna-list-2 .sub-content .list .article-content .paging {
     margin-top: 30px;
 }
+.qna-list-2 .sub-content .list .article-content .table-wrap .table thead tr th:nth-of-type(1) {
+    width: 70px;
+}
+.qna-list-2 .sub-content .list .article-content .table-wrap .table thead tr th:nth-of-type(3) {
+    width: 100px;
+}
+.qna-list-2 .sub-content .list .article-content .table-wrap .table thead tr th:nth-of-type(4) {
+    width: 100px;
+}
+.qna-list-2 .sub-content .list .article-content .table-wrap .table thead tr th:nth-of-type(5) {
+    width: 100px;
+}
+
+
+
+
 .faq-list-2 .sub-content .list .article-content {
     margin-top: 30px;
 }
 .faq-list-2 .sub-content .list .article-content .paging {
     margin-top: 30px;
 }
-
 
 
 
