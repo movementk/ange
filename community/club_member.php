@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div class="section-content">
-                            <article>
+                            <article class="msd">
                                 <div class="article-header">
                                     <figure>
                                         <img src="/assets/images/community/img_sponsor01.jpg" alt="">
@@ -43,16 +43,14 @@
                                 </div>
                                 <div class="article-content">
                                     <div class="information">
-                                        <p class="product-img">
+                                        <div class="product-img">
                                             <img src="/assets/images/community/img_rota.jpg" alt="">
-                                        </p>
+                                        </div>
                                         <dl>
                                             <dt>로타바이러스</dt>
                                             <dd class="info">
                                                 로타바이러스는 매우 쉽게 감염되는 바이러스로, 전세계적으로 5세 미만의 거의 모든 아이들이 로타바이러스에 감염됩니다. 로타바이러스에 의한 위장관염은 영아와 어린아이들에게 설사를 일으키는 주요 원인입니다. 로타바이러스 질환을 일으키는 로타바이러스에는 여러가지 타입이 있고 해마다 지역이 바뀌기 때문에 로타바이러스 백신으로 가장 흔한 5가지 로타바이러스 타입을 예방하는 것이 중요합니다.
                                             </dd>
-                                        </dl>
-                                        <dl>
                                             <dt>로타텍</dt>
                                             <dd class="info">
                                                 로타텍®은 전 세계적으로 로타바이러스 감염의 95%를 차지하는 가장 흔한 5가지 G타입에 대해 예방을 도울 수 있는 경구용 5가 로타바이러 스 생백신입니다. 로타텍은 액상제제의 경구용 백신으로 3회 접종합니다. 로타텍의 1차투여는 생후 6-12주에 하고, 이 후 각 투여간 4주내지 10주의 간격을 두고 추가투여 합니다.
@@ -61,7 +59,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article>
+                            <article class="pentaxim">
                                 <div class="article-header">
                                     <figure>
                                         <img src="/assets/images/community/img_sponsor02.jpg" alt="">
@@ -92,7 +90,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article>
+                            <article class="i-challenge">
                                 <div class="article-header">
                                     <figure>
                                         <img src="/assets/images/community/img_sponsor03.jpg" alt="">
@@ -112,20 +110,20 @@
                                 </div>
                                 <div class="article-content">
                                     <div class="information">
-                                        <p class="product-img">
+                                        <div class="product-img">
                                             <img src="/assets/images/community/img_i_challenge.jpg" alt="">
-                                        </p>
+                                        </div>
                                         <dl>
                                             <dt>즐거운 습관이 시작되는 곳, 아이챌린지!</dt>
                                             <dd class="info"> 
-                                                초보엄마들의 힘든 육아 고민을 함께해 줄 대한민국 대표 육아 가이드. 요즘의 육아 정보는 흘러넘치게 많아 바르게 선택하는 것이 어렵습니다.
+                                                초보엄마들의 힘든 육아 고민을 함께해 줄 대한민국 대표 육아 가이드. 요즘의 육아 정보는 흘러넘치게 많아 바르게 선택하는 것이 어렵습니다.<br>
                                                 &lt;아이챌린지&gt;는 지난 11년 간 전문가의 노력으로 만들어 낸 엄마표 홈스쿨링 프로그램입니다. 아이에게 친숙한 아이챌린지 대표 캐릭터 ‘호비’를 비롯하여 매월 세트 구성으로 [책+DVD+완구+부모가이드]를 제공합니다. 부모와 아이가 상호교감을 통해서 즐겁게 생활하고 바른 습관을 가질 수 있도록 아이 발달단계에 꼭 맞는 교육을 실천합니다. 베이비단계(생후 6개월)부터 월 정규프로그램인 1~5단계(취학전)로 한 단계 한 단계 체계적으로 학습할 수 있도록 구성되어 있습니다. 동아시아(일본, 대만, 중국, 한국 등)에서 연간 구독회원 수 약 200~300만명을 유치하고 있습니다.
                                             </dd>
                                         </dl>
                                     </div>
                                 </div>
                             </article>
-                            <article>
+                            <article class="yuhan-kimberly">
                                 <div class="article-header">
                                     <figure>
                                         <img src="/assets/images/community/img_sponsor04.jpg" alt="">
@@ -145,9 +143,9 @@
                                 </div>
                                 <div class="article-content">
                                     <div class="information">
-                                        <p class="product-img">
+                                        <div class="product-img">
                                             <img src="/assets/images/community/img_double_heart.jpg" alt="">
-                                        </p>
+                                        </div>
                                         <dl>
                                             <dt>엄마를 닮은 육아용품 더블하트</dt>
                                             <dd class="info">

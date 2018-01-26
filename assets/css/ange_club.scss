@@ -1,11 +1,5 @@
 @import 'common';
 
-
-// 클럽/선생님 소개
-.club-intro {
-    
-}
-
 /* 교육팀장 소개 */
 .education-intro {
     .section-content {
@@ -188,15 +182,14 @@
                         letter-spacing: -.5px;
                         padding-left: 40px;
                         padding-bottom: 60px;
+                        span {
+                            display: inline-block;
+                            font-size: 16px;
+                            margin-bottom: 10px;
+                        }
                         i {
                             font-style: normal;
                             color: #ff7875;
-                            strong {
-                                display: inline-block;
-                                font-size: 16px;
-                                font-weight: 400; 
-                                margin-bottom: 10px;
-                            }
                         }
                         &:before {
                             position: absolute;
@@ -225,6 +218,7 @@
 
 /* 클럽소개 */
 .club-intro {
+    margin-bottom: 50px;
     .section-content {
         background-image: url(../images/community/bg_club_intro.png);
         background-repeat: no-repeat;
@@ -236,7 +230,7 @@
             font-weight: 300;
             margin-top: 40px;
             margin-bottom: 70px;
-            .blue {
+            i {
                 font-style: normal;
                 color: #7da7d9;
                 font-weight: 500;
@@ -246,7 +240,7 @@
             font-size:15px;
             line-height: 26px;
             color: #666;
-            .pink {
+            i {
                 font-style: normal;
                 color: #ff7875;
             }
@@ -278,7 +272,7 @@
                             display: block;
                             width: 50px;
                             height: 3px;
-                            margin-bottom: 20px;
+                            margin-bottom: 15px;
                             background-color: #666;
                         }
                     }
@@ -340,9 +334,6 @@
                             & ~ li {
                                 margin-top: 25px;
                             }
-                            &:last-child {
-                                padding-bottom: 50px;
-                            }
                             span {
                                 position: absolute;
                                 top: 0;
@@ -371,6 +362,10 @@
 .club-member {
     .section-content {
         article {
+            border-bottom: 1px solid #ccc;
+            &:last-child {
+                border-bottom: 0;
+            }
             .article-header {
                 font-size: 0;
                 margin-top: 60px;
@@ -387,15 +382,10 @@
                     display: inline-block;
                     width: 500px;
                     margin-left: 40px;
-                    .club-company {
-                        img {
-                            
-                        }
-                    }
                     h3 {
                         font-size: 24px;
                         color: #333;
-                        margin-top: 25px;
+                        margin-top: 20px;
                         margin-bottom: 20px;
                     }
                     a {
@@ -410,39 +400,45 @@
                         font-size: 14px;
                         line-height: 28px;
                         color: #666;
-                        margin-top: 30px;
-                        word-break: break-all;
+                        margin-top: 20px;
                         text-align: justify;
+                        letter-spacing: -.5px;
                     }
                 }
             }
             .article-content {
                 padding-top: 50px;
                 padding-bottom: 60px;
-                border-bottom: 1px solid #ccc;
                 .information {
                     width: 100%;
                     padding: 30px 30px 35px;
                     background-color: #f5f5f5;
                     border-radius: 30px;
-                    .product-img {
-                        
-                    }
                     dl {
-                        margin-top: 30px;
                         dt {
                             font-size: 18px;
                             color: #333;
+                            font-weight: 500;
+                            margin-top: 30px;
+                        }
+                        dd {
+                            font-size: 14px;
+                            line-height: 28px;
+                            color: #999;
+                            font-weight: 300;
+                            margin-top: 20px;
+                            text-align: justify;
+                            letter-spacing: -.5px;
                         }
                     }
-                    .info {
+                    p {
                         font-size: 14px;
                         line-height: 28px;
                         color: #999;
                         font-weight: 300;
                         margin-top: 20px;
-                        word-break: break-all;
                         text-align: justify;
+                        letter-spacing: -.5px; 
                     }
                 }
             }
