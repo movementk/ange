@@ -477,9 +477,70 @@
 }
 
 
-
-
-
+/* 협력사 소개 */
+.cooperative {
+    article {
+        & ~ article {
+            margin-top: 75px;
+        }
+        .article-header {
+            h3 {
+                font-size: 16px;
+                color: #333;
+                padding-left: 35px;
+                line-height: 21px;
+                background-image: url(../images/introcuction/icon_cooperative.png);
+                background-position: 0 0;
+                background-repeat: no-repeat;
+            }
+        }
+        .article-content {
+            position: relative; 
+            width: 100%;
+            margin-top: 15px;
+            border-top: 3px solid #979aa2;
+            &:before {
+                position: absolute;
+                top: -3px;
+                left: 0;
+                content: "";
+                width: 200px;
+                height: 3px;
+                background-color: #ff7875;
+            } 
+            ul {
+                overflow: hidden;
+                margin-top: 25px;
+                li {
+                    float: left;
+                    margin-right: 13px;
+                    &:nth-of-type(4) ~ li  {
+                        margin-top: 30px;
+                    }
+                    .member-company {
+                        .company-logo {
+                            padding: 6px 35px; 
+                            border: 1px solid #ddd;
+                            margin: 0 auto;
+                        }
+                        p {
+                            font-size: 15px;
+                            color: #666;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                    }
+                    &:nth-of-type(4n + 1) {
+                        clear: both;
+                    }
+                    &:nth-of-type(4n + 4) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
