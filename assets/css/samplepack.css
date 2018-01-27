@@ -301,10 +301,9 @@ font-size: 0;
     border: 1px solid #dfdfdf; 
 }
 .sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr td .form-group.basic-group .form-control {
-    width: 200px; 
-}
-.sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr:last-child td {
-
+    width: 193px;
+    margin-right: 5px;
+    display: inline-block;
 }
 .sample-apply .sample-write .section-content .user-info .table-wrap .table.table-bordered tbody tr th.v-top {
     vertical-align: top;
@@ -459,10 +458,10 @@ font-size: 0;
     padding: 20px 10px 0;
 }
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info .details dl dt {
-    width: 100px;
+    width: 70px;
     float: left;
     clear: both;
-    padding-right: 45px;
+    padding-right: 10px;
     font-size: 12px;
     color: #666;
     font-weight: 400;
@@ -471,7 +470,8 @@ font-size: 0;
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info .details dl dd {
     float: left;
     line-height: 25px;
-    color: #999;
+    color: #666;
+    opacity: .9;
     font-size: 12px;
 }
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info .details dl dd ol li a.insta{
