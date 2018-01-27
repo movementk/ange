@@ -3619,8 +3619,29 @@ i {
     }
 }
 
-
-
+.add-btn.btn-area {
+    text-align: left !important;
+    margin-bottom: 30px;
+    .btn {
+        width: 84px;
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+        margin-right: 8px;
+        border-radius: 30px;
+        @include transition();
+        &.btn-white {
+            line-height: 34px;
+            border: 1px solid #ccc;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover, &:focus {
+            opacity: .7;
+        }
+    }
+}
 
 
 

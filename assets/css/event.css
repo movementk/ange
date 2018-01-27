@@ -669,6 +669,9 @@ address {
   margin-top: 30px; }
   .prizewinner-list .list .article-content .paging {
     margin-top: 30px; }
+  .prizewinner-list .list .article-content .btn-area {
+    text-align: right;
+    margin-top: 30px; }
 
 .reader-list .postcard .section-header {
   overflow: hidden;
@@ -681,6 +684,12 @@ address {
       width: 440px; }
   .reader-list .postcard .section-header figure img {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2); }
+  .reader-list .postcard .section-header .attention {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999; }
+    .reader-list .postcard .section-header .attention:before {
+      content: "* "; }
   .reader-list .postcard .section-header .summary-content .summary-head {
     margin-bottom: 70px; }
     .reader-list .postcard .section-header .summary-content .summary-head small {

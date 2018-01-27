@@ -2607,4 +2607,30 @@ i.ico {
       .club-tab-link ul li:last-child {
         margin-right: 0; }
 
+.add-btn.btn-area {
+  text-align: left !important;
+  margin-bottom: 30px; }
+  .add-btn.btn-area .btn {
+    width: 84px;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 30px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .add-btn.btn-area .btn.btn-white {
+      line-height: 34px;
+      border: 1px solid #ccc; }
+    .add-btn.btn-area .btn:last-child {
+      margin-right: 0; }
+    .add-btn.btn-area .btn:hover, .add-btn.btn-area .btn:focus {
+      opacity: .7; }
+
 /*# sourceMappingURL=sub.css.map */

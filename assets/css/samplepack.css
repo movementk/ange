@@ -301,8 +301,8 @@ font-size: 0;
     border: 1px solid #dfdfdf; 
 }
 .sample-apply .sample-write .section-content .user-info .table-wrap .table tbody tr td .form-group.basic-group .form-control {
-    width: 193px;
-    margin-right: 5px;
+    width: 130px;
+    margin-right: 10px;
     display: inline-block;
 }
 .sample-apply .sample-write .section-content .user-info .table-wrap .table.table-bordered tbody tr th.v-top {
@@ -322,7 +322,6 @@ font-size: 0;
     margin-left: 13px;
     border-radius: 30px;
     border: 1px solid #ccc;
-    
     -webkit-transition-property: all;
     transition-property: all;
     -webkit-transition-duration: 0.15s;
@@ -413,6 +412,17 @@ font-size: 0;
     background-color: #7da7d9;
     line-height: 45px;
     border-radius: 30px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.sample-explain .samplepack-wrap .article-header .btn-blue:hover {
+    opacity: .7;
 }
 .sample-explain .samplepack-wrap .article-content {
     margin-top: 50px;
@@ -463,7 +473,7 @@ font-size: 0;
     clear: both;
     padding-right: 10px;
     font-size: 12px;
-    color: #666;
+    color: #333;
     font-weight: 400;
     line-height: 25px;
 } 
@@ -471,7 +481,6 @@ font-size: 0;
     float: left;
     line-height: 25px;
     color: #666;
-    opacity: .9;
     font-size: 12px;
 }
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info .details dl dd ol li a.insta{
@@ -493,7 +502,18 @@ font-size: 0;
     margin-top: 30px;
 }
 .sample-explain .samplepack-wrap .article-content .info-wrap .member-info  .btn.btn-gray {
-    background-color: #b3b3b3;
+    background-color: #7da7d9;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.sample-explain .samplepack-wrap .article-content .info-wrap .member-info  .btn.btn-gray:hover {
+    opacity: .7;
 }
 .sample-explain .samplepack-wrap .article-content .banner {
     margin: 50px auto;

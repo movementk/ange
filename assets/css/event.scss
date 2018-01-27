@@ -921,6 +921,10 @@
             .paging {
                 margin-top: 30px;
             }
+            .btn-area {
+                text-align: right;
+                margin-top: 30px;
+            }
         }
     }
 }
@@ -943,6 +947,14 @@
             figure { 
                 img {
                     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2);
+                }
+            }
+            .attention {
+                margin-top: 20px;
+                font-size: 12px;
+                color: #999;
+                &:before {
+                    content: "* ";
                 }
             }
             .summary-content {
