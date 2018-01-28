@@ -311,6 +311,12 @@
       "css": "fax",
       "code": 61868,
       "src": "fontawesome"
+    },
+    {
+      "uid": "fb94e23ae1e7660aa63cc5f351ec7560",
+      "css": "right",
+      "code": 61816,
+      "src": "fontawesome"
     }
   ]
 }
