@@ -971,88 +971,9 @@ address {
 .reader .reader-write .section-content .post-form .table-wrap .table tbody tr:last-child td {
   border-bottom: 0;
   padding-bottom: 0; }
-.reader .reader-write .section-content .gift-list {
-  margin-top: 60px; }
-  .reader .reader-write .section-content .gift-list .article-header {
-    padding-left: 20px;
-    background-color: #acacac; }
-    .reader .reader-write .section-content .gift-list .article-header h3 {
-      font-size: 16px;
-      color: #fff;
-      font-weight: 400;
-      line-height: 50px; }
-  .reader .reader-write .section-content .gift-list .article-content > ul > li {
-    display: table;
-    width: 100%;
-    padding: 30px 0;
-    border-bottom: 1px solid #dfdfdf; }
-    .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum {
-      display: table-cell;
-      vertical-align: middle; }
-      .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-4 {
-        width: 310px; }
-        .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-4 .gift-item {
-          position: relative;
-          padding: 0 20px; }
-          .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-4 .gift-item img {
-            width: 100%; }
-          .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-4 .gift-item .person {
-            position: absolute;
-            top: 0;
-            left: 20px;
-            display: block;
-            width: 46px;
-            height: 46px;
-            font-weight: 300;
-            font-size: 15px;
-            text-align: center;
-            color: #fff;
-            line-height: 46px;
-            border-radius: 10px;
-            border-top-left-radius: 0;
-            background-color: #ff7875; }
-            .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-4 .gift-item .person b {
-              font-family: 'Roboto', sans-serif;
-              font-weight: 600; }
-      .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 {
-        width: 530px; }
-        .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details {
-          padding-left: 30px; }
-          .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details h4 {
-            font-size: 16px;
-            color: #333;
-            font-weight: 400; }
-          .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details > p {
-            font-size: 13px;
-            line-height: 22px;
-            margin: 25px 0; }
-          .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li {
-            font-size: 13px;
-            color: #999;
-            position: relative;
-            padding-left: 20px;
-            line-height: 22px; }
-            .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li:before {
-              position: absolute;
-              top: 0;
-              left: 0;
-              font-family: "fontello"; }
-            .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li.tel:before {
-              content: "\E81E"; }
-            .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li.homepage:before {
-              content: "\E81D"; }
-            .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li dl dt {
-              font-weight: 300;
-              display: inline-block; }
-              .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li dl dt:after {
-                content: " : "; }
-            .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li dl dd {
-              font-weight: 300;
-              display: inline-block; }
-              .reader .reader-write .section-content .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li dl dd a {
-                color: #999; }
 .reader .reader-write .section-content .attention-box {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-top: 30px; }
 .reader .reader-write .section-content .btn-area {
   margin-top: 30px;
   text-align: right; }
@@ -1070,5 +991,86 @@ address {
       color: #fff;
       background-color: #ff7875;
       border-color: #ff7875; }
+
+.gift-box .gift-list {
+  margin-top: 60px; }
+  .gift-box .gift-list .article-header {
+    padding-left: 20px;
+    background-color: #acacac; }
+    .gift-box .gift-list .article-header h3 {
+      font-size: 16px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 50px; }
+  .gift-box .gift-list .article-content > ul > li {
+    display: table;
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 1px solid #dfdfdf; }
+    .gift-box .gift-list .article-content > ul > li > .colum {
+      display: table-cell;
+      vertical-align: middle; }
+      .gift-box .gift-list .article-content > ul > li > .colum.colum-4 {
+        width: 310px; }
+        .gift-box .gift-list .article-content > ul > li > .colum.colum-4 .gift-item {
+          position: relative;
+          padding: 0 20px; }
+          .gift-box .gift-list .article-content > ul > li > .colum.colum-4 .gift-item img {
+            width: 100%; }
+          .gift-box .gift-list .article-content > ul > li > .colum.colum-4 .gift-item .person {
+            position: absolute;
+            top: 0;
+            left: 20px;
+            display: block;
+            width: 46px;
+            height: 46px;
+            font-weight: 300;
+            font-size: 15px;
+            text-align: center;
+            color: #fff;
+            line-height: 46px;
+            border-radius: 10px;
+            border-top-left-radius: 0;
+            background-color: #ff7875; }
+            .gift-box .gift-list .article-content > ul > li > .colum.colum-4 .gift-item .person b {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 600; }
+      .gift-box .gift-list .article-content > ul > li > .colum.colum-6 {
+        width: 530px; }
+        .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details {
+          padding-left: 30px; }
+          .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details h4 {
+            font-size: 16px;
+            color: #333;
+            font-weight: 400; }
+          .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details > p {
+            font-size: 13px;
+            line-height: 22px;
+            margin: 25px 0; }
+          .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li {
+            font-size: 13px;
+            color: #999;
+            position: relative;
+            padding-left: 20px;
+            line-height: 22px; }
+            .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li:before {
+              position: absolute;
+              top: 0;
+              left: 0;
+              font-family: "fontello"; }
+            .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li.tel:before {
+              content: "\E81E"; }
+            .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li.homepage:before {
+              content: "\E81D"; }
+            .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li dl dt {
+              font-weight: 300;
+              display: inline-block; }
+              .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li dl dt:after {
+                content: " : "; }
+            .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li dl dd {
+              font-weight: 300;
+              display: inline-block; }
+              .gift-box .gift-list .article-content > ul > li > .colum.colum-6 .details .contact > li dl dd a {
+                color: #999; }
 
 /*# sourceMappingURL=event.css.map */

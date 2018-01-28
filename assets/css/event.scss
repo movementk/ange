@@ -1352,122 +1352,9 @@
                     }
                 }
             }
-            .gift-list {
-                margin-top: 60px;
-                .article-header {
-                    padding-left: 20px;
-                    background-color: #acacac;
-                    h3 {
-                        font-size: 16px;
-                        color: #fff;
-                        font-weight: 400;
-                        line-height: 50px;
-                    }
-                }
-                .article-content {
-                    > ul {
-                        > li {
-                            display: table;
-                            width: 100%;
-                            padding: 30px 0;
-                            border-bottom: 1px solid #dfdfdf;
-                            > .colum {
-                                display: table-cell;
-                                vertical-align: middle;
-                                &.colum-4 {
-                                    width: 310px;
-                                    .gift-item {
-                                        position: relative;
-                                        padding: 0 20px;
-                                        img {
-                                            width: 100%;
-                                        }
-                                        .person {
-                                            position: absolute;
-                                            top: 0;
-                                            left: 20px;
-                                            display: block;
-                                            width: 46px;
-                                            height: 46px;
-                                            font-weight: 300;
-                                            font-size: 15px;
-                                            text-align: center;
-                                            color: #fff;
-                                            line-height: 46px;
-                                            border-radius: 10px;
-                                            border-top-left-radius: 0;
-                                            background-color: #ff7875;
-                                            b {
-                                                @include roboto();
-                                                font-weight: 600;
-                                            }
-                                        }
-                                    }
-                                }
-                                &.colum-6 {
-                                    width: 530px;
-                                    .details {
-                                        padding-left: 30px;
-                                        h4 {
-                                            font-size: 16px;
-                                            color: #333;
-                                            font-weight: 400;
-                                        }
-                                        > p {
-                                            font-size: 13px;
-                                            line-height: 22px;
-                                            margin: 25px 0;
-                                        }
-                                        .contact {
-                                            > li {
-                                                font-size: 13px;
-                                                color: #999;
-                                                position: relative;
-                                                padding-left: 20px;
-                                                line-height: 22px;
-                                                &:before {
-                                                    position: absolute;
-                                                    top: 0;
-                                                    left: 0;
-                                                    font-family: "fontello";
-                                                }
-                                                &.tel {
-                                                    &:before {
-                                                        content: "\E81E";
-                                                    }
-                                                }
-                                                &.homepage {
-                                                    &:before {
-                                                        content: "\E81D";
-                                                    }
-                                                }
-                                                dl {
-                                                    dt {
-                                                        font-weight: 300;
-                                                        display: inline-block;
-                                                        &:after {
-                                                            content: " : ";
-                                                        }
-                                                    }
-                                                    dd {
-                                                        font-weight: 300;
-                                                        display: inline-block;
-                                                        a {
-                                                            color: #999;
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
             .attention-box {
                 margin-top: 50px;
+                margin-top: 30px;
             }
             .btn-area {
                 margin-top: 30px;
@@ -1496,6 +1383,123 @@
     }
 }
 
+
+.gift-box {
+    .gift-list {
+        margin-top: 60px;
+        .article-header {
+            padding-left: 20px;
+            background-color: #acacac;
+            h3 {
+                font-size: 16px;
+                color: #fff;
+                font-weight: 400;
+                line-height: 50px;
+            }
+        }
+        .article-content {
+            > ul {
+                > li {
+                    display: table;
+                    width: 100%;
+                    padding: 30px 0;
+                    border-bottom: 1px solid #dfdfdf;
+                    > .colum {
+                        display: table-cell;
+                        vertical-align: middle;
+                        &.colum-4 {
+                            width: 310px;
+                            .gift-item {
+                                position: relative;
+                                padding: 0 20px;
+                                img {
+                                    width: 100%;
+                                }
+                                .person {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 20px;
+                                    display: block;
+                                    width: 46px;
+                                    height: 46px;
+                                    font-weight: 300;
+                                    font-size: 15px;
+                                    text-align: center;
+                                    color: #fff;
+                                    line-height: 46px;
+                                    border-radius: 10px;
+                                    border-top-left-radius: 0;
+                                    background-color: #ff7875;
+                                    b {
+                                        @include roboto();
+                                        font-weight: 600;
+                                    }
+                                }
+                            }
+                        }
+                        &.colum-6 {
+                            width: 530px;
+                            .details {
+                                padding-left: 30px;
+                                h4 {
+                                    font-size: 16px;
+                                    color: #333;
+                                    font-weight: 400;
+                                }
+                                > p {
+                                    font-size: 13px;
+                                    line-height: 22px;
+                                    margin: 25px 0;
+                                }
+                                .contact {
+                                    > li {
+                                        font-size: 13px;
+                                        color: #999;
+                                        position: relative;
+                                        padding-left: 20px;
+                                        line-height: 22px;
+                                        &:before {
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            font-family: "fontello";
+                                        }
+                                        &.tel {
+                                            &:before {
+                                                content: "\E81E";
+                                            }
+                                        }
+                                        &.homepage {
+                                            &:before {
+                                                content: "\E81D";
+                                            }
+                                        }
+                                        dl {
+                                            dt {
+                                                font-weight: 300;
+                                                display: inline-block;
+                                                &:after {
+                                                    content: " : ";
+                                                }
+                                            }
+                                            dd {
+                                                font-weight: 300;
+                                                display: inline-block;
+                                                a {
+                                                    color: #999;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

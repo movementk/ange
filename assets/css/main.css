@@ -512,7 +512,9 @@ article {
               display: inline-block;
               font-size: 13px;
               line-height: 18px;
-              color: #fff; }
+              color: #fff;
+              word-break: break-all;
+              padding: 0 15px; }
   .expert-qna .article-content .qna-list {
     display: inline-block;
     vertical-align: top;

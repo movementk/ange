@@ -1476,6 +1476,7 @@ label {
     .item-list .article-content ul li a .details p {
       font-size: 14px;
       color: #333;
+      height: 40px;
       font-weight: 500;
       line-height: 20px; }
     .item-list .article-content ul li a .details .point {

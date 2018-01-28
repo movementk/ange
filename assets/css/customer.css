@@ -261,7 +261,10 @@
 .inquiry-list .article-content .paging {
     margin-top: 34px;
 }
-
+.inquiry-list .article-content .btn-area {
+    text-align: right;
+    margin-top: 30px;
+}
 
 /*고객센터 회원문의 뷰 */
 .inquiry-view .btn-area {
@@ -601,7 +604,12 @@
     margin-top: 30px;
 }
 
-
+.faq-list .sub-content .list .article-content {
+    margin-top: 30px;
+}
+.faq-list .sub-content .list .article-content .paging {
+    margin-top: 30px;
+}
 
 
 

@@ -200,14 +200,14 @@ address {
 
 .magazine-list .week-tab-list {
   position: relative;
-  padding-right: 60px;
+  padding-right: 50px;
   padding-bottom: 20px;
   border-bottom: 1px solid #dfdfdf; }
   .magazine-list .week-tab-list > ol {
     display: table; }
     .magazine-list .week-tab-list > ol > li {
       display: table-cell;
-      width: 65px; }
+      width: 70px; }
       .magazine-list .week-tab-list > ol > li > a {
         display: block;
         text-decoration: none;
@@ -459,6 +459,8 @@ address {
   width: 100%; }
 .magazine-view .view .section-content figure pre {
   width: 841px !important; }
+.magazine-view .view .section-content .banner figure img {
+  width: 100%; }
 .magazine-view .view .section-content .table-wrap {
   margin-top: 30px; }
   .magazine-view .view .section-content .table-wrap .table {

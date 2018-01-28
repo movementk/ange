@@ -236,14 +236,14 @@
 .magazine-list {
     .week-tab-list {
         position: relative;
-        padding-right: 60px;
+        padding-right: 50px;
         padding-bottom: 20px;
         border-bottom: 1px solid #dfdfdf;
         > ol {
             display: table;
             > li {
                 display: table-cell;
-                width: 65px;
+                width: 70px;
                 > a {
                     display: block;
                     text-decoration: none;
@@ -569,6 +569,13 @@
                 }
                 pre {
                     width: 841px !important;
+                }
+            }
+            .banner {
+                figure {
+                    img {
+                        width: 100%;
+                    }
                 }
             }
             .table-wrap {
