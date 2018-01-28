@@ -36,6 +36,11 @@
                 <div class="social">
                     <ul class="sns-list">
                         <li>
+                            <a href="https://www.youtube.com/channel/UCWyXmO0AP0nW0sFCxzyCyig" target="_blank">
+                                <img src="/assets/images/icon_youtube.png" alt="유튜브">
+                            </a>
+                        </li>
+                        <li>
                             <a href="http://post.naver.com/my.nhn?memberNo=541939" target="_blank">
                                 <img src="/assets/images/icon_naver_post.png" alt="네이버 포스트">
                             </a>

@@ -384,18 +384,19 @@ address {
   text-align: center;
   padding-bottom: 45px; }
   .magazine-view .view .section-header .share-list {
+    position: relative;
     font-size: 0; }
     .magazine-view .view .section-header .share-list li {
       display: inline-block;
-      margin-right: 5px; }
+      margin-right: 5px;
+      vertical-align: top; }
       .magazine-view .view .section-header .share-list li:last-child {
         margin-right: 0; }
       .magazine-view .view .section-header .share-list li a {
         display: table;
-        width: 33px;
-        height: 33px;
+        width: 37px;
+        height: 37px;
         text-align: center;
-        border: 1px solid #eeeff4;
         border-radius: 50%;
         -webkit-transition-property: all;
         transition-property: all;
@@ -404,15 +405,52 @@ address {
         -webkit-transition-timing-function: linear;
         transition-timing-function: linear;
         -webkit-transition-delay: 0s;
-        transition-delay: 0s; }
-        .magazine-view .view .section-header .share-list li a:hover, .magazine-view .view .section-header .share-list li a:focus {
-          opacity: .7; }
-        .magazine-view .view .section-header .share-list li a .icon {
-          display: table-cell;
-          vertical-align: middle; }
-          .magazine-view .view .section-header .share-list li a .icon img {
-            display: inline-block;
-            vertical-align: top; }
+        transition-delay: 0s;
+        background-repeat: no-repeat;
+        background-size: 37px 37px;
+        background-position: 50% 50%; }
+      .magazine-view .view .section-header .share-list li.icon-blog a {
+        background-image: url(../images/e_magazine/icon_blog.png); }
+        .magazine-view .view .section-header .share-list li.icon-blog a:hover, .magazine-view .view .section-header .share-list li.icon-blog a:focus {
+          background-image: url(../images/e_magazine/icon_blog_on.png); }
+      .magazine-view .view .section-header .share-list li.icon-post a {
+        background-image: url(../images/e_magazine/icon_post.png); }
+        .magazine-view .view .section-header .share-list li.icon-post a:hover, .magazine-view .view .section-header .share-list li.icon-post a:focus {
+          background-image: url(../images/e_magazine/icon_post_on.png); }
+      .magazine-view .view .section-header .share-list li.icon-insta a {
+        background-image: url(../images/e_magazine/icon_insta.png); }
+        .magazine-view .view .section-header .share-list li.icon-insta a:hover, .magazine-view .view .section-header .share-list li.icon-insta a:focus {
+          background-image: url(../images/e_magazine/icon_insta_no.png); }
+      .magazine-view .view .section-header .share-list li.icon-kakao a {
+        background-image: url(../images/e_magazine/icon_kakao.png); }
+        .magazine-view .view .section-header .share-list li.icon-kakao a:hover, .magazine-view .view .section-header .share-list li.icon-kakao a:focus {
+          background-image: url(../images/e_magazine/icon_kakao_on.png); }
+      .magazine-view .view .section-header .share-list li.icon-facebook a {
+        background-image: url(../images/e_magazine/icon_facebook.png); }
+        .magazine-view .view .section-header .share-list li.icon-facebook a:hover, .magazine-view .view .section-header .share-list li.icon-facebook a:focus {
+          background-image: url(../images/e_magazine/icon_facebook_on.png); }
+      .magazine-view .view .section-header .share-list li.icon-export a {
+        background-image: url(../images/e_magazine/icon_export.png); }
+        .magazine-view .view .section-header .share-list li.icon-export a:hover, .magazine-view .view .section-header .share-list li.icon-export a:focus {
+          background-image: url(../images/e_magazine/icon_export_on.png); }
+      .magazine-view .view .section-header .share-list li.last-ebook {
+        position: absolute;
+        top: 0;
+        right: 0; }
+        .magazine-view .view .section-header .share-list li.last-ebook .btn-ebook {
+          line-height: 33px;
+          width: 94px;
+          font-size: 13px;
+          color: #b2b2b2;
+          text-align: center;
+          border-radius: 30px;
+          font-family: 'Roboto', sans-serif;
+          border: 1px solid #eeeff4; }
+          .magazine-view .view .section-header .share-list li.last-ebook .btn-ebook:before {
+            position: relative;
+            top: 7px;
+            content: url(../images/e_magazine/icon_ebook.jpg);
+            margin-right: 10px; }
   .magazine-view .view .section-header h3 {
     font-size: 30px;
     color: #333;

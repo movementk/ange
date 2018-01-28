@@ -143,7 +143,7 @@ article {
       font-family: 'Roboto', sans-serif;
       line-height: 26px; }
     .hot-issue .details p {
-      font-size: 15px;
+      font-size: 16px;
       color: #666;
       line-height: 26px; }
 
@@ -253,21 +253,31 @@ article {
       .member-login .article-footer > ul > li {
         display: inline-block;
         width: 50%;
-        text-align: center; }
+        text-align: center;
+        /*
+        &:last-child {
+            a {
+                &:before {
+                    content: "\E821";
+                }
+            }
+        }*/ }
         .member-login .article-footer > ul > li a {
           font-size: 14px;
           color: #fff;
           line-height: 56px;
-          font-weight: 400; }
-          .member-login .article-footer > ul > li a:before {
-            font-family: "fontello";
-            margin-right: 5px; }
+          font-weight: 400;
+          /*&:before {
+              font-family: "fontello";
+              margin-right: 5px;
+          }*/ }
         .member-login .article-footer > ul > li:first-child {
-          border-right: 1px solid #fff; }
-          .member-login .article-footer > ul > li:first-child a:before {
-            content: "\E817"; }
-        .member-login .article-footer > ul > li:last-child a:before {
-          content: "\E821"; }
+          border-right: 1px solid #fff;
+          /*a {
+              &:before {
+                  content: "\E817";
+              }
+          }*/ }
 
 .member-information {
   padding: 30px; }
@@ -818,7 +828,7 @@ article {
     width: 33.33%;
     text-align: left;
     vertical-align: middle; }
-    .column-9 > .company > div figure {
+    .column-9 > .company > div a figure {
       vertical-align: top;
       display: inline-block;
       width: 100px;
@@ -829,17 +839,18 @@ article {
       border-radius: 50%;
       background-color: #eeeff4;
       box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.05) inset; }
-      .column-9 > .company > div figure img {
+      .column-9 > .company > div a figure img {
         display: inline-block; }
-    .column-9 > .company > div dl {
+    .column-9 > .company > div a dl {
       display: inline-block;
       padding: 16px 0; }
-      .column-9 > .company > div dl dt a {
+      .column-9 > .company > div a dl dt {
+        color: #333;
         display: block;
         font-size: 15px;
         color: #333;
         font-weight: 400; }
-        .column-9 > .company > div dl dt a .more {
+        .column-9 > .company > div a dl dt .more {
           position: relative;
           top: -2px;
           display: inline-block;
@@ -853,7 +864,7 @@ article {
           border-radius: 50%;
           background-color: #acc5ee;
           margin-left: 10px; }
-      .column-9 > .company > div dl dd {
+      .column-9 > .company > div a dl dd {
         font-size: 12px;
         color: #666;
         line-height: 16px;

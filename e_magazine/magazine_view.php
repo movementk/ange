@@ -17,47 +17,26 @@
                     <section class="view">
                         <div class="section-header">
                             <ul class="share-list">
-                                <li>
-                                    <a href="#">
-                                        <p class="icon">
-                                            <img src="/assets/images/e_magazine/icon_pint.png" alt="">
-                                        </p>
-                                    </a>
+                                <li class="icon-bg icon-blog">
+                                    <a href="#"></a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        <p class="icon">
-                                            <img src="/assets/images/e_magazine/icon_tweeter.png" alt="">
-                                        </p>
-                                    </a>
+                                <li class="icon-bg icon-post">
+                                    <a href="#"></a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        <p class="icon">
-                                            <img src="/assets/images/e_magazine/icon_facebook.png" alt="">
-                                        </p>
-                                    </a>
+                                <li class="icon-bg icon-insta">
+                                    <a href="#"></a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        <p class="icon">
-                                            <img src="/assets/images/e_magazine/icon_kakao.png" alt="">
-                                        </p>
-                                    </a>
+                                <li class="icon-bg icon-kakao">
+                                    <a href="#"></a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        <p class="icon">
-                                            <img src="/assets/images/e_magazine/icon_folder.png" alt="">
-                                        </p>
-                                    </a>
+                                <li class="icon-bg icon-facebook">
+                                    <a href="#"></a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        <p class="icon">
-                                            <img src="/assets/images/e_magazine/icon_export.png" alt="">
-                                        </p>
-                                    </a>
+                                <li class="icon-bg icon-export">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="last-ebook">
+                                    <a href="#" class="btn btn-ebook" role="button">eBook</a>
                                 </li>
                             </ul>
                             <h3>심한 입덧 가라앉히는 방법 없나요?</h3>

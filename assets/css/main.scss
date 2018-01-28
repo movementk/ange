@@ -138,7 +138,7 @@ article {
             line-height: 26px;
         }
         p {
-            font-size: 15px;
+            font-size: 16px;
             color: #666;
             line-height: 26px;
         }
@@ -278,26 +278,27 @@ article {
                     color: #fff;
                     line-height: 56px;
                     font-weight: 400;
-                    &:before {
+                    /*&:before {
                         font-family: "fontello";
                         margin-right: 5px;
-                    }
+                    }*/
                 }
                 &:first-child {
                     border-right: 1px solid #fff;
-                    a {
+                    /*a {
                         &:before {
                             content: "\E817";
                         }
-                    }
+                    }*/
                 }
+                /*
                 &:last-child {
                     a {
                         &:before {
                             content: "\E821";
                         }
                     }
-                }
+                }*/
             }
         }
     }
@@ -1064,26 +1065,27 @@ article {
             width: 33.33%;
             text-align: left;
             vertical-align: middle;
-            figure {
-                vertical-align: top;
-                display: inline-block;
-                width: 100px;
-                height: 100px;
-                line-height: 100px;
-                text-align: center;
-                margin-right: 15px;
-                border-radius: 50%;
-                background-color: #eeeff4;
-                box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.05) inset; 
-                img {
+            a {
+                figure {
+                    vertical-align: top;
                     display: inline-block;
+                    width: 100px;
+                    height: 100px;
+                    line-height: 100px;
+                    text-align: center;
+                    margin-right: 15px;
+                    border-radius: 50%;
+                    background-color: #eeeff4;
+                    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.05) inset; 
+                    img {
+                        display: inline-block;
+                    }
                 }
-            }
-            dl {
-                display: inline-block;
-                padding: 16px 0;
-                dt {
-                    a {
+                dl {
+                    display: inline-block;
+                    padding: 16px 0;
+                    dt {
+                        color: #333;
                         display: block;
                         font-size: 15px;
                         color: #333;
@@ -1104,12 +1106,12 @@ article {
                             margin-left: 10px;
                         }
                     }
-                }
-                dd {
-                    font-size: 12px;
-                    color: #666;
-                    line-height: 16px;
-                    margin-top: 14px;
+                    dd {
+                        font-size: 12px;
+                        color: #666;
+                        line-height: 16px;
+                        margin-top: 14px;
+                    }
                 }
             }
         }
