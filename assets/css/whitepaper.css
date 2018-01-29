@@ -34,14 +34,14 @@ address {
 
 /* 앙쥬 처음이세요? */
 .first-ange .section-header p {
-  font-size: 30px;
+  font-size: 28px;
   color: #333;
   line-height: 45px;
   font-weight: 200;
   margin-bottom: 40px; }
   .first-ange .section-header p i {
     color: #ff7875;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal; }
 .first-ange .section-content > ul {
   overflow: hidden; }
@@ -61,7 +61,8 @@ address {
       padding-right: 20px;
       vertical-align: middle;
       background-color: #f8f8fa;
-      border-radius: 10px; }
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px; }
       .first-ange .section-content > ul > li dl dt {
         position: relative;
         font-size: 22px;
