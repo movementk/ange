@@ -2657,7 +2657,13 @@ i.ico {
     background-image: url(../images/introcuction/icon_cooperative.png);
     background-position: 0 0;
     background-repeat: no-repeat; }
-.search-result .section-content article .article-content .paging {
-  margin-top: 45px; }
+.search-result .section-content article .article-content {
+  margin-top: 30px; }
+  .search-result .section-content article .article-content .paging {
+    margin-top: 30px; }
+.search-result .section-content article.picture-board .article-content {
+  margin-top: 0; }
+  .search-result .section-content article.picture-board .article-content .sponsor-list li:first-child {
+    border-top: none; }
 
 /*# sourceMappingURL=sub.css.map */
