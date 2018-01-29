@@ -3644,7 +3644,45 @@ i {
     }
 }
 
-
+// 검색결과
+.search-result {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 90px;
+            }
+            .article-header {
+                position: relative;
+                padding-bottom: 15px;
+                border-bottom: 3px solid #979aa2;
+                &:before {
+                    position: absolute;
+                    bottom: -3px;
+                    left: 0;
+                    content: " ";
+                    display: block;
+                    width: 200px;
+                    height: 3px;
+                    background-color: #ff7875;
+                }
+                .article-title {
+                    font-size: 16px;
+                    color: #333;
+                    padding-left: 35px;
+                    line-height: 21px;
+                    background-image: url(../images/introcuction/icon_cooperative.png);
+                    background-position: 0 0;
+                    background-repeat: no-repeat;
+                }
+            }
+            .article-content {
+                .paging {
+                    margin-top: 45px;
+                }
+            }
+        }
+    }
+}
 
 
 
