@@ -9,6 +9,18 @@
             }
         }
     }
+    .sns-share {
+        li {
+            p {
+                &.icon-export {
+                    &:before {
+                        display: none;
+                        content: " ";
+                    }
+                }
+            }
+        }
+    }
 }
 
 // 이벤트 리스트

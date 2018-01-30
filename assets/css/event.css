@@ -34,6 +34,9 @@ address {
 
 .event .search-form .btn-search .btn-default {
   color: #e25371; }
+.event .sns-share li p.icon-export:before {
+  display: none;
+  content: " "; }
 
 .event-list .event-slider .bx-wrapper {
   position: relative; }
