@@ -18,7 +18,12 @@
                         </div>
                         <div class="section-content">
                             <h4 class="title">제휴&amp;광고문의신청</h4>
-                            <p class="essential">필수 작성 항목입니다</p>
+                            <p>
+                                <a href="#" class="btn media-btn btn-pink" role="button">
+                                    <i class="icon-download"></i>미디어킷 다운
+                                </a>
+                                <span class="essential"></span>필수 작성 항목입니다
+                            </p>
                             <form action="#">
                                 <div class="table-wrap">
                                     <table class="table table-bordered type-1">

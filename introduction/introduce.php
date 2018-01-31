@@ -194,6 +194,13 @@
                                     <figure class="space">
                                         <img src="/assets/images/introcuction/img_ange_club.png" alt="앙쥬클럽">
                                     </figure>
+                                    <!-- 추가 -->
+                                    <div class="btn-area">
+                                        <p>
+                                            <a href="/assets/down/mediakit/angestudio_2016_11_07.pdf" class="btn btn-md btn-white" target="_blank">앙쥬클럽 미디어킷 보기</a>
+                                        </p>
+                                    </div>
+                                    <!-- 끝 -->
                                 </div>
                                 <div class="article-content">
                                     <h5>초기 출산모에게 브랜드 인지도를 확고히 해주는 전령사</h5>
