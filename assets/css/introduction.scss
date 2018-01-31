@@ -303,9 +303,18 @@
             text-align: right;
             font-size: 14px;
             color: #333;
-            &:before {
+            .media-btn {
+                width: 120px;
+                line-height: 30px;
+                border-radius: 30px;
+                margin-right: 5px;
+                text-align: center;
+            }
+            span {
+                &:before {
                 content: " *";
                 color: #e25371;
+                }
             }
         }
         .table-wrap {
