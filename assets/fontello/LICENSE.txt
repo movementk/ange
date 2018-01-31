@@ -1,22 +1,13 @@
 Font license info
 
 
-## Web Symbols
+## Iconic
 
-   Copyright (c) 2011 by Just Be Nice studio. All rights reserved.
+   Copyright (C) 2012 by P.J. Onori
 
-   Author:    Just Be Nice studio
+   Author:    P.J. Onori
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.justbenicestudio.com/
-
-
-## Modern Pictograms
-
-   Copyright (c) 2012 by John Caserta. All rights reserved.
-
-   Author:    John Caserta
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
+   Homepage:  http://somerandomdude.com/work/iconic/
 
 
 ## Entypo
@@ -37,22 +28,13 @@ Font license info
    Homepage:  http://fortawesome.github.com/Font-Awesome/
 
 
-## Iconic
+## MFG Labs
 
-   Copyright (C) 2012 by P.J. Onori
+   Copyright (C) 2012 by Daniel Bruce
 
-   Author:    P.J. Onori
+   Author:    MFG Labs
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://somerandomdude.com/work/iconic/
-
-
-## Elusive
-
-   Copyright (C) 2013 by Aristeides Stathopoulos
-
-   Author:    Aristeides Stathopoulos
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://aristeides.com/
+   Homepage:  http://www.mfglabs.com/
 
 
 ## Typicons
@@ -64,6 +46,24 @@ Font license info
    Homepage:  http://typicons.com/
 
 
+## Web Symbols
+
+   Copyright (c) 2011 by Just Be Nice studio. All rights reserved.
+
+   Author:    Just Be Nice studio
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://www.justbenicestudio.com/
+
+
+## Elusive
+
+   Copyright (C) 2013 by Aristeides Stathopoulos
+
+   Author:    Aristeides Stathopoulos
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://aristeides.com/
+
+
 ## Linecons
 
    Copyright (C) 2013 by Designmodo
@@ -73,12 +73,12 @@ Font license info
    Homepage:  http://designmodo.com/linecons-free/
 
 
-## MFG Labs
+## Modern Pictograms
 
-   Copyright (C) 2012 by Daniel Bruce
+   Copyright (c) 2012 by John Caserta. All rights reserved.
 
-   Author:    MFG Labs
+   Author:    John Caserta
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.mfglabs.com/
+   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
 
 

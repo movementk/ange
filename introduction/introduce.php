@@ -197,7 +197,7 @@
                                     <!-- 추가 -->
                                     <div class="btn-area">
                                         <p>
-                                            <a href="/assets/down/mediakit/angestudio_2016_11_07.pdf" class="btn btn-md btn-white" target="_blank">앙쥬클럽 미디어킷 보기</a>
+                                            <a href="#" class="btn btn-md btn-white" target="_blank">앙쥬클럽 미디어킷 보기</a>
                                         </p>
                                     </div>
                                     <!-- 끝 -->
