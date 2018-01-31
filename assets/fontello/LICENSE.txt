@@ -1,13 +1,22 @@
 Font license info
 
 
-## Iconic
+## Web Symbols
 
-   Copyright (C) 2012 by P.J. Onori
+   Copyright (c) 2011 by Just Be Nice studio. All rights reserved.
 
-   Author:    P.J. Onori
+   Author:    Just Be Nice studio
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://somerandomdude.com/work/iconic/
+   Homepage:  http://www.justbenicestudio.com/
+
+
+## Modern Pictograms
+
+   Copyright (c) 2012 by John Caserta. All rights reserved.
+
+   Author:    John Caserta
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
 
 
 ## Entypo
@@ -28,31 +37,13 @@ Font license info
    Homepage:  http://fortawesome.github.com/Font-Awesome/
 
 
-## MFG Labs
+## Iconic
 
-   Copyright (C) 2012 by Daniel Bruce
+   Copyright (C) 2012 by P.J. Onori
 
-   Author:    MFG Labs
+   Author:    P.J. Onori
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.mfglabs.com/
-
-
-## Typicons
-
-   (c) Stephen Hutchings 2012
-
-   Author:    Stephen Hutchings
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://typicons.com/
-
-
-## Web Symbols
-
-   Copyright (c) 2011 by Just Be Nice studio. All rights reserved.
-
-   Author:    Just Be Nice studio
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.justbenicestudio.com/
+   Homepage:  http://somerandomdude.com/work/iconic/
 
 
 ## Elusive
@@ -64,6 +55,15 @@ Font license info
    Homepage:  http://aristeides.com/
 
 
+## Typicons
+
+   (c) Stephen Hutchings 2012
+
+   Author:    Stephen Hutchings
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://typicons.com/
+
+
 ## Linecons
 
    Copyright (C) 2013 by Designmodo
@@ -73,12 +73,12 @@ Font license info
    Homepage:  http://designmodo.com/linecons-free/
 
 
-## Modern Pictograms
+## MFG Labs
 
-   Copyright (c) 2012 by John Caserta. All rights reserved.
+   Copyright (C) 2012 by Daniel Bruce
 
-   Author:    John Caserta
+   Author:    MFG Labs
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
+   Homepage:  http://www.mfglabs.com/
 
 
