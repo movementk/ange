@@ -1580,7 +1580,7 @@ label {
       .order-info .order-sheet .article-header .date-search-form dl dd .form-group {
         position: relative;
         vertical-align: top;
-        width: 130px;
+        width: 125px;
         height: 36px;
         display: inline-block; }
         .order-info .order-sheet .article-header .date-search-form dl dd .form-group:nth-of-type(1) {
@@ -1605,7 +1605,7 @@ label {
     vertical-align: top;
     display: inline-block; }
     .order-info .order-sheet .article-header .search .form-group .form-control {
-      width: 282px;
+      width: 280px;
       font-size: 12px;
       height: 36px;
       color: #999;
@@ -2665,5 +2665,46 @@ i.ico {
   margin-top: 0; }
   .search-result .section-content article.picture-board .article-content .sponsor-list li:first-child {
     border-top: none; }
+
+.basket-list.order-write.success .list._step01 .article-content .pay-info {
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  background-color: #fafafa; }
+  .basket-list.order-write.success .list._step01 .article-content .pay-info .sum ul li dl dt {
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    line-height: 28px;
+    font-weight: 400;
+    vertical-align: top; }
+  .basket-list.order-write.success .list._step01 .article-content .pay-info .sum ul li dl dd {
+    display: inline-block;
+    font-size: 15px;
+    color: #e25371;
+    vertical-align: top;
+    line-height: 28px;
+    font-weight: 500;
+    margin-left: 30px; }
+    .basket-list.order-write.success .list._step01 .article-content .pay-info .sum ul li dl dd b {
+      font-weight: 500; }
+  .basket-list.order-write.success .list._step01 .article-content .pay-info .total dl dt {
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    line-height: 28px;
+    font-weight: 500;
+    vertical-align: top; }
+  .basket-list.order-write.success .list._step01 .article-content .pay-info .total dl dd {
+    display: inline-block;
+    font-size: 15px;
+    color: #e25371;
+    vertical-align: top;
+    line-height: 28px;
+    font-weight: 500;
+    margin-left: 30px; }
+    .basket-list.order-write.success .list._step01 .article-content .pay-info .total dl dd strong {
+      font-weight: 500; }
 
 /*# sourceMappingURL=sub.css.map */

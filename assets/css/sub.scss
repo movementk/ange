@@ -2096,7 +2096,7 @@ label {
                         .form-group {
                             position: relative;
                             vertical-align: top;
-                            width: 130px;
+                            width: 125px;
                             height: 36px;
                             display: inline-block;
                             &:nth-of-type(1) {
@@ -2129,7 +2129,7 @@ label {
                     vertical-align: top;
                     display: inline-block;
                     .form-control {
-                        width: 282px;
+                        width: 280px;
                         font-size: 12px;
                         height: 36px;
                         color: #999;
@@ -3698,7 +3698,71 @@ i {
 }
 
 
-
+.basket-list.order-write.success {
+    .list._step01 {
+        .article-content {
+            .pay-info {
+                padding: 20px 30px;
+                margin-top: 30px;
+                border-radius: 5px;
+                border: 1px solid #e5e5e5;
+                background-color: #fafafa;
+                .sum {
+                    ul {
+                        li {
+                            dl {
+                                dt {
+                                    display: inline-block;
+                                    font-size: 15px;
+                                    color: #333;
+                                    line-height: 28px;
+                                    font-weight: 400;
+                                    vertical-align: top;
+                                }
+                                dd {
+                                    display: inline-block;
+                                    font-size: 15px;
+                                    color: #e25371;
+                                    vertical-align: top;
+                                    line-height: 28px;
+                                    font-weight: 500;
+                                    margin-left: 30px;
+                                    b {
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .total {
+                    dl {
+                        dt {
+                            display: inline-block;
+                            font-size: 15px;
+                            color: #333;
+                            line-height: 28px;
+                            font-weight: 500;
+                            vertical-align: top;
+                        }
+                        dd {
+                            display: inline-block;
+                            font-size: 15px;
+                            color: #e25371;
+                            vertical-align: top;
+                            line-height: 28px;
+                            font-weight: 500;
+                            margin-left: 30px;
+                            strong {
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

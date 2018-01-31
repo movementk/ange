@@ -22,7 +22,7 @@
     }
     .column {
         display: inline-block;
-        font-size: 13px;
+        font-size: 1px;
         vertical-align: top;
         color: #666;
         margin-right: 10px;
@@ -1047,6 +1047,28 @@ article {
                         }
                     }
                 }
+                /*.gallery {
+                    overflow: hidden;
+                    li {
+                        float: left;
+                        margin-right: 9px;
+                        & ~ li {
+                            margin-top: 9px;
+                        }
+                        &:nth-of-type(3n + 3) {
+                            margin-right: 0;
+                        }
+                        &:nth-of-type(3n + 1) {
+                            clear: both;
+                        }
+                        &:nth-of-type(2), &:nth-of-type(3) {
+                            margin-top: 0;
+                        }
+                        a {
+                            display: block;
+                        }
+                    }
+                }*/
             }
         }
     }
