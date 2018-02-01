@@ -2707,4 +2707,7 @@ i.ico {
     .basket-list.order-write.success .list._step01 .article-content .pay-info .total dl dd strong {
       font-weight: 500; }
 
+.ready #content {
+  padding: 0; }
+
 /*# sourceMappingURL=sub.css.map */

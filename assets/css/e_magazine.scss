@@ -73,6 +73,7 @@
                     color: #999;
                     margin-bottom: 5px;
                     i {
+                        display: none !important;
                         font-style: normal;
                         &:before {
                             content: "[";
@@ -490,6 +491,22 @@
                             background-image: url(../images/e_magazine/icon_blog.png);
                             &:hover, &:focus {
                                 background-image: url(../images/e_magazine/icon_blog_on.png);
+                            }
+                        }
+                    }
+                    &.icon-naver {
+                        a {
+                            background-image: url(../images/e_magazine/icon_naver.png);
+                            &:hover, &:focus {
+                                background-image: url(../images/e_magazine/icon_naver_on.png);
+                            }
+                        }
+                    }
+                    &.icon-cafe {
+                        a {
+                            background-image: url(../images/e_magazine/icon_cafe.png);
+                            &:hover, &:focus {
+                                background-image: url(../images/e_magazine/icon_cafe_on.png);
                             }
                         }
                     }

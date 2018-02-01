@@ -80,6 +80,7 @@ address {
     color: #999;
     margin-bottom: 5px; }
     .e-book .ebook-list .section-header .summary-content small i {
+      display: none !important;
       font-style: normal; }
       .e-book .ebook-list .section-header .summary-content small i:before {
         content: "["; }
@@ -413,6 +414,14 @@ address {
         background-image: url(../images/e_magazine/icon_blog.png); }
         .magazine-view .view .section-header .share-list li.icon-blog a:hover, .magazine-view .view .section-header .share-list li.icon-blog a:focus {
           background-image: url(../images/e_magazine/icon_blog_on.png); }
+      .magazine-view .view .section-header .share-list li.icon-naver a {
+        background-image: url(../images/e_magazine/icon_naver.png); }
+        .magazine-view .view .section-header .share-list li.icon-naver a:hover, .magazine-view .view .section-header .share-list li.icon-naver a:focus {
+          background-image: url(../images/e_magazine/icon_naver_on.png); }
+      .magazine-view .view .section-header .share-list li.icon-cafe a {
+        background-image: url(../images/e_magazine/icon_cafe.png); }
+        .magazine-view .view .section-header .share-list li.icon-cafe a:hover, .magazine-view .view .section-header .share-list li.icon-cafe a:focus {
+          background-image: url(../images/e_magazine/icon_cafe_on.png); }
       .magazine-view .view .section-header .share-list li.icon-post a {
         background-image: url(../images/e_magazine/icon_post.png); }
         .magazine-view .view .section-header .share-list li.icon-post a:hover, .magazine-view .view .section-header .share-list li.icon-post a:focus {

@@ -159,15 +159,15 @@ article {
         width: 100%; }
     .jumbo .bx-wrapper .bx-controls {
       position: absolute;
-      bottom: 10px;
-      width: 100%;
+      top: 15px;
+      right: 15px;
       text-align: center; }
       .jumbo .bx-wrapper .bx-controls .bx-pager {
         display: inline-block;
         height: 30px;
         padding: 8px 14px;
         border-radius: 30px;
-        background-color: rgba(255, 255, 255, 0.9); }
+        background-color: rgba(255, 255, 255, 0.5); }
         .jumbo .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
           display: inline-block;
           margin: 0 3px;
@@ -205,7 +205,7 @@ article {
       color: #666;
       font-weight: 300; }
   .member-login .article-content {
-    padding: 0 30px 30px; }
+    padding: 0 30px 28px; }
     .member-login .article-content .form-group {
       margin: 0; }
       .member-login .article-content .form-group ~ .form-group {
