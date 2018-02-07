@@ -370,6 +370,57 @@
 }
 
 
+.renew-popup {
+    .pop-layer {
+        .pop-container {
+            width: 470px;
+            margin: 0 auto;
+            .pop-head {
+                text-align: right;
+                .btn-close {
+                    display: inline-block;
+                    .close {
+                        width: 60x;
+                        height: 60px;
+                        opacity: 1;
+                        text-align: center;
+                        line-height: 60px;
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .pop-body {
+                .content {
+                    overflow: hidden;
+                    figure {
+                        margin-bottom: 20px;
+                    }
+                    label {
+                        float: left;
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: rgba(255, 255, 255, .7);
+                        input {
+                            position: relative;
+                            top: 2px;
+                            margin-right: 5px;
+                        }
+                    }
+                    a {
+                        font-size: 16px;
+                        color: #fff;
+                        float: right;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 
 
 

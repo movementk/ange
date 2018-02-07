@@ -169,8 +169,13 @@
         background-color: #ff7875;
         .title {
             font-size: 34px;
-            line-height: 33px;
-            @include jua();
+            img {
+                display: block;
+                margin: 0 auto;
+                &.open-txt {
+                    display: none;
+                }
+            }
         }
         p {
             font-size: 15px;
@@ -349,6 +354,16 @@
             background-color: #7accc8;
             .responsive-br {
                 display: none;
+            }
+            .title {
+                img {
+                    &.close-txt {
+                        display: none;
+                    }
+                    &.open-txt {
+                        display: block;
+                    }
+                }
             }
             p {
                 margin: 10px 0 20px;

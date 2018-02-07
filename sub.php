@@ -1,5 +1,6 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
+<link href="/assets/css/sub_popup.css" rel="stylesheet">
 </head>
 <body class="sub"><!-- 폴더별 클래스명 추가 -->
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
@@ -669,9 +670,42 @@
         </div>
     </main>
     
+    
+    
+    <a href="#popup-content" class="btn-popup">팝업 버튼</a>
+    
+    <!-- 투표결과 팝업 -->
+    <div class="popup-layer renew-popup">
+        <div class="popup-bg"></div>
+        <div id="popup-content" class="pop-layer">
+            <div class="pop-container">
+                <div class="pop-head">
+                    <div class="btn-close">
+                        <button type="button" class="btn close">
+                            <img src="/assets/images/btn_close_white.png" alt="닫기">
+                        </button>
+                    </div>
+                </div>
+                <div class="pop-body">
+                    <div class="content">
+                        <figure>
+                            <img src="/assets/images/renew_popup.jpg" class="img-responsive" alt="">
+                        </figure>
+                        <label><input type="checkbox"> 오늘하루 열지 않습니다.</label>
+                        <a href="#">닫기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/sub_aside.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common_sub.js"></script>
+    <script src="/assets/js/sub_popup.js"></script>
 </body>
 </html>

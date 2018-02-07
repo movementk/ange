@@ -5,7 +5,10 @@
         </button>
     </div>
     <div class="aside-head">
-        <h3 class="title">앙쥬<br class="responsive-br"> 네이밍</h3>
+        <h3 class="title">
+            <img src="/assets/images/sub/aside_close_txt.png" class="close-txt" alt="">
+            <img src="/assets/images/sub/aside_open_txt.png" class="open-txt" alt="">
+        </h3>
         <p>우리아이<br class="responsive-br"> 이름짓기</p>
         <div class="btn-quick">
             <a href="#" class="btn btn-default" role="button">바로가기</a>

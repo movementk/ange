@@ -1,15 +1,4 @@
-@import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
-@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
-@font-face {
-  font-family: 'Daehan';
-  font-style: normal;
-  font-weight: 400;
-  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff") format("woff"); }
-@font-face {
-  font-family: 'Daehan';
-  font-style: normal;
-  font-weight: 700;
-  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff") format("woff"); }
+@import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700um+Myeongjo&subset=korean");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -324,11 +313,11 @@ body {
   padding: 30px 0;
   border-top: 1px solid #dfdfdf;
   background-color: #fff; }
-  #footer .e-book a {
+  #footer .e-book > div {
     width: 140px;
     display: block;
     text-decoration: none; }
-    #footer .e-book a p {
+    #footer .e-book > div p {
       position: relative;
       font-size: 11px;
       color: #fff;
@@ -338,24 +327,27 @@ body {
       padding: 0 10px;
       border-radius: 10px;
       background-color: #acc5ee; }
-      #footer .e-book a p:after {
+      #footer .e-book > div p:after {
         position: absolute;
         top: 0;
         right: 10px;
         font-size: 10px;
         font-family: "fontello";
         content: "\E801"; }
-    #footer .e-book a figure {
+    #footer .e-book > div figure {
       text-align: center;
       margin-top: 7px;
       padding: 0 10px;
       font-size: 0; }
-      #footer .e-book a figure img {
+      #footer .e-book > div figure a {
         display: inline-block;
         margin-right: 10px;
         box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.3); }
-        #footer .e-book a figure img:last-child {
+        #footer .e-book > div figure a:last-child {
           margin-right: 0; }
+        #footer .e-book > div figure a img {
+          width: 55px;
+          height: 76px; }
   #footer .company {
     text-align: center;
     padding-top: 10px; }

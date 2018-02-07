@@ -3,13 +3,13 @@
         <div class="row">
             <div class="col-xs-3">
                 <div class="e-book">
-                    <a href="#">
+                    <div>
                         <p>E-book List</p>
                         <figure>
-                            <img src="/assets/images/img_ebook01.gif" alt="e-book">
-                            <img src="/assets/images/img_ebook02.gif" alt="e-book">
+                            <a href="#"><img src="/assets/images/img_ebook01.gif" alt="e-book"></a>
+                            <a href="#"><img src="/assets/images/img_ebook01.gif" alt="e-book"></a>
                         </figure>
-                    </a>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-6">

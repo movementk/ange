@@ -1,16 +1,5 @@
 @charset "UTF-8";
-@import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
-@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
-@font-face {
-  font-family: 'Daehan';
-  font-style: normal;
-  font-weight: 400;
-  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff") format("woff"); }
-@font-face {
-  font-family: 'Daehan';
-  font-style: normal;
-  font-weight: 700;
-  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff") format("woff"); }
+@import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700um+Myeongjo&subset=korean");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -40,7 +29,7 @@ address {
     padding-top: 5px;
     margin-top: 30px; }
     .education-intro .section-content .porofile > li:first-child {
-      magin-top: 0; }
+      margin-top: 0; }
     .education-intro .section-content .porofile > li .bookmark {
       position: absolute;
       top: 0;
@@ -232,12 +221,12 @@ address {
           width: 370px;
           padding-right: 60px; }
           .club-intro .section-content article > div.summary-box h4 {
-            font-size: 24px;
+            font-size: 22px;
             line-height: 35px;
             color: #666;
             font-weight: 300;
             letter-spacing: -1px;
-            font-family: 'Daehan', serif; }
+            font-family: 'Nanum Myeongjo', serif; }
             .club-intro .section-content article > div.summary-box h4 b {
               font-weight: bold;
               color: #333; }

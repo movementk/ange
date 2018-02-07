@@ -69,6 +69,10 @@
                         line-height: 24px;
                         margin-top: 15px;
                         text-align: justify;
+                        letter-spacing: -.5px;
+                        br {
+                            display: none;
+                        }
                     }
                 }
             }

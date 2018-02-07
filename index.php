@@ -538,18 +538,17 @@
             <div class="section ange-community">
                 <div class="sample-pack">
                     <a href="#">
-                        <h3>앙쥬<br>샘플팰 신청하기</h3>
+                        <h3><img src="/assets/images/main/community_title01.png" alt=""></h3>
                     </a>
                 </div>
                 <div class="event-prizewinner">
                     <a href="#">
-                        <h3>이벤트<br>당첨자 발표</h3>
+                        <h3><img src="/assets/images/main/community_title02.png" alt=""></h3>
                     </a>
                 </div>
                 <div class="ange-club">
                     <a href="#">
-                        <h3>앙쥬 클럽</h3>
-                        <p>산후조리원 모유수유 전용</p>
+                        <h3><img src="/assets/images/main/community_title03.png" alt=""></h3>
                     </a>
                 </div>
             </div>

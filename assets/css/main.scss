@@ -166,23 +166,23 @@ article {
         }
         .bx-controls {
             position: absolute;
-            top: 15px;
-            right: 15px;
+            bottom: 10px;
+            width: 100%;
             text-align: center;
             .bx-pager {
                 display: inline-block;
-                height: 30px;
-                padding: 8px 14px;
+                height: 22px;
+                padding: 5px 10px;
                 border-radius: 30px;
                 background-color: rgba(255, 255, 255, .5);
                 .bx-pager-item {
                     display: inline-block;
                     margin: 0 3px;
-                    height: 14px;
+                    height: 12px;
                     a {
                         display: block;
-                        width: 14px;
-                        height: 14px;
+                        width: 12px;
+                        height: 12px;
                         text-indent: -9999px;
                         border-radius: 50%;
                         border: 1px solid #777;
@@ -907,7 +907,6 @@ article {
             h3 {
                 font-size: 24px;
                 line-height: 28px;
-                @include jua();
                 text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); 
             }
             p {

@@ -391,7 +391,7 @@ body {
     border-top: 1px solid #dfdfdf;
     background-color: #fff;
     .e-book {
-        a {
+        > div {
             width: 140px;
             display: block;
             text-decoration: none;
@@ -419,12 +419,16 @@ body {
                 margin-top: 7px;
                 padding: 0 10px;
                 font-size: 0;
-                img {
+                a {
                     display: inline-block;
                     margin-right: 10px;
                     box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.3); 
                     &:last-child {
                         margin-right: 0;
+                    }
+                    img {
+                        width: 55px;
+                        height: 76px;
                     }
                 }
             }

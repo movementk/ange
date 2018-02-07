@@ -1,15 +1,4 @@
-@import url("https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css");
-@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
-@font-face {
-  font-family: 'Daehan';
-  font-style: normal;
-  font-weight: 400;
-  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanR.woff") format("woff"); }
-@font-face {
-  font-family: 'Daehan';
-  font-style: normal;
-  font-weight: 700;
-  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff2") format("woff2"), url("//cdn.jsdelivr.net/korean-webfonts/1/corps/yoon/Daehan/DaehanB.woff") format("woff"); }
+@import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700um+Myeongjo&subset=korean");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -304,5 +293,39 @@ address {
             line-height: 40px;
             border: 0;
             background-color: #7db858; }
+
+.renew-popup .pop-layer .pop-container {
+  width: 470px;
+  margin: 0 auto; }
+  .renew-popup .pop-layer .pop-container .pop-head {
+    text-align: right; }
+    .renew-popup .pop-layer .pop-container .pop-head .btn-close {
+      display: inline-block; }
+      .renew-popup .pop-layer .pop-container .pop-head .btn-close .close {
+        width: 60x;
+        height: 60px;
+        opacity: 1;
+        text-align: center;
+        line-height: 60px; }
+        .renew-popup .pop-layer .pop-container .pop-head .btn-close .close img {
+          display: inline-block; }
+  .renew-popup .pop-layer .pop-container .pop-body .content {
+    overflow: hidden; }
+    .renew-popup .pop-layer .pop-container .pop-body .content figure {
+      margin-bottom: 20px; }
+    .renew-popup .pop-layer .pop-container .pop-body .content label {
+      float: left;
+      font-size: 14px;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.7); }
+      .renew-popup .pop-layer .pop-container .pop-body .content label input {
+        position: relative;
+        top: 2px;
+        margin-right: 5px; }
+    .renew-popup .pop-layer .pop-container .pop-body .content a {
+      font-size: 16px;
+      color: #fff;
+      float: right;
+      text-decoration: none; }
 
 /*# sourceMappingURL=sub_popup.css.map */
