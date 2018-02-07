@@ -1461,10 +1461,12 @@ label {
     line-height: 268px;
     border: 1px solid #eeeff4;
     border-radius: 10px;
+    overflow: hidden;
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
     .item-list .article-content ul li a .item img {
-      display: inline-block; }
+      display: inline-block;
+      vertical-align: top; }
   .item-list .article-content ul li a .details {
     padding-top: 20px;
     text-align: center; }
@@ -1473,7 +1475,8 @@ label {
       color: #333;
       height: 40px;
       font-weight: 500;
-      line-height: 20px; }
+      line-height: 20px;
+      word-break: keep-all; }
     .item-list .article-content ul li a .details .point {
       display: inline-block;
       font-size: 15px;
@@ -1891,7 +1894,8 @@ label {
           color: #333;
           font-weight: 400;
           line-height: 20px;
-          /*word-break: keep-all;*/ }
+          height: 40px;
+          word-break: keep-all; }
         .model-item > li a .details > .user-info {
           margin-top: 15px; }
           .model-item > li a .details > .user-info li {

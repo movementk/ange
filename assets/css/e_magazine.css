@@ -309,6 +309,7 @@ address {
         .magazine-list .board-list.list-type-1 .article-content > ul > li a .details h3 {
           font-size: 15px;
           color: #333;
+          height: 40px;
           font-weight: 400;
           line-height: 20px;
           word-break: keep-all; }

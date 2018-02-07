@@ -149,7 +149,8 @@ address {
         .event-list .list-content .list > li a .details .title {
           font-size: 15px;
           color: #333;
-          line-height: 24px; }
+          line-height: 24px;
+          height: 48px; }
         .event-list .list-content .list > li a .details .event-information {
           overflow: hidden;
           margin-top: 20px; }

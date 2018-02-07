@@ -1965,10 +1965,12 @@ label {
                         line-height: 268px;
                         border: 1px solid #eeeff4;
                         border-radius: 10px;
+                        overflow: hidden;
                         border-top-left-radius: 0;
                         border-top-right-radius: 0;
                         img {
                             display: inline-block;
+                            vertical-align: top;
                         }
                     }
                     .details {
@@ -1980,6 +1982,7 @@ label {
                             height: 40px;
                             font-weight: 500;
                             line-height: 20px;
+                            word-break: keep-all;
                         }
                         .point {
                             display: inline-block;
@@ -2522,7 +2525,8 @@ label {
                     color: #333;
                     font-weight: 400;
                     line-height: 20px;
-                    /*word-break: keep-all;*/
+                    height: 40px;
+                    word-break: keep-all;
                 }
                 > .user-info {
                     margin-top: 15px;
