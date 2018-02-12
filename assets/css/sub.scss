@@ -138,14 +138,16 @@
         position: absolute;
         top: 50%;
         left: 0;
-        margin-top: -15px;
-        margin-left: -15px;
+        margin-top: -18px;
+        margin-left: -18px;
         .btn-default {
-            width: 30px;
-            font-size: 12px;
+            display: block;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
             /*height: 30px;
             line-height: 30px;*/
-            padding: 5px 0;
+            /*padding: 5px 0;*/
             text-align: center;
             border-radius: 50%;
             box-shadow: none !important;
@@ -154,8 +156,8 @@
                 position: relative;
                 left: -5px;
                 content: "\E80D";
-                line-height: 16px;
-                font-size: 16px;
+                /*line-height: 16px;*/
+                font-size: 23px;
                 color: #fff;
                 font-family: "fontello";
             }
@@ -3788,6 +3790,107 @@ i {
         padding: 0;
     }
 }
+
+// 룰렛
+.roulette {
+    .sub-content {
+        padding-top: 106px !important;
+    }
+}
+.roulette-event {
+    height: 1436px;
+    background-image: url(../images/roulette/bg_roulette.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    .article-header {
+        text-align: center;
+        padding-top: 114px;
+        padding-bottom: 40px;
+        h3 {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+            margin-bottom: 35px;
+        }
+        p {
+            font-size: 30px;
+            color: #323337;
+            font-weight: 400;
+            margin-bottom: 18px;
+        }
+        small {
+            display: block;
+            font-size: 14px;
+            color: #a59ab7;
+            span {
+                display: inline-block;
+                padding-bottom: 5px;
+                border-bottom: 1px solid #a59ab7;
+            }
+        }
+        dl {
+            display: inline-block;
+            text-align: center;
+            font-size: 0;
+            color: #fff;
+            margin-top: 24px;
+            padding: 0 40px;
+            border-radius: 30px;
+            background-color: #4a3c49;
+            dt {
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 45px;
+                &:after {
+                    position: relative;
+                    top: -2px;
+                    font-size: 16px;
+                    content: ":";
+                    margin: 0 4px;
+                }
+            }
+            dd {
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 45px;
+            }
+        }
+    }
+    .article-content {
+        position: relative;
+        padding-top: 22px;
+        .fix-angle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1;
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .roulette-board {
+            position: relative;
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+            .roulette-btn {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -73px;
+                margin-left: -73px;
+            }
+        }
+    }
+}
+
+
 
 
 

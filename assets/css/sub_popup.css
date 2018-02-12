@@ -328,4 +328,40 @@ address {
       float: right;
       text-decoration: none; }
 
+.roulette-result .pop-layer {
+  width: 570px; }
+  .roulette-result .pop-layer .pop-container .pop-head {
+    display: block;
+    height: 65px; }
+    .roulette-result .pop-layer .pop-container .pop-head .btn-close .close {
+      width: 65px;
+      height: 65px;
+      text-align: center;
+      line-height: 65px;
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.7); }
+      .roulette-result .pop-layer .pop-container .pop-head .btn-close .close img {
+        display: inline-block; }
+  .roulette-result .pop-layer .pop-container .pop-body .content {
+    display: block;
+    text-align: center;
+    height: 545px;
+    padding-top: 175px;
+    background-image: url(../images/roulette/bg_result_popup.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+    .roulette-result .pop-layer .pop-container .pop-body .content strong {
+      font-size: 33px;
+      color: #222;
+      font-weight: 500;
+      line-height: 39px;
+      display: block; }
+    .roulette-result .pop-layer .pop-container .pop-body .content p {
+      font-size: 18px;
+      color: #666;
+      line-height: 24px;
+      margin-top: 30px; }
+    .roulette-result .pop-layer .pop-container .pop-body .content .btn-area {
+      margin-top: 40px; }
+
 /*# sourceMappingURL=sub_popup.css.map */
