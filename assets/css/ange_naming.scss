@@ -1,0 +1,72 @@
+@import 'common';
+
+// 공통
+.ange-naming {
+    .naming-title {
+        position: relative;
+        padding-left: 20px;
+        font-size: 18px;
+        color: #333;
+        font-weight: 400;
+        margin-bottom: 20px;
+        &:before {
+            position: absolute;
+            top: 2px;
+            left: 0;
+            font-size: 16px;
+            color: #e25371;
+            content: "\E826";
+            font-family: 'fontello';
+        }
+    }
+    .explain {
+        padding: 40px;
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        &.gray {
+            padding: 30px;
+            background-color: #f6f7f9;
+        }
+    }
+    .table-wrap {
+        .table {
+            tbody {
+                tr {
+                    td {
+                        &.bg-gray {
+                            background-color: #fafafa;
+                        }
+                    }
+                }
+            }
+            &.naming-table {
+                border: 0;
+                caption {
+                    font-size: 14px;
+                    color: #fff;
+                    padding: 15px 0;
+                    text-align: center;
+                    background-color: #acacac;
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 14px;
+                            color: #666;
+                            text-align: center;
+                            vertical-align: middle;
+                            padding: 15px 0;
+                            border: 1px solid #dfdfdf;
+                            &:last-child {
+                                border-right: 0;
+                            }
+                            &:first-child {
+                                border-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

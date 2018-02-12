@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700um+Myeongjo&subset=korean");
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.container {
+  width: 1200px !important; }
+
+.ange-naming .naming-title {
+  position: relative;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 20px; }
+  .ange-naming .naming-title:before {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    font-size: 16px;
+    color: #e25371;
+    content: "\E826";
+    font-family: 'fontello'; }
+.ange-naming .explain {
+  padding: 40px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px; }
+  .ange-naming .explain.gray {
+    padding: 30px;
+    background-color: #f6f7f9; }
+.ange-naming .table-wrap .table tbody tr td.bg-gray {
+  background-color: #fafafa; }
+.ange-naming .table-wrap .table.naming-table {
+  border: 0; }
+  .ange-naming .table-wrap .table.naming-table caption {
+    font-size: 14px;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #acacac; }
+  .ange-naming .table-wrap .table.naming-table tbody tr td {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 0;
+    border: 1px solid #dfdfdf; }
+    .ange-naming .table-wrap .table.naming-table tbody tr td:last-child {
+      border-right: 0; }
+    .ange-naming .table-wrap .table.naming-table tbody tr td:first-child {
+      border-left: 0; }
+
+/*# sourceMappingURL=ange_naming.css.map */
