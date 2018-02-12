@@ -3891,12 +3891,301 @@ i {
 }
 
 
+// 스페셜 작명 소개
+.spacial-intro {
+    .naming-title {
+        margin-bottom: 10px !important;
+    }
+    .summary {
+        font-size: 14px;
+        color: #666;
+    }
+    figure {
+        padding: 30px 0;
+        .img-responsive {
+            margin: 0 auto;
+        }
+    }
+    article {
+        & ~ article {
+            margin-top: 100px;
+        }
+        .article-content {
+            padding-top: 30px;
+            ol {
+                li {
+                    position: relative;
+                    padding-bottom: 35px;
+                    & ~ li {
+                        margin-top: 15px;
+                    }
+                    > div {
+                        overflow: hidden;
+                        padding: 25px 0;
+                        border: 1px solid #e5e5e5;
+                        background-color: #f6f7f9;
+                        border-radius: 10px;
+                        h4 {
+                            float: left;
+                            width: 50%;
+                            font-size: 18px;
+                            color: #ff7875;
+                            font-weight: 400;
+                            padding-left: 70px;
+                            small {
+                                display: inline-block;
+                                margin-right: 10px;
+                                font-size: 15px;
+                                color: #ff7875;
+                                font-weight: 500;
+                                @include roboto();
+                                display: inline-block;
+                            }
+                        }
+                        p {
+                            float: left;
+                            width: 50%;
+                            font-size: 14px;
+                            color: #666;
+                        }
+                    }
+                    &:last-child {
+                        margin-bottom: 0;
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    &:after {
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        margin-left: -10px;
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #fff;
+                        content: "\F107";
+                        font-family: "fontello";
+                        border-radius: 50%;
+                        z-index: 1;
+                        background-color: #7fbbff;
+                    }
+                }
+            }
+            .table-wrap {
+                .table {
+                    tbody {
+                        tr {
+                            th {
+                                font-size: 14px;
+                            }
+                            td {
+                                font-size: 14px;
+                                color: #666;
+                                padding: 15px 30px;
+                                a {
+                                    color: #666;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .attention {
+            margin-top: 60px;
+            h5 {
+                position: relative;
+                font-size: 14px;
+                color: #e25371;
+                font-weight: 500;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    font-family: "fontello";
+                    content: "\E81B";
+                }
+            }
+            ol {
+                list-style: decimal;
+                list-style-position: inside;
+                li {
+                    font-size: 13px;
+                    color: #999;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}
 
+// 작명가 소개
+.name-author {
+    .author-list {
+        > li {
+            position: relative;
+            padding: 40px;
+            padding-left: 300px;
+            border-radius: 10px;
+            border: 1px solid #e5e5e5;
+            background-color: #fbfbfb;
+            & ~ li {
+                margin-top: 30px;
+            }
+            figure {
+                position: absolute;
+                top: 40px;
+                left: 70px;
+            }
+            .details {
+                h3 {
+                    font-size: 26px;
+                    color: #333;
+                    small {
+                        display: block;
+                        font-size: 14px;
+                        color: #999;
+                        margin-bottom: 20px;
+                    }
+                    strong {
+                        font-size: 34px;
+                    }
+                }
+                .dot-list {
+                    margin-top: 40px;
+                    li {
+                        position: relative;
+                        font-size: 14px;
+                        color: #555;
+                        opacity: .8;
+                        line-height: 28px;
+                        padding-left: 10px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            font-family: 'fontello';
+                            content: "\E803";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+// 돌림자로 이름쓰기 step01
+.name-step01 {
+    .article-content {
+        margin-top: 45px;
+        .summary {
+            font-size: 14px;
+            color: #666;
+            line-height: 28px;
+            margin-bottom: 30px;
+        }
+        .table {
+            thead {
+                tr {
+                    th {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        font-size: 14px;
+                        font-weight: 500;
+                        padding: 10px 0;
+                        vertical-align: middle;
+                        &:nth-of-type(2) {
+                            color: #e25371;
+                        }
+                        .btn-small {
+                            .btn-xs {
+                                display: block;
+                                width: 75px;
+                                font-size: 12px;
+                                color: #666;
+                                line-height: 28px;
+                                border: 1px solid #ccc;
+                                border-radius: 5px;
+                                text-align: center;
+                                margin: 0 auto;
+                                @include transition();
+                                &:hover, &:focus {
+                                    opacity: .8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
-
-
-
+// 돌림자로 이름쓰기 step02
+.name-step02 {
+    .article-content {
+        margin-top: 45px;
+        .summary {
+            font-size: 14px;
+            color: #666;
+            line-height: 28px;
+            margin-bottom: 30px;
+        }
+        .table {
+            tbody {
+                tr {
+                    td {
+                        font-size: 14px;
+                        font-weight: 400;
+                        padding: 15px 0;
+                        vertical-align: middle;
+                        border: 1px solid #cfcfcf;
+                        .form-group {
+                            .form-control {
+                                display: inline-block;
+                                width: 60px;
+                                height: 30px;
+                                padding-top: 3px;
+                                padding-bottom: 3px;
+                            }
+                        }
+                        &.th-bg {
+                            color: #fff;
+                            background-color: #acacac;
+                            &:first-child {
+                                font-size: 18px;
+                                border-left: 0;
+                            }
+                        }
+                        &:last-child {
+                            border-right: 0;
+                        }
+                    }
+                    &:first-child {
+                        td {
+                            border-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            text-align: right;
+            margin-top: 30px;
+        }
+    }
+}
 
 
 
