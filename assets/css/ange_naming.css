@@ -176,4 +176,23 @@ address {
   text-align: right;
   margin-top: 30px; }
 
+.progress-list .section-content article .article-content {
+  margin-top: 40px; }
+  .progress-list .section-content article .article-content .table-wrap > p {
+    position: relative;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    padding-left: 15px;
+    margin-bottom: 20px; }
+    .progress-list .section-content article .article-content .table-wrap > p:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      content: "※ "; }
+  .progress-list .section-content article .article-content .table-wrap .btn-area {
+    text-align: right;
+    margin-top: 30px; }
+
 /*# sourceMappingURL=ange_naming.css.map */
