@@ -3864,13 +3864,14 @@ i {
         padding-top: 22px;
         .fix-angle {
             position: absolute;
-            top: 0;
+            top: 1px;
             left: 0;
             width: 100%;
             z-index: 1;
+            text-align: center;
             img {
-                display: block;
-                margin: 0 auto;
+                display: inline-block;
+                margin-right: -21px;
             }
         }
         .roulette-board {
@@ -4187,10 +4188,355 @@ i {
     }
 }
 
+// 돌림자로 이름쓰기 step03
+.name-step03 {
+    .section-content {
+        article {
+            margin-top: 50px;
+            .summary {
+                font-size: 14px;
+                color: #666;
+                font-weight: 300;
+                line-height: 28px;
+                margin-bottom: 20px;
+                i {
+                    font-style: normal;
+                    color: #e25371;
+                }
+            }
+            .article-content {
+                .table-wrap {
+                    thead {
+                        tr {
+                            th {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            th {
+                                font-size: 14px;
+                            }
+                            td {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.middle-select {
+                .article-content {
+                    .table-wrap {
+                        .table {
+                            table-layout: fixed;
+                            tbody {
+                                tr {
+                                    td {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        padding: 15px 0;
+                                        text-align: center;
+                                        vertical-align: middle;
+                                        border: 1px solid #cfcfcf;
+                                        .form-group {
+                                            .form-control {
+                                                display: inline-block;
+                                                width: 60px;
+                                                height: 30px;
+                                                padding-top: 3px;
+                                                padding-bottom: 3px;
+                                            }
+                                        }
+                                        &.th-bg {
+                                            color: #fff;
+                                            background-color: #acacac;
+                                            &:first-child {
+                                                font-size: 18px;
+                                                border-left: 0;
+                                            }
+                                        }
+                                        &:last-child {
+                                            border-right: 0;
+                                        }
+                                    }
+                                    &:first-child {
+                                        td {
+                                            border-top: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                    }
+                }
+            }
+            &.desired {
+                > ul {
+                    overflow: hidden;
+                    > li {
+                        float: left;
+                        width: 33.33%;
+                        text-align: center;
+                        padding: 20px 0;
+                        border: 1px solid #dfdfdf;
+                        border-right: 0;
+                        &:last-child {
+                            border-right: 1px solid #dfdfdf;
+                        }
+                        &:nth-of-type(1) {
+                            background-color: #fbe9ed;
+                        }
+                        &:nth-of-type(2) {
+                            background-color: #fff7ed;
+                        }
+                        &:nth-of-type(3) {
+                            background-color: #ebf7f7;
+                        }
+                        h4 {
+                            font-size: 17px;
+                            color: #333;
+                            line-height: 25px;
+                        }
+                        p {
+                            font-size: 15px;
+                            color: #666;
+                        }
+                    }
+                }
+            }
+            &.middle-last {
+                .article-header {
+                    overflow: hidden;
+                    .naming-title {
+                        float: left;
+                    }
+                    p {
+                        float: right;
+                        font-size: 18px;
+                        color: #333;
+                    }
+                }
+            }
+            &.select-name {
+                .btn-area {
+                    text-align: right;
+                    margin-top: 30px;
+                }
+                .table-wrap {
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                    border-right: 1px solid #cfcfcf;
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 14px;
+                                    color: #666;
+                                    border-right: 1px solid #cfcfcf;
+                                    border-bottom: 1px solid #cfcfcf;
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.disuse {
+                .table-wrap {
+                    thead {
+                        tr {
+                            th {
+                                font-size: 14px;
+                                border-right: 1px solid #cfcfcf;
+                                &:last-child {
+                                    border-right: 0;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 14px;
+                                color: #666;
+                                border-right: 1px solid #cfcfcf;
+                                border-bottom: 1px solid #cfcfcf;
+                                background-color: #fafafa;
+                                &:last-child {
+                                    text-align: left;
+                                    padding-left: 30px;
+                                    padding-right: 30px;
+                                    border-right: 0;
+                                    background-color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
+.table-wrap {
+    .reponsive-table {
+        table-layout: fixed;
+        > thead {
+            > tr {
+                > th {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #fff;
+                    padding: 15px 0;
+                    text-align: center;
+                    background-color: #acacac;
+                    border: 0;
+                    border-right: 1px solid #cfcfcf;
+                    &:nth-of-type(4) {
+                        border-right: 0;
+                    }
+                    &:last-child {
+                        border-right: 0;
+                    }
+                }
+            }
+        }
+        > tbody {
+            tr {
+                &.fine {
+                    td {
+                        background-color: #fbe9ed;
+                    }
+                }
+                &.available {
+                    td {
+                        background-color: #fff7ed;
+                    }
+                }
+                &.ordinary {
+                    td {
+                        background-color: #ebf7f7;
+                    }
+                }
+                td {
+                    font-size: 14px;
+                    color: #666;
+                    text-align: center;
+                    vertical-align: middle;
+                    font-weight: 300;
+                    text-align: center;
+                    border: 0;
+                    > .table-wrap {
+                        height: 364px;
+                        overflow-y: scroll;
+                        .table {
+                            table-layout: fixed;
+                            tbody {
+                                tr {
+                                    td {
+                                        font-size: 14px;
+                                        color: #666;
+                                        font-weight: 300;
+                                        padding: 15px 0;
+                                        border-bottom: 1px solid #cfcfcf;
+                                        border-right: 1px solid #cfcfcf;
+                                        &:last-child {
+                                            border-right: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
+.basket-table {
+    .table {
+        thead {
+            tr {
+                th {
+                    font-size: 14px;
+                    color: #fff;
+                    padding: 15px 0;
+                    text-align: center;
+                    vertical-align: middle;
+                    font-weight: 400;
+                    border: 0;
+                    border-right: 1px solid #cfcfcf;
+                    border-bottom: 1px solid #cfcfcf;
+                    background-color: #acacac;
+                    &:last-child {
+                        border-right: 0;
+                    }
+                }
+                &:nth-of-type(2) {
+                    th {
+                        color: #666;
+                        background-color: #f8f8f8;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    font-size: 14px;
+                    border: 0;
+                    padding: 10px 0;
+                    text-align: center;
+                    vertical-align: middle;
+                    border-right: 1px solid #cfcfcf;
+                    border-bottom: 1px solid #cfcfcf;
+                    &:last-child {
+                        border-right: 0;
+                    }
+                    &:nth-of-type(2) {
+                        background-color: #f8f8f8;
+                    }
+                    .btn-explanation {
+                        .btn-xs {
+                            display: block;
+                            width: 80px;
+                            height: 30px;
+                            text-align: center;
+                            font-size: 12px;
+                            color: #666;
+                            line-height: 28px;
+                            border-radius: 5px;
+                            border: 1px solid #ccc;
+                            margin: 0 auto;
+                            @include transition();
+                            &:hover, &:focus {
+                                opacity: .7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
