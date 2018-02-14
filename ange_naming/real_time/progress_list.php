@@ -21,7 +21,7 @@
                             <article>
                                 <div class="article-header">
                                     <div class="attention-box type-2">
-                                        <h3>작명 진행 안내</h3>
+                                        <h5>작명 진행 안내</h5>
                                         <ol>
                                             <li>1. 로그인 → 신청서 작성 → 결제 → [진행하기] 메뉴 선택</li>
                                             <li>
@@ -56,31 +56,31 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>2018-02-07</td>
+                                                    <td class="date">2018-02-07</td>
                                                     <td>가상계좌</td>
                                                     <td>2018년 1월 1일 1시 0분 양력/평달</td>
-                                                    <td>A726039-00696</td>
+                                                    <td class="num">A726039-00696</td>
                                                     <td>미승인</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>2018-02-07</td>
+                                                    <td class="date">2018-02-07</td>
                                                     <td>신용카드</td>
                                                     <td>2018년 1월 1일 1시 0분 양력/평달</td>
-                                                    <td>A726039-00696</td>
+                                                    <td class="num">A726039-00696</td>
                                                     <td>승인</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>2018-02-07</td>
+                                                    <td class="date">2018-02-07</td>
                                                     <td>신용카드</td>
                                                     <td>2018년 1월 1일 1시 0분 양력/평달</td>
-                                                    <td>A726039-00696</td>
+                                                    <td class="num">A726039-00696</td>
                                                     <td>미승인</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                         <div class="btn-area">
                                             <p>
-                                                <a href="#" class="btn btn-sm btn-pink">이전화면</a>
+                                                <a href="#" class="btn btn-sm btn-pink" role="button">이전화면</a>
                                             </p>
                                         </div>
                                     </div>

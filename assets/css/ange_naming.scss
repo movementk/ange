@@ -69,46 +69,88 @@
             }
         }
     }
+    // attention-box 
     .attention-box.type-2 {
-            h3 {
-                position: relative;
-                font-size: 14px;
-                color: #e25371;
-                padding-left: 20px;
-                &:before {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    display: inline-block;
-                    content: "\E827";
-                    font-family: 'fontello';
-                }
+        h5 {
+            position: relative;
+            padding-left: 20px;
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: inline-block;
+                content: "\E827";
+                font-family: 'fontello';
             }
-            ol {
-                margin-top: 20px;
-                li {
-                    font-size: 13px;
-                    line-height: 22px;
-                    color: #999;
-                    i {
-                        font-style: normal;
-                        color: #ff7875;
-                        font-weight: 400;
+        }
+        ol {
+            margin-top: 20px;
+            li {
+                font-size: 13px;
+                line-height: 22px;
+                color: #999;
+                i {
+                    font-style: normal;
+                    color: #ff7875;
+                    font-weight: 500;
+                }
+                > p {
+                    position: relative;
+                    padding-left: 15px;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: inline-block;
+                        content: "※ ";
                     }
-                    > p {
-                        position: relative;
-                        padding-left: 15px;
-                        &:before {
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            display: inline-block;
-                            content: "※ ";
-                        }
-                    }
+                }
+                > b {
+                    color: #666;
+                    font-weight: 500;
                 }
             }
         }
+    }
+    // 이용안내 리스트 공통
+    .guide-list {
+        width: 840px;
+        margin-top: 35px;
+        > li {
+            & ~ li {
+                margin-top: 20px;
+            }
+            > h3 {
+                position: relative;
+                font-size: 14px;
+                color: #666;
+                line-height: 22px;
+                font-weight: 400;
+                padding-left: 35px;
+                span {
+                    position: absolute;
+                    top: 1px;
+                    left: 0;
+                    display: inline-block;
+                    width: 22px;
+                    line-height: 22px;
+                    font-size: 10px;
+                    color: #fff;
+                    text-align: center;
+                    font-weight: bold;
+                    background-color: #ff7875;
+                    border-radius: 50%;
+                    @include roboto();
+                }
+            }
+            > .explain {
+                margin-top: 20px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 //네이밍 서비스 안내
@@ -257,6 +299,22 @@
                             content: "※ ";
                         }
                     }
+                    .table.type-2 {
+                        tbody {
+                            tr {
+                                td {
+                                    &.date {
+                                        color: #999;
+                                    }
+                                    &.num {
+                                        color: #e25371;
+                                        font-weight: 500;
+                                        @include roboto();
+                                    }
+                                }
+                            }
+                        }
+                    }
                     .btn-area {
                         text-align: right;
                         margin-top: 30px;
@@ -267,15 +325,409 @@
     }
 }
 
+//실시간 이용안내
+.access-guide {
+    > .section-content {
+        > p {
+            font-size: 16px;
+            color: #333;
+        }
+    }
+}
 
+//스페셜 작명전환
+.special-change {
+    .section-content {
+        article { 
+            .article-content {
+                margin-top: 40px;
+                .table-wrap {
+                    > p {
+                        position: relative;
+                        font-size: 14px;
+                        color: #333;
+                        font-weight: 500;
+                        padding-left: 20px;
+                        margin-bottom: 15px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: inline-block;
+                            content: "※ ";
+                        }
+                    }
+                    .table.type-2 {
+                        tbody {
+                            tr {
+                                td {
+                                    &.change-btn {
+                                        padding: 0;
+                                        vertical-align: middle;
+                                        > p {
+                                            a {
+                                                display: inline-block;
+                                                width: 75px;
+                                                height: 30px;
+                                                font-size: 12px;
+                                                line-height: 28px;
+                                                text-align: center;
+                                                border: 1px solid #ccc;
+                                                border-radius: 5px;
+                                                &.btn-gray {
+                                                    font-weight: 400;
+                                                    color: #666;
+                                                    background-color: #dfdfdf;
+                                                }
+                                                &.btn-white {
+                                                    color: #999;
+                                                    font-weight: 400;
+                                                    background-color: #fff;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.date {
+                                        color: #999;
+                                    }
+                                    &.num {
+                                        @include roboto();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
 
+//오행정보
+.five-elements {
+    .article-content {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        .naming-title {
+            font-weight: 500;
+            letter-spacing: -.5px;
+        }
+        .table-wrap {
+            .btn-area {
+                text-align: right;
+                margin-top: 30px;
+                p {
+                    & ~ p {
+                        margin-top: 30px;
+                    }
+                    &:nth-of-type(2) {
+                        text-align: center;
+                    }
+                    .btn.btn-md {
+                        width: 170px;
+                        line-height: 43px;
+                        border-radius: 30px;
+                    }
+                    .btn.btn-lg {
+                        width: 200px;
+                        font-size: 14px;
+                        color: #666;
+                        text-align: left;
+                        line-height: 43px;
+                        border-radius: 30px;
+                        border: 1px solid #ccc;
+                        padding-left: 20px;
+                        &:after {
+                            position: absolute;
+                            right: 15px;
+                            display: inline-block;
+                            color: #999;
+                            content: "\E810";
+                            font-family: "fontello";
+                        }
+                    }
+                    .btn-white {
+                        position: relative;
+                        background-color: #fff;
+                        &:hover,&:focus {
+                            color: #fff;
+                            background-color: #7da7d9;
+                            border: 1px solid #7da7d9;
+                            &:after {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+//실시간 작성
+.application-write {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 50px; 
+            }
+        }
+        .table-wrap {
+            .table.type-1 {
+                tbody {
+                    tr {
+                        th {
+                            font-size: 14px;
+                            &.v-top {
+                                vertical-align: top;
+                                padding-left: 25px;
+                                padding-top: 20px;
+                            }
+                        }
+                        td {
+                            font-size: 14px;
+                            &.request-type {
+                                color: #666;
+                                padding : 0;
+                                padding-left: 30px;
+                                line-height: 56px;
+                            }
+                            &.address {
+                                .form-group {
+                                    label {
+                                        display: inline-block;
+                                        font-size: 12px;
+                                        color: #999;
+                                        vertical-align: top;
+                                        font-weight: 400;
+                                    }
+                                    .form-control {
+                                        & ~ .form-control {
+                                            display: block;
+                                            width: 100%;
+                                            margin-top : 5px;
+                                        }
+                                    }
+                                }
+                            }
+                            &.call {
+                                .form-group {
+                                    .form-control {
+                                        width: 200px;
+                                    }
+                                }
+                            }
+                            &.mail {
+                                .form-group {
+                                    .form-control {
+                                        width: 370px;
+                                    }
+                                }
+                            }
+                            &.connection {
+                                .form-group {
+                                    display: inline-block;
+                                }
+                                > p {
+                                    display: inline-block;
+                                    font-size: 14px;
+                                    color: #999;
+                                    font-weight: 300;
+                                    letter-spacing: -1px;
+                                }
+                            }
+                            &.birth-date {
+                                .form-group {
+                                    display: inline-block;
+                                    &:nth-of-type(2) {
+                                        select {
+                                            width: 75px;
+                                            margin-left: 0;
+                                            margin-top: 10px;
+                                        }
+                                    }
+                                    select {
+                                        width: 63px;
+                                        padding: 6px 6px;
+                                        margin-left: 10px;
+                                        &:first-child {
+                                            margin-left: 0;
+                                        }
+                                        &.years {
+                                            width: 75px;
+                                            
+                                        }
+                                    }
+                                }
+                                > .attention {
+                                    display: inline-block;
+                                    color: #ff7875;
+                                    font-size: 14px;
+                                    &:before {
+                                        content: "※ ";
+                                    }
+                                }
+                            }
+                            &.sex {
+                                padding: 15px 30px;
+                            }
+                            &.except {
+                                .form-group {
+                                    .form-control {
+                                        margin-right: 0;
+                                    }
+                                }
+                            }
+                            &.zip-code {
+                                .form-group {
+                                    .form-control {
+                                        width: 100px;
+                                    }
+                                }
+                            }
+                            .form-group {
+                                &:nth-of-type(3) {
+                                    display: block;
+                                }
+                                /*내일*/
+                                .form-control {
+                                    width: 170px;
+                                    display: inline-block;
+                                    margin-right: 10px;
+                                }
+                                > div {
+                                    .form-control {
+                                        width: 360px;
+                                    }
+                                    & ~ div {
+                                        margin-top: 5px;
+                                    }
+                                }
+                                label {
+                                    font-weight: 400;
+                                    margin-right: 15px;
+                                    &:last-child {
+                                        margin-right: 0;
+                                    }
+                                    input[type="radio"] {
+                                        position: relative;
+                                        top: 2px;
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                            .btn-confirm {
+                                display: inline-block;
+                                vertical-align: top;
+                                .btn.btn-default {
+                                    width: 84px;
+                                    line-height: 34px;
+                                    font-size: 13px;
+                                    color: #999;
+                                    text-align: center;
+                                    cursor: pointer;
+                                    border-radius: 30px;
+                                    border: 1px solid #ccc;
+                                    @include transition();
+                                    &:hover, &:focus {
+                                        opacity: .7;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .attention-box {
+            margin-top: 30px;
+            > ol {
+                margin-top: 20px;
+                li {
+                    font-size: 13px;
+                    line-height: 22px;
+                    color: #999;
+                }
+            }
+        }
+        .btn-area {
+            text-align: right;
+            margin-top: 30px;
+        }
+    }
+}
 
-
-
-
-
-
+//실시간작성 뷰
+.application-view {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 50px;
+            }
+            &.payment-option {
+                .article-content {
+                    .table-wrap {
+                        .table.type-1 {
+                            tbody {
+                                tr {
+                                    td {
+                                        label {
+                                            font-weight: 400;
+                                            margin-right: 15px;
+                                            input[type="radio"] {
+                                                position: relative;
+                                                top: 2px;
+                                                margin-right: 5px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-area {
+                            text-align: right;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+            .article-content {
+                .table-wrap {
+                    .table.type-1 {
+                        tbody {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                    &.v-top {
+                                        vertical-align: top;
+                                        padding-left: 25px;
+                                        padding-top: 15px;
+                                    }
+                                }
+                                td {
+                                    font-size: 14px;
+                                    padding: 15px 30px;
+                                    .attention {
+                                        font-size: 13px;
+                                        color: #ff7875;
+                                        margin-top: 5px;
+                                        &:before {
+                                            content: "※ ";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

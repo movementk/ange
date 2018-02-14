@@ -45,8 +45,8 @@
                                 </table>
                                 <div class="btn-area">
                                     <p>
-                                        <a href="#" class="btn btn-sm btn-white">이전화면</a>
-                                        <a href="#" class="btn btn-sm btn-pink">진행하기</a>
+                                        <a href="#" class="btn btn-sm btn-white" role="button">이전화면</a>
+                                        <a href="#" class="btn btn-sm btn-pink" role="button">진행하기</a>
                                     </p>
                                 </div>
                             </div>
