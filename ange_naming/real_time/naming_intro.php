@@ -34,7 +34,7 @@
                                         </p>
                                         <div class="btn-area">
                                             <p>
-                                                <a href="#" class="btn btn-sm btn-white">자세히 보기</a>
+                                                <a href="#" class="btn btn-sm btn-white" role="button">자세히 보기</a>
                                             </p>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@
                                         </p>
                                         <div class="btn-area">
                                             <p>
-                                                <a href="#" class="btn btn-sm btn-white">자세히 보기</a>
+                                                <a href="#" class="btn btn-sm btn-white" role="button">자세히 보기</a>
                                             </p>
                                         </div>
                                     </div>
@@ -73,7 +73,7 @@
                                         </p>
                                         <div class="btn-area">
                                             <p>
-                                                <a href="#" class="btn btn-sm btn-white">자세히 보기</a>
+                                                <a href="#" class="btn btn-sm btn-white" role="button">자세히 보기</a>
                                             </p>
                                         </div>
                                     </div>
