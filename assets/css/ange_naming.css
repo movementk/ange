@@ -468,4 +468,32 @@ address {
     .application-view .section-content article .article-content .table-wrap .table.type-1 tbody tr td .attention:before {
       content: "※ "; }
 
+.popup-layer .pop-layer .pop-container .pop-body .content .table-wrap .table.type-2 thead tr th:first-child {
+  width: auto; }
+.popup-layer .pop-layer .pop-container .pop-body .content .table-wrap .table.type-2 thead tr th:nth-of-type(3) {
+  width: auto; }
+.popup-layer .pop-layer .pop-container .pop-body .content .table-wrap .table.type-2 tbody tr td {
+  vertical-align: middle; }
+  .popup-layer .pop-layer .pop-container .pop-body .content .table-wrap .table.type-2 tbody tr td .btn-confirm {
+    display: inline-block; }
+    .popup-layer .pop-layer .pop-container .pop-body .content .table-wrap .table.type-2 tbody tr td .btn-confirm .btn.btn-default {
+      width: 75px;
+      line-height: 25px;
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 30px;
+      border: 1px solid #ccc;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .popup-layer .pop-layer .pop-container .pop-body .content .table-wrap .table.type-2 tbody tr td .btn-confirm .btn.btn-default:hover, .popup-layer .pop-layer .pop-container .pop-body .content .table-wrap .table.type-2 tbody tr td .btn-confirm .btn.btn-default:focus {
+        opacity: .7; }
+
 /*# sourceMappingURL=ange_naming.css.map */
