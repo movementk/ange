@@ -473,7 +473,46 @@
 }
 
 
-
+// 한자변환 
+.convert-pop {
+    .pop-layer {
+        width: 570px;
+        .pop-container {
+            .pop-head {
+                position: relative;
+                width: 100%;
+                padding: 23px 100px 23px 30px;
+                background-color: #ad9cc4;
+                h4 {
+                    font-size: 18px;
+                    color: #fafafa;
+                    font-weight: 300;
+                    vertical-align: middle;
+                }
+                .btn-close {
+                    .close {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 65px;
+                        height: 65px;
+                        opacity: 1;
+                        text-align: center;
+                        line-height: 65px;
+                        background-color: #9079af;
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .pop-body {
+                padding: 30px;
+                background-color: #fff;
+            }
+        }
+    }
+}
 
 
 

@@ -364,4 +364,32 @@ address {
     .roulette-result .pop-layer .pop-container .pop-body .content .btn-area {
       margin-top: 40px; }
 
+.convert-pop .pop-layer {
+  width: 570px; }
+  .convert-pop .pop-layer .pop-container .pop-head {
+    position: relative;
+    width: 100%;
+    padding: 23px 100px 23px 30px;
+    background-color: #ad9cc4; }
+    .convert-pop .pop-layer .pop-container .pop-head h4 {
+      font-size: 18px;
+      color: #fafafa;
+      font-weight: 300;
+      vertical-align: middle; }
+    .convert-pop .pop-layer .pop-container .pop-head .btn-close .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 65px;
+      height: 65px;
+      opacity: 1;
+      text-align: center;
+      line-height: 65px;
+      background-color: #9079af; }
+      .convert-pop .pop-layer .pop-container .pop-head .btn-close .close img {
+        display: inline-block; }
+  .convert-pop .pop-layer .pop-container .pop-body {
+    padding: 30px;
+    background-color: #fff; }
+
 /*# sourceMappingURL=sub_popup.css.map */

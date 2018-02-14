@@ -1,5 +1,6 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
+<link href="/assets/css/sub_popup.css" rel="stylesheet">
 <link href="/assets/css/ange_naming.css" rel="stylesheet">
 </head>
 <body class="sub ange-naming"><!-- 폴더별 클래스명 추가 -->
@@ -216,7 +217,7 @@
                                                                 <input type="text" id="name-change" class="form-control">
                                                                 <label for="name-change" class="sr-only">성씨</label>
                                                                 <div class="btn-confirm">
-                                                                    <a href="#" class="btn btn-default" role="button">한자변환</a>
+                                                                    <a href="#popup-content" class="btn btn-default btn-popup" role="button">한자변환</a>
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -248,9 +249,33 @@
         </div>
     </main>
     
+    
+    <!-- 한자변환 레이어 팝업 -->
+    <div class="popup-layer convert-pop">
+        <div class="popup-bg"></div>
+        <div id="popup-content" class="pop-layer">
+            <div class="pop-container">
+                <div class="pop-head">
+                    <div class="btn-close">
+                        <h4>한자검색</h4>
+                        <button type="button" class="btn close">
+                            <img src="/assets/images/btn_close_white.png" alt="닫기">
+                        </button>
+                    </div>
+                </div>
+                <div class="pop-body">
+                    <div class="content">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/sub_aside.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common_sub.js"></script>
+    <script src="/assets/js/sub_popup.js"></script>
 </body>
 </html>

@@ -3798,14 +3798,14 @@ i {
     }
 }
 .roulette-event {
-    height: 1436px;
+    height: 1476px;
     background-image: url(../images/roulette/bg_roulette.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
     .article-header {
         text-align: center;
         padding-top: 114px;
-        padding-bottom: 40px;
+        height: 580px;
         h3 {
             img {
                 display: block;
@@ -3818,6 +3818,16 @@ i {
             color: #323337;
             font-weight: 400;
             margin-bottom: 18px;
+            &.note {
+                display: block;
+                font-size: 14px;
+                color: #a59ab7;
+                margin-bottom: 0;
+                margin-top: 10px;
+                &:before {
+                    content: "*";
+                }
+            }
         }
         small {
             display: block;
