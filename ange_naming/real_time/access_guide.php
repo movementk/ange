@@ -44,7 +44,9 @@
                                         "실시간 작명 신청" 버튼을 클릭합니다.
                                     </h3>
                                     <div class="explain">
-                                        <img src="/assets/images/ange_naming/guide_list01.jpg"  alt="">
+                                        <figure>
+                                            <img src="/assets/images/ange_naming/guide_list01.jpg"  alt="">
+                                        </figure>
                                     </div>
                                 </li>
                                 <li>
@@ -53,7 +55,9 @@
                                         사주와 오행에 맞게 출력된 실시간 이름중에 선택된 이름을 "이름저장" 한후 "이름풀이"를 이용하여 이름에 담겨져 있는 사주와<br> 오행을 확인합니다.
                                     </h3>
                                     <div class="explain">
-                                        <img src="/assets/images/ange_naming/guide_list02.jpg" alt="">
+                                        <figure>
+                                            <img src="/assets/images/ange_naming/guide_list02.jpg" alt="">
+                                        </figure>
                                     </div>
                                 </li>
                                 <li>
@@ -62,7 +66,9 @@
                                         이름의 정보를 확인하고 "이름풀이"버튼을 클릭하면 상세한 이름풀이가 보입니다.
                                     </h3>
                                     <div class="explain">
-                                        <img src="/assets/images/ange_naming/guide_list03.jpg" alt="">
+                                        <figure>
+                                            <img src="/assets/images/ange_naming/guide_list03.jpg" alt="">
+                                        </figure>
                                     </div>
                                 </li>
                                 <li>
@@ -71,7 +77,9 @@
                                         이름풀이의 점수표를 확인합니다.
                                     </h3>
                                     <div class="explain">
-                                        <img src="/assets/images/ange_naming/guide_list04.jpg" alt="">
+                                        <figure>
+                                            <img src="/assets/images/ange_naming/guide_list04.jpg" alt="">
+                                        </figure>
                                     </div>
                                 </li>
                                 <li>
@@ -81,7 +89,9 @@
                                         또, 이름을 확정하셨다면 증서를 출력하여 보관하실 수 있습니다.
                                     </h3>
                                     <div class="explain">
-                                        <img src="/assets/images/ange_naming/guide_list05.jpg" alt="">
+                                        <figure>
+                                            <img src="/assets/images/ange_naming/guide_list05.jpg" alt="">
+                                        </figure>
                                     </div>
                                 </li>
                             </ol>
