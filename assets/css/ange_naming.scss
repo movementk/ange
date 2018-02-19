@@ -782,6 +782,436 @@
 }
 
 
+//이름풀이 step01
+.interpret-step01 {
+    .section-content {
+        margin-top: 40px;
+        .table-wrap {
+            .table.type-2 {
+                thead {
+                    tr {
+                        th {
+                            padding: 10px 0;
+                            font-size: 14px;
+                            border-right: 1px solid #dfdfdf;
+                            &:last-child {
+                                border-right: 0;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 14px;
+                            border-right: 1px solid #dfdfdf;
+                            &:first-child {
+                                background-color: #fafafa;
+                            }
+                            &:last-child {
+                                border-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+                text-align: right;
+            }
+        }
+    }
+}
+
+
+// 이름풀이 step02
+.interpret-step02 {
+    .section-content {
+        article {
+            margin-top: 40px;
+            .table-wrap {
+                .table.type-1 {
+                    tbody {
+                        tr {
+                            th {
+                                font-size: 14px;
+                            }
+                            td {
+                                font-size: 14px;
+                                color: #666;
+                                padding: 18px 30px; 
+                            }
+                        }
+                    }
+                }
+                .table.type-2 {
+                    thead {
+                        tr {
+                            th {
+                                font-size: 14px;
+                                padding: 13px 0;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 14px;
+                                padding: 13px 0;
+                            }
+                        }
+                    }
+                }
+            }
+            &.score {
+                .table-wrap {
+                    .table.type-2 {
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 13px;
+                                    b {
+                                        color: #333;
+                                    }
+                                }
+                                &:last-child {
+                                    td {
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        background-color: #fafafa;
+                                        @include roboto();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.remainder {
+                .table-wrap {
+                    .table.type-2 {
+                        thead {
+                            tr {
+                                th {
+                                    padding: 10px 0;
+                                    border-right: 1px solid #dfdfdf;
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    padding: 17px 0;
+                                    border-right: 1px solid #dfdfdf;
+                                    &:first-child {
+                                        background-color: #fafafa;
+                                    }
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                    i {
+                                        color: #ff7875;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//이름풀이 step03
+.interpret-step03 {
+    .section-content {
+        article {
+            margin-top: 50px;
+            .article-header {
+                small {
+                    display: block;
+                    font-size: 14px;
+                    color: #999;
+                    margin-bottom: 20px;
+                }
+            }
+            &.confirm-input {
+                .table-wrap {
+                    .table {
+                        tbody {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                }
+                                td {
+                                    font-size: 14px;
+                                    padding: 18px 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.assess {
+                .attention-box {
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #666;
+                    padding: 25px;
+                    /*overflow-y: scroll;*/
+                }
+            }
+            &.fortune {
+                .attention-box {
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #666;
+                    padding-top: 25px;
+                }
+                .btn-area {
+                    text-align: right;
+                    font-size: 0;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+//바구니 리스트
+.basket-list {
+    .section-content {
+        margin-top: 50px;
+        .confirm-input {
+            .btn-small {
+                overflow: hidden;
+                margin-bottom: 20px;
+                p {
+                    .btn-xs {
+                        display: block;
+                        float: left;
+                        width: 80px;
+                        height: 30px;
+                        text-align: center;
+                        font-size: 12px;
+                        color: #666;
+                        line-height: 28px;
+                        border-radius: 5px;
+                        border: 1px solid #ccc;
+                        @include transition();
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                        &:first-child {
+                            margin-right: 10px;
+                        }
+                        &:last-child {
+                            float: right;
+                        }
+                    }
+                }
+            }
+            .basket-table {
+                .btn-area {
+                    text-align: right;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+//작명신청 검색결과
+.search-result01 {
+    .section-content {
+        margin-top: 50px;
+        article {
+            .article-header {
+                ul {
+                    li {
+                        position: relative;
+                        font-size: 14px;
+                        line-height: 28px;
+                        color: #666;
+                        padding-left: 15px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "\E803";
+                            font-family: "fontello";
+                            color: #ad9cc4;
+                        }
+                        i {
+                            font-style: normal;
+                            color: #ff7875;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+            .article-content {
+                margin-top: 15px;
+                .table-wrap {
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                    color: #fff;
+                                    font-weight: 300;
+                                    padding: 12px 0;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 14px;
+                                    padding: 8px 0;
+                                    vertical-align: middle;
+                                    p {
+                                        .btn-xs {
+                                            display: block;
+                                            margin: 0 auto;
+                                            width: 80px;
+                                            height: 30px;
+                                            text-align: center;
+                                            font-size: 12px;
+                                            color: #666;
+                                            line-height: 28px;
+                                            border-radius: 5px;
+                                            border: 1px solid #ccc;
+                                            @include transition();
+                                            &:hover, &:focus {
+                                                opacity: .7;
+                                            }
+                                        }  
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .paging {
+                        margin-top: 30px;
+                    }
+                    .btn-area {
+                        margin-top: 30px;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 작명신청 검색결과없음
+.search-result02 {
+    .section-content {
+        article {
+            .article-header {
+                .naming-search {
+                    margin-top: 30px;
+                    dl {
+                        font-size: 0;
+                        border-top: 1px solid #cfcfcf;
+                        border-bottom: 1px solid #cfcfcf;
+                        dt {
+                            display: inline-block;
+                            width: 135px;
+                            font-size: 14px;
+                            color: #fff;
+                            font-weight: 400;
+                            vertical-align: top;
+                            text-align: center;
+                            line-height: 42px;
+                            background-color: #acacac;
+                        }
+                        dd {
+                            display: inline-block;
+                            font-size: 14px;
+                            width: 285px;
+                            text-align: center;
+                            vertical-align: top;
+                            line-height: 42px;
+                            .form-group {
+                                p {
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    color: #333;
+                                    width: 30px;
+                                    height: 30px;
+                                    text-align: center;
+                                    line-height: 28px;
+                                    background-color: #eeeff4;
+                                    border: 1px solid #dfdfdf;
+                                }
+                                .form-control {
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    color: #333;
+                                    margin-right: 5px;
+                                    width: 30px;
+                                    height: 30px;
+                                    &:last-child {
+                                        margin-right: 0;
+                                    }
+                                }
+                            }
+                            &.search {
+                                position: relative;
+                                text-align: left;
+                                line-height: 42px;
+                                padding-left: 20px;
+                                .form-group {
+                                    display: inline-block;
+                                    select {
+                                        width: 90px;
+                                    }
+                                }
+                                .btn-search {
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    line-height: 44px;
+                                    width: 154px;
+                                    text-align: center;
+                                    color: #fff;
+                                    border-radius: 30px;
+                                    background-color: #ff7875;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
