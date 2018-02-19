@@ -496,4 +496,247 @@ address {
       .popup-layer .pop-layer .pop-container .pop-body .content .table-wrap .table.type-2 tbody tr td .btn-confirm .btn.btn-default:hover, .popup-layer .pop-layer .pop-container .pop-body .content .table-wrap .table.type-2 tbody tr td .btn-confirm .btn.btn-default:focus {
         opacity: .7; }
 
+.interpret-step01 .section-content {
+  margin-top: 40px; }
+  .interpret-step01 .section-content .table-wrap .table.type-2 thead tr th {
+    padding: 10px 0;
+    font-size: 14px;
+    border-right: 1px solid #dfdfdf; }
+    .interpret-step01 .section-content .table-wrap .table.type-2 thead tr th:last-child {
+      border-right: 0; }
+  .interpret-step01 .section-content .table-wrap .table.type-2 tbody tr td {
+    font-size: 14px;
+    border-right: 1px solid #dfdfdf; }
+    .interpret-step01 .section-content .table-wrap .table.type-2 tbody tr td:first-child {
+      background-color: #fafafa; }
+    .interpret-step01 .section-content .table-wrap .table.type-2 tbody tr td:last-child {
+      border-right: 0; }
+  .interpret-step01 .section-content .table-wrap .btn-area {
+    margin-top: 30px;
+    text-align: right; }
+
+.interpret-step02 .section-content article {
+  margin-top: 40px; }
+  .interpret-step02 .section-content article .table-wrap .table.type-1 tbody tr th {
+    font-size: 14px; }
+  .interpret-step02 .section-content article .table-wrap .table.type-1 tbody tr td {
+    font-size: 14px;
+    color: #666;
+    padding: 18px 30px; }
+  .interpret-step02 .section-content article .table-wrap .table.type-2 thead tr th {
+    font-size: 14px;
+    padding: 13px 0; }
+  .interpret-step02 .section-content article .table-wrap .table.type-2 tbody tr td {
+    font-size: 14px;
+    padding: 13px 0; }
+  .interpret-step02 .section-content article.score .table-wrap .table.type-2 tbody tr td {
+    font-size: 13px; }
+    .interpret-step02 .section-content article.score .table-wrap .table.type-2 tbody tr td b {
+      color: #333; }
+  .interpret-step02 .section-content article.score .table-wrap .table.type-2 tbody tr:last-child td {
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif; }
+  .interpret-step02 .section-content article.remainder .table-wrap .table.type-2 thead tr th {
+    padding: 10px 0;
+    border-right: 1px solid #dfdfdf; }
+    .interpret-step02 .section-content article.remainder .table-wrap .table.type-2 thead tr th:last-child {
+      border-right: 0; }
+  .interpret-step02 .section-content article.remainder .table-wrap .table.type-2 tbody tr td {
+    padding: 17px 0;
+    border-right: 1px solid #dfdfdf; }
+    .interpret-step02 .section-content article.remainder .table-wrap .table.type-2 tbody tr td:first-child {
+      background-color: #fafafa; }
+    .interpret-step02 .section-content article.remainder .table-wrap .table.type-2 tbody tr td:last-child {
+      border-right: 0; }
+    .interpret-step02 .section-content article.remainder .table-wrap .table.type-2 tbody tr td i {
+      color: #ff7875;
+      font-style: normal;
+      font-weight: 500; }
+  .interpret-step02 .section-content article.remainder .table-wrap .btn-area {
+    text-align: right;
+    margin-top: 30px; }
+
+.interpret-step03 .section-content article {
+  margin-top: 50px; }
+  .interpret-step03 .section-content article .article-header small {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px; }
+  .interpret-step03 .section-content article.confirm-input .table-wrap .table tbody tr th {
+    font-size: 14px; }
+  .interpret-step03 .section-content article.confirm-input .table-wrap .table tbody tr td {
+    font-size: 14px;
+    padding: 18px 30px; }
+  .interpret-step03 .section-content article.assess .attention-box {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    padding: 25px;
+    /*overflow-y: scroll;*/ }
+  .interpret-step03 .section-content article.fortune .attention-box {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    padding-top: 25px; }
+  .interpret-step03 .section-content article.fortune .btn-area {
+    text-align: right;
+    font-size: 0;
+    margin-top: 30px; }
+
+.basket-list .section-content {
+  margin-top: 50px; }
+  .basket-list .section-content .confirm-input .btn-small {
+    overflow: hidden;
+    margin-bottom: 20px; }
+    .basket-list .section-content .confirm-input .btn-small p .btn-xs {
+      display: block;
+      float: left;
+      width: 80px;
+      height: 30px;
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+      line-height: 28px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .basket-list .section-content .confirm-input .btn-small p .btn-xs:hover, .basket-list .section-content .confirm-input .btn-small p .btn-xs:focus {
+        opacity: .7; }
+      .basket-list .section-content .confirm-input .btn-small p .btn-xs:first-child {
+        margin-right: 10px; }
+      .basket-list .section-content .confirm-input .btn-small p .btn-xs:last-child {
+        float: right; }
+  .basket-list .section-content .confirm-input .basket-table .btn-area {
+    text-align: right;
+    margin-top: 30px; }
+
+.search-result01 .section-content {
+  margin-top: 50px; }
+  .search-result01 .section-content article .article-header ul li {
+    position: relative;
+    font-size: 14px;
+    line-height: 28px;
+    color: #666;
+    padding-left: 15px; }
+    .search-result01 .section-content article .article-header ul li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "\E803";
+      font-family: "fontello";
+      color: #ad9cc4; }
+    .search-result01 .section-content article .article-header ul li i {
+      font-style: normal;
+      color: #ff7875;
+      font-weight: 400; }
+  .search-result01 .section-content article .article-content {
+    margin-top: 15px; }
+    .search-result01 .section-content article .article-content .table-wrap .table thead tr th {
+      font-size: 14px;
+      color: #fff;
+      font-weight: 300;
+      padding: 12px 0; }
+    .search-result01 .section-content article .article-content .table-wrap .table tbody tr td {
+      font-size: 14px;
+      padding: 8px 0;
+      vertical-align: middle; }
+      .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs {
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+        height: 30px;
+        text-align: center;
+        font-size: 12px;
+        color: #666;
+        line-height: 28px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs:hover, .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs:focus {
+          opacity: .7; }
+    .search-result01 .section-content article .article-content .table-wrap .paging {
+      margin-top: 30px; }
+    .search-result01 .section-content article .article-content .table-wrap .btn-area {
+      margin-top: 30px;
+      text-align: right; }
+
+.search-result02 .section-content article .article-header .naming-search {
+  margin-top: 30px; }
+  .search-result02 .section-content article .article-header .naming-search dl {
+    font-size: 0;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf; }
+    .search-result02 .section-content article .article-header .naming-search dl dt {
+      display: inline-block;
+      width: 135px;
+      font-size: 14px;
+      color: #fff;
+      font-weight: 400;
+      vertical-align: top;
+      text-align: center;
+      line-height: 42px;
+      background-color: #acacac; }
+    .search-result02 .section-content article .article-header .naming-search dl dd {
+      display: inline-block;
+      font-size: 14px;
+      width: 285px;
+      text-align: center;
+      vertical-align: top;
+      line-height: 42px; }
+      .search-result02 .section-content article .article-header .naming-search dl dd .form-group p {
+        display: inline-block;
+        font-size: 16px;
+        color: #333;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 28px;
+        background-color: #eeeff4;
+        border: 1px solid #dfdfdf; }
+      .search-result02 .section-content article .article-header .naming-search dl dd .form-group .form-control {
+        display: inline-block;
+        font-size: 16px;
+        color: #333;
+        margin-right: 5px;
+        width: 30px;
+        height: 30px; }
+        .search-result02 .section-content article .article-header .naming-search dl dd .form-group .form-control:last-child {
+          margin-right: 0; }
+      .search-result02 .section-content article .article-header .naming-search dl dd.search {
+        position: relative;
+        text-align: left;
+        line-height: 42px;
+        padding-left: 20px; }
+        .search-result02 .section-content article .article-header .naming-search dl dd.search .form-group {
+          display: inline-block; }
+          .search-result02 .section-content article .article-header .naming-search dl dd.search .form-group select {
+            width: 90px; }
+        .search-result02 .section-content article .article-header .naming-search dl dd.search .btn-search {
+          position: absolute;
+          top: 0;
+          right: 0;
+          line-height: 44px;
+          width: 154px;
+          text-align: center;
+          color: #fff;
+          border-radius: 30px;
+          background-color: #ff7875; }
+
 /*# sourceMappingURL=ange_naming.css.map */
