@@ -100,7 +100,7 @@ address {
   width: 840px;
   margin-top: 35px; }
   .ange-naming .guide-list > li ~ li {
-    margin-top: 20px; }
+    margin-top: 25px; }
   .ange-naming .guide-list > li > h3 {
     position: relative;
     font-size: 14px;
@@ -122,10 +122,109 @@ address {
       background-color: #ff7875;
       border-radius: 50%;
       font-family: 'Roboto', sans-serif; }
+  .ange-naming .guide-list > li p {
+    font-size: 13px;
+    color: #666;
+    line-height: 26px;
+    font-weight: 300;
+    padding-left: 35px;
+    margin-top: 30px; }
+  .ange-naming .guide-list > li > ul {
+    padding-left: 35px;
+    padding-top: 5px; }
+    .ange-naming .guide-list > li > ul li {
+      font-size: 13px;
+      color: #666;
+      line-height: 26px; }
+      .ange-naming .guide-list > li > ul li h4 {
+        font-size: 13px;
+        line-height: 26px; }
+      .ange-naming .guide-list > li > ul li dl dt {
+        display: inline-block;
+        font-weight: 400; }
+        .ange-naming .guide-list > li > ul li dl dt:before {
+          content: "- "; }
+      .ange-naming .guide-list > li > ul li dl dd {
+        display: inline-block; }
+        .ange-naming .guide-list > li > ul li dl dd:before {
+          content: ":"; }
   .ange-naming .guide-list > li > .explain {
     margin-top: 20px; }
-    .ange-naming .guide-list > li > .explain img {
-      width: 100%; }
+    .ange-naming .guide-list > li > .explain figure {
+      text-align: center; }
+.ange-naming .naming-search {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .ange-naming .naming-search dl {
+    position: relative;
+    font-size: 0; }
+    .ange-naming .naming-search dl dt {
+      display: inline-block;
+      width: 135px;
+      font-size: 14px;
+      height: 45px;
+      color: #fff;
+      font-weight: 400;
+      vertical-align: top;
+      text-align: center;
+      line-height: 44px;
+      background-color: #acacac;
+      border-top: 1px solid #cfcfcf;
+      border-bottom: 1px solid #cfcfcf; }
+    .ange-naming .naming-search dl dd {
+      display: inline-block;
+      font-size: 14px;
+      width: 285px;
+      height: 43px;
+      text-align: center;
+      vertical-align: top;
+      padding: 6px 0;
+      border-top: 1px solid #cfcfcf;
+      border-bottom: 1px solid #cfcfcf; }
+      .ange-naming .naming-search dl dd .form-group p {
+        display: inline-block;
+        font-size: 16px;
+        color: #333;
+        width: 30px;
+        height: 30px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 28px;
+        background-color: #eeeff4;
+        border: 1px solid #dfdfdf; }
+      .ange-naming .naming-search dl dd .form-group .form-control {
+        display: inline-block;
+        font-size: 16px;
+        color: #333;
+        margin-right: 5px;
+        width: 30px;
+        height: 30px;
+        padding: 0; }
+        .ange-naming .naming-search dl dd .form-group .form-control:last-child {
+          margin-right: 0; }
+      .ange-naming .naming-search dl dd.search {
+        text-align: left;
+        width: 270px;
+        padding-left: 20px; }
+        .ange-naming .naming-search dl dd.search .form-group {
+          display: inline-block; }
+          .ange-naming .naming-search dl dd.search .form-group select {
+            width: 90px;
+            font-size: 14px;
+            color: #666; }
+        .ange-naming .naming-search dl dd.search .btn-search {
+          position: absolute;
+          top: 0;
+          right: 0; }
+          .ange-naming .naming-search dl dd.search .btn-search .btn-sm {
+            line-height: 44px;
+            width: 154px;
+            font-size: 15px;
+            text-align: center;
+            color: #fff;
+            border: 0;
+            border-radius: 30px;
+            background-color: #ff7875; }
 
 .naming-intro .section-content > ul li {
   display: table;
@@ -332,6 +431,12 @@ address {
     padding-top: 20px; }
 .application-write .section-content .table-wrap .table.type-1 tbody tr td {
   font-size: 14px; }
+  .application-write .section-content .table-wrap .table.type-1 tbody tr td .attention {
+    display: inline-block;
+    color: #ff7875;
+    font-size: 14px; }
+    .application-write .section-content .table-wrap .table.type-1 tbody tr td .attention:before {
+      content: "※ "; }
   .application-write .section-content .table-wrap .table.type-1 tbody tr td.request-type {
     color: #666;
     padding: 0;
@@ -373,12 +478,6 @@ address {
         margin-left: 0; }
       .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group select.years {
         width: 75px; }
-  .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date > .attention {
-    display: inline-block;
-    color: #ff7875;
-    font-size: 14px; }
-    .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date > .attention:before {
-      content: "※ "; }
   .application-write .section-content .table-wrap .table.type-1 tbody tr td.sex {
     padding: 15px 30px; }
   .application-write .section-content .table-wrap .table.type-1 tbody tr td.except .form-group .form-control {
@@ -639,104 +738,190 @@ address {
       font-style: normal;
       color: #ff7875;
       font-weight: 400; }
-  .search-result01 .section-content article .article-content {
-    margin-top: 15px; }
-    .search-result01 .section-content article .article-content .table-wrap .table thead tr th {
+  .search-result01 .section-content article .article-content .btn-more {
+    margin-bottom: 15px; }
+    .search-result01 .section-content article .article-content .btn-more .btn-lg {
+      display: block;
+      width: 200px;
+      height: 45px;
       font-size: 14px;
-      color: #fff;
-      font-weight: 300;
-      padding: 12px 0; }
-    .search-result01 .section-content article .article-content .table-wrap .table tbody tr td {
-      font-size: 14px;
-      padding: 8px 0;
-      vertical-align: middle; }
-      .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs {
-        display: block;
-        margin: 0 auto;
-        width: 80px;
-        height: 30px;
-        text-align: center;
-        font-size: 12px;
-        color: #666;
-        line-height: 28px;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        -webkit-transition-property: all;
-        transition-property: all;
-        -webkit-transition-duration: 0.15s;
-        transition-duration: 0.15s;
-        -webkit-transition-timing-function: linear;
-        transition-timing-function: linear;
-        -webkit-transition-delay: 0s;
-        transition-delay: 0s; }
-        .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs:hover, .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs:focus {
-          opacity: .7; }
-    .search-result01 .section-content article .article-content .table-wrap .paging {
-      margin-top: 30px; }
-    .search-result01 .section-content article .article-content .table-wrap .btn-area {
-      margin-top: 30px;
-      text-align: right; }
+      color: #666;
+      line-height: 43px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .search-result01 .section-content article .article-content .btn-more .btn-lg:hover, .search-result01 .section-content article .article-content .btn-more .btn-lg:focus {
+        opacity: .7; }
+  .search-result01 .section-content article .article-content .table-wrap .table thead tr th {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    padding: 12px 0; }
+  .search-result01 .section-content article .article-content .table-wrap .table tbody tr td {
+    font-size: 14px;
+    padding: 8px 0;
+    vertical-align: middle; }
+    .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs {
+      display: block;
+      margin: 0 auto;
+      width: 80px;
+      height: 30px;
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+      line-height: 28px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs:hover, .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs:focus {
+        opacity: .7; }
+  .search-result01 .section-content article .article-content .table-wrap .paging {
+    margin-top: 30px; }
+  .search-result01 .section-content article .article-content .table-wrap .btn-area {
+    margin-top: 30px;
+    text-align: right; }
 
-.search-result02 .section-content article .article-header .naming-search {
+.search-result02 .section-content article .article-header {
+  margin-top: 50px; }
+  .search-result02 .section-content article .article-header ul li {
+    position: relative;
+    font-size: 14px;
+    line-height: 28px;
+    color: #666;
+    padding-left: 15px; }
+    .search-result02 .section-content article .article-header ul li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "\E803";
+      font-family: "fontello";
+      color: #ad9cc4; }
+    .search-result02 .section-content article .article-header ul li i {
+      font-style: normal;
+      color: #ff7875;
+      font-weight: 400; }
+.search-result02 .section-content article .article-content .btn-more {
+  margin-bottom: 15px; }
+  .search-result02 .section-content article .article-content .btn-more .btn-lg {
+    display: block;
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+    color: #666;
+    line-height: 43px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+    .search-result02 .section-content article .article-content .btn-more .btn-lg:hover, .search-result02 .section-content article .article-content .btn-more .btn-lg:focus {
+      opacity: .7; }
+.search-result02 .section-content article .article-content .table-wrap .table thead tr th {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 12px 0; }
+.search-result02 .section-content article .article-content .table-wrap .table tbody tr td {
+  padding: 30px 0; }
+  .search-result02 .section-content article .article-content .table-wrap .table tbody tr td strong {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 20px; }
+  .search-result02 .section-content article .article-content .table-wrap .table tbody tr td p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666; }
+.search-result02 .section-content article .article-content .table-wrap .btn-area {
+  text-align: right;
   margin-top: 30px; }
-  .search-result02 .section-content article .article-header .naming-search dl {
-    font-size: 0;
-    border-top: 1px solid #cfcfcf;
-    border-bottom: 1px solid #cfcfcf; }
-    .search-result02 .section-content article .article-header .naming-search dl dt {
+
+.special-write .section-content .offeror-info {
+  margin-top: 50px; }
+  .special-write .section-content .offeror-info .article-content .table-wrap .table tbody tr td.call .form-group {
+    display: inline-block; }
+  .special-write .section-content .offeror-info .article-content .table-wrap .table tbody tr td.call .ex-text {
+    display: inline-block;
+    color: #999;
+    font-weight: 300; }
+  .special-write .section-content .offeror-info .article-content .table-wrap .table tbody tr td.call .attention {
+    display: block;
+    margin-top: 5px; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li ~ li {
+  margin-top: 20px; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li > div.details {
+  margin-top: 10px; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-name h4 {
+  display: inline-block;
+  font-size: 15px;
+  color: #333;
+  margin-right: 10px; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-name:after {
+  content: ":"; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-details {
+  padding-left: 30px;
+  margin-top: 10px; }
+  .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-details dl {
+    overflow: hidden; }
+    .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-details dl dt {
       display: inline-block;
-      width: 135px;
-      font-size: 14px;
-      color: #fff;
-      font-weight: 400;
-      vertical-align: top;
-      text-align: center;
-      line-height: 42px;
-      background-color: #acacac; }
-    .search-result02 .section-content article .article-header .naming-search dl dd {
-      display: inline-block;
-      font-size: 14px;
-      width: 285px;
-      text-align: center;
-      vertical-align: top;
-      line-height: 42px; }
-      .search-result02 .section-content article .article-header .naming-search dl dd .form-group p {
+      font-weight: 400; }
+    .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-details dl dd {
+      display: inline-block; }
+      .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-details dl dd .form-control {
+        width: 55px;
         display: inline-block;
-        font-size: 16px;
-        color: #333;
-        width: 30px;
-        height: 30px;
-        text-align: center;
-        line-height: 28px;
-        background-color: #eeeff4;
-        border: 1px solid #dfdfdf; }
-      .search-result02 .section-content article .article-header .naming-search dl dd .form-group .form-control {
-        display: inline-block;
-        font-size: 16px;
-        color: #333;
-        margin-right: 5px;
-        width: 30px;
-        height: 30px; }
-        .search-result02 .section-content article .article-header .naming-search dl dd .form-group .form-control:last-child {
-          margin-right: 0; }
-      .search-result02 .section-content article .article-header .naming-search dl dd.search {
-        position: relative;
-        text-align: left;
-        line-height: 42px;
-        padding-left: 20px; }
-        .search-result02 .section-content article .article-header .naming-search dl dd.search .form-group {
-          display: inline-block; }
-          .search-result02 .section-content article .article-header .naming-search dl dd.search .form-group select {
-            width: 90px; }
-        .search-result02 .section-content article .article-header .naming-search dl dd.search .btn-search {
-          position: absolute;
-          top: 0;
-          right: 0;
-          line-height: 44px;
-          width: 154px;
-          text-align: center;
-          color: #fff;
-          border-radius: 30px;
-          background-color: #ff7875; }
+        margin-right: 0; }
+        .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-details dl dd .form-control:first-child {
+          width: 80px; }
+        .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-details dl dd .form-control:last-child {
+          width: 65px; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li.attention {
+  color: #666;
+  font-size: 14px; }
+  .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li.attention i {
+    font-style: normal;
+    color: #ff7875; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group .form-control {
+  display: inline-block;
+  width: 80px;
+  padding: 5px; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group label {
+  display: inline-block;
+  line-height: 36px;
+  margin-right: 5px; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.talk dl dt p {
+  color: #666;
+  font-size: 14px;
+  letter-spacing: -1.2px;
+  font-weight: 400; }
+  .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.talk dl dt p.attention {
+    color: #ff7875; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.talk dl dd {
+  margin-top: 10px; }
+  .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.talk dl dd .form-group .form-control {
+    width: 100%;
+    height: 80px; }
 
 /*# sourceMappingURL=ange_naming.css.map */
