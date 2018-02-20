@@ -321,12 +321,18 @@ address {
       left: 0;
       display: inline-block;
       content: "※ "; }
-  .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td.date {
-    color: #999; }
-  .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td.num {
-    color: #e25371;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif; }
+  .progress-list .section-content article .article-content .table-wrap .table.type-2 thead tr th {
+    font-size: 14px; }
+  .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td {
+    font-size: 14px; }
+    .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td.date {
+      color: #999; }
+    .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td.num {
+      color: #e25371;
+      font-weight: 500;
+      font-family: 'Roboto', sans-serif; }
+  .progress-list .section-content article .article-content .table-wrap .paging {
+    margin-top: 30px; }
   .progress-list .section-content article .article-content .table-wrap .btn-area {
     text-align: right;
     margin-top: 30px; }
@@ -466,17 +472,18 @@ address {
     letter-spacing: -1px; }
   .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group {
     display: inline-block; }
-    .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group:nth-of-type(2) select {
+    .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group:nth-of-type(2) .form-control {
       width: 75px;
       margin-left: 0;
       margin-top: 10px; }
-    .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group select {
+    .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group .form-control {
       width: 63px;
       padding: 6px 6px;
-      margin-left: 10px; }
-      .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group select:first-child {
+      margin-left: 10px;
+      margin-right: 0; }
+      .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group .form-control:first-child {
         margin-left: 0; }
-      .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group select.years {
+      .application-write .section-content .table-wrap .table.type-1 tbody tr td.birth-date .form-group .form-control.years {
         width: 75px; }
   .application-write .section-content .table-wrap .table.type-1 tbody tr td.sex {
     padding: 15px 30px; }
@@ -484,27 +491,25 @@ address {
     margin-right: 0; }
   .application-write .section-content .table-wrap .table.type-1 tbody tr td.zip-code .form-group .form-control {
     width: 100px; }
-  .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group {
-    /*내일*/ }
-    .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group:nth-of-type(3) {
-      display: block; }
-    .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group .form-control {
-      width: 170px;
-      display: inline-block;
-      margin-right: 10px; }
-    .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group > div .form-control {
-      width: 360px; }
-    .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group > div ~ div {
-      margin-top: 5px; }
-    .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group label {
-      font-weight: 400;
-      margin-right: 15px; }
-      .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group label:last-child {
-        margin-right: 0; }
-      .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group label input[type="radio"] {
-        position: relative;
-        top: 2px;
-        margin-right: 5px; }
+  .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group:nth-of-type(3) {
+    display: block; }
+  .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group .form-control {
+    width: 170px;
+    display: inline-block;
+    margin-right: 10px; }
+  .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group > div .form-control {
+    width: 360px; }
+  .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group > div ~ div {
+    margin-top: 5px; }
+  .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group label {
+    font-weight: 400;
+    margin-right: 15px; }
+    .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group label:last-child {
+      margin-right: 0; }
+    .application-write .section-content .table-wrap .table.type-1 tbody tr td .form-group label input[type="radio"] {
+      position: relative;
+      top: 2px;
+      margin-right: 5px; }
   .application-write .section-content .table-wrap .table.type-1 tbody tr td .btn-confirm {
     display: inline-block;
     vertical-align: top; }
@@ -859,6 +864,12 @@ address {
 
 .special-write .section-content .offeror-info {
   margin-top: 50px; }
+  .special-write .section-content .offeror-info .article-header .attention {
+    font-size: 14px;
+    color: #ff7875;
+    margin-bottom: 5px; }
+    .special-write .section-content .offeror-info .article-header .attention:before {
+      content: "※ "; }
   .special-write .section-content .offeror-info .article-content .table-wrap .table tbody tr td.call .form-group {
     display: inline-block; }
   .special-write .section-content .offeror-info .article-content .table-wrap .table tbody tr td.call .ex-text {
@@ -872,13 +883,20 @@ address {
   margin-top: 20px; }
 .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li > div.details {
   margin-top: 10px; }
-.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-name h4 {
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-name dl dt {
   display: inline-block;
+  vertical-align: middle;
   font-size: 15px;
   color: #333;
-  margin-right: 10px; }
-.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-name:after {
-  content: ":"; }
+  margin-right: 5px; }
+  .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-name dl dt:after {
+    content: ":";
+    margin-left: 5px; }
+.special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-name dl dd {
+  display: inline-block;
+  vertical-align: middle; }
+  .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-name dl dd label {
+    display: inline-block; }
 .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li .parent-details {
   padding-left: 30px;
   margin-top: 10px; }
@@ -899,7 +917,7 @@ address {
           width: 65px; }
 .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li.attention {
   color: #666;
-  font-size: 14px; }
+  font-size: 13px; }
   .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.parent .form-group ul li.attention i {
     font-style: normal;
     color: #ff7875; }
@@ -923,5 +941,168 @@ address {
   .special-write .section-content .baby-info .article-content .table-wrap .table tbody tr td.talk dl dd .form-group .form-control {
     width: 100%;
     height: 80px; }
+
+.special-view .section-content article {
+  margin-top: 50px; }
+  .special-view .section-content article .article-content .table-wrap .table.type-1 tbody tr th {
+    font-size: 14px; }
+    .special-view .section-content article .article-content .table-wrap .table.type-1 tbody tr th.v-top {
+      vertical-align: top;
+      padding-left: 25px;
+      padding-top: 15px; }
+  .special-view .section-content article .article-content .table-wrap .table.type-1 tbody tr td {
+    font-size: 14px;
+    padding: 15px 30px; }
+    .special-view .section-content article .article-content .table-wrap .table.type-1 tbody tr td .attention {
+      font-size: 13px;
+      color: #ff7875;
+      margin-top: 5px; }
+      .special-view .section-content article .article-content .table-wrap .table.type-1 tbody tr td .attention:before {
+        content: "※ "; }
+  .special-view .section-content article.baby-info .article-content .table-wrap .table tbody tr ul li > .parent-name {
+    display: inline-block; }
+    .special-view .section-content article.baby-info .article-content .table-wrap .table tbody tr ul li > .parent-name dl {
+      display: block; }
+      .special-view .section-content article.baby-info .article-content .table-wrap .table tbody tr ul li > .parent-name dl dt {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 500;
+        color: #666; }
+        .special-view .section-content article.baby-info .article-content .table-wrap .table tbody tr ul li > .parent-name dl dt:after {
+          display: inline-block;
+          content: ":";
+          margin-right: 5px;
+          margin-left: 5px; }
+      .special-view .section-content article.baby-info .article-content .table-wrap .table tbody tr ul li > .parent-name dl dd {
+        color: #999;
+        display: inline-block; }
+  .special-view .section-content article.baby-info .article-content .table-wrap .table tbody tr ul li > .parent-details {
+    display: inline-block;
+    padding-left: 20px; }
+    .special-view .section-content article.baby-info .article-content .table-wrap .table tbody tr ul li > .parent-details p {
+      display: inline-block;
+      color: #999;
+      font-weight: 300; }
+  .special-view .section-content article.payment-option .article-content .table-wrap .table.type-1 tbody tr td label {
+    font-weight: 400;
+    margin-right: 15px; }
+    .special-view .section-content article.payment-option .article-content .table-wrap .table.type-1 tbody tr td label input[type="radio"] {
+      position: relative;
+      top: 2px;
+      margin-right: 5px; }
+  .special-view .section-content article.payment-option .article-content .table-wrap .table.type-1 tbody tr td > b {
+    color: #333;
+    font-weight: 500; }
+  .special-view .section-content article.payment-option .article-content .table-wrap .btn-area {
+    text-align: right;
+    margin-top: 30px; }
+
+.application-list .section-content .table-wrap .table thead tr th {
+  font-size: 14px; }
+.application-list .section-content .table-wrap .table tbody tr td {
+  font-size: 14px;
+  vertical-align: middle; }
+  .application-list .section-content .table-wrap .table tbody tr td.situation-btn {
+    padding: 0; }
+    .application-list .section-content .table-wrap .table tbody tr td.situation-btn p .btn.btn-md {
+      width: 130px;
+      height: 35px;
+      line-height: 33px;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      color: #666;
+      font-size: 14px;
+      background-color: #fff;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .application-list .section-content .table-wrap .table tbody tr td.situation-btn p .btn.btn-md:hover, .application-list .section-content .table-wrap .table tbody tr td.situation-btn p .btn.btn-md:focus {
+        opacity: .7; }
+.application-list .section-content .table-wrap .paging {
+  margin-top: 30px; }
+
+.application-view .section-content .offeror-info {
+  margin-top: 0; }
+
+.recommend-view .section-content article.offeror-info .article-content .table-wrap .table tbody tr td b {
+  font-weight: 500;
+  color: #333; }
+.recommend-view .section-content article.recommend-choice .article-content .choice-details {
+  margin-top: 50px;
+  padding: 30px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5; }
+  .recommend-view .section-content article.recommend-choice .article-content .choice-details ul li {
+    position: relative;
+    font-size: 14px;
+    line-height: 26px;
+    padding-left: 20px; }
+    .recommend-view .section-content article.recommend-choice .article-content .choice-details ul li i {
+      font-style: normal;
+      color: #ff7875; }
+    .recommend-view .section-content article.recommend-choice .article-content .choice-details ul li:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "※";
+      color: #ff7875; }
+    .recommend-view .section-content article.recommend-choice .article-content .choice-details ul li.choice {
+      display: inline-block; }
+      .recommend-view .section-content article.recommend-choice .article-content .choice-details ul li.choice .form-group {
+        display: inline-block;
+        padding-left: 20px; }
+        .recommend-view .section-content article.recommend-choice .article-content .choice-details ul li.choice .form-group label {
+          font-weight: 400;
+          margin-right: 15px; }
+          .recommend-view .section-content article.recommend-choice .article-content .choice-details ul li.choice .form-group label input[type="radio"] {
+            position: relative;
+            top: 2px;
+            margin-right: 5px; }
+  .recommend-view .section-content article.recommend-choice .article-content .choice-details .btn-area {
+    text-align: right; }
+
+.application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td .form-group .form-control {
+  width: 170px;
+  display: inline-block;
+  margin-right: 10px; }
+.application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td ul li > .parent-name {
+  display: inline-block; }
+  .application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td ul li > .parent-name dl {
+    display: block; }
+    .application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td ul li > .parent-name dl dt {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      color: #666; }
+      .application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td ul li > .parent-name dl dt:after {
+        display: inline-block;
+        content: ":";
+        margin-right: 5px;
+        margin-left: 5px; }
+    .application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td ul li > .parent-name dl dd {
+      color: #999;
+      display: inline-block; }
+.application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td ul li > .parent-details {
+  display: inline-block;
+  padding-left: 20px; }
+  .application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td ul li > .parent-details p {
+    display: inline-block;
+    color: #999;
+    font-weight: 300; }
+.application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td.file {
+  padding: 10px 30px; }
+  .application-view .section-content .baby-info .article-content .table-wrap .table.type-1 tbody tr td.file .attention {
+    margin-top: 0;
+    margin-bottom: 5px; }
+.application-view .section-content .baby-info .article-content .table-wrap .explain {
+  margin-top: 50px; }
+.application-view .section-content .baby-info .article-content .table-wrap .btn-area {
+  text-align: right;
+  margin-top: 30px; }
 
 /*# sourceMappingURL=ange_naming.css.map */

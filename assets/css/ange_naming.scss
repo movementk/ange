@@ -424,9 +424,17 @@
                         }
                     }
                     .table.type-2 {
+                        thead {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
                         tbody {
                             tr {
                                 td {
+                                    font-size: 14px;
                                     &.date {
                                         color: #999;
                                     }
@@ -438,6 +446,9 @@
                                 }
                             }
                         }
+                    }
+                    .paging {
+                        margin-top: 30px;
                     }
                     .btn-area {
                         text-align: right;
@@ -676,16 +687,17 @@
                                 .form-group {
                                     display: inline-block;
                                     &:nth-of-type(2) {
-                                        select {
+                                        .form-control {
                                             width: 75px;
                                             margin-left: 0;
                                             margin-top: 10px;
                                         }
                                     }
-                                    select {
+                                    .form-control {
                                         width: 63px;
                                         padding: 6px 6px;
                                         margin-left: 10px;
+                                        margin-right: 0;
                                         &:first-child {
                                             margin-left: 0;
                                         }
@@ -717,7 +729,6 @@
                                 &:nth-of-type(3) {
                                     display: block;
                                 }
-                                /*내일*/
                                 .form-control {
                                     width: 170px;
                                     display: inline-block;
@@ -1350,6 +1361,16 @@
     .section-content {
         .offeror-info {
             margin-top: 50px;
+            .article-header {
+                .attention {
+                    font-size: 14px;
+                    color: #ff7875;
+                    margin-bottom: 5px;
+                    &:before {
+                        content: "※ ";
+                    }
+                }
+            }
             .article-content {
                 .table-wrap {
                     .table {
@@ -1397,14 +1418,25 @@
                                                         }
                                                     }
                                                     .parent-name {
-                                                        h4 {
-                                                            display: inline-block;
-                                                            font-size: 15px;
-                                                            color: #333;
-                                                            margin-right: 10px;
-                                                        }
-                                                        &:after {
-                                                            content: ":";
+                                                        dl {
+                                                            dt {
+                                                                display: inline-block;
+                                                                vertical-align: middle;
+                                                                font-size: 15px;
+                                                                color: #333;
+                                                                margin-right: 5px;
+                                                                &:after {
+                                                                    content: ":";
+                                                                    margin-left: 5px;
+                                                                }
+                                                            }
+                                                            dd {
+                                                                display: inline-block;
+                                                                vertical-align: middle;
+                                                                label {
+                                                                    display: inline-block;
+                                                                }
+                                                            }
                                                         }
                                                     }
                                                     .parent-details {
@@ -1434,7 +1466,7 @@
                                                     }
                                                     &.attention {
                                                         color: #666;
-                                                        font-size: 14px;
+                                                        font-size: 13px;
                                                         
                                                         i {
                                                             font-style: normal;
@@ -1489,18 +1521,327 @@
     }
 }
 
+//스페셜 작명 뷰
+.special-view {
+    .section-content {
+        article {
+            margin-top: 50px;
+            .article-content {
+                .table-wrap {
+                    .table.type-1 {
+                        tbody {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                    &.v-top {
+                                        vertical-align: top;
+                                        padding-left: 25px;
+                                        padding-top: 15px;
+                                    }
+                                }
+                                td {
+                                    font-size: 14px;
+                                    padding: 15px 30px;
+                                    .attention {
+                                        font-size: 13px;
+                                        color: #ff7875;
+                                        margin-top: 5px;
+                                        &:before {
+                                            content: "※ ";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.baby-info {
+                .article-content {
+                    .table-wrap {
+                        .table {
+                            tbody {
+                                tr {
+                                    ul {
+                                        li {
+                                            > .parent-name {
+                                                display: inline-block;
+                                                dl {
+                                                    display: block;
+                                                    dt {
+                                                        display: inline-block;
+                                                        font-size: 15px;
+                                                        font-weight: 500;
+                                                        color: #666;
+                                                        &:after {
+                                                            display: inline-block;
+                                                            content: ":";
+                                                            margin-right: 5px;
+                                                            margin-left: 5px;
+                                                        }
+                                                    }
+                                                    dd {
+                                                        color: #999;
+                                                        display: inline-block;
+                                                    }
+                                                }
+                                            }
+                                            > .parent-details {
+                                                display: inline-block;
+                                                padding-left: 20px;
+                                                p {
+                                                    display: inline-block;
+                                                    color: #999;
+                                                    font-weight: 300;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.payment-option {
+                .article-content {
+                    .table-wrap {
+                        .table.type-1 {
+                            tbody {
+                                tr {
+                                    td {
+                                        label {
+                                            font-weight: 400;
+                                            margin-right: 15px;
+                                            input[type="radio"] {
+                                                position: relative;
+                                                top: 2px;
+                                                margin-right: 5px;
+                                            }
+                                        }
+                                        > b {
+                                            color: #333;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-area {
+                            text-align: right;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+//작명신청 정보 리스트
+.application-list {
+    .section-content {
+        .table-wrap {
+            .table {
+                thead {
+                    tr {
+                        th {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 14px;
+                            vertical-align: middle;
+                            &.situation-btn {
+                                padding: 0;
+                                p {
+                                    .btn.btn-md {
+                                        width: 130px;
+                                        height: 35px;
+                                        line-height: 33px;
+                                        border: 1px solid #ccc;
+                                        border-radius: 30px;
+                                        color: #666;
+                                        font-size: 14px;
+                                        background-color: #fff;
+                                        @include transition();
+                                        &:hover, &:focus {
+                                            opacity: .7;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 30px;
+            }
+        }
+    }
+}
 
+//작명신청정보-추천이름작업중페이지
+.application-view {
+    .section-content {
+        .offeror-info {
+            margin-top: 0;
+        }
+    }
+}
 
+//추천이름 선택 보기
+.recommend-view {
+    .section-content {
+        article {
+            &.offeror-info {
+                .article-content {
+                    .table-wrap {
+                        .table {
+                            tbody {
+                                tr {
+                                    td {
+                                        b {
+                                            font-weight: 500;
+                                            color: #333;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.recommend-choice {
+                .article-content {
+                    .choice-details {
+                        margin-top: 50px;
+                        padding: 30px 0;
+                        border-top: 1px solid #e5e5e5;
+                        border-bottom: 1px solid #e5e5e5;
+                        ul {
+                            li {
+                                position: relative;
+                                font-size: 14px;
+                                line-height: 26px;
+                                padding-left: 20px;
+                                i {
+                                    font-style: normal;
+                                    color: #ff7875;
+                                }
+                                &:before {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    content: "※";
+                                    color: #ff7875;
+                                }
+                                &.choice {
+                                    display: inline-block;
+                                    .form-group {
+                                        display: inline-block;
+                                        padding-left: 20px;
+                                        label {
+                                            font-weight: 400;
+                                            margin-right: 15px;
+                                            input[type="radio"] {
+                                                position: relative;
+                                                top: 2px;
+                                                margin-right: 5px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-area {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
-
-
-
-
-
-
-
-
+.application-view {
+    .section-content {
+        .baby-info {
+            .article-content {
+                .table-wrap {
+                    .table.type-1 {
+                        tbody {
+                            tr {
+                                td {
+                                    .form-group {
+                                        .form-control {
+                                            width: 170px;
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                        }
+                                    }
+                                    ul {
+                                        li {
+                                            > .parent-name {
+                                                display: inline-block;
+                                                dl {
+                                                    display: block;
+                                                    dt {
+                                                        display: inline-block;
+                                                        font-size: 15px;
+                                                        font-weight: 500;
+                                                        color: #666;
+                                                        &:after {
+                                                            display: inline-block;
+                                                            content: ":";
+                                                            margin-right: 5px;
+                                                            margin-left: 5px;
+                                                        }
+                                                    }
+                                                    dd {
+                                                        color: #999;
+                                                        display: inline-block;
+                                                    }
+                                                }
+                                            }
+                                            > .parent-details {
+                                                display: inline-block;
+                                                padding-left: 20px;
+                                                p {
+                                                    display: inline-block;
+                                                    color: #999;
+                                                    font-weight: 300;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.file {
+                                        padding: 10px 30px;
+                                        .attention {
+                                            margin-top: 0;
+                                            margin-bottom: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .explain {
+                        margin-top: 50px;
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

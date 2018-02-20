@@ -154,7 +154,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <th>생년월일</th>
+                                                        <th class="v-top">생년월일</th>
                                                         <td class="birth-date">
                                                             <div class="form-group">
                                                                 <select class="form-control years">
