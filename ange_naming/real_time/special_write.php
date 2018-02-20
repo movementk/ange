@@ -16,21 +16,21 @@
                 <div class="sub-content">
                     <section class="application-write special-write"><!-- 페이지명 클래스 -->
                         <div class="section-header">
-                            <h2 class="sub-title">스페셜 작명</h2>
+                            <h2 class="sub-title">스페셜 작명전환 하기</h2>
                             <div class="attention-box type-2">
-                                <h5>스페셜 작명신청 안내</h5>
+                                <h5>스페셜 작명전환 안내</h5>
                                 <ol>
                                     <li>
-                                        - 신청서를 작성 하신 후 결제 하시면 <i>3~4일내 핸드폰문자로 추천이름완료 메세지</i>보냅니다.
+                                        - 이용했던 작명 서비스(실시간 작명/셀프작명) 에서 스페셜 작명으로 전환을 원할 경우 이용할 수 있습니다.
                                     </li>
                                     <li>
-                                        - &#39;추천이름선택&#39;페이지에서 이름을 선택하실 수 있습니다. (추천은 3개를 올려 드리며, 사주풀이 및 이름풀이는 드리지 않습니다.)
+                                        - 실시간 작명 신청 후 <b>1주일 이내</b>에만 가능합니다.
                                     </li>
                                     <li>
-                                        - <b>작명진행상황은 &#39;작명신청정보&#39; 에서 언제나 확인가능합니다.</b>
+                                        - <i>전환신청을 하시면 신청했던 작명서비스(실시간 작명/셀프 작명)은 사용할 수 없습니다.</i>
                                     </li>
                                     <li>
-                                        ※ 신청후 2일이내 미입금시 별도 연락없이 신청삭제가 되며, <i>서비스를 이용하신 후에는 서비스대금 환불이 불가능</i> 합니다.
+                                        - <b>50,000원의 추가비용이 발생</b>하오니 결제해주셔야 합니다.
                                     </li>
                                 </ol>
                             </div>
@@ -39,6 +39,8 @@
                             <form action="#">
                                 <article class="offeror-info">
                                     <div class="article-header">
+                                        <p class="attention">서비스를 이용하신 후에는 서비스대금 환불이 불가합니다.</p>
+                                        <p class="attention">신청후 1일이내 입금이 안되는 경우 별도 연락없이 신청삭제가 됩니다.</p>
                                         <h3 class="naming-title">신청인 정보</h3>
                                     </div>
                                     <div class="article-content">
@@ -389,6 +391,7 @@
         </div>
     </main>
     
+    //한자변환하기 팝업
     <div class="popup-layer convert-pop">
         <div class="popup-bg"></div>
         <div id="popup-content" class="pop-layer">

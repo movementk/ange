@@ -53,7 +53,7 @@
                                                         <td>07050052810</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>휴대전화번호</th>
+                                                        <th class="v-top">휴대전화번호</th>
                                                         <td>
                                                             01000000000
                                                             <p class="attention">

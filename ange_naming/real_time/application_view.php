@@ -40,20 +40,15 @@
                                                         <td>admin</td>
                                                     </tr>
                                                     <tr>
-                                                        <th class="v-top">주소</th>
-                                                        <td>
-                                                            <ul>
-                                                                <li>-</li>
-                                                                <li>마포구 독막로 155 5층</li>
-                                                            </ul>
-                                                        </td>
+                                                        <th>주소</th>
+                                                        <td>- 마포구 독막로 155 5층</td>
                                                     </tr>
                                                     <tr>
                                                         <th>전화번호(자택)</th>
                                                         <td>07050052810</td>
                                                     </tr>
                                                     <tr>
-                                                        <th>휴대전화번호</th>
+                                                        <th class="v-top">휴대전화번호</th>
                                                         <td>
                                                             01000000000
                                                             <p class="attention">
@@ -109,7 +104,7 @@
                                     </div>
                                     <div class="article-content">
                                         <div class="table-wrap">
-                                            <table class="table table -bordered type-1">
+                                            <table class="table table-bordered type-1">
                                                 <tbody>
                                                     <tr>
                                                         <th>결제방법</th>
