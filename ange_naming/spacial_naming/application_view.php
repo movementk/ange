@@ -131,6 +131,11 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <div class="btn-area">
+                                            <p>
+                                                <a href="#" class="btn btn-sm btn-pink" role="button">이전화면</a>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </article>
