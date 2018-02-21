@@ -648,7 +648,9 @@
 .application-write {
     .section-content {
         article {
-            margin-top: 50px; 
+            & ~ article {
+                margin-top: 50px; 
+            }
         }
         .table-wrap {
             .table.type-1 {
@@ -670,6 +672,9 @@
                                 font-size: 14px;
                                 &:before {
                                     content: "※ ";
+                                }
+                                &:last-child {
+                                    margin-bottom: 30px;
                                 }
                             }
                             &.request-type {
