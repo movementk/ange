@@ -111,6 +111,47 @@
                 }
             }
         }
+        ul {
+            margin-top: 20px;
+            li {
+                font-size: 13px;
+                line-height: 22px;
+                color: #999;
+                i {
+                    font-style: normal;
+                    color: #ff7875;
+                    font-weight: 500;
+                }
+                > p {
+                    position: relative;
+                    padding-left: 15px;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: inline-block;
+                        content: "※ ";
+                    }
+                }
+                > b {
+                    color: #666;
+                    font-weight: 500;
+                }
+            }
+        }
+        > .attention {
+            color: #999;
+            line-height: 22px;
+            font-size: 13px;
+            &:before {
+                content: "※ ";
+            }
+            i {
+                font-style: normal;
+                color: #ff7875;
+                font-weight: 500;
+            }
+        }
     }
     // 이용안내 리스트 공통
     .guide-list {
