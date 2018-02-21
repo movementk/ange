@@ -96,6 +96,38 @@ address {
     .ange-naming .attention-box.type-2 ol li > b {
       color: #666;
       font-weight: 500; }
+.ange-naming .attention-box.type-2 ul {
+  margin-top: 20px; }
+  .ange-naming .attention-box.type-2 ul li {
+    font-size: 13px;
+    line-height: 22px;
+    color: #999; }
+    .ange-naming .attention-box.type-2 ul li i {
+      font-style: normal;
+      color: #ff7875;
+      font-weight: 500; }
+    .ange-naming .attention-box.type-2 ul li > p {
+      position: relative;
+      padding-left: 15px; }
+      .ange-naming .attention-box.type-2 ul li > p:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        content: "※ "; }
+    .ange-naming .attention-box.type-2 ul li > b {
+      color: #666;
+      font-weight: 500; }
+.ange-naming .attention-box.type-2 > .attention {
+  color: #999;
+  line-height: 22px;
+  font-size: 13px; }
+  .ange-naming .attention-box.type-2 > .attention:before {
+    content: "※ "; }
+  .ange-naming .attention-box.type-2 > .attention i {
+    font-style: normal;
+    color: #ff7875;
+    font-weight: 500; }
 .ange-naming .guide-list {
   width: 840px;
   margin-top: 35px; }
