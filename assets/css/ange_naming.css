@@ -459,7 +459,7 @@ address {
         .five-elements .article-content .table-wrap .btn-area p .btn-white:hover:after, .five-elements .article-content .table-wrap .btn-area p .btn-white:focus:after {
           color: #fff; }
 
-.application-write .section-content article ~ article {
+.application-write .section-content article {
   margin-top: 50px; }
 .application-write .section-content .table-wrap .table.type-1 tbody tr th {
   font-size: 14px; }

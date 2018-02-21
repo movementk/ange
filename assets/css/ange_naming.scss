@@ -648,9 +648,7 @@
 .application-write {
     .section-content {
         article {
-            & ~ article {
-                margin-top: 50px; 
-            }
+            margin-top: 50px; 
         }
         .table-wrap {
             .table.type-1 {
