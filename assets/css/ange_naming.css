@@ -475,8 +475,6 @@ address {
     font-size: 14px; }
     .application-write .section-content .table-wrap .table.type-1 tbody tr td .attention:before {
       content: "※ "; }
-    .application-write .section-content .table-wrap .table.type-1 tbody tr td .attention:last-child {
-      margin-bottom: 30px; }
   .application-write .section-content .table-wrap .table.type-1 tbody tr td.request-type {
     color: #666;
     padding: 0;
@@ -898,6 +896,8 @@ address {
 
 .special-write .section-content .offeror-info {
   margin-top: 50px; }
+  .special-write .section-content .offeror-info .article-header .naming-title {
+    margin-top: 30px; }
   .special-write .section-content .offeror-info .article-header .attention {
     font-size: 14px;
     color: #ff7875;

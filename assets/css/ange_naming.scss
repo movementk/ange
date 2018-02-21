@@ -673,9 +673,6 @@
                                 &:before {
                                     content: "※ ";
                                 }
-                                &:last-child {
-                                    margin-bottom: 30px;
-                                }
                             }
                             &.request-type {
                                 color: #666;
@@ -1406,6 +1403,9 @@
         .offeror-info {
             margin-top: 50px;
             .article-header {
+                .naming-title {
+                    margin-top: 30px;
+                }
                 .attention {
                     font-size: 14px;
                     color: #ff7875;
