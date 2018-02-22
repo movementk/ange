@@ -22,10 +22,10 @@
                                 <div class="table-wrap">
                                     <table class="table table-bordered type-2">
                                         <colgroup>
-                                            <col style="width:150px">
-                                            <col style="width:300px">
-                                            <col style="width:100px">
-                                            <col style="width:">
+                                            <col style="width: 25%;">
+                                            <col style="width: 25%;">
+                                            <col style="width: 25%;">
+                                            <col style="width: 25%;">
                                         </colgroup>
                                         <thead>
                                             <tr>
