@@ -2,7 +2,7 @@
 
 body {
     @include noto();
-    section {
+    .result-popup {
         .section-header {
             height: 65px;
             background-color: #ad9cc4;
@@ -76,3 +76,63 @@ body {
         }
     }
 }
+.pop-defulat {
+    .interpret-popup {
+        padding: 20px;
+        .section-content {
+            padding-bottom: 150px;
+            article {
+                &:first-child {
+                    margin-top: 0;
+                }
+                .naming-title {
+                    position: relative;
+                    padding-left: 20px;
+                    font-size: 18px;
+                    color: #333;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                    &:before {
+                        position: absolute;
+                        top: 2px;
+                        left: 0;
+                        font-size: 16px;
+                        color: #e25371;
+                        content: "\E826";
+                        font-family: 'fontello';
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

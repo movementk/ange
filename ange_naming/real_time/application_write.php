@@ -217,7 +217,7 @@
                                                                 <input type="text" id="name-change" class="form-control">
                                                                 <label for="name-change" class="sr-only">성씨</label>
                                                                 <div class="btn-confirm">
-                                                                    <a href="#popup-content" class="btn btn-default" role="button" onclick="onPopupWindow()">한자변환</a>
+                                                                    <a href="#" class="btn btn-default" role="button" onclick="onPopupWindow()">한자변환</a>
                                                                 </div>
                                                             </div>
                                                         </td>

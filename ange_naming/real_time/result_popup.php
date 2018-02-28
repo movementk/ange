@@ -3,7 +3,7 @@
 <link href="/assets/css/default_popup.css" rel="stylesheet">
 
 <body id="default-popup">
-    <section class="popup">
+    <section class="result-popup">
         <div class="section-header">
             <h4>한자검색</h4>
         </div>
