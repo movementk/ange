@@ -217,7 +217,7 @@
                                                                 <input type="text" id="name-change" class="form-control">
                                                                 <label for="name-change" class="sr-only">성씨</label>
                                                                 <div class="btn-confirm">
-                                                                    <a href="#popup-content" class="btn btn-default btn-popup" role="button">한자변환</a>
+                                                                    <a href="#popup-content" class="btn btn-default" role="button" onclick="onPopupWindow()">한자변환</a>
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -249,7 +249,8 @@
     </main>
     
     
-    <!-- 한자변환 레이어 팝업 -->
+<!--
+     한자변환 레이어 팝업 
     <div class="popup-layer convert-pop">
         <div class="popup-bg"></div>
         <div id="popup-content" class="pop-layer">
@@ -395,11 +396,19 @@
             </div>
         </div>
     </div>
+-->
+    
     
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/sub_aside.php"); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/js/common_sub.js"></script>
-    <script src="/assets/js/sub_popup.js"></script>
+    <!--<script src="/assets/js/sub_popup.js"></script>-->
+    <!-- 팝업 js 추가 -->
+    <script>
+        function onPopupWindow(){  
+            window.open('result_popup.php', '_blank', 'top=50, left=50, width=570, height=540, scrollbars=yes');
+        }
+    </script>
 </body>
 </html>

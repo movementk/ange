@@ -1,0 +1,13 @@
+@import 'common';
+
+body {
+    section {
+        .section-header {
+            height: 65px;
+            background-color: #ad9cc4;
+        }
+        .section-content {
+            padding: 30px;
+        }
+    }
+}

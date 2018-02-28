@@ -60,6 +60,8 @@ address {
     vertical-align: middle;
     padding: 15px 0;
     border: 1px solid #dfdfdf; }
+    .ange-naming .table-wrap .table.naming-table tbody tr td a {
+      color: #fff; }
     .ange-naming .table-wrap .table.naming-table tbody tr td:last-child {
       border-right: 0; }
     .ange-naming .table-wrap .table.naming-table tbody tr td:first-child {
@@ -228,6 +230,7 @@ address {
         display: inline-block;
         font-size: 16px;
         color: #333;
+        text-align: center;
         margin-right: 5px;
         width: 30px;
         height: 30px;
@@ -357,12 +360,16 @@ address {
     font-size: 14px; }
   .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td {
     font-size: 14px; }
+    .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td a {
+      color: #666; }
     .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td.date {
       color: #999; }
     .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td.num {
       color: #e25371;
       font-weight: 500;
       font-family: 'Roboto', sans-serif; }
+      .progress-list .section-content article .article-content .table-wrap .table.type-2 tbody tr td.num a {
+        color: #e25371; }
   .progress-list .section-content article .article-content .table-wrap .paging {
     margin-top: 30px; }
   .progress-list .section-content article .article-content .table-wrap .btn-area {
@@ -431,6 +438,7 @@ address {
       text-align: center; }
     .five-elements .article-content .table-wrap .btn-area p .btn.btn-md {
       width: 170px;
+      font-size: 13px;
       line-height: 43px;
       border-radius: 30px; }
     .five-elements .article-content .table-wrap .btn-area p .btn.btn-lg {
@@ -806,6 +814,8 @@ address {
     font-size: 14px;
     padding: 8px 0;
     vertical-align: middle; }
+    .search-result01 .section-content article .article-content .table-wrap .table tbody tr td a {
+      color: #666; }
     .search-result01 .section-content article .article-content .table-wrap .table tbody tr td p .btn-xs {
       display: block;
       margin: 0 auto;
@@ -1036,6 +1046,8 @@ address {
 .application-list .section-content .table-wrap .table tbody tr td {
   font-size: 14px;
   vertical-align: middle; }
+  .application-list .section-content .table-wrap .table tbody tr td a {
+    color: #666; }
   .application-list .section-content .table-wrap .table tbody tr td.situation-btn {
     padding: 0; }
     .application-list .section-content .table-wrap .table tbody tr td.situation-btn p .btn.btn-md {
@@ -1045,7 +1057,7 @@ address {
       border: 1px solid #ccc;
       border-radius: 30px;
       color: #666;
-      font-size: 14px;
+      font-size: 13px;
       background-color: #fff;
       -webkit-transition-property: all;
       transition-property: all;
@@ -1135,5 +1147,10 @@ address {
 .application-view .section-content .baby-info .article-content .table-wrap .btn-area {
   text-align: right;
   margin-top: 30px; }
+
+.name-step03 .section-content .middle-select .table .tbody tr td {
+  padding-left: 10px;
+  padding-right: 10px;
+  word-break: keep-all; }
 
 /*# sourceMappingURL=ange_naming.css.map */
