@@ -1,13 +1,78 @@
 @import 'common';
 
 body {
+    @include noto();
     section {
         .section-header {
             height: 65px;
             background-color: #ad9cc4;
+            padding: 25px 30px;
+            h4 {
+                font-size: 18px;
+                color: #fff;
+                font-weight: 400;
+            }
         }
         .section-content {
             padding: 30px;
+            .table-wrap {
+                .table.type-2 {
+                    table-layout: fixed;
+                    thead {
+                        tr {
+                            th {
+                                font-size: 13px;
+                                color: #fff;
+                                padding: 10px 0;
+                                text-align: center;
+                                font-weight: 400;
+                                border: 0;
+                                background-color: #acacac;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 14px;
+                                color: #666;
+                                text-align: center;
+                                padding: 10px 0;
+                                font-weight: 300;
+                                border: 0;
+                                vertical-align: middle;
+                                border-bottom: 1px solid #cfcfcf;
+                                .btn-confirm {
+                                    a {
+                                        display: inline-block;
+                                        font-size: 12px;
+                                        color: #666;
+                                        text-align: center;
+                                        &.btn {
+                                            padding: 0;
+                                            border: 0;
+                                            border-radius: 0;
+                                            box-shadow: none !important;
+                                            background: none;
+                                        }   
+                                        &.btn-sm {
+                                            width: 75px;
+                                            line-height: 25px;
+                                            background-color: #fff;
+                                            border: 1px solid #ccc;
+                                            border-radius: 30px;
+                                            @include transition();
+                                            &:hover,&:focus {
+                                                opacity: .7;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

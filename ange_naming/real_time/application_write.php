@@ -407,7 +407,7 @@
     <!-- 팝업 js 추가 -->
     <script>
         function onPopupWindow(){  
-            window.open('result_popup.php', '_blank', 'top=50, left=50, width=570, height=540, scrollbars=yes');
+            window.open('result_popup.php', '_blank', 'top=50, left=50, width=570, height=560, scrollbars=yes');
         }
     </script>
 </body>
