@@ -169,6 +169,18 @@ article {
             bottom: 10px;
             width: 100%;
             text-align: center;
+            .bx-controls-direction {
+                .bx-prev {
+                    position: absolute;
+                    bottom: 142px;
+                    left: 20px;
+                }
+                .bx-next {
+                    position: absolute;
+                    bottom: 142px;
+                    right: 20px;
+                }
+            }
             .bx-pager {
                 display: inline-block;
                 height: 22px;
