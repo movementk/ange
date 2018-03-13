@@ -39,9 +39,10 @@
                                         - Part 2 한나절 크리스마스 나들이<br>
                                         - Part 3 아이 선물로 좋은 장난감 컬렉션
                                     </p>
-                                    <div class="btn-area">
+                                    <div class="btn-ebook">
                                         <p>
                                             <a href="#" class="btn btn-white btn-more" role="button">자세히 보기</a>
+                                            <a href="#" class="btn btn-pink btn-more" role="button">e-book 보기</a>
                                         </p>
                                     </div>
                                 </div>
