@@ -589,7 +589,6 @@ article {
   overflow: hidden; }
   .subject-content .article-content .content-list ul li {
     float: left;
-    text-align: center;
     margin-right: 16px; }
     .subject-content .article-content .content-list ul li ~ li {
       margin-top: 25px; }
@@ -600,32 +599,19 @@ article {
     .subject-content .article-content .content-list ul li:nth-of-type(2), .subject-content .article-content .content-list ul li:nth-of-type(3), .subject-content .article-content .content-list ul li:nth-of-type(4) {
       margin-top: 0; }
     .subject-content .article-content .content-list ul li a {
-      display: block;
-      /*&:hover {
-          figure {
-              img {
-                  -webkit-transform: scale(1.1);
-                  -ms-transform: scale(1.1);
-                  -moz-transform: scale(1.1);
-                  transform: scale(1.1);
-              }
-          }
-      }*/ }
-      .subject-content .article-content .content-list ul li a figure {
-        /*overflow: hidden;
+      display: block; }
+      .subject-content .article-content .content-list ul li a figure img {
+        display: block; }
+      .subject-content .article-content .content-list ul li a figure figcaption {
         width: 170px;
-        height: 170px;*/ }
-        .subject-content .article-content .content-list ul li a figure img {
-          display: block;
-          /*@include transition($duration: .20s);
-          -webkit-transform: scale(1);
-          -ms-transform: scale(1);
-          -moz-transform: scale(1);
-          transform: scale(1);*/ }
-        .subject-content .article-content .content-list ul li a figure figcaption {
-          font-size: 13px;
-          color: #666;
-          margin-top: 15px; }
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+        font-size: 13px;
+        color: #666;
+        text-align: left;
+        margin-top: 15px; }
 
 .community {
   overflow: hidden;
