@@ -109,30 +109,45 @@
                     color: #999;
                     line-height: 22px;
                 }
-                .btn-area {
+                .btn-ebook {
                     margin-top: 30px;
                     p {
-                        .btn {
-                            font-size: 13px;
-                            color: #666;
-                            width: 170px;
-                            text-align: left;
-                            padding: 0 20px;
-                            border-radius: 30px;
-                            &.btn-white {
-                                line-height: 38px;
-                                border: 1px solid #b7b7b7;
-                            }
-                            &.btn-more {
-                                &:after {
-                                    float: right;
-                                    display: inline-block;
-                                    color: #999;
-                                    content: "\E810";
-                                    font-family: "fontello";
-                                }
-                            }
-                        }
+						font-size: 0;
+						a {
+							margin-right: 10px;
+							&:focus,&:hover {
+								opacity: .7;
+							}
+							&:last-child {
+								margin-right: 0;
+							}
+							&.btn {
+								font-size: 13px;
+								color: #666;
+								width: 170px;
+								text-align: left;
+								padding: 0 20px;
+								border-radius: 30px;
+								&.btn-white {
+									color: #999;
+									border: 1px solid #b7b7b7;
+								}
+								&.btn-pink {
+									color: #fff;
+									border: 1px solid #ff7875;
+								}
+								&.btn-more {
+									line-height: 38px;
+									@include transition();
+									&:after {
+										float: right;
+										display: inline-block;
+										content: "\E810";
+										font-family: "fontello";
+									}
+								}
+							}
+						}
                     }
                 }
             }
@@ -589,6 +604,39 @@
                     width: 841px !important;
                 }
             }
+			.btn-ebook {
+				text-align: center;
+				margin-top: 25px;
+				p {
+					a {
+						&:hover,&:focus {
+							opacity: .7;
+						}
+						&.btn {
+							width: 170px;
+							font-size: 13px;
+							color: #666;
+							text-align: left;
+							padding: 0 20px;
+							border-radius: 30px;
+							&.btn-pink {
+								color: #fff;
+								border: 1px solid #ff7875;
+								@include transition();
+							}
+							&.btn-more {
+								line-height: 38px;
+								&:after {
+									float: right;
+									display: inline-block;
+									content: "\E810";
+									font-family: "fontello";
+								}
+							}
+						}
+					}
+				}
+			}
             .banner {
                 figure {
                     img {
