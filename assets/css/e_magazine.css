@@ -96,24 +96,44 @@ address {
     font-size: 12px;
     color: #999;
     line-height: 22px; }
-  .e-book .ebook-list .section-header .summary-content .btn-area {
+  .e-book .ebook-list .section-header .summary-content .btn-ebook {
     margin-top: 30px; }
-    .e-book .ebook-list .section-header .summary-content .btn-area p .btn {
-      font-size: 13px;
-      color: #666;
-      width: 170px;
-      text-align: left;
-      padding: 0 20px;
-      border-radius: 30px; }
-      .e-book .ebook-list .section-header .summary-content .btn-area p .btn.btn-white {
-        line-height: 38px;
-        border: 1px solid #b7b7b7; }
-      .e-book .ebook-list .section-header .summary-content .btn-area p .btn.btn-more:after {
-        float: right;
-        display: inline-block;
-        color: #999;
-        content: "\E810";
-        font-family: "fontello"; }
+    .e-book .ebook-list .section-header .summary-content .btn-ebook p {
+      font-size: 0; }
+      .e-book .ebook-list .section-header .summary-content .btn-ebook p a {
+        margin-right: 10px; }
+        .e-book .ebook-list .section-header .summary-content .btn-ebook p a:focus, .e-book .ebook-list .section-header .summary-content .btn-ebook p a:hover {
+          opacity: .7; }
+        .e-book .ebook-list .section-header .summary-content .btn-ebook p a:last-child {
+          margin-right: 0; }
+        .e-book .ebook-list .section-header .summary-content .btn-ebook p a.btn {
+          font-size: 13px;
+          color: #666;
+          width: 170px;
+          text-align: left;
+          padding: 0 20px;
+          border-radius: 30px; }
+          .e-book .ebook-list .section-header .summary-content .btn-ebook p a.btn.btn-white {
+            color: #999;
+            border: 1px solid #b7b7b7; }
+          .e-book .ebook-list .section-header .summary-content .btn-ebook p a.btn.btn-pink {
+            color: #fff;
+            border: 1px solid #ff7875; }
+          .e-book .ebook-list .section-header .summary-content .btn-ebook p a.btn.btn-more {
+            line-height: 38px;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            .e-book .ebook-list .section-header .summary-content .btn-ebook p a.btn.btn-more:after {
+              float: right;
+              display: inline-block;
+              content: "\E810";
+              font-family: "fontello"; }
 .e-book .ebook-list .section-content .year-list {
   position: relative;
   display: block;
@@ -458,6 +478,36 @@ address {
   width: 100%; }
 .magazine-view .view .section-content figure pre {
   width: 841px !important; }
+.magazine-view .view .section-content .btn-ebook {
+  text-align: center;
+  margin-top: 25px; }
+  .magazine-view .view .section-content .btn-ebook p a:hover, .magazine-view .view .section-content .btn-ebook p a:focus {
+    opacity: .7; }
+  .magazine-view .view .section-content .btn-ebook p a.btn {
+    width: 170px;
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    padding: 0 20px;
+    border-radius: 30px; }
+    .magazine-view .view .section-content .btn-ebook p a.btn.btn-pink {
+      color: #fff;
+      border: 1px solid #ff7875;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+    .magazine-view .view .section-content .btn-ebook p a.btn.btn-more {
+      line-height: 38px; }
+      .magazine-view .view .section-content .btn-ebook p a.btn.btn-more:after {
+        float: right;
+        display: inline-block;
+        content: "\E810";
+        font-family: "fontello"; }
 .magazine-view .view .section-content .banner figure img {
   width: 100%; }
 .magazine-view .view .section-content .table-wrap {

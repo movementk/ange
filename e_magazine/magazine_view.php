@@ -45,6 +45,11 @@
                             <figure>
                                 <img src="/assets/images/e_magazine/img_none.jpg" alt="">
                             </figure>
+                            <div class="btn-ebook">
+                            	<p>
+                            		<a href="#" class="btn btn-pink btn-more" role="button">e-book 보기</a>
+                            	</p>
+                            </div>
                             <div class="table-wrap">
                                 <table class="table table-bordered">
                                     <tbody>
