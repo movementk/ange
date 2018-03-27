@@ -39,42 +39,32 @@
                                         <p>작명승인번호를 클릭해주세요.</p>
                                         <table class="table tbale-bordered type-2">
                                             <colgroup>
-                                                <col style="width:130px">
-                                                <col style="width:140px">
-                                                <col style="width:275px">
-                                                <col style="width:">
-                                                <col style="width:">
+                                                <col style="width: 33.3%">
+                                                <col style="width: 33.3%">
+                                                <col style="width: 33.3%">
                                             </colgroup>
                                             <thead>
                                                 <tr>
                                                     <th>신청일</th>
-                                                    <th>결제방법</th>
                                                     <th>작명 당사자 정보</th>
                                                     <th>작명승인번호</th>
-                                                    <th>승인여부</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td class="date">2018-02-07</td>
-                                                    <td>가상계좌</td>
+                                                    <td class="date">2018-02-07</td> 
                                                     <td>2018년 1월 1일 1시 0분 양력/평달</td>
                                                     <td class="num">A726039-00696</td>
-                                                    <td>미승인</td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="date">2018-02-07</td>
-                                                    <td>신용카드</td>
+                                                    <td class="date">2018-02-07</td> 
                                                     <td>2018년 1월 1일 1시 0분 양력/평달</td>
                                                     <td class="num">A726039-00696</td>
-                                                    <td>승인</td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="date">2018-02-07</td>
-                                                    <td>신용카드</td>
+                                                    <td class="date">2018-02-07</td> 
                                                     <td>2018년 1월 1일 1시 0분 양력/평달</td>
                                                     <td class="num">A726039-00696</td>
-                                                    <td>미승인</td>
                                                 </tr>
                                             </tbody>
                                         </table>

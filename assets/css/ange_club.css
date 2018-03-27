@@ -187,6 +187,22 @@ address {
 /* 클럽소개 */
 .club-intro {
   margin-bottom: 50px; }
+  .club-intro .section-header {
+    position: relative; }
+    .club-intro .section-header .partner-list {
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .club-intro .section-header .partner-list li {
+        display: inline-block; }
+        .club-intro .section-header .partner-list li a {
+          display: block;
+          line-height: 31px;
+          margin: 0 15px; }
+          .club-intro .section-header .partner-list li a img {
+            display: inline-block; }
+        .club-intro .section-header .partner-list li:last-child a {
+          margin-right: 0; }
   .club-intro .section-content {
     background-image: url(../images/community/bg_club_intro.png);
     background-repeat: no-repeat;

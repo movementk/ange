@@ -219,6 +219,28 @@
 /* 클럽소개 */
 .club-intro {
     margin-bottom: 50px;
+    .section-header {
+        position: relative;
+        .partner-list {
+            position: absolute;
+            top: 0;
+            right: 0;
+            li {
+                display: inline-block;
+                a {
+                    display: block;
+                    line-height: 31px;
+                    margin: 0 15px;
+                    img {
+                        display: inline-block;
+                    }
+                }
+                &:last-child {
+                    a {margin-right: 0;}
+                }
+            }
+        }
+    }
     .section-content {
         background-image: url(../images/community/bg_club_intro.png);
         background-repeat: no-repeat;

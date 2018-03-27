@@ -15,6 +15,13 @@
                     <section class="club-intro">
                         <div class="section-header">
                             <h2 class="sub-title">클럽/선생님 소개</h2>
+                            <ul class="partner-list">
+                                <li><a href="#"><img src="/assets/images/community/logo_msd.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/assets/images/community/logo_msd.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/assets/images/community/logo_msd.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/assets/images/community/logo_msd.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="/assets/images/community/logo_msd.jpg" alt=""></a></li>
+                            </ul>
                             <div class="club-tab-link">
                                 <ul>
                                     <li class="active"><a href="/community/club_intro.php">클럽소개</a></li>
