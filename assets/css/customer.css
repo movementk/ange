@@ -635,3 +635,9 @@
 
 
 
+.partner-club .section-header {position: relative;}
+.partner-club .section-header .partner-list {position: absolute;top: 0;right: 0;}
+.partner-club .section-header .partner-list li {display: inline-block;}
+.partner-club .section-header .partner-list li a {display: block; line-height: 31px; margin: 0 15px;}
+.partner-club .section-header .partner-list li a img {display: inline-block;}
+.partner-club .section-header .partner-list li:last-child a {margin-right: 0;}
