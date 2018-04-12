@@ -101,7 +101,7 @@
 .product-info .article-content .pay-info .sum {
     display: inline-block;
 }
-.product-info .article-content .pay-info .sum > ul {
+.product-info .article-content .pay-ipaymentnfo .sum > ul {
     font-size: 0;
 }
 .product-info .article-content .pay-info .sum > ul > li {
@@ -801,22 +801,6 @@ opacity: .7;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 주문완료 */
 .success .complete-txt {
     text-align: center;
@@ -936,3 +920,290 @@ opacity: .7;
 .success .careful ol li .attention:before {
     content: "※ ";
 }
+
+
+/*핫딜시작*/
+
+/*공통글자색*/
+.hotdeal-view .information i { 
+	font-style: normal; 
+	color: #ff7875;
+}
+.hotdeal-view .view-detail > .article-header form > div {
+    vertical-align: top;
+    display: inline-block; 
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-first dl dd i.time-price {
+	font-size: 18px;
+	font-weight: 500;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dt label {
+	font-weight: 400;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dd .form-group .form-control {
+	width: 45px;
+	height: 22px;
+	font-size: 10px;
+	color: #999;
+	padding: 0;
+	padding-left: 10px;
+	margin-top: 5px;
+	border: 1px solid #dfdfdf;
+	vertical-align: top;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dd .form-group #mileage{
+	width: 115px;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dd .form-group select {
+	width: 115px !important;
+	padding-left: 5px !important;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dd:nth-of-type(4) .form-group .form-control {
+	margin-bottom: 7px;
+}
+.hotdeal-view .view-detail .article-header .item {
+	overflow: hidden;
+}
+.hotdeal-view .view-detail .article-header .item .naver-pay {
+	float: right;
+	margin-top: 65px;
+}
+
+
+/*장바구니 step01*/
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a {
+	display: block;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details {
+	vertical-align: top;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details p {
+	font-weight: 400;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details dl {
+	font-size: 0;
+	margin-top: 15px;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details dl dt {
+	font-size: 13px;
+	color: #666;
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 300;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details dl dt:after {
+	position: relative;
+	display: inline-block;
+	top: -1px;
+	left: 0;
+	content: ":";
+	margin: 0 3px;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details dl dd {
+	display: inline-block;
+	font-size: 13px;
+	color: #666;
+	font-weight: 300;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .payment {
+	font-weight: 400;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .total i {
+	font-style: normal;
+}
+
+
+/*장바구니 step02*/
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a {
+	display: block;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details {
+	vertical-align: top;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details p {
+	font-weight: 400;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details dl {
+	font-size: 0;
+	margin-top: 15px;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details dl dt {
+	font-size: 13px;
+	color: #666;
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 300;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details dl dt:after {
+	position: relative;
+	display: inline-block;
+	top: -1px;
+	left: 0;
+	content: ":";
+	margin: 0 3px;
+}
+.hotdeal-basket02 .product-info .article-content .table-wrap .table tbody tr .info a .details dl dd {
+	display: inline-block;
+	font-size: 13px;
+	color: #666;
+	font-weight: 300;
+}
+.hotdeal-basket02 .product-info .article-content .pay-info .sum > ul > li:first-child {
+	margin-right: 40px;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .form-group {
+	display: inline-block;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .form-group .form-control {
+	width: 130px;
+	height: 35px;
+	color: #666;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable  p {
+	font-size: 12px;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .max-mileage {
+	display: inline-block;
+	color: #666;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable  p i {
+	font-style: normal;
+	font-weight: 500;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .max-mileage i {
+	color: #ff7875;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .total-mileage {
+	margin-top: 5px;
+	color: #666;
+	opacity: .8;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .total-mileage i {
+	color: #7da7d9;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr td .form-group label {
+	font-weight: 300;
+	color: #666;
+	opacity: 0.8;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr td .form-group label input {
+	position: relative;
+	top: 1px;
+	left: 0;
+	margin-right: 10px;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr td .form-group label:last-child {
+	margin-left: 20px;
+}
+
+/*핫딜 리스트*/
+.item-list .article-content .row {
+	margin: 0 -8px;
+}
+.item-list .article-content ul .col-xs-4 {
+	padding: 0 8px !important;
+}
+/*.item-list .article-content ul .col-xs-4:nth-of-type(3n + 1) {
+	padding-left: 0 !important;
+}
+.item-list .article-content ul .col-xs-4:nth-of-type(3n + 3) {
+	padding-right: 0 !important;
+}*/
+.item-list .article-content ul li a .item {
+	width: 100%;
+}
+.hotdeal-list .article-content ul li a .item img {
+	vertical-align: middle;
+}
+.hotdeal-list .article-content ul li .hot-deal {
+	position: relative;
+	display: block;
+}
+.hotdeal-list .article-content ul li .hot-deal .sale-label {
+	position: absolute;
+	top: -6px;
+	left: 12px;
+	width: 64px;
+	height: 60px;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 17px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
+	text-align: center;
+	z-index: 5;
+	background-image: url(/assets/images/ange_mall/hotdeal_label.png);
+}
+.hotdeal-list .article-content ul li .hot-deal .clock {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.hotdeal-list .article-content ul li .hot-deal .item {
+	position: relative;
+}
+.hotdeal-list .article-content ul li .hot-deal .item dl {
+	position: absolute;
+	font-size: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #e5647f;
+	text-align: center;
+	color: #fff;
+}
+.hotdeal-list .article-content ul li .hot-deal .item dl dt {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.hotdeal-list .article-content ul li .hot-deal .item dl dd {
+	display: inline-block;
+	/*font-size: 0;*/ 
+	font-size: 13px;
+	vertical-align: middle;
+}
+.hotdeal-list .article-content ul li .hot-deal .item dl dd span {
+	display: inline-block;
+	width: 22px;
+	height: 28px;
+	background-color: #fff;
+	text-align: center;
+	font-size: 20px;
+	color: #e5647f;
+	font-weight: 500;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+.hotdeal-list .article-content ul li .hot-deal .details .pre-price {
+	font-style: normal;
+	font-size: 11px;
+	text-decoration: line-through;
+	color: #666;
+	opacity: .7;
+	padding-top: 10px;
+	display: block;
+}
+.hotdeal-list .article-content ul li a .details .point {
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
