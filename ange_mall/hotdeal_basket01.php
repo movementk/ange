@@ -94,7 +94,7 @@
                                             	<span>(+7,000 원)</span>
                                             </td>
                                             <td class="amount">1</td>
-                                            <td class="total"><i>17,000원</i></td>
+                                            <td class="total">17,000원</td>
                                             <td>
                                                 <div class="btn-area">
                                                     <p>
@@ -135,7 +135,7 @@
                                             	<span>(+1,000 원)</span>
                                             </td>
                                             <td class="amount">10</td>
-                                            <td class="total"><i>11,000원</i></td>
+                                            <td class="total">11,000원</td>
                                             <td>
                                                 <div class="btn-area">
                                                     <p>
@@ -176,7 +176,7 @@
                                             	<span>(+1,000 원)</span>
                                             </td>
                                             <td class="amount">10</td>
-                                            <td class="total"><i>11,000원</i></td>
+                                            <td class="total">11,000원</td>
                                             <td>
                                                 <div class="btn-area">
                                                     <p>
