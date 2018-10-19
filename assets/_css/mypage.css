@@ -1,0 +1,680 @@
+@import url("../css/common.css");
+
+/* 내가 쓴글 */
+.my-history .sub-content > article h3 {
+    display: block;
+    margin-bottom: 22px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.my-history .sub-content > article .paging {
+    margin-top: 40px;
+}
+.my-history .sub-content > article ~ article {
+    margin-top: 80px;
+}
+.my-history .my-board .table thead tr th:nth-of-type(1) {width: 140px;}
+.my-history .my-board .table thead tr th:nth-of-type(3) {width: 100px;}
+.my-history .my-board .table thead tr th:nth-of-type(4) {width: 100px;}
+.my-history .my-board .table tbody tr .title {
+    padding-left: 60px;
+}
+.my-history .my-comment .table thead tr th:first-child {width: 700px;}
+.my-history .my-board .table-wrap .table tbody tr td {
+    vertical-align: middle;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.my-history .my-board .table-wrap .table tbody tr td .selection-btn .btn-white {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    width: 70px;
+    line-height: 28px;
+    border-radius: 30px;
+    border: 1px solid #dfdfdf;
+}
+.my-history .my-board .table-wrap .table tbody tr td .btn-modify > a {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+    margin: 0 auto;
+    border: 1px solid #dfdfdf;
+}
+/* 쪽지 */
+.message-list .table thead tr th:nth-of-type(1) {width: 70px;}
+.message-list .table thead tr th:nth-of-type(3) {width: 100px;}
+.message-list .table thead tr th:nth-of-type(4) {width: 170px;}
+.message-list .table thead tr th:nth-of-type(5) {width: 70px;}
+.message-list .table tbody tr .title {
+    padding-left: 60px;
+}
+.message-list .table tbody tr td > i {
+    color: #999;
+    font-size: 15px;
+}
+.message-list .list .article-content .paging {
+    margin-top: 33px;
+}
+.message-list .list .article-content .btn-area {
+    text-align: right;
+}
+
+/* 마일리지 리스트 2 */
+.mileage-list-2 .list .article-content .table-wrap {
+    margin-top: 20px;
+}
+.mileage-list-2 .list .article-content .table-wrap .table thead tr th:nth-of-type(1) {
+    width: 70px !important;
+}
+.mileage-list-2 .list .article-content .table-wrap .table thead tr th:nth-of-type(2) {
+    width: 130px !important;
+}
+.mileage-list-2 .list .article-content .table-wrap .table thead tr th:nth-of-type(3) {
+    width: 370px !important;
+}
+.mileage-list-2 .list .article-content .table-wrap .table thead tr th:nth-of-type(4) {
+    width: 130px !important;
+}
+.mileage-list-2 .list .article-content .table-wrap .table thead tr th:nth-of-type(2) {
+    width: 140px !important;
+}
+
+/* 쪽지 확인*/
+.message-view .comment-view .article-header {
+    padding: 15px 0;
+    background-color: #acacac;
+}
+.message-view .comment-view .article-header dl {
+    position: relative;
+    padding-left: 80px;
+}
+.message-view .comment-view .article-header dl dt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+.message-view .comment-view .article-header dl dd {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+.message-view .comment-view .article-header .date dt {
+    font-size: 13px;
+}
+.message-view .comment-view .article-header .date dd {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.message-view .comment-view .article-content {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 25px 0 130px 42px;
+    border-bottom: 1px solid #cfcfcf;
+}
+.message-view .comment-view .article-header {
+    display: table;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #acacac;
+}
+.message-view .comment-view .article-header > div {
+    display: table-cell;
+    width: 50%;
+}
+.message-view .comment-view .article-header > div dl {
+    font-size: 0;
+}
+.message-view .comment-view .article-header > div dl dt {display: inline-block;}
+.message-view .comment-view .article-header > div dl dt {display: inline-block;}
+.message-view .comment-view .article-header > .title {
+
+}
+.message-view .comment-view .article-header > .title dl dt {
+    width: 94px;
+    font-size: 14px;
+}
+.message-view .comment-view .article-header > .title dl dd {
+    font-size: 14px;
+}
+.message-view .comment-view .article-header > .date dl dt {
+    font-size: 13px;
+}
+.message-view .comment-view .article-header > .date dl dd {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.message-view .comment-view .article-content {
+    
+}
+.message-view .comment-form {
+    margin-top: 44px;
+}
+.message-view .comment-form .table-wrap .table.type-1 tbody tr th.v-top {
+    vertical-align: top;
+    padding-top: 20px;
+}
+.message-view .comment-form .table-wrap .table.type-1 tbody tr td {
+    font-size: 5px;
+}
+.message-view .comment-form .table-wrap .table.type-1 tbody tr td .form-group .form-control {
+    font-size: 12px;
+}
+.message-view .comment-form .table-wrap .table.type-1 tbody tr:nth-of-type(3) td .form-group .form-control {
+    height: 128px;
+}
+.message-view .comment-form .btn-area {
+    text-align: right;
+    margin-top: 30px;
+}
+.message-view .comment-form .btn-area p .btn {
+    width: 120px;
+    height: 45px;
+    line-height: 43px;
+    border-radius: 30px;
+}
+.message-view .comment-form .btn-area p .btn-white {
+    margin-left: 10px;
+    color: #666;
+}
+.message-view .comment-form .btn-area p .btn-pink {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875;
+}
+
+/* 회원 탈퇴 */
+.member-leave .sub-content {
+    padding-bottom: 250px !important;
+}
+.member-leave .info {
+    padding : 48px 0 50px 213px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    background-image: url(../images/mypage/bg_member_leave.gif);
+    background-repeat: no-repeat;
+    background-position: 43px 80px;
+}
+.member-leave .info p {
+    font-size: 13px;
+    line-height: 26px;
+    color: #666;
+}
+.member-leave .check-box {
+    width: 100%;
+    text-align: right;
+    margin-top: 15px;
+    font-weight: 100;
+    color: #999;
+}
+.member-leave .check-box input {
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    font-size: 12px;
+    line-height: 68px;
+}
+.member-leave .btn-area {
+    text-align: right;
+}
+.member-leave .btn-area > p > .btn-pink{
+    margin-top: 48px;
+    width: 160px;
+    height: 45px;
+    line-height: 43px;
+    border-color: #ff7875;
+    border-radius: 30px;
+}
+
+/* 회원탈퇴 완료*/
+.success .complete-txt {
+    margin-top: 60px;
+}
+.success .complete-txt > h4 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color:#333;
+}
+.success .complete-txt figure figcaption {
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 36px;
+}
+.success .complete-txt figure {
+    text-align: center;
+}
+.success .btn-area {
+    width: 160px;
+    margin: 40px auto 0;
+    padding-bottom: 80px;
+}
+.success .btn {
+    width: 160px;
+    height: 45px;
+    line-height: 43px;
+    border-color: #ff7875;
+    border-radius: 30px;
+}
+
+/* 마일리지 적립현황 */
+.mileage .mileage-view {
+    height: 70px;
+    border: 1px solid #e5e5e5;
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+.mileage .mileage-view dl {
+    font-size: 0;
+}
+.mileage .mileage-view dl.available {
+    text-align: right;
+}
+.mileage .mileage-view dl dt {
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    line-height: 28px;
+    font-weight: 400;
+    vertical-align: top;
+}
+.mileage .mileage-view dl dt b {
+    color: #ff817e;
+    font-weight: 400;
+}
+.mileage .mileage-view dl dd {
+    display: inline-block;
+    font-size: 18px;
+    color: #e25371;
+    vertical-align: top;
+    line-height: 28px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.mileage .mileage-view dl dd:before {
+    display: inline-block;
+    vertical-align: top;
+    height: 28px;
+    content: url(../images/mypage/img_point.png);
+    margin-right: 5px;
+}
+.mileage .list .selection-date {
+    text-align: right;
+    border: 0;
+    padding: 0;
+}
+.mileage .list .selection-date > div {
+    vertical-align: top;
+    display: inline-block;
+}
+.mileage .list .selection-date .form-group dl {
+    font-size: 0;
+}
+.mileage .list .selection-date .form-group dl dt {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #333;
+    line-height: 36px;
+    font-weight: 400;
+}
+.mileage .list .selection-date .form-group dl dd {
+    display: inline-block;
+    vertical-align: top;
+}
+.mileage .list .selection-date .form-group dl dd .form-control {
+    width: 100px;
+    margin-right: 20px;
+    color: #999;
+    font-size: 12px;
+    height: 36px;
+    border-radius: 30px;
+}
+.mileage .list .selection-date .form-group dl dd .form-control:last-child {
+    width: 80px;
+}
+.mileage .list .selection-date .btn-area p .btn {
+    width: 90px;
+    line-height: 34px;
+    border-radius: 30px;
+}
+.mileage .list .article-content {
+    margin-top: 30px;
+}
+.mileage .list .article-content .table-wrap {
+    margin-top: 30px;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(1) {
+    width: 70px !important;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(2) {
+    width: 140px !important;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(3) {
+    width: 390px !important;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(4) {
+    width: 140px !important;
+}
+.mileage .list .article-content .table thead tr th:nth-of-type(5) {
+    width: 100px !important;
+}
+.mileage .list .article-content .table tbody tr .divide a {
+    color: #666;
+}
+.mileage .list .paging {
+    margin-top: 45px;
+}
+
+/* 회원정보수정 */
+.modify .join-form {
+    padding-top: 0;
+}
+
+
+/* 비밀번호 확인 */
+.pw-confirm .sub-content {
+    padding-top: 100px !important;
+    padding-bottom: 200px !important;
+    text-align: center; 
+}
+.pw-confirm .sub-content .confirm-form figure img {
+    display: block;
+    margin: 0 auto; 
+}
+.pw-confirm .sub-content .confirm-form .details {
+    margin-top: 30px; 
+}
+.pw-confirm .sub-content .confirm-form .details h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 25px; 
+}
+.pw-confirm .sub-content .confirm-form .details .summary {
+    font-size: 15px;
+    color: #666;
+    line-height: 25px;
+    font-weight: 300; 
+}
+.pw-confirm .sub-content .confirm-form .form-group {
+    margin: 30px 0 50px; 
+}
+.pw-confirm .sub-content .confirm-form .form-group .form-control {
+    width: 360px;
+    height: 36px;
+    display: inline-block;
+    border: 1px solid #ccc; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area {
+    text-align: center; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn {
+    width: 120px;
+    border: 1px solid #ccc;
+    color: #666;
+    font-size: 14px;
+    line-height: 43px;
+    border-radius: 30px;
+    margin-right: 10px; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn:last-child {
+    margin-right: 0; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn.btn-pink {
+    background-color: #ff7875;
+    border-color: #ff7875;
+    color: #fff; 
+}
+
+
+/* 이벤트 리스트 */
+.event-list .event-slider .bx-wrapper {
+    position: relative; 
+}
+.event-list .event-slider .bx-wrapper .bx-viewport .jumbo-slider li a {
+    display: block; 
+}
+.event-list .event-slider .bx-wrapper .bx-viewport .jumbo-slider li a figure img {
+    width: 100%; 
+}
+.event-list .event-slider .bx-wrapper .bx-controls {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.event-list .event-slider .bx-wrapper .bx-controls .bx-pager {
+    display: inline-block;
+    height: 30px;
+    padding: 8px 14px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.event-list .event-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+    display: inline-block;
+    margin: 0 3px;
+    height: 14px; 
+}
+.event-list .event-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+    display: block;
+    width: 14px;
+    height: 14px;
+    text-indent: -9999px;
+    border-radius: 50%;
+    border: 1px solid #777; 
+}
+.event-list .event-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+    background-color: #777; 
+}
+.event-list .prizewinner {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 0;
+    border-radius: 10px;
+    background-color: #979aa2; 
+}
+.event-list .prizewinner dt {
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+    width: 135px;
+    padding-left: 20px; 
+}
+.event-list .prizewinner dd {
+    display: inline-block; 
+}
+.event-list .prizewinner dd a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300; 
+}
+.event-list .list-content {
+    display: block;
+    margin-top: 25px; 
+}
+.event-list .list-content .form-group {
+    text-align: right; 
+}
+.event-list .list-content .form-group .form-control {
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    font-size: 13px;
+    color: #333;
+    padding-left: 18px;
+    margin-right: 10px;
+    border: 1px solid #d5d5db; 
+}
+.event-list .list-content .form-group .form-control:last-child {
+    margin-right: 0; 
+}
+.event-list .list-content .list {
+    overflow: hidden;
+    margin-top: 20px; 
+}
+.event-list .list-content .list > li {
+    float: left;
+    width: 50%; 
+}
+.event-list .list-content .list > li ~ li {
+    margin-top: 50px; 
+}
+.event-list .list-content .list > li:nth-of-type(2) {
+    margin-top: 0; 
+}
+.event-list .list-content .list > li:nth-of-type(2n + 1) {
+    clear: both;
+    padding-right: 20px; 
+}
+.event-list .list-content .list > li:nth-of-type(2n + 2) {
+    padding-left: 20px; 
+}
+.event-list .list-content .list > li a .item {
+    position: relative; 
+}
+.event-list .list-content .list > li a .item img {
+    width: 100%; 
+}
+.event-list .list-content .list > li a .item .event-situation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+.event-list .list-content .list > li a .item .event-situation .situation-txt {
+    width: 54px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: middle;
+    margin: 10px 0 0 10px;
+    padding: 9px 0;
+    border-radius: 10px;
+    border-top-left-radius: 0; 
+}
+.event-list .list-content .list > li a.today-event .event-situation .situation-txt {
+    background-color: #ff7875; 
+}
+.event-list .list-content .list > li a.today-closing .event-situation .situation-txt {
+    background-color: #7da7d9; 
+}
+.event-list .list-content .list > li a.finish-event .event-situation {
+    background-color: rgba(99, 99, 99, 0.7); 
+}
+.event-list .list-content .list > li a.finish-event .event-situation .situation-txt {
+    background-color: #252525; 
+}
+.event-list .list-content .list > li a .details {
+    font-size: 0;
+    padding-top: 25px;
+    text-align: center; 
+}
+.event-list .list-content .list > li a .details .title {
+    font-size: 15px;
+    color: #333;
+    line-height: 24px; 
+}
+.event-list .list-content .list > li a .details .event-information {
+    overflow: hidden;
+    margin-top: 20px; 
+}
+.event-list .list-content .list > li a .details .event-information > ul {
+    display: inline-block; 
+}
+.event-list .list-content .list > li a .details .event-information > ul > li {
+    display: inline-block;
+    color: #999;
+    margin-right: 20px; 
+}
+.event-list .list-content .list > li a .details .event-information > ul > li:last-child {
+    margin-right: 0; 
+}
+.event-list .list-content .list > li a .details .event-information > ul > li > i {
+    font-size: 10px;
+    margin-right: 5px; 
+}
+.event-list .list-content .list > li a .details .event-information > ul > li > p {
+    display: inline-block;
+    font-size: 12px; 
+}
+.event-list .list-content .list > li a .details .event-information > p {
+    width: 60px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 11px;
+    text-align: center;
+    line-height: 18px;
+    border: 1px solid #ccc; 
+}
+.event-list .list-content .list > li a .details .event-information > p.event-sucess {
+    color: #fff;
+    background-color: #ccc; 
+}
+.event-list .list-content .list > li a .details .event-information > p.event-before {
+    color: #999; 
+}
+/* 이벤트 정보 수정 */
+.event-modify .btn-area {
+    text-align: right;
+    margin-top: 30px; 
+}
+.event-modify .btn-area p .btn {
+    font-size: 14px;
+    color: #666;
+    line-height: 43px;
+    width: 120px;
+    margin-right: 10px;
+    border-radius: 30px; 
+}
+.event-modify .btn-area p .btn:last-child {
+    margin-right: 0; 
+}
+.event-modify .btn-area p .btn.btn-pink {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875; 
+}
+
+/* 주문현황 */
+.order-info .order-sheet .article-content .table-wrap .table #dataList tr .product-info .info .details h4 a {
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+

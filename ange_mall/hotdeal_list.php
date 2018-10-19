@@ -29,7 +29,7 @@
                                 <li class="col-xs-4">
                                     <a href="/ange_mall/" class="hot-deal">
 										<p class="sale-label">
-                                       		25%<br>
+                                       		99,999<span>원</span><br>
                                        		SALE
                                        	</p>
 										<div class="clock">

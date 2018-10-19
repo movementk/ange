@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700um+Myeongjo&subset=korean");
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.container {
+  width: 1200px !important; }
+
+/* 앙쥬 처음이세요? */
+.first-ange .section-header p {
+  font-size: 26px;
+  color: #333;
+  line-height: 40px;
+  letter-spacing: -.5px;
+  font-weight: 200;
+  margin-bottom: 40px; }
+  .first-ange .section-header p i {
+    color: #ff7875;
+    font-weight: 400;
+    font-style: normal; }
+.first-ange .section-content > ul {
+  overflow: hidden; }
+  .first-ange .section-content > ul > li {
+    display: table;
+    width: 100%; }
+    .first-ange .section-content > ul > li:first-child ~ li {
+      margin-top: 30px; }
+    .first-ange .section-content > ul > li figure {
+      display: table-cell;
+      width: 370px; }
+      .first-ange .section-content > ul > li figure img {
+        width: 100%; }
+    .first-ange .section-content > ul > li dl {
+      display: table-cell;
+      padding-left: 75px;
+      padding-right: 20px;
+      vertical-align: middle;
+      background-color: #f8f8fa;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px; }
+      .first-ange .section-content > ul > li dl dt {
+        position: relative;
+        font-size: 22px;
+        color: #333;
+        padding-left: 40px;
+        font-weight: 400; }
+        .first-ange .section-content > ul > li dl dt span {
+          position: absolute;
+          top: 3px;
+          left: 0;
+          display: inline-block;
+          width: 27px;
+          height: 27px;
+          color: #fff;
+          font-size: 13px;
+          background-color: #7da7d9;
+          @inlcude roboto();
+          text-align: center;
+          border-radius: 50%;
+          line-height: 27px; }
+      .first-ange .section-content > ul > li dl dd {
+        font-size: 14px;
+        color: #666;
+        line-height: 24px;
+        margin-top: 15px;
+        text-align: justify;
+        letter-spacing: -.5px; }
+        .first-ange .section-content > ul > li dl dd br {
+          display: none; }
+.first-ange .section-content .check {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #666;
+  text-align: right; }
+  .first-ange .section-content .check:before {
+    content: "※"; }
+  .first-ange .section-content .check ul {
+    display: inline-block; }
+    .first-ange .section-content .check ul li {
+      display: inline-block; }
+      .first-ange .section-content .check ul li:after {
+        content: "\F178";
+        font-family: "fontello";
+        margin: 0 3px; }
+      .first-ange .section-content .check ul li:last-child:after {
+        content: ""; }
+
+/* 오랜만의 방문이세요? */
+.long-time .section-content ul {
+  font-size: 0; }
+  .long-time .section-content ul li {
+    position: relative;
+    display: inline-block;
+    width: 270px;
+    height: 410px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: top; }
+    .long-time .section-content ul li:last-child {
+      margin-right: 0; }
+    .long-time .section-content ul li:hover, .long-time .section-content ul li:focus {
+      background-color: #f8f8fa;
+      border: 1px solid #f8f8fa; }
+      .long-time .section-content ul li:hover .btn-area p a, .long-time .section-content ul li:focus .btn-area p a {
+        color: #fff;
+        background-color: #ff7875;
+        border: 1px solid #ff7875; }
+    .long-time .section-content ul li .item {
+      display: inline-block;
+      line-height: 180px;
+      margin: 0 auto; }
+    .long-time .section-content ul li .details h3 {
+      font-size: 18px;
+      color: #333;
+      font-weight: 400;
+      margin-bottom: 20px; }
+    .long-time .section-content ul li .details p {
+      font-size: 14px;
+      color: #666;
+      line-height: 24px; }
+    .long-time .section-content ul li .btn-area {
+      position: absolute;
+      left: 50%;
+      margin-left: -65px;
+      bottom: 30px; }
+      .long-time .section-content ul li .btn-area p a {
+        width: 130px;
+        line-height: 40px;
+        color: #666;
+        border-radius: 30px; }
+
+/*# sourceMappingURL=whitepaper.css.map */

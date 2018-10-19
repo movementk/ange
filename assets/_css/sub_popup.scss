@@ -1,0 +1,554 @@
+@import 'common';
+
+
+// 공통
+.popup-layer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 400;
+    .popup-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: .8;
+    }
+    .pop-layer {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 830px;
+    }
+}
+
+.popup-layer {
+    .pop-layer {
+        display: block;
+    }
+}
+
+
+// 투표결과 
+.poll-result {
+    .pop-layer {
+        .pop-container {
+            width: 840px;
+            background-color: #fff;
+            .pop-head {
+                position: relative;
+                width: 100%;
+                /*height: 65px;*/
+                padding: 23px 100px 23px 30px;
+                background-color: #9fca83;
+                h4 {
+                    font-size: 18px;
+                    color: #fafafa;
+                    font-weight: 300;
+                    vertical-align: middle;
+                }
+                .btn-close {
+                    .close {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 65px;
+                        height: 65px;
+                        opacity: 1;
+                        text-align: center;
+                        line-height: 65px;
+                        background-color: #7db858;
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .pop-body {
+                height: 700px;
+                padding: 50px;
+                background-color: #fff;
+                .content {
+                    height: 600px;
+                    overflow-y: scroll;
+                    > ul {
+                        > li {
+                            & ~ li {
+                                margin-top: 50px;
+                            }
+                            .question-title {
+                                position: relative;
+                                font-size: 16px;
+                                color: #333;
+                                font-weight: 400;
+                                line-height: 20px;
+                                padding-left: 30px;
+                                padding-bottom: 10px;
+                                border-bottom: 2px solid #b2d69b;
+                                &:before {
+                                    position: absolute;
+                                    top: 1px;
+                                    left: 0;
+                                    width: 20px;
+                                    height: 20px;
+                                    font-size: 12px;
+                                    line-height: 20px;
+                                    text-align: center;
+                                    display: block;
+                                    content: "Q";
+                                    color: #fff;
+                                    border-radius: 50%;
+                                    background-color: #b2d69b;
+                                    @include roboto();
+                                }
+                            }
+                            .details {
+                                padding: 30px 10px 0;
+                                .selection-percent {
+                                    margin-bottom: 20px;
+                                    > li {
+                                        position: relative;
+                                        padding-right: 100px;
+                                        p {
+                                            font-size: 14px;
+                                            color: #666;
+                                            font-weight: 400;
+                                            line-height: 30px;
+                                            &.selection {
+                                                text-align: left;
+                                            }
+                                            &.percent {
+                                                position: absolute;
+                                                top: 0;
+                                                right: 0;
+                                                width: 100px;
+                                                text-align: right;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 참여자 보기
+.participant-result {
+    .pop-layer {
+        width: 570px;
+        .pop-container {
+            .pop-head {
+                position: relative;
+                height: 65px;
+                padding: 23px 100px 23px 30px;
+                background-color: #ad9cc4;
+                h4 {
+                    font-size: 18px;
+                    color: #fafafa;
+                    font-weight: 300;
+                    vertical-align: middle;
+                }
+                .btn-close {
+                    .close {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 65px;
+                        height: 65px;
+                        opacity: 1;
+                        text-align: center;
+                        line-height: 65px;
+                        background-color: #9079af;
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .pop-body {
+                padding: 30px 30px 50px;
+                background-color: #fff;
+                > .table-wrap {
+                    padding: 17px 20px;
+                    border-radius: 10px;
+                    border: 1px solid #ebebeb;
+                    background-color: #fafafa;
+                    > .table {
+                        border: 0;
+                        tr {
+                            td {
+                                font-size: 13px;
+                                color: #666;
+                                text-align: center;
+                                vertical-align: middle;
+                                padding: 5px 0;
+                                border: 0;
+                                i {
+                                    font-style: normal;
+                                    @include roboto();
+                                }
+                                .btn-view {
+                                    .btn-gray {
+                                        width: 80px;
+                                        font-size: 12px;
+                                        color: #666;
+                                        line-height: 22px;
+                                        border-radius: 30px;
+                                        @include transition();
+                                        background-color: #dfdfdf;
+                                        &:hover, &:focus {
+                                            color: #fff;
+                                            background-color: #ad9cc4;
+                                        }
+                                        &.active {
+                                            cursor: default;
+                                            color: #fff;
+                                            background-color: #ad9cc4;
+                                        }
+                                    }
+                                }
+                                &:nth-of-type(1) {
+                                    width: 240px;
+                                    text-align: left;
+                                }
+                                &:nth-of-type(4) {
+                                    width: 80px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .details {
+                    margin-top: 30px;
+                    h5 {
+                        font-size: 14px;
+                        color: #333;
+                        font-weight: 300;
+                        padding-bottom: 10px;
+                        border-bottom: 2px solid #ad9cc4;
+                        b {
+                            font-size: 16px;
+                            color: #9079af;
+                            font-weight: 500;
+                        }
+                    }
+                    .search-form {
+                        margin: 20px 0 10px;
+                        .form-group {
+                            .form-control {
+                                width: 170px;
+                            }
+                        }
+                        .btn-search {
+                            .btn-default {
+                                color: #9079af;
+                            }
+                        }
+                    }
+                    .search-result {
+                        h6 {
+                            font-size: 13px;
+                            color: #fff;
+                            text-align: center;
+                            line-height: 40px;
+                            background-color: #979aa2;
+                        }
+                        > ul {
+                            overflow: hidden;
+                            padding: 20px 15px;
+                            border-bottom: 1px solid #cfcfcf;
+                            > li {
+                                float: left;
+                                width: 25%;
+                                font-size: 12px;
+                                font-weight: 300;
+                                text-align: left;
+                                line-height: 20px;
+                                &:nth-of-type(4n + 1) {
+                                    clear: both;
+                                }
+                            }
+                        }
+                    }
+                }
+                .paging {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+// 신고하기
+.accusation-popup {
+    .pop-layer {
+        .pop-container {
+            width: 840px;
+            background-color: #fff;
+            .pop-head {
+                position: relative;
+                width: 100%;
+                padding: 23px 100px 23px 30px;
+                background-color: #9fca83;
+                h4 {
+                    font-size: 18px;
+                    color: #fafafa;
+                    font-weight: 300;
+                    vertical-align: middle;
+                }
+                .btn-close {
+                    .close {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 65px;
+                        height: 65px;
+                        opacity: 1;
+                        text-align: center;
+                        line-height: 65px;
+                        background-color: #7db858;
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .pop-body {
+                height: 400px;
+                padding: 50px;
+                background-color: #fff;
+                .content {
+                    height: 300px;
+                    .form-group {
+                        .form-control {
+                            width: 740px !important;
+                            height: 230px !important;
+                            border-radius: 10px;
+                            border: 1px solid #ccc;
+                        }
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                        p {
+                            .btn-sm {
+                                width: 140px;
+                                line-height: 38px;
+                                height: 40px;
+                                border-radius: 30px;
+                                text-align: center;
+                                font-size: 14px;
+                                border: 1px solid #fff;
+                                &.btn-white {
+                                    color: #666;
+                                    border: 1px solid #ccc;
+                                    background-color: #fff;
+                                }
+                                &.btn-green {
+                                    color: #fff;
+                                    line-height: 40px;
+                                    border: 0;
+                                    background-color: #7db858;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.renew-popup {
+    .pop-layer {
+        .pop-container {
+            width: 410px;
+            margin: 0 auto;
+            .pop-head {
+                text-align: right;
+                .btn-close {
+                    display: inline-block;
+                    .close {
+                        width: 60x;
+                        height: 60px;
+                        opacity: 1;
+                        text-align: center;
+                        line-height: 60px;
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .pop-body {
+                .content {
+                    overflow: hidden;
+                    figure {
+                        margin-bottom: 20px;
+                    }
+                    label {
+                        float: left;
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: rgba(255, 255, 255, .7);
+                        input {
+                            position: relative;
+                            top: 2px;
+                            margin-right: 5px;
+                        }
+                    }
+                    a {
+                        font-size: 16px;
+                        color: #fff;
+                        float: right;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 룰렛 결과
+.roulette-result {
+    .pop-layer {
+        width: 570px;
+        .pop-container {
+            .pop-head {
+                display: block;
+                height: 65px;
+                .btn-close {
+                    .close {
+                        width: 65px;
+                        height: 65px;
+                        text-align: center;
+                        line-height: 65px;
+                        opacity: 1;
+                        background-color: rgba(0, 0, 0, .7);
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .pop-body {
+                .content {
+                    display: block;
+                    text-align: center;
+                    height: 545px;
+                    padding-top: 175px;
+                    background-image: url(../images/roulette/bg_result_popup.jpg);
+                    background-repeat: no-repeat;
+                    background-position: 0 0;
+                    strong {
+                        font-size: 33px;
+                        color: #222;
+                        font-weight: 500;
+                        line-height: 39px;
+                        display: block;
+                    }
+                    p {
+                        font-size: 18px;
+                        color: #666;
+                        line-height: 24px;
+                        margin-top: 30px;
+                    }
+                    .btn-area {
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// 한자변환 
+.convert-pop {
+    .pop-layer {
+        width: 570px;
+        .pop-container {
+            .pop-head {
+                position: relative;
+                width: 100%;
+                padding: 23px 100px 23px 30px;
+                background-color: #ad9cc4;
+                h4 {
+                    font-size: 18px;
+                    color: #fafafa;
+                    font-weight: 300;
+                    vertical-align: middle;
+                }
+                .btn-close {
+                    .close {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 65px;
+                        height: 65px;
+                        opacity: 1;
+                        text-align: center;
+                        line-height: 65px;
+                        background-color: #9079af;
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .pop-body {
+                padding: 30px;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

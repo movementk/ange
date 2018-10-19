@@ -1,0 +1,1218 @@
+@import url("../css/common.css");
+
+/* step-lsit 공통 */
+.article-header .step-list > ol{
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+}
+.article-header .step-list > ol li {
+    width: 33.3333%;
+    float: left;
+    color: #999;
+    text-align: center;
+    line-height: 56px;
+    border-right: 1px solid #eaeaea;
+}
+.article-header .step-list > ol li:last-child {
+    position: relative;
+    margin-right: 0;
+}
+.article-header .step-list > ol li.active:last-child:after {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    background-color: #ff7875;
+    width: 2px;
+    height: 100%;
+    display: block;
+    content: "";
+}
+.article-header .step-list > ol li.active {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875;
+}
+.article-header .step-list > ol li b {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+.article-header .step-list > ol li .icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+.article-header .step-list > ol li .icon img {
+    position: relative;
+    top: -1px;
+}
+.article-header .step-list > ol li h3 {
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+/* 장바구니 주문 공통*/
+.product-info .article-content {
+    margin-top: 45px;
+}
+.product-info .article-content .table-wrap .table thead tr th {
+    font-size: 14px;
+}
+.product-info .article-content .table-wrap .table thead tr th:first-child {
+    width: 520px !important;
+}
+.product-info .article-content .table-wrap .table tbody tr td {
+    font-size: 13px;
+    color: #666;
+    padding: 33px 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+.product-info .article-content .table-wrap .table tbody tr td.info {
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.product-info .article-content .table-wrap .table tbody tr td.info a .item {
+    display: inline-block;
+    padding: 0 10px;
+}
+.product-info .article-content .table-wrap .table tbody tr td.info a .details {
+    display: inline-block;
+    color: #333;
+    text-align: left;
+    line-height: 18px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.product-info .article-content .table-wrap .table tbody tr td.payment {
+    color: #ff7875;
+}
+.product-info .article-content .pay-info {
+    background-color: #f9f9f9;
+    text-align: right;
+    padding: 30px 15px;
+}
+.product-info .article-content .pay-info .sum {
+    display: inline-block;
+}
+.product-info .article-content .pay-ipaymentnfo .sum > ul {
+    font-size: 0;
+}
+.product-info .article-content .pay-info .sum > ul > li {
+    display: inline-block;
+}
+.product-info .article-content .pay-info .sum > ul > li:first-child {
+    position: relative;
+    margin-right: 45px;
+}
+.product-info .article-content .pay-info .sum > ul > li:first-child:before {
+    position: absolute;
+    top: 0px;
+    right: -29px;
+    font-size: 13px;
+    color: #666;
+    content: "\E822";
+    font-family: "fontello";
+}
+.product-info .article-content .pay-info .sum > ul > li dl > dt {
+    display: inline-block;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    margin-right: 5px;
+}
+.product-info .article-content .pay-info .sum > ul > li dl > dd {
+    display: inline-block;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+}
+.product-info .article-content .pay-info .sum > ul > li dl > dd > b {
+    font-weight: 500;
+}
+.product-info .article-content .pay-info .total {
+    display: inline-block;
+    margin-left: 35px;
+}
+.product-info .article-content .pay-info .total > dl > dt {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+.product-info .article-content .pay-info .total > dl > dd {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    display: inline-block;
+}
+.product-info .article-content .pay-info .total > dl > dd strong {
+    font-size: 18px;
+    color: #ff7875;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 마일리지몰 */
+.mileage-list .item-list .article-header {
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 12px;
+}
+.mileage-list .item-list .article-content {
+    margin-top: 30px;
+}
+.mileage-list .item-list .article-content .banner {
+    margin-bottom: 40px;
+}
+.mileage-list .item-list .article-content .banner a {
+    display: block;
+}
+.mileage-list .item-list .article-content .banner a img {
+    width: 100%;
+}
+.mileage-list .item-list .article-content .paging {
+    margin-top: 60px;
+}
+.mileage-list .item-list .article-content .paging > ul > li > a {
+    margin-top: 0 !important;
+}
+
+/* 마일리지 공통 */
+.product-info .view-detail > .article-header {
+  font-size: 0; 
+}
+.product-info .view-detail > .article-header > div {
+    vertical-align: top;
+    display: inline-block; 
+}
+.product-info .view-detail > .article-header .item {
+    position: relative;
+    width: 370px; 
+}
+.product-info .view-detail > .article-header .item img {
+    border: 1px solid #eeeff4;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%; 
+}
+.product-info .view-detail > .article-header .item > p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 54px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: middle;
+    padding: 9px 0;
+    border-radius: 10px;
+    border-top-left-radius: 0; 
+}
+.product-info .view-detail > .article-header .information {
+    width: 440px;
+    margin-left: 30px; 
+}
+.product-info .view-detail .article-header .information .info-head {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadada; 
+}
+.product-info .view-detail .article-header .information .info-head .subject {
+    font-size: 23px;
+    color: #333;
+    font-weight: 500;
+    line-height: 30px; 
+}
+.product-info .view-detail .article-header .information .info-head p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px; 
+}
+.product-info .view-detail .article-header .information .info-body {
+    padding: 15px 10px;
+    border-bottom: 1px solid #dadada; 
+}
+.product-info .view-detail .article-header .information .info-body dl {
+    overflow: hidden; 
+}
+.product-info .view-detail .article-header .information .info-body dl dt {
+    float: left;
+    clear: both;
+    width: 90px;
+    font-size: 12px;
+    color: #666;
+    line-height: 25px;
+    font-weight: 400; 
+}
+.product-info .view-detail .article-header .information .info-body dl dd {
+    font-size: 12px;
+    color: #999;
+    line-height: 25px;
+    font-weight: 400; 
+}
+.product-info .view-detail .article-header .information .info-body dl .payment{
+    color: #ff7875;
+}
+.product-info .view-detail .article-header .information .info-body .info-second dl .delivery{
+    color: #ff7875;
+}
+.product-info .view-detail .article-header .information .info-body .info-second {
+    border-top: 1px solid #dadada;
+    padding-top: 13px;
+    margin-top: 15px;
+}
+.product-info .view-detail .article-header .information > .btn-area {
+    margin-top: 30px; 
+}
+.product-info .view-detail .article-content {
+    margin-top: 58px;
+}
+.product-info .view-detail .article-content .tab-content {
+    padding-top: 40px;
+}
+.product-info .view-detail .article-content #tabContent2 .table-wrap {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.product-info .view-detail .article-content #tabContent2 > .btn-area {
+    margin-top: 8px;
+    text-align: right;
+}
+.product-info .view-detail .article-content #tabContent2 > .btn-area > p > .btn.btn-sm {
+    width: 106px;
+    line-height: 40px;
+}
+
+/* 마일리지 몰 뷰 리스트 */
+..product-info .article-content .banner {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.report-list .article-content .table-wrap {
+    margin-top: 40px;
+}
+.report-list.product-info .article-content .table-wrap thead tr th:nth-of-type(1) {
+    width: 68px !important;
+}
+.report-list .article-content .table-wrap thead tr th:nth-of-type(3), 
+.report-list .article-content .table-wrap thead tr th:nth-of-type(4) {
+    width: 140px;
+}
+.report-list .article-content .table-wrap tbody tr td {
+    padding: 16px 0 !important;
+}
+.report-list .article-content .table-wrap tbody tr td:nth-of-type(2) {
+    text-align: left;
+    padding-left: 30px !important;
+}
+.report-list .article-content .paging {
+    margin-top: 30px;
+}
+.report-list .article-content .btn-area {
+    text-align: right;
+    margin-top: 10px;
+}
+.report-list .article-content .btn-area p .btn-sm {
+    width: 105px;
+}
+
+/* 마일리지 몰 뷰 */
+.report-view .view-detail .article-content .tab-content .article-header {
+    margin-top: 40px;
+}
+.report-view .view-detail .article-content .board-view.type-1 .article-content .attach dl dd a {
+    font-size: 13px;
+}
+.report-view .view-detail .article-content .btn-area {
+    margin-top: 30px;
+}
+.report-view .view-detail .article-content .btn-area p .btn {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    line-height: 43px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.report-view .view-detail .article-content .btn-area p a {
+    width: 120px;
+}
+.report-view .view-detail .article-content .btn-area p .btn-pink {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875;
+}
+.report-view .view-detail .article-content .btn-area p a:last-child {
+    float: right;
+    margin: 0;
+}
+.report-view .view-detail .article-content .page-link {
+    margin-top: 50px;
+}
+.report-view .view-detail .article-content .page-link > ul > li dl dd {
+    color: #666;
+}
+
+
+
+/* 마일리지 몰 뷰 */
+.report-write .table-wrap .table.type-1 tbody tr th {
+    font-size: 14px;
+}
+.report-write .table-wrap .table.type-1 tbody tr th.v-top {
+    vertical-align: top;
+    padding-top: 20px;
+}
+.report-write .table-wrap .table tbody tr:first-child td {
+    padding: 15px 30px;
+}
+.report-write .table-wrap .table tbody tr td a figure figcaption {
+    display: inline-block;
+    padding-left: 18px;
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+}
+.report-write .table-wrap .table tbody tr td .form-group .form-control {
+    width: 600px;
+    font-size: 12px;
+    color: #999;
+}
+.report-write .table-wrap .table tbody tr .file .form-group .form-control {
+    width: 200px;
+}
+.report-write .table-wrap .table tbody tr td .form-group select {
+    display: inline-block;
+    width: 108px !important;
+    height: 35px;
+    margin-right: 7px;
+}
+.report-write .table-wrap .table tbody tr td .form-group #u-name {
+    display: inline-block;
+    width: 485px;
+}
+.report-write .table-wrap .table.type-1 tbody tr:nth-of-type(4) td .form-group .form-control {
+    height: 340px;
+}
+.report-write .table-wrap .btn-area {
+    margin-top: 30px;
+    text-align: right;
+}
+.report-write .table-wrap .btn-area p .btn {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    line-height: 43px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.report-write .table-wrap .btn-area p .btn.btn-pink {
+    width: 120px;
+    color: #fff;
+    border: 1px solid #ff7875;
+}
+.report-write .table-wrap .btn-area p .btn.btn-white {
+    width: 120px;
+    margin-right: 0;
+}
+
+/* 비밀번호 확인 */
+.pw-confirm .sub-content {
+    padding-top: 100px !important;
+    padding-bottom: 200px !important;
+    text-align: center; 
+}
+.pw-confirm .sub-content .confirm-form figure img {
+    display: block;
+    margin: 0 auto; 
+}
+.pw-confirm .sub-content .confirm-form .details {
+    margin-top: 30px; 
+}
+.pw-confirm .sub-content .confirm-form .details h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 25px; 
+}
+.pw-confirm .sub-content .confirm-form .details .summary {
+    font-size: 15px;
+    color: #666;
+    line-height: 25px;
+    font-weight: 300; 
+}
+.pw-confirm .sub-content .confirm-form .form-group {
+    margin: 30px 0 50px; 
+}
+.pw-confirm .sub-content .confirm-form .form-group .form-control {
+    width: 360px;
+    height: 36px;
+    display: inline-block;
+    border: 1px solid #ccc; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area {
+    text-align: center; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn {
+    width: 120px;
+    border: 1px solid #ccc;
+    color: #666;
+    font-size: 14px;
+    line-height: 43px;
+    border-radius: 30px;
+    margin-right: 10px; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn:last-child {
+    margin-right: 0; 
+}
+.pw-confirm .sub-content .confirm-form .btn-area p .btn.btn-pink {
+    background-color: #ff7875;
+    border-color: #ff7875;
+    color: #fff; 
+}
+/* 관련상품 */
+.related-product .item-list .article-content ul li ~ li a{
+    margin-top: 0 !important;
+}
+
+/* 장바구니 목록 */
+.basket-list .list .article-content {
+    margin-top: 45px;
+}
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(1) {
+    width: 50px;
+}
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(3) {
+    width: 100px;
+}
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(4) {
+    width: 90px;
+}
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(5) {
+    width: 150px;
+}
+.basket-list .list .article-content .table-wrap .table.type-2 thead tr th:nth-of-type(6) {
+    width: 116px;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr td {
+    vertical-align: middle;
+    padding: 32px 0;
+    background-color: #fff;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .info {
+    text-align: left;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .info a .item {
+    display: inline-block;
+    padding: 0 10px;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .info a .details {
+    display: inline-block;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .amount .form-group {
+    width: 63px;
+    margin: 0 auto;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .amount .form-group .form-control {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .payment {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr .total {
+    color: #ff7875;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.basket-list .list .article-content .table-wrap .table tbody tr td .btn-area p .btn-sm {
+    width: 84px;
+    height: 34px;
+    line-height: 32px;
+    color: #999;
+    font-size: 12px;
+}
+.basket-list .list .article-content > .btn-area {
+    text-align: right;
+    margin-top: 30px;
+}
+.basket-list .list .article-content .btn-area p .btn-sm {
+    width: 160px;
+}
+
+/* 장바구니 주문결제 */
+.order-write .information {
+  padding-top: 60px; 
+}
+.order-write .information .table-wrap .table ~ .table {
+    margin-top: 32px; 
+}
+.order-write .information .table-wrap .table caption {
+    overflow: hidden;
+    /*padding: 16px 20px 17px;*/
+    padding: 10px 20px;
+    background-color: #acacac; 
+}
+.order-write .information .table-wrap .table caption h4 {
+    font-size: 16px;
+    float: left;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 300; 
+}
+.order-write .information .table-wrap .table caption .btn-modify {
+    /*position: absolute;*/
+    width: 235px;
+    float: right;
+    /*top: 10px;
+    right: 0;*/
+    font-size: 12px;
+    color: #fff;
+}
+.order-write .information .table-wrap .table caption .btn-modify p {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.order-write .information .table-wrap .table caption .btn-modify .btn-default {
+    display: inline-block;
+    width: 105px;
+    font-size: 12px;
+    color: #666;
+    vertical-align: top;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    background-color: #fff;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.order-write .information .table-wrap .table caption .btn-modify .btn-default:hover, .order-write .information .table-wrap .table caption .btn-modify .btn-default:focus {
+opacity: .7; 
+}
+.order-write .information .table-wrap .table caption > .form-group {
+    display: inline-block;
+    float: right;
+}
+.order-write .information .table-wrap .table caption > .form-group > label {
+    color: #fff;
+    font-weight: 300;
+    line-height: 30px;
+    margin-right: 22px;
+}
+.order-write .information .table-wrap .table caption > .form-group > label > input {
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
+.order-write .information .table-wrap .table tbody tr th {
+    width: 170px;
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    padding-left: 23px;
+    vertical-align: middle;
+    background-color: #fafafa;
+    border-bottom: 1px solid #dfdfdf;
+}
+.order-write .information .table-wrap .table tbody tr th label {
+    font-weight: 400; 
+}
+.order-write .information .table-wrap .table tbody tr td {
+    font-size: 13px;
+    color: #999;
+    font-weight: 300;
+    vertical-align: middle;
+    height: 60px;
+    padding: 10px 40px 10px 30px;
+    border-bottom: 1px solid #dfdfdf; 
+}
+.order-write .information .table-wrap .table tbody tr td .form-group .form-control {
+    width: 100%;
+    height: 36px;
+    font-size: 12px;
+    border: 1px solid #dfdfdf; 
+}
+.order-write .information .table-wrap .table tbody tr td .blog-addr {
+    vertical-align: top;
+}
+.order-write .information .table-wrap .table tbody tr td .blog-addr ~ .blog-addr {
+    margin-top: 10px;
+}
+.order-write .information .table-wrap .table tbody tr td .blog-addr > div {
+    display: inline-block;
+    vertical-align: top;
+}
+.order-write .information .table-wrap .table tbody tr td .blog-addr .form-group {
+    width: 510px;
+    margin-right: 15px;
+}
+.order-write .information .table-wrap .table tbody tr td .btn-add {
+    overflow: hidden;
+}
+.order-write .information .table-wrap .table tbody tr td .btn-add .btn {
+    float: left;
+    width: 36px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+}
+.order-write .information .table-wrap .table tbody tr td .btn-add .btn-plus {
+    border-right: 0;
+}
+.order-write .information .table-wrap .table tbody tr td .btn-add .btn i {
+    font-size: 15px;
+    color: #999;
+}
+.order-write .information .table-wrap .table tbody tr td .form-group textarea {
+    width: 601px !important;
+    height: 100px !important;
+}
+.order-write .information .table-wrap .table tbody tr td dl dt {
+    font-size: 13px;
+    color: #999;
+    font-weight: 400;
+    margin-bottom: 10px; 
+}
+.order-write .information .table-wrap .table tbody tr td dl dt label {
+    font-weight: 400; 
+}
+.order-write .information .table-wrap .table tbody tr td dl dd:nth-of-type(1) {
+    margin-bottom: 10px; 
+}
+.order-write .information .table-wrap .table tbody tr td dl dd label {
+    font-weight: 400;
+    display: inline-block; 
+}
+.order-write .information .table-wrap .table tbody tr td dl dd label:last-child {
+    margin-left: 40px; 
+}
+.order-write .information .table-wrap .table tbody tr td dl dd label input[type="radio"] {
+    position: relative;
+    top: 1px;
+    margin-right: 10px; 
+}
+.order-write .information .table-wrap .btn-area {
+    text-align: right;
+    margin-top: 30px; 
+}
+.order-write .information .table-wrap .btn-area > p .btn {
+    width: 140px;
+    font-size: 14px;
+    color: #666;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 30px;
+    border: 1px solid #ccc; 
+}
+.order-write .information .table-wrap .btn-area > p .btn:last-child {
+    margin-right: 0; 
+}
+.order-write .information .table-wrap .btn-area > p .btn.btn-pink {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875; 
+}
+
+
+.order-write .information .table-wrap .table tbody tr td.addr .form-group .form-control {
+    display: inline-block;
+    width: 110px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div {
+    display: inline-block; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.new-addr {
+    display: inline-block;
+    margin-right: 20px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.zip-code:before {
+    content: "(";
+    margin-right: 5px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.zip-code:after {
+    content: ")";
+    margin-left: 5px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.zip-code .form-control:nth-of-type(1) {
+    margin-right: 15px; 
+}
+.order-write .information .table-wrap .table tbody tr td.addr .form-group > div.zip-code .form-control:nth-of-type(2) {
+    margin-left: 15px; 
+}
+.order-write .information .table-wrap .table tbody tr td.details-addr .form-group .form-control {
+    width: 530px; 
+}
+.order-write .information .table-wrap .table tbody tr td.details-addr .form-group .form-control ~ .form-control {
+    margin-top: 10px; 
+}
+.order-write .information .table-wrap .table tbody tr td .overlap-confirm, .order-write .information .table-wrap .table tbody tr td .zipcode-confirm, .order-write .information .table-wrap .table tbody tr td .selection-btn {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top; 
+}
+.order-write .information .table-wrap .table tbody tr td .overlap-confirm .btn-white, .order-write .information .table-wrap .table tbody tr td .zipcode-confirm .btn-white, .order-write .information .table-wrap .table tbody tr td .selection-btn .btn-white {
+    width: 84px;
+    line-height: 34px;
+    font-size: 12px;
+    color: #999;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; 
+}
+.order-write .information .table-wrap .table tbody tr td .overlap-confirm .btn-white:hover, 
+.order-write .information .table-wrap .table tbody tr td .overlap-confirm .btn-white:focus, 
+.order-write .information .table-wrap .table tbody tr td .zipcode-confirm .btn-white:hover, 
+.order-write .information .table-wrap .table tbody tr td .zipcode-confirm .btn-white:focus, 
+.order-write .information .table-wrap .table tbody tr td .selection-btn .btn-white:hover, 
+.order-write .information .table-wrap .table tbody tr td .selection-btn .btn-white:focus {
+    opacity: .7; 
+}
+
+
+/* 주문완료 */
+.success .complete-txt {
+    text-align: center;
+    margin-top: 5px;
+}
+.success .complete-txt > figure figcaption {
+    font-size: 23px;
+    margin-top: 40px;
+    color: #ff7875;
+    font-weight: 500;
+}
+.success .complete-txt strong {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+    font-weight: 400;
+}
+.success .complete-txt > p {
+    font-size: 13px;
+    color: #666;
+    line-height: 24px;
+    margin-top: 40px;
+}
+.success .information {
+  padding-top: 60px; 
+}
+.success .information .table-wrap .table ~ .table {
+    margin-top: 30px; 
+}
+.success .information .table-wrap .table caption {
+    padding: 16px 20px 17px;
+    background-color: #acacac; 
+}
+.success .information .table-wrap .table caption h4 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300
+}
+.success .information .table-wrap .table tbody tr th {
+    width: 170px;
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    padding-left: 23px;
+    vertical-align: middle;
+    background-color: #fafafa;
+    border-bottom: 1px solid #dfdfdf;
+}
+.success .information .table-wrap .table tbody tr th label {
+    font-weight: 400; 
+}
+.success .information .table-wrap .table tbody tr td {
+    font-size: 13px;
+    color: #999;
+    font-weight: 300;
+    vertical-align: middle;
+    height: 57px;
+    padding: 10px 40px 10px 30px;
+    border-bottom: 1px solid #dfdfdf; 
+}
+.success .information .table-wrap .btn-area {
+    text-align: right;
+    margin-top: 30px; 
+}
+.success .information .table-wrap .btn-area > p .btn {
+    width: 140px;
+    font-size: 14px;
+    color: #666;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 30px;
+    border: 1px solid #ccc; 
+}
+.success .information .table-wrap .btn-area > p .btn:last-child {
+    margin-right: 0; 
+}
+.success .information .table-wrap .btn-area > p .btn.btn-pink {
+    color: #fff;
+    border-color: #ff7875;
+    background-color: #ff7875; 
+}
+.success .careful {
+    margin-top: 73px;
+    padding: 35px 10px 35px 37px;
+    background-color: #fafafa;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.success .careful ol li {
+    position: relative;
+    font-size: 12px;
+    line-height: 28px;
+    color: #999;
+    padding-left: 30px;
+}
+.success .careful ol li span {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+    width: 18px;
+    height: 18px;
+    font-size: 11px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ad9cc4;
+}
+.success .careful ol li .attention {
+    display: block;
+    font-style: normal;
+}
+.success .careful ol li .attention:before {
+    content: "※ ";
+}
+
+
+/*핫딜시작*/
+
+/*공통글자색*/
+.hotdeal-view .information i { 
+	font-style: normal; 
+	color: #ff7875;
+}
+.hotdeal-view .view-detail > .article-header form > div {
+    vertical-align: top;
+    display: inline-block; 
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-first dl dd i.time-price {
+	font-size: 18px;
+	font-weight: 500;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dt label {
+	font-weight: 400;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dd .form-group .form-control {
+	width: 45px;
+	height: 22px;
+	font-size: 10px;
+	color: #999;
+	padding: 0;
+	padding-left: 10px;
+	margin-top: 5px;
+	border: 1px solid #dfdfdf;
+	vertical-align: top;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dd .form-group #mileage{
+	width: 115px;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dd .form-group select {
+	width: 115px !important;
+	padding-left: 5px !important;
+}
+.hotdeal-view .view-detail .article-header .information .info-body .info-second dl dd:nth-of-type(4) .form-group .form-control {
+	margin-bottom: 7px;
+}
+.hotdeal-view .view-detail .article-header .item {
+	overflow: hidden;
+}
+.hotdeal-view .view-detail .article-header .item .naver-pay {
+	float: right;
+	margin-top: 65px;
+}
+
+
+/*장바구니 step01*/
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a {
+	display: block;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details {
+	vertical-align: top;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details p {
+	font-weight: 400;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details dl {
+	font-size: 0;
+	margin-top: 15px;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details dl dt {
+	font-size: 13px;
+	color: #666;
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 300;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details dl dt:after {
+	position: relative;
+	display: inline-block;
+	top: -1px;
+	left: 0;
+	content: ":";
+	margin: 0 3px;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .info a .details dl dd {
+	display: inline-block;
+	font-size: 13px;
+	color: #666;
+	font-weight: 300;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .payment {
+	font-weight: 400;
+}
+.hotdeal-basket01 .list .article-content .table-wrap .table tbody tr .total i {
+	font-style: normal;
+}
+
+
+/*장바구니 step02*/
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a {
+	display: block;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details {
+	vertical-align: top;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details p {
+	font-weight: 400;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details dl {
+	font-size: 0;
+	margin-top: 15px;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details dl dt {
+	font-size: 13px;
+	color: #666;
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 300;
+}
+.hotdeal-basket02 .article-content .table-wrap .table tbody tr .info a .details dl dt:after {
+	position: relative;
+	display: inline-block;
+	top: -1px;
+	left: 0;
+	content: ":";
+	margin: 0 3px;
+}
+.hotdeal-basket02 .product-info .article-content .table-wrap .table tbody tr .info a .details dl dd {
+	display: inline-block;
+	font-size: 13px;
+	color: #666;
+	font-weight: 300;
+}
+.hotdeal-basket02 .product-info .article-content .pay-info .sum > ul > li:first-child {
+	margin-right: 40px;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .form-group {
+	display: inline-block;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .form-group .form-control {
+	width: 130px;
+	height: 35px;
+	color: #666;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable  p {
+	font-size: 12px;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .max-mileage {
+	display: inline-block;
+	color: #666;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable  p i {
+	font-style: normal;
+	font-weight: 500;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .max-mileage i {
+	color: #ff7875;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .total-mileage {
+	margin-top: 5px;
+	color: #666;
+	opacity: .8;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr .usable .total-mileage i {
+	color: #7da7d9;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr td .form-group label {
+	font-weight: 300;
+	color: #666;
+	opacity: 0.8;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr td .form-group label input {
+	position: relative;
+	top: 1px;
+	left: 0;
+	margin-right: 10px;
+}
+.hotdeal-basket02 .information .table-wrap .table tbody tr td .form-group label:last-child {
+	margin-left: 20px;
+}
+.hotdeal-basket02 .product-info .article-content .table-wrap .table tbody tr td.info a .item {
+	vertical-align: top;
+}
+.hotdeal-basket02 .product-info .article-content .table-wrap .table tbody tr td.info a .item {
+	padding: 0;
+}
+.hotdeal-basket02 .product-info .article-content .table-wrap .table tbody tr td.info {
+	padding: 33px 0;
+	padding-left: 50px;
+}
+
+
+
+
+/*핫딜 리스트*/
+.item-list .article-content .row {
+	margin: 0 -8px;
+}
+.item-list .article-content ul .col-xs-4 {
+	padding: 0 8px !important;
+}
+.item-list .article-content ul li a .item {
+	width: 100%;
+}
+.hotdeal-list .article-content ul li a .item img {
+	vertical-align: middle;
+}
+.hotdeal-list .article-content ul li .hot-deal {
+	position: relative;
+	display: block;
+}
+.hotdeal-list .article-content ul li .hot-deal .sale-label {
+	position: absolute;
+	top: -6px;
+	left: 12px;
+	width: 64px;
+	height: 60px;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 17px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
+	text-align: center;
+	z-index: 5;
+	background-image: url(/assets/images/ange_mall/hotdeal_label.png);
+}
+.hotdeal-list .article-content ul li .hot-deal .clock {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.hotdeal-list .article-content ul li .hot-deal .item {
+	position: relative;
+}
+.hotdeal-list .article-content ul li .hot-deal .item dl {
+	position: absolute;
+	font-size: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #e5647f;
+	text-align: center;
+	color: #fff;
+}
+.hotdeal-list .article-content ul li .hot-deal .item dl dt {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.hotdeal-list .article-content ul li .hot-deal .item dl dd {
+	display: inline-block;
+	/*font-size: 0;*/ 
+	font-size: 13px;
+	vertical-align: middle;
+}
+.hotdeal-list .article-content ul li .hot-deal .item dl dd span {
+	display: inline-block;
+	width: 22px;
+	height: 28px;
+	background-color: #fff;
+	text-align: center;
+	font-size: 20px;
+	color: #e5647f;
+	font-weight: 500;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+.hotdeal-list .article-content ul li .hot-deal .details .pre-price {
+	font-style: normal;
+	font-size: 11px;
+	text-decoration: line-through;
+	color: #666;
+	opacity: .7;
+	padding-top: 10px;
+	display: block;
+}
+.hotdeal-list .article-content ul li a .details .point {
+	margin-top: 5px;
+}
+.hotdeal-list .item-list .article-content ul li a .details p {
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
