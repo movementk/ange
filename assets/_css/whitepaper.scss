@@ -1,0 +1,204 @@
+@import 'common';
+
+/* 앙쥬 처음이세요? */
+.first-ange {
+    .section-header {
+        p {
+            font-size: 26px;
+            color: #333;
+            line-height: 40px;
+            letter-spacing: -.5px;
+            font-weight: 200;
+            margin-bottom: 40px;
+            i {
+                color: #ff7875;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+    }
+    .section-content {
+        > ul {
+            overflow: hidden;
+            > li {
+                display: table;
+                width: 100%;
+                &:first-child ~ li {
+                    margin-top: 30px;
+                }
+                figure {
+                    display: table-cell;
+                    width: 370px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                dl {
+                    display: table-cell;
+                    padding-left: 75px;
+                    padding-right: 20px;
+                    vertical-align: middle; 
+                    background-color: #f8f8fa;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    dt {
+                        position: relative;
+                        font-size: 22px;
+                        color: #333;
+                        padding-left: 40px;
+                        font-weight: 400;
+                        span {
+                            position: absolute;
+                            top: 3px;
+                            left: 0;
+                            display: inline-block;
+                            width: 27px;
+                            height: 27px;
+                            color: #fff;
+                            font-size: 13px;
+                            background-color: #7da7d9;
+                            @inlcude roboto();
+                            text-align: center;
+                            border-radius: 50%;
+                            line-height: 27px;
+                        }
+                    }
+                    dd {
+                        font-size: 14px;
+                        color: #666;
+                        line-height: 24px;
+                        margin-top: 15px;
+                        text-align: justify;
+                        letter-spacing: -.5px;
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .check {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #666;
+            text-align: right;
+            &:before {
+                content: "※";
+            }
+            ul {
+                display: inline-block;
+                li {
+                    display: inline-block;
+                    &:after {
+                        content: "\F178";
+                        font-family: "fontello";
+                        margin: 0 3px;
+                    }
+                    &:last-child {
+                        &:after {
+                            content: "";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 오랜만의 방문이세요? */
+.long-time {
+    .section-content {
+        ul {
+            font-size: 0;
+            li {
+                position: relative;
+                display: inline-block;
+                width: 270px;
+                height: 410px;
+                border: 1px solid #dfdfdf;
+                background-color: #fff; 
+                text-align: center;
+                margin-right: 10px;
+                vertical-align: top;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:hover, &:focus {
+                    background-color: #f8f8fa;
+                    border: 1px solid #f8f8fa;
+                    .btn-area {
+                        p {
+                            a {
+                                color: #fff;    
+                                background-color: #ff7875;
+                                border: 1px solid #ff7875;
+                            }
+                        }
+                    }
+                }
+                .item {
+                    display: inline-block;
+                    line-height: 180px;
+                    margin: 0 auto;
+                }
+                .details {
+                    h3 {
+                        font-size: 18px;
+                        color: #333;
+                        font-weight: 400;
+                        margin-bottom: 20px;
+                    }
+                    p {
+                        font-size: 14px;
+                        color: #666;
+                        line-height: 24px;
+                    }
+                }
+                .btn-area {
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -65px;
+                    bottom: 30px;
+                    p {
+                        a {
+                            width: 130px;
+                            line-height: 40px;
+                            color: #666;
+                            border-radius: 30px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

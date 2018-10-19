@@ -1,0 +1,1932 @@
+@import 'common';
+
+// 공통
+.ange-naming {
+    .naming-title {
+        position: relative;
+        padding-left: 20px;
+        font-size: 18px;
+        color: #333;
+        font-weight: 400;
+        margin-bottom: 20px;
+        &:before {
+            position: absolute;
+            top: 2px;
+            left: 0;
+            font-size: 16px;
+            color: #e25371;
+            content: "\E826";
+            font-family: 'fontello';
+        }
+    }
+    .explain {
+        padding: 40px;
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        &.gray {
+            padding: 30px;
+            background-color: #f6f7f9;
+        }
+    }
+    .table-wrap {
+        .table {
+            tbody {
+                tr {
+                    td {
+                        &.bg-gray {
+                            background-color: #fafafa;
+                        }
+                    }
+                }
+            }
+            &.naming-table {
+                border: 0;
+                caption {
+                    font-size: 14px;
+                    color: #fff;
+                    padding: 15px 0;
+                    text-align: center;
+                    background-color: #acacac;
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 14px;
+                            color: #666;
+                            text-align: center;
+                            vertical-align: middle;
+                            padding: 15px 0;
+                            border: 1px solid #dfdfdf;
+                            a {
+                                color: #fff;
+                                &.btn-pink {
+                                    
+                                }
+                            }
+                            &:last-child {
+                                border-right: 0;
+                            }
+                            &:first-child {
+                                border-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // attention-box 
+    .attention-box.type-2 {
+        h5 {
+            position: relative;
+            padding-left: 20px;
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: inline-block;
+                content: "\E827";
+                font-family: 'fontello';
+            }
+        }
+        ol {
+            margin-top: 20px;
+            li {
+                font-size: 13px;
+                line-height: 22px;
+                color: #999;
+                i {
+                    font-style: normal;
+                    color: #ff7875;
+                    font-weight: 500;
+                }
+                > p {
+                    position: relative;
+                    padding-left: 15px;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: inline-block;
+                        content: "※ ";
+                    }
+                }
+                > b {
+                    color: #666;
+                    font-weight: 500;
+                }
+            }
+        }
+        ul {
+            margin-top: 20px;
+            li {
+                font-size: 13px;
+                line-height: 22px;
+                color: #999;
+                i {
+                    font-style: normal;
+                    color: #ff7875;
+                    font-weight: 500;
+                }
+                > p {
+                    position: relative;
+                    padding-left: 15px;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: inline-block;
+                        content: "※ ";
+                    }
+                }
+                > b {
+                    color: #666;
+                    font-weight: 500;
+                }
+            }
+        }
+        > .attention {
+            color: #999;
+            line-height: 22px;
+            font-size: 13px;
+            &:before {
+                content: "※ ";
+            }
+            i {
+                font-style: normal;
+                color: #ff7875;
+                font-weight: 500;
+            }
+        }
+    }
+    // 이용안내 리스트 공통
+    .guide-list {
+        width: 840px;
+        margin-top: 35px;
+        > li {
+            & ~ li {
+                margin-top: 25px;
+            }
+            > h3 {
+                position: relative;
+                font-size: 14px;
+                color: #666;
+                line-height: 22px;
+                font-weight: 400;
+                padding-left: 35px;
+                span {
+                    position: absolute;
+                    top: 1px;
+                    left: 0;
+                    display: inline-block;
+                    width: 22px;
+                    line-height: 22px;
+                    font-size: 10px;
+                    color: #fff;
+                    text-align: center;
+                    font-weight: bold;
+                    background-color: #ff7875;
+                    border-radius: 50%;
+                    @include roboto();
+                }
+            }
+            p {
+                font-size: 13px;
+                color: #666;
+                line-height: 26px;
+                font-weight: 300;
+                padding-left: 35px;
+                margin-top: 30px;
+            }
+            > ul {
+                padding-left: 35px;
+                padding-top: 5px;
+                li {
+                    font-size: 13px;
+                    color: #666;
+                    line-height: 26px;
+                    h4 {
+                        font-size: 13px;
+                        line-height: 26px;
+                    }
+                    dl {
+                        dt {
+                            display: inline-block;
+                            font-weight: 400;
+                            &:before {
+                                content: "- ";
+                            }
+                        }
+                        dd {
+                            display: inline-block;
+                            &:before {
+                                content: ":"
+                            }
+                        }
+                    }
+                }
+            }
+            > .explain {
+                margin-top: 20px;
+                figure {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    //
+    .naming-search {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        dl {
+            position: relative;
+            font-size: 0;
+            dt {
+                display: inline-block;
+                width: 135px;
+                font-size: 14px;
+                height: 45px;
+                color: #fff;
+                font-weight: 400;
+                vertical-align: top;
+                text-align: center;
+                line-height: 44px;
+                background-color: #acacac;
+                border-top: 1px solid #cfcfcf;
+                border-bottom: 1px solid #cfcfcf;
+            }
+            dd {
+                display: inline-block;
+                font-size: 14px;
+                width: 285px;
+                height: 45px;
+                text-align: center;
+                vertical-align: top;
+                padding: 6px 0;
+                border-top: 1px solid #cfcfcf;
+                border-bottom: 1px solid #cfcfcf;
+                .form-group {
+                    p {
+                        display: inline-block;
+                        font-size: 16px;
+                        color: #333;
+                        width: 30px;
+                        height: 30px;
+                        font-weight: 500;
+                        text-align: center;
+                        line-height: 28px;
+                        background-color: #eeeff4;
+                        border: 1px solid #dfdfdf;
+                    }
+                    .form-control {
+                        display: inline-block;
+                        font-size: 16px;
+                        color: #333;
+                        text-align: center;
+                        margin-right: 5px;
+                        width: 30px;
+                        height: 30px;
+                        padding: 0;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+                &.search {
+                    text-align: left;
+                    width: 270px;
+                    padding-left: 20px;
+                    .form-group {
+                        display: inline-block;
+                        select {
+                            width: 90px;
+                            font-size: 14px;
+                            color: #666;
+                        }
+                    }
+                    .btn-search {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        .btn-sm {
+                            line-height: 44px;
+                            width: 154px;
+                            font-size: 15px;
+                            text-align: center;
+                            color: #fff;
+                            border: 0;
+                            border-radius: 30px;
+                            background-color: #ff7875;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//네이밍 서비스 안내
+.naming-intro {
+    .section-content {
+        > ul {
+            li {
+                display: table;
+                width: 100%;
+                height: 265px;
+                border: 1px solid #dfdfdf;
+                border-radius: 20px;
+                background-color: #fff;
+                &:hover {
+                    background-color: #f8f8fa;
+                }
+                & ~ li {
+                    margin-top: 20px;
+                }
+                > div {
+                    display: table-cell;
+                    vertical-align: middle;
+                    &.item {
+                        width: 350px;
+                        text-align: center;
+                    }
+                    &.details {
+                        text-align: left;
+                        h3 {
+                            font-size: 24px;
+                            color: #333;
+                            line-height: 32px;
+                        }
+                        i {
+                            font-style: normal;
+                            font-size: 18px;
+                            color: #999;
+                            font-weight: 300;
+                            @include roboto();
+                        }
+                        > p {
+                            font-size: 14px;
+                            line-height: 22px;
+                            color: #666;
+                            letter-spacing: -1px;
+                            margin-top: 25px;
+                            margin-bottom: 30px;
+                        }
+                        > .btn-area {
+                            p {
+                                .btn-sm {
+                                    width: 130px;
+                                    font-size: 13px;
+                                    line-height: 38px;
+                                    background-color: #fff;
+                                    &:hover, &:focus {
+                                        opacity: 1;
+                                        color: #fff;
+                                        border: 1px solid #ff7875;
+                                        background-color: #ff7875;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//실시간 작성 완료
+.success {
+    .section-content {
+        .complete {
+                padding-top: 35px;
+                padding-bottom: 45px;
+            figure {
+                text-align: center;
+                figcaption {
+                    strong {
+                        display: block;
+                        font-size: 20px;
+                        color: #333;
+                        font-weight: 500;
+                        margin-top: 35px;
+                        margin-bottom: 20px;
+                    }
+                    small {
+                        font-size: 15px;
+                        line-height: 24px;
+                        color: #666;
+                        i {
+                            font-style: normal;
+                            color: #e25371;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .table-wrap {
+            .table.type-1 {
+                border-top: 2px solid #666;
+                tbody {
+                    tr {
+                        th {
+                            font-size: 14px;
+                            height: 56px;
+                        }
+                        td {
+                            font-size: 14px;
+                            color: #666;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                text-align: right;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+// 진행하기
+.progress-list {
+    .section-content {
+        article {
+            .article-content {
+                margin-top: 40px;
+                .table-wrap {
+                    > p {
+                        position: relative;
+                        font-size: 14px;
+                        color: #333;
+                        font-weight: 500;
+                        padding-left: 15px;
+                        margin-bottom: 20px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: inline-block;
+                            content: "※ ";
+                        }
+                    }
+                    .table.type-2 {
+                        thead {
+                            tr {
+                                th {
+                                    font-size: 14px;
+//                                    width: 33.33%;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 14px;
+                                    a {
+                                        color: #666;
+                                    }
+                                    &.date {
+                                        color: #999;
+                                    }
+                                    &.num {
+                                        color: #e25371;
+                                        font-weight: 500;
+                                        @include roboto();
+                                        a {
+                                            color: #e25371;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .paging {
+                        margin-top: 30px;
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//실시간 이용안내
+.access-guide {
+    > .section-content {
+        > p {
+            font-size: 16px;
+            color: #333;
+        }
+    }
+}
+
+//스페셜 작명전환
+.special-change {
+    .section-content {
+        article { 
+            .article-content {
+                margin-top: 40px;
+                .table-wrap {
+                    > p {
+                        position: relative;
+                        font-size: 14px;
+                        color: #333;
+                        font-weight: 500;
+                        padding-left: 20px;
+                        margin-bottom: 15px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: inline-block;
+                            content: "※ ";
+                        }
+                    }
+                    .table.type-2 {
+                        tbody {
+                            tr {
+                                td {
+                                    &.change-btn {
+                                        padding: 0;
+                                        vertical-align: middle;
+                                        > p {
+                                            a {
+                                                display: inline-block;
+                                                width: 75px;
+                                                height: 30px;
+                                                font-size: 12px;
+                                                line-height: 28px;
+                                                text-align: center;
+                                                border: 1px solid #ccc;
+                                                border-radius: 5px;
+                                                &.btn-gray {
+                                                    font-weight: 400;
+                                                    color: #666;
+                                                    background-color: #dfdfdf;
+                                                }
+                                                &.btn-white {
+                                                    color: #999;
+                                                    font-weight: 400;
+                                                    background-color: #fff;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.date {
+                                        color: #999;
+                                    }
+                                    &.num {
+                                        @include roboto();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//오행정보
+.five-elements {
+    .article-content {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        .naming-title {
+            font-weight: 500;
+            letter-spacing: -.5px;
+        }
+        .table-wrap {
+            .btn-area {
+                text-align: right;
+                margin-top: 30px;
+                p {
+                    & ~ p {
+                        margin-top: 30px;
+                    }
+                    &:nth-of-type(2) {
+                        text-align: center;
+                    }
+                    .btn.btn-md {
+                        width: 170px;
+                        font-size: 13px;
+                        line-height: 43px;
+                        border-radius: 30px;
+                    }
+                    .btn.btn-lg {
+                        width: 200px;
+                        font-size: 14px;
+                        color: #666;
+                        text-align: left;
+                        line-height: 43px;
+                        border-radius: 30px;
+                        border: 1px solid #ccc;
+                        padding-left: 20px;
+                        &:after {
+                            position: absolute;
+                            right: 15px;
+                            display: inline-block;
+                            color: #999;
+                            content: "\E810";
+                            font-family: "fontello";
+                        }
+                    }
+                    .btn-white {
+                        position: relative;
+                        background-color: #fff;
+                        &:hover,&:focus {
+                            color: #fff;
+                            background-color: #7da7d9;
+                            border: 1px solid #7da7d9;
+                            &:after {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//실시간 작성
+.application-write {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 50px; 
+            }
+        }
+        .table-wrap {
+            .table.type-1 {
+                tbody {
+                    tr {
+                        th {
+                            font-size: 14px;
+                            &.v-top {
+                                vertical-align: top;
+                                padding-left: 25px;
+                                padding-top: 20px;
+                            }
+                        }
+                        td {
+                            font-size: 14px;
+                            .attention {
+                                display: inline-block;
+                                color: #ff7875;
+                                font-size: 14px;
+                                &:before {
+                                    content: "※ ";
+                                }
+                            }
+                            &.request-type {
+                                color: #666;
+                                padding : 0;
+                                padding-left: 30px;
+                                line-height: 56px;
+                            }
+                            &.address {
+                                .form-group {
+                                    label {
+                                        display: inline-block;
+                                        font-size: 12px;
+                                        color: #999;
+                                        vertical-align: top;
+                                        font-weight: 400;
+                                    }
+                                    .form-control {
+                                        & ~ .form-control {
+                                            display: block;
+                                            width: 100%;
+                                            margin-top : 5px;
+                                        }
+                                    }
+                                }
+                            }
+                            &.call {
+                                .form-group {
+                                    .form-control {
+                                        width: 200px;
+                                    }
+                                }
+                            }
+                            &.mail {
+                                .form-group {
+                                    .form-control {
+                                        width: 370px;
+                                    }
+                                }
+                            }
+                            &.connection {
+                                .form-group {
+                                    display: inline-block;
+                                }
+                                > p {
+                                    display: inline-block;
+                                    font-size: 14px;
+                                    color: #999;
+                                    font-weight: 300;
+                                    letter-spacing: -1px;
+                                }
+                            }
+                            &.birth-date {
+                                .form-group {
+                                    display: inline-block;
+                                    &:nth-of-type(2) {
+                                        .form-control {
+                                            width: 75px;
+                                            margin-left: 0;
+                                            margin-top: 10px;
+                                        }
+                                    }
+                                    .form-control {
+                                        width: 63px;
+                                        padding: 6px 6px;
+                                        margin-left: 10px;
+                                        margin-right: 0;
+                                        &:first-child {
+                                            margin-left: 0;
+                                        }
+                                        &.years {
+                                            width: 75px;
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                            &.sex {
+                                padding: 15px 30px;
+                            }
+                            &.except {
+                                .form-group {
+                                    .form-control {
+                                        margin-right: 0;
+                                    }
+                                }
+                            }
+                            &.zip-code {
+                                .form-group {
+                                    .form-control {
+                                        width: 100px;
+                                    }
+                                }
+                            }
+                            .form-group {
+                                &:nth-of-type(3) {
+                                    display: block;
+                                }
+                                .form-control {
+                                    width: 170px;
+                                    display: inline-block;
+                                    margin-right: 10px;
+                                }
+                                > div {
+                                    .form-control {
+                                        width: 360px;
+                                    }
+                                    & ~ div {
+                                        margin-top: 5px;
+                                    }
+                                }
+                                label {
+                                    font-weight: 400;
+                                    margin-right: 15px;
+                                    &:last-child {
+                                        margin-right: 0;
+                                    }
+                                    input[type="radio"] {
+                                        position: relative;
+                                        top: 2px;
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                            .btn-confirm {
+                                display: inline-block;
+                                vertical-align: top;
+                                .btn.btn-default {
+                                    width: 84px;
+                                    line-height: 34px;
+                                    font-size: 13px;
+                                    color: #999;
+                                    text-align: center;
+                                    cursor: pointer;
+                                    border-radius: 30px;
+                                    border: 1px solid #ccc;
+                                    @include transition();
+                                    &:hover, &:focus {
+                                        opacity: .7;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .attention-box {
+            margin-top: 30px;
+            > ol {
+                margin-top: 20px;
+                li {
+                    font-size: 13px;
+                    line-height: 22px;
+                    color: #999;
+                }
+            }
+        }
+        .btn-area {
+            text-align: right;
+            margin-top: 30px;
+        }
+    }
+}
+
+//실시간작성 뷰
+.application-view {
+    .section-content {
+        article {
+            & ~ article {
+                margin-top: 50px;
+            }
+            &.payment-option {
+                .article-content {
+                    .table-wrap {
+                        .table.type-1 {
+                            tbody {
+                                tr {
+                                    td {
+                                        label {
+                                            font-weight: 400;
+                                            margin-right: 15px;
+                                            input[type="radio"] {
+                                                position: relative;
+                                                top: 2px;
+                                                margin-right: 5px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-area {
+                            text-align: right;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+            .article-content {
+                .table-wrap {
+                    .table.type-1 {
+                        tbody {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                    &.v-top {
+                                        vertical-align: top;
+                                        padding-left: 25px;
+                                        padding-top: 15px;
+                                    }
+                                }
+                                td {
+                                    font-size: 14px;
+                                    padding: 15px 30px;
+                                    .attention {
+                                        font-size: 13px;
+                                        color: #ff7875;
+                                        margin-top: 5px;
+                                        &:before {
+                                            content: "※ ";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//한자변환 레이어 팝업
+.popup-layer {
+    .pop-layer {
+        .pop-container{
+            .pop-body {
+                .content {
+                    .table-wrap {
+                        .table.type-2 {
+                            thead {
+                                tr {
+                                    th {
+                                        &:first-child {
+                                            width: auto;
+                                        }
+                                        &:nth-of-type(3) {
+                                            width: auto;
+                                        }
+                                    }
+                                }
+                            }
+                            tbody {
+                                tr {
+                                    td {
+                                        vertical-align: middle;
+                                        .btn-confirm {
+                                            display: inline-block;
+                                            .btn.btn-default {
+                                                width: 75px;
+                                                line-height: 25px;
+                                                font-size: 12px;
+                                                color: #666;
+                                                text-align: center;
+                                                cursor: pointer;
+                                                border-radius: 30px;
+                                                border: 1px solid #ccc;
+                                                @include transition();
+                                                &:hover, &:focus {
+                                                    opacity: .7;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//이름풀이 step01
+.interpret-step01 {
+    .section-content {
+        margin-top: 40px;
+        .table-wrap {
+            .table.type-2 {
+                thead {
+                    tr {
+                        th {
+                            padding: 10px 0;
+                            font-size: 14px;
+                            border-right: 1px solid #dfdfdf;
+                            &:last-child {
+                                border-right: 0;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 14px;
+                            border-right: 1px solid #dfdfdf;
+                            &:first-child {
+                                background-color: #fafafa;
+                            }
+                            &:last-child {
+                                border-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+                text-align: right;
+            }
+        }
+    }
+}
+
+
+// 이름풀이 step02
+.interpret-step02 {
+    .section-content {
+        article {
+            margin-top: 40px;
+            .table-wrap {
+                .table.type-1 {
+                    tbody {
+                        tr {
+                            th {
+                                font-size: 14px;
+                            }
+                            td {
+                                font-size: 14px;
+                                color: #666;
+                                padding: 18px 30px; 
+                            }
+                        }
+                    }
+                }
+                .table.type-2 {
+                    thead {
+                        tr {
+                            th {
+                                font-size: 14px;
+                                padding: 13px 0;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 14px;
+                                padding: 13px 0;
+                            }
+                        }
+                    }
+                }
+            }
+            &.score {
+                .table-wrap {
+                    .table.type-2 {
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 13px;
+                                    b {
+                                        color: #333;
+                                    }
+                                }
+                                &:last-child {
+                                    td {
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        background-color: #fafafa;
+                                        @include roboto();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.remainder {
+                .table-wrap {
+                    .table.type-2 {
+                        thead {
+                            tr {
+                                th {
+                                    padding: 10px 0;
+                                    border-right: 1px solid #dfdfdf;
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    padding: 17px 0;
+                                    border-right: 1px solid #dfdfdf;
+                                    &:first-child {
+                                        background-color: #fafafa;
+                                    }
+                                    &:last-child {
+                                        border-right: 0;
+                                    }
+                                    i {
+                                        color: #ff7875;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//이름풀이 step03
+.interpret-step03 {
+    .section-content {
+        article {
+            margin-top: 50px;
+            .article-header {
+                small {
+                    display: block;
+                    font-size: 14px;
+                    color: #999;
+                    margin-bottom: 20px;
+                }
+            }
+            &.confirm-input {
+                .table-wrap {
+                    .table {
+                        tbody {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                }
+                                td {
+                                    font-size: 14px;
+                                    padding: 18px 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.assess {
+                .attention-box {
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #666;
+                    padding: 25px;
+                    /*overflow-y: scroll;*/
+                }
+            }
+            &.fortune {
+                .attention-box {
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #666;
+                    padding-top: 25px;
+                }
+                .btn-area {
+                    text-align: right;
+                    font-size: 0;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+//바구니 리스트
+.basket-list {
+    .section-content {
+        margin-top: 50px;
+        .confirm-input {
+            .btn-small {
+                overflow: hidden;
+                margin-bottom: 20px;
+                p {
+                    .btn-xs {
+                        display: block;
+                        float: left;
+                        width: 80px;
+                        height: 30px;
+                        text-align: center;
+                        font-size: 12px;
+                        color: #666;
+                        line-height: 28px;
+                        border-radius: 5px;
+                        border: 1px solid #ccc;
+                        @include transition();
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                        &:first-child {
+                            margin-right: 10px;
+                        }
+                        &:last-child {
+                            float: right;
+                        }
+                    }
+                }
+            }
+            .basket-table {
+                .btn-area {
+                    text-align: right;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+//작명신청 검색결과
+.search-result01 {
+    .section-content {
+        margin-top: 50px;
+        article {
+            .article-header {
+                ul {
+                    li {
+                        position: relative;
+                        font-size: 14px;
+                        line-height: 28px;
+                        color: #666;
+                        padding-left: 15px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "\E803";
+                            font-family: "fontello";
+                            color: #ad9cc4;
+                        }
+                        i {
+                            font-style: normal;
+                            color: #ff7875;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+            .article-content {
+                .btn-more {
+                    margin-bottom: 15px;
+                    .btn-lg {
+                        display: block;
+                        width: 200px;
+                        height: 45px;
+                        font-size: 14px;
+                        color: #666;
+                        line-height: 43px;
+                        text-align: center;
+                        border: 1px solid #ccc;
+                        border-radius: 30px;
+                        @include transition();
+                        &:hover, &:focus {
+                            opacity : .7;
+                        } 
+                    }
+                }
+                .table-wrap {
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                    color: #fff;
+                                    font-weight: 300;
+                                    padding: 12px 0;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    font-size: 14px;
+                                    padding: 8px 0;
+                                    vertical-align: middle;
+                                    a {
+                                        color: #666;
+                                    }
+                                    p {
+                                        .btn-xs {
+                                            display: block;
+                                            margin: 0 auto;
+                                            width: 80px;
+                                            height: 30px;
+                                            text-align: center;
+                                            font-size: 12px;
+                                            color: #666;
+                                            line-height: 28px;
+                                            border-radius: 5px;
+                                            border: 1px solid #ccc;
+                                            @include transition();
+                                            &:hover, &:focus {
+                                                opacity: .7;
+                                            }
+                                        }  
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .paging {
+                        margin-top: 30px;
+                    }
+                    .btn-area {
+                        margin-top: 30px;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 작명신청 검색결과없음
+.search-result02 {
+    .section-content {
+        article {
+            .article-header {
+                margin-top: 50px;
+                ul {
+                    li {
+                        position: relative;
+                        font-size: 14px;
+                        line-height: 28px;
+                        color: #666;
+                        padding-left: 15px;
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "\E803";
+                            font-family: "fontello";
+                            color: #ad9cc4;
+                        }
+                        i {
+                            font-style: normal;
+                            color: #ff7875;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+            .article-content {
+                .btn-more {
+                    margin-bottom: 15px;
+                    .btn-lg {
+                        display: block;
+                        width: 200px;
+                        height: 45px;
+                        font-size: 14px;
+                        color: #666;
+                        line-height: 43px;
+                        text-align: center;
+                        border: 1px solid #ccc;
+                        border-radius: 30px;
+                        @include transition();
+                        &:hover, &:focus {
+                            opacity : .7;
+                        } 
+                    }
+                }
+                .table-wrap {
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                    font-weight: 300;
+                                    padding: 12px 0;
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    padding: 30px 0;
+                                    strong {
+                                        display: block;
+                                        font-size: 18px;
+                                        color: #333;
+                                        font-weight: 400;
+                                        margin-bottom: 20px; 
+                                    }
+                                    p {
+                                        font-size: 14px;
+                                        line-height: 26px;
+                                        color: #666;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//스페셜 작명전환 신청하기
+.special-write {
+    .section-content {
+        .offeror-info {
+            margin-top: 50px;
+            .article-header {
+                .naming-title {
+                    margin-top: 30px;
+                }
+                .attention {
+                    font-size: 14px;
+                    color: #ff7875;
+                    margin-bottom: 5px;
+                    &:before {
+                        content: "※ ";
+                    }
+                }
+            }
+            .article-content {
+                .table-wrap {
+                    .table {
+                        tbody {
+                            tr {
+                                td {
+                                    &.call {
+                                        .form-group {
+                                            display: inline-block;
+                                        }
+                                        .ex-text {
+                                            display: inline-block;
+                                            color: #999;
+                                            font-weight: 300;
+                                        }
+                                        .attention {
+                                            display: block;
+                                            margin-top: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }   
+                    }
+                }
+            }
+        }
+        .baby-info {
+            .article-content {
+                .table-wrap {
+                    .table {
+                        tbody {
+                            tr {
+                                td {
+                                    &.parent {
+                                        .form-group {
+                                            ul {
+                                                li {
+                                                    & ~ li {
+                                                        margin-top: 20px;
+                                                    }
+                                                    > div {
+                                                        &.details {
+                                                            margin-top: 10px;
+                                                        }
+                                                    }
+                                                    .parent-name {
+                                                        dl {
+                                                            dt {
+                                                                display: inline-block;
+                                                                vertical-align: middle;
+                                                                font-size: 15px;
+                                                                color: #333;
+                                                                margin-right: 5px;
+                                                                &:after {
+                                                                    content: ":";
+                                                                    margin-left: 5px;
+                                                                }
+                                                            }
+                                                            dd {
+                                                                display: inline-block;
+                                                                vertical-align: middle;
+                                                                label {
+                                                                    display: inline-block;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .parent-details {
+                                                        padding-left: 30px;
+                                                        margin-top: 10px;
+                                                        dl {
+                                                            overflow: hidden;
+                                                            dt {
+                                                                display: inline-block;
+                                                                font-weight: 400;
+                                                            }
+                                                            dd {
+                                                                display: inline-block;
+                                                                .form-control {
+                                                                    width: 55px;
+                                                                    display: inline-block;
+                                                                    margin-right: 0;
+                                                                    &:first-child {
+                                                                        width: 80px;
+                                                                    }
+                                                                    &:last-child {
+                                                                        width: 65px;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    &.attention {
+                                                        color: #666;
+                                                        font-size: 13px;
+                                                        
+                                                        i {
+                                                            font-style: normal;
+                                                            color: #ff7875;
+                                                        }
+                                                    } 
+                                                }
+                                            }
+                                            .form-control {
+                                                display: inline-block;
+                                                width: 80px;
+                                                padding: 5px;
+                                            }
+                                            label {
+                                                display: inline-block;
+                                                line-height: 36px;
+                                                margin-right: 5px;
+                                            }
+                                        }
+                                    }
+                                    &.talk {
+                                        dl {
+                                            dt {
+                                                p {
+                                                    color: #666;
+                                                    font-size: 14px;
+                                                    letter-spacing: -1.2px; 
+                                                    font-weight: 400;
+                                                    &.attention {
+                                                        color: #ff7875;
+                                                    }
+                                                }
+                                            }
+                                            dd {
+                                                margin-top: 10px;
+                                                .form-group {
+                                                    .form-control {
+                                                        width: 100%;
+                                                        height: 80px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//스페셜 작명 뷰
+.special-view {
+    .section-content {
+        article {
+            margin-top: 50px;
+            .article-content {
+                .table-wrap {
+                    .table.type-1 {
+                        tbody {
+                            tr {
+                                th {
+                                    font-size: 14px;
+                                    &.v-top {
+                                        vertical-align: top;
+                                        padding-left: 25px;
+                                        padding-top: 15px;
+                                    }
+                                }
+                                td {
+                                    font-size: 14px;
+                                    padding: 15px 30px;
+                                    .attention {
+                                        font-size: 13px;
+                                        color: #ff7875;
+                                        margin-top: 5px;
+                                        &:before {
+                                            content: "※ ";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.baby-info {
+                .article-content {
+                    .table-wrap {
+                        .table {
+                            tbody {
+                                tr {
+                                    ul {
+                                        li {
+                                            > .parent-name {
+                                                display: inline-block;
+                                                dl {
+                                                    display: block;
+                                                    dt {
+                                                        display: inline-block;
+                                                        font-size: 15px;
+                                                        font-weight: 500;
+                                                        color: #666;
+                                                        &:after {
+                                                            display: inline-block;
+                                                            content: ":";
+                                                            margin-right: 5px;
+                                                            margin-left: 5px;
+                                                        }
+                                                    }
+                                                    dd {
+                                                        color: #999;
+                                                        display: inline-block;
+                                                    }
+                                                }
+                                            }
+                                            > .parent-details {
+                                                display: inline-block;
+                                                padding-left: 20px;
+                                                p {
+                                                    display: inline-block;
+                                                    color: #999;
+                                                    font-weight: 300;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.payment-option {
+                .article-content {
+                    .table-wrap {
+                        .table.type-1 {
+                            tbody {
+                                tr {
+                                    td {
+                                        label {
+                                            font-weight: 400;
+                                            margin-right: 15px;
+                                            input[type="radio"] {
+                                                position: relative;
+                                                top: 2px;
+                                                margin-right: 5px;
+                                            }
+                                        }
+                                        > b {
+                                            color: #333;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-area {
+                            text-align: right;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//작명신청 정보 리스트
+.application-list {
+    .section-content {
+        .table-wrap {
+            .table {
+                thead {
+                    tr {
+                        th {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 14px;
+                            vertical-align: middle;
+                            a {
+                                color: #666;
+                            }
+                            &.situation-btn {
+                                padding: 0;
+                                p {
+                                    .btn.btn-md {
+                                        width: 130px;
+                                        height: 35px;
+                                        line-height: 33px;
+                                        border: 1px solid #ccc;
+                                        border-radius: 30px;
+                                        color: #666;
+                                        font-size: 13px;
+                                        background-color: #fff;
+                                        @include transition();
+                                        &:hover, &:focus {
+                                            opacity: .7;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+//작명신청정보-추천이름작업중페이지
+.application-view {
+    .section-content {
+        .offeror-info {
+            margin-top: 0;
+        }
+    }
+}
+
+//추천이름 선택 보기
+.recommend-view {
+    .section-content {
+        article {
+            &.offeror-info {
+                .article-content {
+                    .table-wrap {
+                        .table {
+                            tbody {
+                                tr {
+                                    td {
+                                        b {
+                                            font-weight: 500;
+                                            color: #333;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.recommend-choice {
+                .article-content {
+                    .choice-details {
+                        margin-top: 50px;
+                        padding: 30px 0;
+                        border-top: 1px solid #e5e5e5;
+                        ul {
+                            li {
+                                position: relative;
+                                font-size: 14px;
+                                line-height: 26px;
+                                padding-left: 20px;
+                                i {
+                                    font-style: normal;
+                                    color: #ff7875;
+                                }
+                                &:before {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    content: "※";
+                                    color: #ff7875;
+                                }
+                                &.choice {
+                                    display: inline-block;
+                                    margin-top: 5px;
+                                    .form-group {
+                                        label {
+                                            font-weight: 400;
+                                            margin-right: 15px;
+                                            input[type="radio"] {
+                                                position: relative;
+                                                top: 2px;
+                                                margin-right: 5px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-area {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.application-view {
+    .section-content {
+        .baby-info {
+            .article-content {
+                .table-wrap {
+                    .table.type-1 {
+                        tbody {
+                            tr {
+                                td {
+                                    .form-group {
+                                        .form-control {
+                                            width: 170px;
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                        }
+                                    }
+                                    ul {
+                                        li {
+                                            > .parent-name {
+                                                display: inline-block;
+                                                dl {
+                                                    display: block;
+                                                    dt {
+                                                        display: inline-block;
+                                                        font-size: 15px;
+                                                        font-weight: 500;
+                                                        color: #666;
+                                                        &:after {
+                                                            display: inline-block;
+                                                            content: ":";
+                                                            margin-right: 5px;
+                                                            margin-left: 5px;
+                                                        }
+                                                    }
+                                                    dd {
+                                                        color: #999;
+                                                        display: inline-block;
+                                                    }
+                                                }
+                                            }
+                                            > .parent-details {
+                                                display: inline-block;
+                                                padding-left: 20px;
+                                                p {
+                                                    display: inline-block;
+                                                    color: #999;
+                                                    font-weight: 300;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.file {
+                                        padding: 10px 30px;
+                                        .attention {
+                                            margin-top: 0;
+                                            margin-bottom: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .explain {
+                        margin-top: 50px;
+                    }
+                    .btn-area {
+                        text-align: right;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.name-step03 {
+    .section-content {
+        .middle-select {
+            .table {
+                .tbody {
+                    tr {
+                        td {
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            word-break: keep-all;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,184 @@
+@import url("../css/common.css");
+
+/* 공통 겔러리 리스트 */
+.gallery-list .article-content {
+    padding-top: 50px; 
+}
+.gallery-list .article-content .search-form {
+    margin-bottom: 43px;
+}
+.gallery-list .article-content .search-form .btn-search .btn .icon-search {
+    color: #e25371;
+}
+.gallery-list .article-content > .model-item {
+    margin-bottom: 60px;
+}
+.gallery-list .article-content  > .model-item:last-child {
+    margin-bottom: 0;
+}
+.gallery-list .article-content .paging {
+    margin-top: 68px;
+}
+.gallery-list .article-content .paging {
+    margin-top: 68px;
+}
+.gallery-list .article-content .btn-area {
+    margin-top: 15px;
+}
+.gallery-list .article-content .btn-area p {
+    text-align: right;
+}
+.gallery-list .article-content .btn-area p .btn-pink {
+    width: 105px;
+    height: 40px;
+    border-radius: 30px;
+    line-height: 38px;
+}
+
+/* 아가모델 리스트*/
+.model-list .magazine-model {
+    margin-top: 5px;
+}
+.model-list .magazine-model .article-header .best-model {
+    padding: 60px 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+.model-list .magazine-model .article-header .best-model h4 {
+    margin-bottom: 45px;
+    text-align: center;
+    height:54px;
+    font-size: 16px;
+    color: #333;
+    padding-top: 12px;
+    background-image: url(../images/community/img_magazine_model_ribbon.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 스폰서 리스트 */
+.sponsor .sponsor-wrap .paging {
+    margin-top: 38px;
+}
+
+/* 모유수유 QnA */
+.movie-list .qna-board .banner {
+    position: relative;
+    height: 200px;
+    background-image: url(../images/community/bg_movie_list_banner.png);
+    background-repeat: no-repeat;
+}
+.movie-list .qna-board .banner .btn-pink {
+    position: absolute;
+    top: 117px;
+    left: 180px;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 15px;
+    float: left;
+}
+.movie-list .qna-board .banner .btn-pink .icon-right-circle {
+    font-size: 13px;
+    content: "\E810";
+    font-family: "fontello";
+    float: right;
+}
+.movie-list .qna-board .article-content {
+    padding-top: 50px;
+}
+.movie-list .qna-board .article-content .qna-movie {
+    overflow: hidden;
+    font-size:0;
+}
+.movie-list .qna-board .article-content .qna-movie li {
+    display: inline-block;
+    width: 270px;
+    margin-top: 50px;
+    margin-right: 15px;
+    vertical-align: top;
+}
+.movie-list .qna-board .article-content .qna-movie li:nth-of-type(1),
+.movie-list .qna-board .article-content .qna-movie li:nth-of-type(2),
+.movie-list .qna-board .article-content .qna-movie li:nth-of-type(3) {
+    margin-top: 0;
+}
+.movie-list .qna-board .article-content .qna-movie li:nth-of-type(3n + 1) {
+    clear: both;
+}
+.movie-list .qna-board .article-content .qna-movie li:nth-of-type(3n + 3) {
+    margin-right: 0;
+}
+.movie-list .qna-board .article-content .qna-movie li a {
+    color: #333;
+}
+.movie-list .qna-board .article-content .qna-movie li a figcaption {
+    text-align: center;
+    line-height: 18px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.movie-list .qna-board .article-content .paging {
+    margin-top: 70px;
+}
+
+/* 커뮤니티 뷰 공통 */
+.community .community-view .section-content .btn-area {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.community .community-view .section-content .btn-area a {
+    width: 120px;
+}
+.community .community-view .section-content .btn-area p a:last-child {
+    float: right;
+}
+.community .community-view .section-content .paging {
+    margin-top: 70px;
+}
+
+/* 수다수다방 뷰 */
+.chatter-view .community-view .section-content .vote-progress {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* 모유수유 QnA 뷰 */
+.qna-view .community-view .section-content .board-view.type-1 .article-content .content {
+    padding-bottom: 65px; 
+}
+.qna-view .community-view .section-content .board-view .article-content .content .reply {
+    padding: 25px 25px 30px 55px;
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    margin-top: 70px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+
+/* 토론 */
+.chatter-list .chatter-title {
+    font-size: 18px;
+}
+.chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+    width: 65px;
+}
+.chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(3) {
+    width: 120px;
+}
+.chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(4) {
+    width: 80px;
+}
+.chatter-list .board-list .section-content .table-wrap .table thead tr th:nth-of-type(5) {
+    width: 100px;
+}
+
+
+
