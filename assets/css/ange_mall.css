@@ -1130,24 +1130,17 @@ opacity: .7;
 	position: absolute;
 	top: -6px;
 	left: 12px;
-	width: 67px;
+	width: 64px;
 	height: 60px;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 600;
 	line-height: 17px;
-	letter-spacing: -.5px;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	padding-top: 10px;
 	text-align: center;
 	z-index: 5;
-	background-image: url(../images/ange_mall/hotdeal_label.png);
-	background-size: 67px 60px;
-	background-repeat: no-repeat;
-}
-.hotdeal-list .article-content ul li .hot-deal .sale-label span {
-	font-family: 'Noto Sans KR', sans-serif;
-	font-size: 13px;
+	background-image: url(/usr/_assets/images/ange_mall/hotdeal_label.png);
 }
 .hotdeal-list .article-content ul li .hot-deal .clock {
 	position: absolute;

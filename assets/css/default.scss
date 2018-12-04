@@ -175,7 +175,7 @@ body {
                 padding: 0 30px 15px 3px;
                 border-radius: 0;
                 border: 0;
-                border-bottom: 3px solid #726bb9;
+                border-bottom: 3px solid #aabcc6;
             }
         }
         .btn-default {
@@ -183,7 +183,7 @@ body {
             top: 0;
             right: 0;
             font-size: 21px;
-            color: #726bb9;
+            color: #aabcc6;
             line-height: 31px;
             padding: 0;
             border: 0;
@@ -206,15 +206,15 @@ body {
 // gnb 메뉴
 #gnb {
     height: 50px;
-    background-color: #726bb8;
+    background-color: #aabcc6;
     .gnb-nav {
         position: relative;
         height: 50px;
         padding-left: 50px;
         &:after {
             position: absolute;
-            top: -13.5px;
-            right: -1px;
+            top: -13px;
+            right: 0px;
             content: url(../images/bg_gnb_menu.jpg);
         }
         .btn-controls {
@@ -222,7 +222,7 @@ body {
             top: 0;
             left: 0;
             width: 50px;
-            background-color: #6654a8;
+            background-color: #7d9aa8;
             .btn {
                 position: relative;
                 display: block;
@@ -235,12 +235,12 @@ body {
                 border: 0;
                 z-index: 200;
                 border-radius: 0;
-                background-color: #6654a8;
+                background-color: #7d9aa8;
                 box-shadow: none !important;
                 &.btn-open {
                     padding: 17px 0 16px;
-                    border-left: 1px solid #583f93;
-                    border-right: 1px solid #583f93;
+                    border-left: 1px solid #b4ccd6;
+                    border-right: 1px solid #849ca6;
                     span {
                         display: block;
                         width: 24px;
@@ -282,15 +282,15 @@ body {
                     font-weight: 300;
                     line-height: 50px;
                     text-decoration: none;
-                    background-color: #726bb8;
-                    border-left: 1px solid #848ac8;
-                    border-right: 1px solid #614da4;
+                    background-color: #aabcc6;
+                    border-left: 1px solid #b4ccd6;
+                    border-right: 1px solid #849ca6;
                 }
                 &:last-child {
                     > a {
                         border-left: 0;
                         border-right: 0;
-                        background-color: #a287d6;
+                        background-color: #7d9aa8;
                         &:before {
                             position: relative;
                             top: 5px;
@@ -321,7 +321,7 @@ body {
             border-left: 0;
             .btn-controls {
                 height: 100%;
-                border-bottom: 3px solid #583f93;
+                border-bottom: 3px solid #546b73;
                 .btn {
                     text-decoration: none;
                     &.btn-close {
@@ -342,7 +342,7 @@ body {
                         background: none;
                         padding: 15px 0;
                         border-right: 1px solid #dfdfdf;
-                        border-bottom: 3px solid #6654a8;
+                        border-bottom: 3px solid #546b73;
                         &:hover {
                             background-color: #fff;
                         }
@@ -376,7 +376,7 @@ body {
                     }
                     &:last-child {
                         ul {
-                            border-right: 3px solid #6654a8;
+                            border-right: 3px solid #546b73;
                         }
                     }
                 }

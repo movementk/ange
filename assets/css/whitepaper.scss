@@ -89,11 +89,11 @@
                 display: inline-block;
                 li {
                     display: inline-block;
-                    &:after {
+                     /* &:after {
                         content: "\F178";
                         font-family: "fontello";
                         margin: 0 3px;
-                    }
+                    } */
                     &:last-child {
                         &:after {
                             content: "";

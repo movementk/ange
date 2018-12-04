@@ -92,11 +92,12 @@ address {
   .first-ange .section-content .check ul {
     display: inline-block; }
     .first-ange .section-content .check ul li {
-      display: inline-block; }
-      .first-ange .section-content .check ul li:after {
+      display: inline-block;
+     /* &:after {
         content: "\F178";
         font-family: "fontello";
-        margin: 0 3px; }
+        margin: 0 3px;
+    } */ }
       .first-ange .section-content .check ul li:last-child:after {
         content: ""; }
 
