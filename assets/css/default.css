@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700um+Myeongjo&subset=korean");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -118,10 +119,12 @@ body {
     position: relative;
     display: block;
     height: 110px;
-    margin-left: -85px;
+    margin-left: 0;
     margin-right: -10px;
     background-image: url(../images/logo.jpg);
-    background-position: 0 0;
+    /*background-position: 0 0; 260 * 110 기준*/
+    background-position: 50% 50%;
+    /* 260 * 110 이하 */
     background-repeat: no-repeat; }
     .logo-nav .logo a {
       position: absolute;
@@ -142,13 +145,13 @@ body {
       padding: 0 30px 15px 3px;
       border-radius: 0;
       border: 0;
-      border-bottom: 3px solid #aabcc6; }
+      border-bottom: 3px solid #ea6d7d; }
     .logo-nav .global-seearch .btn-default {
       position: absolute;
       top: 0;
       right: 0;
       font-size: 21px;
-      color: #aabcc6;
+      color: #ea6d7d;
       line-height: 31px;
       padding: 0;
       border: 0;
@@ -163,7 +166,7 @@ body {
 
 #gnb {
   height: 50px;
-  background-color: #aabcc6; }
+  background-color: #ea6d7d; }
   #gnb .gnb-nav {
     position: relative;
     height: 50px;
@@ -178,7 +181,7 @@ body {
       top: 0;
       left: 0;
       width: 50px;
-      background-color: #7d9aa8; }
+      background-color: #c64e58; }
       #gnb .gnb-nav .btn-controls .btn {
         position: relative;
         display: block;
@@ -191,12 +194,12 @@ body {
         border: 0;
         z-index: 200;
         border-radius: 0;
-        background-color: #7d9aa8;
+        background-color: #c64e58;
         box-shadow: none !important; }
         #gnb .gnb-nav .btn-controls .btn.btn-open {
           padding: 17px 0 16px;
-          border-left: 1px solid #b4ccd6;
-          border-right: 1px solid #849ca6; }
+          border-left: 1px solid #c54c5b;
+          border-right: 1px solid #b93727; }
           #gnb .gnb-nav .btn-controls .btn.btn-open span {
             display: block;
             width: 24px;
@@ -231,13 +234,13 @@ body {
           font-weight: 300;
           line-height: 50px;
           text-decoration: none;
-          background-color: #aabcc6;
-          border-left: 1px solid #b4ccd6;
-          border-right: 1px solid #849ca6; }
+          background-color: #ea6d7d;
+          border-left: 1px solid #c54c5b;
+          border-right: 1px solid #fb8291; }
         #gnb .gnb-nav .gnb-menu > li:last-child > a {
           border-left: 0;
           border-right: 0;
-          background-color: #7d9aa8; }
+          background-color: #c64e58; }
           #gnb .gnb-nav .gnb-menu > li:last-child > a:before {
             position: relative;
             top: 5px;
@@ -260,7 +263,7 @@ body {
     border-left: 0; }
     #gnb.opened .gnb-nav .btn-controls {
       height: 100%;
-      border-bottom: 3px solid #546b73; }
+      border-bottom: 3px solid #932319; }
       #gnb.opened .gnb-nav .btn-controls .btn {
         text-decoration: none; }
         #gnb.opened .gnb-nav .btn-controls .btn.btn-close {
@@ -276,7 +279,7 @@ body {
       background: none;
       padding: 15px 0;
       border-right: 1px solid #dfdfdf;
-      border-bottom: 3px solid #546b73; }
+      border-bottom: 3px solid #932319; }
       #gnb.opened .gnb-nav .gnb-menu > li > ul:hover {
         background-color: #fff; }
       #gnb.opened .gnb-nav .gnb-menu > li > ul li a {
@@ -307,7 +310,7 @@ body {
           background-color: #777;
           display: inline-block; }
     #gnb.opened .gnb-nav .gnb-menu > li:last-child ul {
-      border-right: 3px solid #546b73; }
+      border-right: 3px solid #932319; }
 
 #footer {
   padding: 30px 0;

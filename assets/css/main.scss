@@ -1,5 +1,9 @@
 @import 'common';
 
+.btn {
+    outline: none !important;
+}
+
 @mixin shadow-box () {
     overflow: hidden;
     border-radius: 10px;

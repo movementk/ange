@@ -21,6 +21,9 @@ address {
 .container {
   width: 1200px !important; }
 
+.btn {
+  outline: none !important; }
+
 #content {
   min-height: 1500px;
   padding: 30px 0; }
